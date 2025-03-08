@@ -14,6 +14,7 @@ module.exports = {
   "extensions": [
     ".cs",
     ".cake",
+    ".cs.pp",
     ".csx",
     ".linq"
   ],

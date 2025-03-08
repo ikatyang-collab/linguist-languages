@@ -10,7 +10,7 @@ export default {
     "bh",
     "bluespec classic"
   ],
-  "tmScope": "source.haskell",
+  "tmScope": "source.bh",
   "aceMode": "haskell",
   "codemirrorMode": "haskell",
   "codemirrorMimeType": "text/x-haskell",

@@ -9,6 +9,7 @@ declare const _: {
   "aliases": [
     "geojson",
     "jsonl",
+    "sarif",
     "topojson"
   ],
   "extensions": [
@@ -21,8 +22,11 @@ declare const _: {
     ".har",
     ".ice",
     ".JSON-tmLanguage",
+    ".json.example",
     ".jsonl",
     ".mcmeta",
+    ".sarif",
+    ".tact",
     ".tfstate",
     ".tfstate.backup",
     ".topojson",
@@ -42,8 +46,10 @@ declare const _: {
     ".tern-config",
     ".tern-project",
     ".watchmanconfig",
+    "MODULE.bazel.lock",
     "Pipfile.lock",
     "composer.lock",
+    "deno.lock",
     "flake.lock",
     "mcmod.info"
   ],

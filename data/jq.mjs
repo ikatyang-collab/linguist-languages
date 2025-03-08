@@ -6,6 +6,14 @@ export default {
   "extensions": [
     ".jq"
   ],
+  "interpreters": [
+    "gojq",
+    "jaq",
+    "jq",
+    "jqjq",
+    "jqq",
+    "query-json"
+  ],
   "tmScope": "source.jq",
   "languageId": 905371884
 }

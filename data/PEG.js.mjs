@@ -3,9 +3,10 @@ export default {
   "type": "programming",
   "color": "#234d6b",
   "extensions": [
-    ".pegjs"
+    ".pegjs",
+    ".peggy"
   ],
-  "tmScope": "source.pegjs",
+  "tmScope": "source.peggy",
   "aceMode": "javascript",
   "codemirrorMode": "javascript",
   "codemirrorMimeType": "text/javascript",

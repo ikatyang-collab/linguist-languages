@@ -5,11 +5,9 @@ declare const _: {
   "color": "#A0AA87",
   "extensions": [
     ".8xp",
-    ".8xk",
-    ".8xk.txt",
     ".8xp.txt"
   ],
   "languageId": 422,
-  "tmScope": "none"
+  "tmScope": "source.8xp"
 }
 export default _

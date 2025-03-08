@@ -3,7 +3,8 @@ export default {
   "type": "programming",
   "color": "#00c0b5",
   "extensions": [
-    ".robot"
+    ".robot",
+    ".resource"
   ],
   "tmScope": "text.robot",
   "aceMode": "text",

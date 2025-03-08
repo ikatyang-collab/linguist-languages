@@ -14,6 +14,7 @@ module.exports = {
     ".url"
   ],
   "filenames": [
+    ".buckconfig",
     ".coveragerc",
     ".flake8",
     ".pylintrc",

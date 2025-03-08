@@ -9,6 +9,7 @@ module.exports = {
   "aliases": [
     "geojson",
     "jsonl",
+    "sarif",
     "topojson"
   ],
   "extensions": [
@@ -21,8 +22,11 @@ module.exports = {
     ".har",
     ".ice",
     ".JSON-tmLanguage",
+    ".json.example",
     ".jsonl",
     ".mcmeta",
+    ".sarif",
+    ".tact",
     ".tfstate",
     ".tfstate.backup",
     ".topojson",
@@ -42,8 +46,10 @@ module.exports = {
     ".tern-config",
     ".tern-project",
     ".watchmanconfig",
+    "MODULE.bazel.lock",
     "Pipfile.lock",
     "composer.lock",
+    "deno.lock",
     "flake.lock",
     "mcmod.info"
   ],

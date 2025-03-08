@@ -15,6 +15,7 @@ declare const _: {
     ".env.local",
     ".env.prod",
     ".env.production",
+    ".env.sample",
     ".env.staging",
     ".env.test",
     ".env.testing"

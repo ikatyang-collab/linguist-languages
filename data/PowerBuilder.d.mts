@@ -8,7 +8,7 @@ declare const _: {
     ".sru",
     ".srw"
   ],
-  "tmScope": "none",
+  "tmScope": "source.powerbuilder",
   "aceMode": "text",
   "languageId": 292
 }

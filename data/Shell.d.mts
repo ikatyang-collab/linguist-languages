@@ -6,7 +6,8 @@ declare const _: {
     "sh",
     "shell-script",
     "bash",
-    "zsh"
+    "zsh",
+    "envrc"
   ],
   "extensions": [
     ".sh",
@@ -31,10 +32,12 @@ declare const _: {
     ".bash_profile",
     ".bashrc",
     ".cshrc",
+    ".envrc",
     ".flaskenv",
     ".kshrc",
     ".login",
     ".profile",
+    ".tmux.conf",
     ".zlogin",
     ".zlogout",
     ".zprofile",
@@ -52,6 +55,7 @@ declare const _: {
     "login",
     "man",
     "profile",
+    "tmux.conf",
     "zlogin",
     "zlogout",
     "zprofile",

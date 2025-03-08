@@ -17,7 +17,8 @@ module.exports = {
     "MODULE.bazel",
     "Tiltfile",
     "WORKSPACE",
-    "WORKSPACE.bazel"
+    "WORKSPACE.bazel",
+    "WORKSPACE.bzlmod"
   ],
   "aliases": [
     "bazel",

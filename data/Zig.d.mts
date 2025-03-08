@@ -3,7 +3,8 @@ declare const _: {
   "type": "programming",
   "color": "#ec915c",
   "extensions": [
-    ".zig"
+    ".zig",
+    ".zig.zon"
   ],
   "tmScope": "source.zig",
   "aceMode": "text",

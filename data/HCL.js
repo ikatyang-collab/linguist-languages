@@ -16,6 +16,6 @@ module.exports = {
   "aceMode": "ruby",
   "codemirrorMode": "ruby",
   "codemirrorMimeType": "text/x-ruby",
-  "tmScope": "source.terraform",
+  "tmScope": "source.hcl",
   "languageId": 144
 }

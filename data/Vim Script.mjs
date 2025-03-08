@@ -6,7 +6,8 @@ export default {
   "aliases": [
     "vim",
     "viml",
-    "nvim"
+    "nvim",
+    "vimscript"
   ],
   "extensions": [
     ".vim",

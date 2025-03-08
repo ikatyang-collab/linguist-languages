@@ -6,7 +6,8 @@ module.exports = {
     "sh",
     "shell-script",
     "bash",
-    "zsh"
+    "zsh",
+    "envrc"
   ],
   "extensions": [
     ".sh",
@@ -31,10 +32,12 @@ module.exports = {
     ".bash_profile",
     ".bashrc",
     ".cshrc",
+    ".envrc",
     ".flaskenv",
     ".kshrc",
     ".login",
     ".profile",
+    ".tmux.conf",
     ".zlogin",
     ".zlogout",
     ".zprofile",
@@ -52,6 +55,7 @@ module.exports = {
     "login",
     "man",
     "profile",
+    "tmux.conf",
     "zlogin",
     "zlogout",
     "zprofile",

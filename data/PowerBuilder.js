@@ -8,7 +8,7 @@ module.exports = {
     ".sru",
     ".srw"
   ],
-  "tmScope": "none",
+  "tmScope": "source.powerbuilder",
   "aceMode": "text",
   "languageId": 292
 }

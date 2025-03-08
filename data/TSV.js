@@ -5,7 +5,11 @@ module.exports = {
   "aceMode": "text",
   "tmScope": "source.generic-db",
   "extensions": [
-    ".tsv"
+    ".tsv",
+    ".vcf"
+  ],
+  "aliases": [
+    "tab-seperated values"
   ],
   "languageId": 1035892117
 }

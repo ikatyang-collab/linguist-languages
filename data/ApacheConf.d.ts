@@ -15,7 +15,7 @@ declare const _: {
     "apache2.conf",
     "httpd.conf"
   ],
-  "tmScope": "source.apache-config",
+  "tmScope": "source.apacheconf",
   "aceMode": "apache_conf",
   "languageId": 16
 }

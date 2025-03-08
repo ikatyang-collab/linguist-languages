@@ -14,6 +14,7 @@ declare const _: {
   "extensions": [
     ".cs",
     ".cake",
+    ".cs.pp",
     ".csx",
     ".linq"
   ],

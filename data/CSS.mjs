@@ -5,7 +5,7 @@ export default {
   "aceMode": "css",
   "codemirrorMode": "css",
   "codemirrorMimeType": "text/css",
-  "color": "#563d7c",
+  "color": "#663399",
   "extensions": [
     ".css"
   ],

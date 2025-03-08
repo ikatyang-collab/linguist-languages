@@ -3,7 +3,6 @@ export default {
   "type": "programming",
   "color": "#198CE7",
   "aliases": [
-    "R",
     "Rscript",
     "splus"
   ],

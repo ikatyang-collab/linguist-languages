@@ -1,7 +1,7 @@
 export default {
   "name": "Common Lisp",
   "type": "programming",
-  "tmScope": "source.lisp",
+  "tmScope": "source.commonlisp",
   "color": "#3fb68b",
   "aliases": [
     "lisp"

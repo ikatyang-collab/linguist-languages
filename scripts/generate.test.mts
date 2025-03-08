@@ -1,3 +1,4 @@
+import url from 'node:url'
 import * as serializer from 'jest-snapshot-serializer-raw'
 import { test, expect } from 'vitest'
 import { run } from './generate.mjs'
@@ -54,18 +55,20 @@ F*:
   language_id: 336943375
 `
 
-const writes: [string, string][] = []
+const writes: [URL, string][] = []
 
-test('run', () => {
-  run({
+test('run', async () => {
+  await run(fakeLanguagesYml, {
     clean: false,
-    read: () => fakeLanguagesYml,
-    write: (filename, content) => writes.push([filename, content]),
+    write: (file, content) => writes.push([file, content]),
   })
 
-  writes.forEach(([filename, content]) => {
+  writes.forEach(([file, content]) => {
     expect(serializer.wrap(content)).toMatchSnapshot(
-      filename.replace(process.cwd(), '<cwd>'),
+      url
+        .fileURLToPath(file)
+        .replace(process.cwd(), '<cwd>')
+        .replaceAll('\\', '/'),
     )
   })
 })

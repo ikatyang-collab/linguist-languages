@@ -1,6 +1,6 @@
 declare const _: {
   "name": "Linker Script",
-  "type": "data",
+  "type": "programming",
   "extensions": [
     ".ld",
     ".lds",
@@ -9,7 +9,7 @@ declare const _: {
   "filenames": [
     "ld.script"
   ],
-  "tmScope": "none",
+  "tmScope": "source.c.linker",
   "aceMode": "text",
   "languageId": 202
 }

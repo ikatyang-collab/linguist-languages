@@ -14,6 +14,7 @@ declare const _: {
     ".url"
   ],
   "filenames": [
+    ".buckconfig",
     ".coveragerc",
     ".flake8",
     ".pylintrc",
