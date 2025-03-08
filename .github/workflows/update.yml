@@ -1,0 +1,28 @@
+name: Update data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # “At 00:00 on day-of-month 1 and on Sunday in January.” https://crontab.guru/#0_0_1_1_0
+    - cron: "0 0 1 1 0"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update:
+    if: github.event_name != 'schedule' || github.repository == 'ikatyang-collab/linguist-languages'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - uses: ./.github/actions/setup
+      - run: pnpm build
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: Update data
+          branch: automated-update
+          branch-suffix: timestamp
+          title: Update
