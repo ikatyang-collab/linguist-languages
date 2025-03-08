@@ -2,10 +2,10 @@ export type BaseType = boolean | number | string
 export type BaseTypeOf<T> = T extends boolean
   ? 'boolean'
   : T extends number
-  ? 'number'
-  : T extends string
-  ? 'string'
-  : never
+    ? 'number'
+    : T extends string
+      ? 'string'
+      : never
 
 function isBaseType(value: any): value is BaseType {
   switch (typeof value) {

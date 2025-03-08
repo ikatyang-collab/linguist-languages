@@ -1,41 +1,80 @@
 import assert from 'node:assert'
-import * as fs from 'node:fs'
-import * as path from 'node:path'
+import fs from 'node:fs/promises'
 import camelcase from 'camelcase'
-import { deleteSync } from 'del'
-import mkdir from 'make-dir'
 import { parse } from 'yaml'
 import { getFieldType, Field, indent } from './utils.mjs'
 
-const OUTPUT_LIB_DIRNAME = path.resolve(__dirname, '../lib')
-const OUTPUT_DATA_DIRNAME = path.resolve(__dirname, '../data')
+const DATA_FILES = [
+  'https://raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml',
+  'https://cdn.jsdelivr.net/gh/github-linguist/linguist/lib/linguist/languages.yml',
+]
+const OUTPUT_LIB_DIRECTORY = new URL('../lib/', import.meta.url)
+const OUTPUT_DATA_DIRECTORY = new URL('../data/', import.meta.url)
+const LANGUAGES_FILE_CACHE_FILE = new URL(
+  '../.temp/languages.yml',
+  import.meta.url,
+)
+const CACHE_EXPIRE_TIME = 1 * 60 * 60 * 1000 // One hour
 
-const LANGUAGES_FILEPATH = './vendor/linguist/lib/linguist/languages.yml'
 const NAME_FIELD = 'name'
 
-export function run(options?: {
-  clean?: boolean
-  read?: (filename: string) => string
-  write?: (filename: string, content: string) => void
-}) {
+async function fetchText(url: string) {
+  const response = await fetch(url)
+  const text = await response.text()
+  return text
+}
+
+async function writeFile(file: URL, content: string) {
+  const directory = new URL('./', import.meta.url)
+  await fs.mkdir(directory, { recursive: true })
+  await fs.writeFile(file, content + '\n')
+}
+
+async function getLanguageData() {
+  let stats
+  try {
+    stats = await fs.stat(LANGUAGES_FILE_CACHE_FILE)
+  } catch {
+    // No op
+  }
+
+  if (stats?.mtimeMs && stats.mtimeMs > Date.now() - CACHE_EXPIRE_TIME) {
+    return fs.readFile(LANGUAGES_FILE_CACHE_FILE, 'utf8')
+  }
+
+  const text = await Promise.any(DATA_FILES.map(url => fetchText(url)))
+
+  await writeFile(LANGUAGES_FILE_CACHE_FILE, text)
+
+  return text
+}
+
+export async function run(
+  languagesContent: string,
+  options?: {
+    clean?: boolean
+    read?: (filename: URL) => string
+    write?: (filename: URL, content: string) => void
+  },
+) {
   /* c8 ignore start */
-  const {
-    clean = true,
-    read = (filename: string) => fs.readFileSync(filename, 'utf8'),
-    write = (filename: string, content: string) =>
-      fs.writeFileSync(filename, content + '\n'),
-  } = options || {}
+  const { clean = true, write = writeFile } = options || {}
   /* c8 ignore stop */
 
   /* c8 ignore start */
   if (clean) {
-    deleteSync([OUTPUT_LIB_DIRNAME, OUTPUT_DATA_DIRNAME])
-    mkdir.sync(OUTPUT_LIB_DIRNAME)
-    mkdir.sync(OUTPUT_DATA_DIRNAME)
+    await Promise.all(
+      [OUTPUT_LIB_DIRECTORY, OUTPUT_DATA_DIRECTORY].map(directory =>
+        fs.rm(directory, { recursive: true, force: true }),
+      ),
+    )
+    await Promise.all(
+      [OUTPUT_LIB_DIRECTORY, OUTPUT_DATA_DIRECTORY].map(directory =>
+        fs.mkdir(directory, { recursive: true }),
+      ),
+    )
   }
   /* c8 ignore stop */
-
-  const languagesContent = read(LANGUAGES_FILEPATH)
 
   interface Language {
     name: string
@@ -56,7 +95,7 @@ export function run(options?: {
           const fieldName = contents[index - 1]
           const alignmentLength = content.indexOf('-') + 2
           descriptions[camelcase(fieldName)] = content
-            .trimRight()
+            .trimEnd()
             .split('\n')
             .map((x, i) =>
               x.slice(
@@ -135,35 +174,31 @@ export function run(options?: {
   // FIXME: use named export once supported
   // Ref: https://github.com/microsoft/TypeScript/issues/40594
 
-  write(
-    path.resolve(OUTPUT_LIB_DIRNAME, 'index.js'),
+  await write(
+    new URL('./index.js', OUTPUT_LIB_DIRECTORY),
     `module.exports = {\n${languages
       .map(
         language =>
           `  ${JSON.stringify(language.name)}: require(${JSON.stringify(
-            path.join(
-              path.relative(OUTPUT_LIB_DIRNAME, OUTPUT_DATA_DIRNAME),
-              getDataBasename(language),
-            ),
+            `../data/${getDataBasename(language)}`,
           )})`,
       )
       .join(',\n')}\n};`,
   )
 
-  write(
-    path.resolve(OUTPUT_LIB_DIRNAME, 'index.mjs'),
+  await write(
+    new URL('./index.mjs', OUTPUT_LIB_DIRECTORY),
     [
       ...languages.map(
-        (_, i) =>
+        (language, i) =>
           `import _${i} from ${JSON.stringify(
-            `${path.join(
-              path.relative(OUTPUT_LIB_DIRNAME, OUTPUT_DATA_DIRNAME),
-              encodeURIComponent(getDataBasename(_)),
-            )}.mjs`,
+            `../data/${encodeURIComponent(getDataBasename(language))}.mjs`,
           )}`,
       ),
       `export default {`,
-      ...languages.map((_, i) => `  ${JSON.stringify(_.name)}: _${i},`),
+      ...languages.map(
+        (language, index) => `  ${JSON.stringify(language.name)}: _${index},`,
+      ),
       `}`,
     ].join('\n'),
   )
@@ -172,8 +207,8 @@ export function run(options?: {
     const namespaceIdentifier = 'LinguistLanguages'
     const languageNameIdentifier = 'LanguageName'
 
-    write(
-      path.resolve(OUTPUT_LIB_DIRNAME, 'index.d.ts'),
+    await write(
+      new URL('./index.d.ts', OUTPUT_LIB_DIRECTORY),
       [
         `type ${languageNameIdentifier} =\n${indent(
           languages
@@ -187,8 +222,9 @@ export function run(options?: {
         `export = ${namespaceIdentifier};`,
       ].join('\n\n'),
     )
-    write(
-      path.resolve(OUTPUT_LIB_DIRNAME, 'index.d.mts'),
+
+    await write(
+      new URL('./index.d.mts', OUTPUT_LIB_DIRECTORY),
       [
         `type ${languageNameIdentifier} =\n${indent(
           languages
@@ -226,31 +262,33 @@ export function run(options?: {
     }
   }
 
-  languages.forEach(language => {
-    const basename = getDataBasename(language)
-    write(
-      path.resolve(OUTPUT_DATA_DIRNAME, `${basename}.js`),
-      `module.exports = ${JSON.stringify(language, null, 2)}`,
-    )
-    write(
-      path.resolve(OUTPUT_DATA_DIRNAME, `${basename}.d.ts`),
-      [
-        `declare const _: ${JSON.stringify(language, null, 2)}`,
-        'export = _',
-      ].join('\n'),
-    )
-    write(
-      path.resolve(OUTPUT_DATA_DIRNAME, `${basename}.mjs`),
-      `export default ${JSON.stringify(language, null, 2)}`,
-    )
-    write(
-      path.resolve(OUTPUT_DATA_DIRNAME, `${basename}.d.mts`),
-      [
-        `declare const _: ${JSON.stringify(language, null, 2)}`,
-        'export default _',
-      ].join('\n'),
-    )
-  })
+  await Promise.all(
+    languages.map(async language => {
+      const basename = getDataBasename(language)
+      await write(
+        new URL(`./${basename}.js`, OUTPUT_DATA_DIRECTORY),
+        `module.exports = ${JSON.stringify(language, null, 2)}`,
+      )
+      await write(
+        new URL(`./${basename}.d.ts`, OUTPUT_DATA_DIRECTORY),
+        [
+          `declare const _: ${JSON.stringify(language, null, 2)}`,
+          'export = _',
+        ].join('\n'),
+      )
+      await write(
+        new URL(`./${basename}.mjs`, OUTPUT_DATA_DIRECTORY),
+        `export default ${JSON.stringify(language, null, 2)}`,
+      )
+      await write(
+        new URL(`./${basename}.d.mts`, OUTPUT_DATA_DIRECTORY),
+        [
+          `declare const _: ${JSON.stringify(language, null, 2)}`,
+          'export default _',
+        ].join('\n'),
+      )
+    }),
+  )
 
   function getDataBasename(language: Language) {
     return language.fsName || language.name
@@ -259,6 +297,7 @@ export function run(options?: {
 
 /* c8 ignore start */
 if (process.argv[2] === 'run') {
-  run()
+  const languagesContent = await getLanguageData()
+  await run(languagesContent)
 }
 /* c8 ignore stop */
