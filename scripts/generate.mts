@@ -259,7 +259,7 @@ export async function run(
 
   await Promise.all(
     languages.map(async language => {
-      const basename = getDataBasename(language)
+      const basename = encodeURIComponent(getDataBasename(language))
       await write(
         new URL(`./${basename}.js`, OUTPUT_DATA_DIRECTORY),
         `module.exports = ${JSON.stringify(language, null, 2)}`,
