@@ -6,7 +6,7 @@ import { getFieldType, Field, indent } from './utils.mjs'
 
 const DATA_FILES = [
   'https://raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml',
-  'https://cdn.jsdelivr.net/gh/github-linguist/linguist/lib/linguist/languages.yml',
+  'https://ghfast.top/https://raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml',
 ]
 const OUTPUT_LIB_DIRECTORY = new URL('../lib/', import.meta.url)
 const OUTPUT_DATA_DIRECTORY = new URL('../data/', import.meta.url)
