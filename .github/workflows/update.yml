@@ -14,6 +14,9 @@ jobs:
   update:
     if: github.event_name != 'schedule' || github.repository == 'ikatyang-collab/linguist-languages'
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
