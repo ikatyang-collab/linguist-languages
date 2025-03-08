@@ -20,8 +20,8 @@
       "require": "./data/*.js"
     }
   },
-  "repository": "https://github.com/ikatyang/linguist-languages",
-  "homepage": "https://github.com/ikatyang/linguist-languages#readme",
+  "repository": "https://github.com/ikatyang-collab/linguist-languages",
+  "homepage": "https://github.com/ikatyang-collab/linguist-languages#readme",
   "author": {
     "name": "Ika",
     "email": "ikatyang@gmail.com",
