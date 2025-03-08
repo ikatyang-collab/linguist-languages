@@ -7,6 +7,7 @@ declare const _: {
   "extensions": [
     ".cairo"
   ],
+  "group": "Cairo",
   "languageId": 620599567
 }
 export = _

@@ -3,7 +3,8 @@ declare const _: {
   "type": "programming",
   "color": "#519aba",
   "extensions": [
-    ".bicep"
+    ".bicep",
+    ".bicepparam"
   ],
   "tmScope": "source.bicep",
   "aceMode": "text",

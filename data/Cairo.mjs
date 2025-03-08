@@ -7,5 +7,6 @@ export default {
   "extensions": [
     ".cairo"
   ],
+  "group": "Cairo",
   "languageId": 620599567
 }

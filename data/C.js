@@ -6,6 +6,7 @@ module.exports = {
     ".c",
     ".cats",
     ".h",
+    ".h.in",
     ".idc"
   ],
   "interpreters": [

@@ -1,7 +1,7 @@
 declare const _: {
   "name": "Sway",
   "type": "programming",
-  "color": "#dea584",
+  "color": "#00F58C",
   "extensions": [
     ".sw"
   ],

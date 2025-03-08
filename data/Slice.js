@@ -2,7 +2,7 @@ module.exports = {
   "name": "Slice",
   "type": "programming",
   "color": "#003fa2",
-  "tmScope": "source.slice",
+  "tmScope": "source.ice",
   "aceMode": "text",
   "extensions": [
     ".ice"

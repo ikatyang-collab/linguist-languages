@@ -4,6 +4,7 @@ declare const _: {
   "color": "#1797c0",
   "extensions": [
     ".cls",
+    ".apex",
     ".trigger"
   ],
   "tmScope": "source.apex",

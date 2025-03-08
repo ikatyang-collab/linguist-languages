@@ -7,7 +7,8 @@ declare const _: {
   "color": "#384d54",
   "tmScope": "source.dockerfile",
   "extensions": [
-    ".dockerfile"
+    ".dockerfile",
+    ".containerfile"
   ],
   "filenames": [
     "Containerfile",

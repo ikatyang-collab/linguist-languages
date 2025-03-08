@@ -6,6 +6,6 @@ export default {
     ".nas"
   ],
   "tmScope": "source.nasal",
-  "aceMode": "text",
+  "aceMode": "nasal",
   "languageId": 178322513
 }

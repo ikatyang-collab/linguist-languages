@@ -1,6 +1,6 @@
 module.exports = {
   "name": "Linker Script",
-  "type": "data",
+  "type": "programming",
   "extensions": [
     ".ld",
     ".lds",
@@ -9,7 +9,7 @@ module.exports = {
   "filenames": [
     "ld.script"
   ],
-  "tmScope": "none",
+  "tmScope": "source.c.linker",
   "aceMode": "text",
   "languageId": 202
 }

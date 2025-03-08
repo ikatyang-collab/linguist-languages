@@ -2,7 +2,7 @@ declare const _: {
   "name": "ECLiPSe",
   "type": "programming",
   "color": "#001d9d",
-  "group": "prolog",
+  "group": "Prolog",
   "extensions": [
     ".ecl"
   ],

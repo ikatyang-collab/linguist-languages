@@ -6,7 +6,8 @@ module.exports = {
   "aliases": [
     "vim",
     "viml",
-    "nvim"
+    "nvim",
+    "vimscript"
   ],
   "extensions": [
     ".vim",

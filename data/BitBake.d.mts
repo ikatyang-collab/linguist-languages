@@ -2,9 +2,12 @@ declare const _: {
   "name": "BitBake",
   "type": "programming",
   "color": "#00bce4",
-  "tmScope": "none",
+  "tmScope": "source.bb",
   "extensions": [
-    ".bb"
+    ".bb",
+    ".bbappend",
+    ".bbclass",
+    ".inc"
   ],
   "aceMode": "text",
   "languageId": 32

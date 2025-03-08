@@ -7,10 +7,12 @@ module.exports = {
   ],
   "filenames": [
     "Cargo.lock",
+    "Cargo.toml.orig",
     "Gopkg.lock",
     "Pipfile",
     "pdm.lock",
-    "poetry.lock"
+    "poetry.lock",
+    "uv.lock"
   ],
   "tmScope": "source.toml",
   "aceMode": "toml",

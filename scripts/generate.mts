@@ -25,7 +25,7 @@ async function fetchText(url: string) {
 }
 
 async function writeFile(file: URL, content: string) {
-  const directory = new URL('./', import.meta.url)
+  const directory = new URL('./', file)
   await fs.mkdir(directory, { recursive: true })
   await fs.writeFile(file, content + '\n')
 }
@@ -66,11 +66,6 @@ export async function run(
     await Promise.all(
       [OUTPUT_LIB_DIRECTORY, OUTPUT_DATA_DIRECTORY].map(directory =>
         fs.rm(directory, { recursive: true, force: true }),
-      ),
-    )
-    await Promise.all(
-      [OUTPUT_LIB_DIRECTORY, OUTPUT_DATA_DIRECTORY].map(directory =>
-        fs.mkdir(directory, { recursive: true }),
       ),
     )
   }

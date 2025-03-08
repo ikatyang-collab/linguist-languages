@@ -1,5 +1,5 @@
 declare const _: {
-  "name": "FreeBasic",
+  "name": "FreeBASIC",
   "type": "programming",
   "color": "#141AC9",
   "extensions": [

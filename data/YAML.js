@@ -21,9 +21,11 @@ module.exports = {
   "filenames": [
     ".clang-format",
     ".clang-tidy",
+    ".clangd",
     ".gemrc",
     "CITATION.cff",
     "glide.lock",
+    "pixi.lock",
     "yarn.lock"
   ],
   "aceMode": "yaml",

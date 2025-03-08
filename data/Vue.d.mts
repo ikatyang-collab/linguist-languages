@@ -5,7 +5,7 @@ declare const _: {
   "extensions": [
     ".vue"
   ],
-  "tmScope": "text.html.vue",
+  "tmScope": "source.vue",
   "aceMode": "html",
   "languageId": 391
 }

@@ -14,6 +14,7 @@ export default {
     ".url"
   ],
   "filenames": [
+    ".buckconfig",
     ".coveragerc",
     ".flake8",
     ".pylintrc",

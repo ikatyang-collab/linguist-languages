@@ -4,7 +4,8 @@ export default {
   "color": "#308888",
   "filenames": [
     "HOSTS",
-    "hosts"
+    "hosts",
+    "hosts.txt"
   ],
   "aliases": [
     "hosts"

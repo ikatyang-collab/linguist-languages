@@ -2,6 +2,12 @@ module.exports = {
   "name": "SSH Config",
   "type": "data",
   "group": "INI",
+  "aliases": [
+    "sshconfig",
+    "sshdconfig",
+    "ssh_config",
+    "sshd_config"
+  ],
   "filenames": [
     "ssh-config",
     "ssh_config",

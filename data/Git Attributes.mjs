@@ -2,7 +2,6 @@ export default {
   "name": "Git Attributes",
   "type": "data",
   "color": "#F44D27",
-  "group": "INI",
   "aliases": [
     "gitattributes"
   ],

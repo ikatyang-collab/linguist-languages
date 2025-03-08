@@ -7,7 +7,8 @@ module.exports = {
   ],
   "interpreters": [
     "deno",
-    "ts-node"
+    "ts-node",
+    "tsx"
   ],
   "extensions": [
     ".ts",

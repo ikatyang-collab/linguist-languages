@@ -7,7 +7,8 @@ declare const _: {
   ],
   "interpreters": [
     "deno",
-    "ts-node"
+    "ts-node",
+    "tsx"
   ],
   "extensions": [
     ".ts",

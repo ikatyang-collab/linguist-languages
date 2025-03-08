@@ -9,7 +9,7 @@ export default {
     ".Dsr",
     ".frm"
   ],
-  "tmScope": "source.vbnet",
+  "tmScope": "source.vba",
   "aliases": [
     "vb6",
     "vb 6",
