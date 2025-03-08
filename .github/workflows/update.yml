@@ -28,4 +28,4 @@ jobs:
           commit-message: Update data
           branch: automated-update
           branch-suffix: timestamp
-          title: feat: update data
+          title: 'feat: update data'
