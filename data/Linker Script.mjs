@@ -1,6 +1,6 @@
 export default {
   "name": "Linker Script",
-  "type": "programming",
+  "type": "data",
   "extensions": [
     ".ld",
     ".lds",
@@ -9,7 +9,7 @@ export default {
   "filenames": [
     "ld.script"
   ],
-  "tmScope": "source.c.linker",
+  "tmScope": "none",
   "aceMode": "text",
   "languageId": 202
 }

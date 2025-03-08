@@ -1,5 +1,5 @@
-declare const _: {
-  "name": "OMNeT++ NED",
+module.exports = {
+  "name": "omnetpp-ned",
   "type": "programming",
   "extensions": [
     ".ned"
@@ -7,9 +7,5 @@ declare const _: {
   "color": "#08607c",
   "tmScope": "source.ned",
   "aceMode": "text",
-  "aliases": [
-    "omnetpp-ned"
-  ],
   "languageId": 924868392
 }
-export default _

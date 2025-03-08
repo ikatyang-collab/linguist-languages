@@ -40,7 +40,6 @@ module.exports = {
     ".glade",
     ".gml",
     ".gmx",
-    ".gpx",
     ".grxml",
     ".gst",
     ".hzp",

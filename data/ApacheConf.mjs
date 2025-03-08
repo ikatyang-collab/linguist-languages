@@ -15,7 +15,7 @@ export default {
     "apache2.conf",
     "httpd.conf"
   ],
-  "tmScope": "source.apacheconf",
+  "tmScope": "source.apache-config",
   "aceMode": "apache_conf",
   "languageId": 16
 }

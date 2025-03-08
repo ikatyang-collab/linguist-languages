@@ -6,7 +6,6 @@ export default {
     ".c",
     ".cats",
     ".h",
-    ".h.in",
     ".idc"
   ],
   "interpreters": [

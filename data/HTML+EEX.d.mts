@@ -10,9 +10,9 @@ declare const _: {
     "leex"
   ],
   "extensions": [
-    ".html.eex",
-    ".heex",
-    ".leex"
+    ".eex",
+    ".html.heex",
+    ".html.leex"
   ],
   "aceMode": "text",
   "codemirrorMode": "htmlmixed",

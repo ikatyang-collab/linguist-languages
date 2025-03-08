@@ -40,7 +40,6 @@ declare const _: {
     ".glade",
     ".gml",
     ".gmx",
-    ".gpx",
     ".grxml",
     ".gst",
     ".hzp",

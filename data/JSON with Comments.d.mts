@@ -3,7 +3,7 @@ declare const _: {
   "type": "data",
   "color": "#292929",
   "group": "JSON",
-  "tmScope": "source.json.comments",
+  "tmScope": "source.js",
   "aceMode": "javascript",
   "codemirrorMode": "javascript",
   "codemirrorMimeType": "text/javascript",

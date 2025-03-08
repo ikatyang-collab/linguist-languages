@@ -40,7 +40,6 @@ export default {
     ".glade",
     ".gml",
     ".gmx",
-    ".gpx",
     ".grxml",
     ".gst",
     ".hzp",

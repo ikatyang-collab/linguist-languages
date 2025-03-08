@@ -12,8 +12,7 @@ declare const _: {
     ".i",
     ".inc",
     ".nas",
-    ".nasm",
-    ".s"
+    ".nasm"
   ],
   "tmScope": "source.assembly",
   "aceMode": "assembly_x86",

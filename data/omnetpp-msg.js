@@ -1,5 +1,5 @@
-declare const _: {
-  "name": "OMNeT++ MSG",
+module.exports = {
+  "name": "omnetpp-msg",
   "type": "programming",
   "extensions": [
     ".msg"
@@ -7,9 +7,5 @@ declare const _: {
   "color": "#a0e0a0",
   "tmScope": "source.msg",
   "aceMode": "text",
-  "aliases": [
-    "omnetpp-msg"
-  ],
   "languageId": 664100008
 }
-export = _
