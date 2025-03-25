@@ -42,7 +42,7 @@
     "jest-snapshot-serializer-raw": "2.0.0",
     "prettier": "3.5.3",
     "typescript": "5.8.2",
-    "vite": "6.2.1",
+    "vite": "6.2.3",
     "vite-node": "3.0.8",
     "vitest": "3.0.8",
     "yaml": "2.7.0"
