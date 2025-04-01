@@ -6,6 +6,7 @@ declare const _: {
     "ts"
   ],
   "interpreters": [
+    "bun",
     "deno",
     "ts-node",
     "tsx"
