@@ -6,6 +6,7 @@ module.exports = {
     "ts"
   ],
   "interpreters": [
+    "bun",
     "deno",
     "ts-node",
     "tsx"

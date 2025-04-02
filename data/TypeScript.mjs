@@ -6,6 +6,7 @@ export default {
     "ts"
   ],
   "interpreters": [
+    "bun",
     "deno",
     "ts-node",
     "tsx"

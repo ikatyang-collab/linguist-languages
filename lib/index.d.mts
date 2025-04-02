@@ -52,6 +52,7 @@ type LanguageName =
   | "Befunge"
   | "Berry"
   | "BibTeX"
+  | "BibTeX Style"
   | "Bicep"
   | "Bikeshed"
   | "Bison"
