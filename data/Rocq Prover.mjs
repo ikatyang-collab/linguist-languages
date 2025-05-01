@@ -1,10 +1,14 @@
 export default {
-  "name": "Coq",
+  "name": "Rocq Prover",
   "type": "programming",
   "color": "#d0b68c",
   "extensions": [
-    ".coq",
-    ".v"
+    ".v",
+    ".coq"
+  ],
+  "aliases": [
+    "coq",
+    "rocq"
   ],
   "tmScope": "source.coq",
   "aceMode": "text",

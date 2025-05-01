@@ -7,6 +7,7 @@ export default {
   ],
   "extensions": [
     ".kicad_sch",
+    ".kicad_sym",
     ".sch"
   ],
   "tmScope": "source.pcb.schematic",
