@@ -3,7 +3,8 @@ export default {
   "type": "programming",
   "extensions": [
     ".smt2",
-    ".smt"
+    ".smt",
+    ".z3"
   ],
   "interpreters": [
     "boolector",

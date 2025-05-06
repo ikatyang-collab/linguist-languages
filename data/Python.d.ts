@@ -38,7 +38,8 @@ declare const _: {
     "python3",
     "py",
     "pypy",
-    "pypy3"
+    "pypy3",
+    "uv"
   ],
   "aliases": [
     "python3",
