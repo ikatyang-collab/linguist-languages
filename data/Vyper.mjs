@@ -4,7 +4,7 @@ export default {
   "extensions": [
     ".vy"
   ],
-  "color": "#2980b9",
+  "color": "#9F4CF2",
   "aceMode": "text",
   "tmScope": "source.vyper",
   "languageId": 1055641948

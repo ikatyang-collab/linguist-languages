@@ -7,6 +7,7 @@ module.exports = {
     ".cfg",
     ".cnf",
     ".dof",
+    ".frm",
     ".lektorproject",
     ".prefs",
     ".pro",
