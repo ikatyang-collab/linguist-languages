@@ -31,6 +31,7 @@
   "scripts": {
     "prepack": "pnpm run build",
     "lint": "prettier --check .",
+    "fix": "prettier --write .",
     "check": "tsc",
     "test": "vitest",
     "build": "node ./scripts/generate.mjs --run"

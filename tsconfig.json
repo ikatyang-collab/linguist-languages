@@ -5,6 +5,6 @@
     "module": "Node16",
     "moduleResolution": "Node16",
     "skipLibCheck": true,
-    "noEmit": true,
+    "noEmit": true
   }
 }
