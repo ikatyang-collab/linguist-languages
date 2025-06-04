@@ -849,7 +849,6 @@ declare namespace LinguistLanguages {
      * Boolean wrap to enable line wrapping (default: false)
      */
     wrap?: boolean
-    searchable?: boolean
   }
 }
 

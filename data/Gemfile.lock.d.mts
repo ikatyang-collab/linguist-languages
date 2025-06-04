@@ -2,7 +2,6 @@ declare const _: {
   "name": "Gemfile.lock",
   "type": "data",
   "color": "#701516",
-  "searchable": false,
   "tmScope": "source.gemfile-lock",
   "aceMode": "text",
   "filenames": [

@@ -16,7 +16,7 @@ const LANGUAGES_FILE_CACHE_FILE = new URL(
 )
 const CACHE_EXPIRE_TIME = 1 * 60 * 60 * 1000 // One hour
 
-const excludedFields = new Set(['fsName'])
+const excludedFields = new Set(['fsName', 'searchable'])
 
 const NAME_FIELD = 'name'
 

@@ -846,7 +846,6 @@ export interface Language {
    * Boolean wrap to enable line wrapping (default: false)
    */
   wrap?: boolean
-  searchable?: boolean
 }
 
 declare const languages: Record<LanguageName, Language>
