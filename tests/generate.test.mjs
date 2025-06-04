@@ -2,7 +2,7 @@ import url from 'node:url'
 import * as serializer from 'jest-snapshot-serializer-raw'
 import { test, expect } from 'vitest'
 import {
-  run,
+  generateFiles,
   getLanguageData,
   parseFieldDescriptions,
 } from '../scripts/generate.mjs'
@@ -19,14 +19,34 @@ const fakeLanguagesYml = `
 # aliases               - An Array of additional aliases (implicitly
 #                         includes name.downcase)
 # ace_mode              - A String name of the Ace Mode used for highlighting whenever
-#                         a file is edited. This must match one of the filenames in http://git.io/3XO_Cg.
+#                         a file is edited. This must match one of the filenames in https://gh.io/acemodes.
 #                         Use "text" if a mode does not exist.
+# codemirror_mode       - A String name of the CodeMirror Mode used for highlighting whenever a file is edited.
+#                         This must match a mode from https://git.io/vi9Fx
+# codemirror_mime_type  - A String name of the file mime type used for highlighting whenever a file is edited.
+#                         This should match the \`mime\` associated with the mode from https://git.io/f4SoQ
+# wrap                  - Boolean wrap to enable line wrapping (default: false)
+# extensions            - An Array of associated extensions (the first one is
+#                         considered the primary extension, the others should be
+#                         listed alphabetically)
+# filenames             - An Array of filenames commonly associated with the language
+# interpreters          - An Array of associated interpreters
+# language_id           - Integer used as a language-name-independent indexed field so that we can rename
+#                         languages in Linguist without reindexing all the code on GitHub. Must not be
+#                         changed for existing languages without the explicit permission of GitHub staff.
+# color                 - CSS hex color to represent the language. Only used if type is "programming" or "markup".
+# tm_scope              - The TextMate scope that represents this programming
+#                         language. This should match one of the scopes listed in
+#                         the grammars.yml file. Use "none" if there is no grammar
+#                         for this language.
+# group                 - Name of the parent language. Languages in a group are counted
+#                         in the statistics as the parent language.
 #
 # Any additions or modifications (even trivial) should have corresponding
 # test changes in \`test/test_blob.rb\`.
 #
 # Please keep this list alphabetized. Capitalization comes before lowercase.
-
+---
 Test1:
   type: programming
   color: "#814CCC"
@@ -66,20 +86,11 @@ test('parseFieldDescriptions', async () => {
   expect(fields).toMatchSnapshot()
 })
 
-test('run', async () => {
-  const writes = []
+test('generateFiles', async () => {
 
-  await run(fakeLanguagesYml, {
-    clean: false,
-    write: (file, content) => writes.push([file, content]),
-  })
-
-  writes.forEach(([file, content]) => {
-    expect(serializer.wrap(content)).toMatchSnapshot(
-      url
-        .fileURLToPath(file)
-        .replace(process.cwd(), '<cwd>')
-        .replaceAll('\\', '/'),
+  for (const {file, content} of generateFiles(fakeLanguagesYml)) {
+   expect(serializer.wrap(content)).toMatchSnapshot(
+     '<cwd>/'+ decodeURIComponent(file.href.slice(new URL('../ ', import.meta.url).href.length))
     )
-  })
+  }
 })

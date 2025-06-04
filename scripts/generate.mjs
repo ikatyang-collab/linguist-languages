@@ -93,18 +93,9 @@ function parseFieldDescriptions(content) {
     )
 }
 
-async function run(languagesContent, options) {
-  const { clean = true, write = writeFile } = options || {}
-
-  if (clean) {
-    await Promise.all(
-      [OUTPUT_LIB_DIRECTORY, OUTPUT_DATA_DIRECTORY].map(directory =>
-        fs.rm(directory, { recursive: true, force: true }),
-      ),
-    )
-  }
-
+function* generateFiles(languagesContent, options) {
   const descriptions = parseFieldDescriptions(languagesContent)
+
   const data = parse(languagesContent)
 
   const languages = Object.entries(data).map(([name, language]) => {
@@ -117,46 +108,56 @@ async function run(languagesContent, options) {
       name,
       ...Object.fromEntries(
         Object.entries(language)
-          .map(([key, value]) => {
-            // if (excludedFields.has(key)) {
-            //   return
-            // }
-
-            return [camelcase(key), value]
-          })
+          .map(([key, value]) => [camelcase(key), value])
           .filter(Boolean),
       ),
     }
   })
 
-  const allFields = [
-    ...new Set(languages.flatMap(language => Object.keys(language))),
-  ].filter(field => !excludedFields.has(field))
+  const fields = new Map(
+    [...new Set(languages.flatMap(language => Object.keys(language)))]
+      .filter(field => !excludedFields.has(field))
+      .map(field => {
+        const description = descriptions[field]
+        assert(description, `'${field}' description is required.`)
 
-  const fieldRequireds = Object.fromEntries(
-    allFields.map(field => [
-      field,
-      languages.every(language => Object.hasOwn(language, field)),
-    ]),
+        const required = languages.every(language =>
+          Object.hasOwn(language, field),
+        )
+
+        const languagesWithValues = languages
+          .map(language =>
+            Object.hasOwn(language, field)
+              ? { language, value: language[field] }
+              : undefined,
+          )
+          .filter(Boolean)
+
+        let type
+
+        for (const { language, value } of languagesWithValues) {
+          const languageValueType = getFieldType(value)
+          type ??= languageValueType
+
+          assert.deepEqual(
+            type,
+            languageValueType,
+            `Unmatched field type for '${field}' in '${language.name}'.`,
+          )
+        }
+
+        return [
+          field,
+          {
+            name: field,
+            description,
+            required,
+            type,
+          },
+        ]
+      }),
   )
-
-  const fieldTypes = {}
-
-  languages.forEach(language => {
-    Object.keys(language).forEach(fieldName => {
-      const fieldType = getFieldType(language[fieldName])
-      if (!(fieldName in fieldTypes)) {
-        fieldTypes[fieldName] = fieldType
-      }
-
-      assert.deepEqual(
-        fieldType,
-        fieldTypes[fieldName],
-        `Unmatched field type for ${fieldName} in ${language.name}:\n\n` +
-          `${JSON.stringify(fieldName, null, 2)}`,
-      )
-    })
-  })
+console.log(fields)
 
   //---------------------------------write-file---------------------------------
 
@@ -164,10 +165,9 @@ async function run(languagesContent, options) {
 
   // FIXME: use named export once supported
   // Ref: https://github.com/microsoft/TypeScript/issues/40594
-
-  await write(
-    new URL('./index.js', OUTPUT_LIB_DIRECTORY),
-    `module.exports = {\n${languages
+  yield {
+    file: new URL('./index.js', OUTPUT_LIB_DIRECTORY),
+    content: `module.exports = {\n${languages
       .map(
         language =>
           `  ${JSON.stringify(language.name)}: require(${JSON.stringify(
@@ -175,11 +175,11 @@ async function run(languagesContent, options) {
           )})`,
       )
       .join(',\n')}\n};`,
-  )
+  }
 
-  await write(
-    new URL('./index.mjs', OUTPUT_LIB_DIRECTORY),
-    [
+  yield {
+    file: new URL('./index.mjs', OUTPUT_LIB_DIRECTORY),
+    content: [
       ...languages.map(
         (language, i) =>
           `import _${i} from ${JSON.stringify(
@@ -192,15 +192,15 @@ async function run(languagesContent, options) {
       ),
       `}`,
     ].join('\n'),
-  )
+  }
 
   {
     const namespaceIdentifier = 'LinguistLanguages'
     const languageNameIdentifier = 'LanguageName'
 
-    await write(
-      new URL('./index.d.ts', OUTPUT_LIB_DIRECTORY),
-      [
+    yield {
+      file: new URL('./index.d.ts', OUTPUT_LIB_DIRECTORY),
+      content: [
         `type ${languageNameIdentifier} =\n${indent(
           languages
             .map(language => `| ${JSON.stringify(language.name)}`)
@@ -212,11 +212,11 @@ async function run(languagesContent, options) {
         )}\n}`,
         `export = ${namespaceIdentifier};`,
       ].join('\n\n'),
-    )
+    }
 
-    await write(
-      new URL('./index.d.mts', OUTPUT_LIB_DIRECTORY),
-      [
+    yield {
+      file: new URL('./index.d.mts', OUTPUT_LIB_DIRECTORY),
+      content: [
         `export type ${languageNameIdentifier} =\n${indent(
           languages
             .map(language => `| ${JSON.stringify(language.name)}`)
@@ -226,67 +226,59 @@ async function run(languagesContent, options) {
         `declare const languages: Record<${languageNameIdentifier}, ${interfaceIdentifier}>`,
         `export default languages`,
       ].join('\n\n'),
-    )
+    }
 
     function createInterface() {
       return `interface ${interfaceIdentifier} {\n${indent(
-        Object.keys(fieldTypes)
-          .filter(field => !excludedFields.has(field))
+        [...fields.values()]
           .map(
-            fieldName =>
-              (fieldName in descriptions
-                ? '/**\n' +
-                  descriptions[fieldName]
-                    .split('\n')
-                    .map(x => ` * ${x}`)
-                    .join('\n') +
-                  '\n */\n'
-                : '') +
-              `${fieldName}${
-                fieldRequireds[fieldName] ? '' : '?'
-              }: ${createFieldDefinition(fieldTypes[fieldName])}`,
+            ({ name, description, required, type }) =>
+              '/**\n' +
+              description
+                .split('\n')
+                .map(x => ` * ${x}`)
+                .join('\n') +
+              '\n */\n' +
+              `${name}${required ? '' : '?'}: ${createFieldDefinition(type)}`,
           )
           .join('\n'),
       )}\n}`
     }
+
     function createFieldDefinition(field) {
       return field.type === 'array' ? `${field.subType}[]` : field.type
     }
   }
 
-  await Promise.all(
-    languages.map(async language => {
-      const data = Object.fromEntries(
-        Object.entries(language).filter(
-          ([field]) => !excludedFields.has(field),
-        ),
-      )
+  for (const language of languages) {
+    const data = Object.fromEntries(
+      Object.entries(language).filter(([field]) => !excludedFields.has(field)),
+    )
 
-      const basename = encodeURIComponent(getDataBasename(language))
-      await write(
-        new URL(`./${basename}.js`, OUTPUT_DATA_DIRECTORY),
-        `module.exports = ${JSON.stringify(data, undefined, 2)}`,
-      )
-      await write(
-        new URL(`./${basename}.d.ts`, OUTPUT_DATA_DIRECTORY),
-        [
-          `declare const _: ${JSON.stringify(data, undefined, 2)}`,
-          'export = _',
-        ].join('\n'),
-      )
-      await write(
-        new URL(`./${basename}.mjs`, OUTPUT_DATA_DIRECTORY),
-        `export default ${JSON.stringify(data, undefined, 2)}`,
-      )
-      await write(
-        new URL(`./${basename}.d.mts`, OUTPUT_DATA_DIRECTORY),
-        [
-          `declare const _: ${JSON.stringify(data, undefined, 2)}`,
-          'export default _',
-        ].join('\n'),
-      )
-    }),
-  )
+    const basename = encodeURIComponent(getDataBasename(language))
+    yield {
+      file: new URL(`./${basename}.js`, OUTPUT_DATA_DIRECTORY),
+      content: `module.exports = ${JSON.stringify(data, undefined, 2)}`,
+    }
+    yield {
+      file: new URL(`./${basename}.d.ts`, OUTPUT_DATA_DIRECTORY),
+      content: [
+        `declare const _: ${JSON.stringify(data, undefined, 2)}`,
+        'export = _',
+      ].join('\n'),
+    }
+    yield {
+      file: new URL(`./${basename}.mjs`, OUTPUT_DATA_DIRECTORY),
+      content: `export default ${JSON.stringify(data, undefined, 2)}`,
+    }
+    yield {
+      file: new URL(`./${basename}.d.mts`, OUTPUT_DATA_DIRECTORY),
+      content: [
+        `declare const _: ${JSON.stringify(data, undefined, 2)}`,
+        'export default _',
+      ].join('\n'),
+    }
+  }
 
   function getDataBasename(language) {
     return language.fsName || language.name
@@ -294,8 +286,19 @@ async function run(languagesContent, options) {
 }
 
 if (process.argv.includes('--run')) {
+  await Promise.all(
+    [OUTPUT_LIB_DIRECTORY, OUTPUT_DATA_DIRECTORY].map(directory =>
+      fs.rm(directory, { recursive: true, force: true }),
+    ),
+  )
+
   const languagesContent = await getLanguageData()
-  await run(languagesContent)
+
+  await Promise.all(
+    [...generateFiles(languagesContent)].map(({ file, content }) =>
+      writeFile(file, content),
+    ),
+  )
 }
 
-export { parseFieldDescriptions, run, getLanguageData }
+export { parseFieldDescriptions, generateFiles, getLanguageData }
