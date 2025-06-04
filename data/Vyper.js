@@ -1,11 +1,9 @@
 module.exports = {
-  "name": "Vyper",
-  "type": "programming",
-  "extensions": [
-    ".vy"
-  ],
-  "color": "#9F4CF2",
-  "aceMode": "text",
-  "tmScope": "source.vyper",
-  "languageId": 1055641948
+  name: 'Vyper',
+  type: 'programming',
+  extensions: ['.vy'],
+  color: '#9F4CF2',
+  aceMode: 'text',
+  tmScope: 'source.vyper',
+  languageId: 1055641948,
 }

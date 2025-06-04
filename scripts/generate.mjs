@@ -1,8 +1,10 @@
-import assert from 'node:assert'
+import assert from 'node:assert/strict'
 import fs from 'node:fs/promises'
+import url from 'node:url'
+import { inspect } from 'node:util'
 import camelcase from 'camelcase'
 import { parse } from 'yaml'
-import { getFieldType, indent } from './utils.mjs'
+import * as prettier from 'prettier'
 
 const DATA_FILES = [
   'https://raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml',
@@ -20,6 +22,23 @@ const excludedFields = new Set(['fsName', 'searchable'])
 
 const NAME_FIELD = 'name'
 
+const primativeTypes = new Set(['boolean', 'number', 'string'])
+function getType(value) {
+  const type = typeof value
+
+  if (primativeTypes.has(type)) {
+    return type
+  }
+
+  if (Array.isArray(value)) {
+    const types = value.map(value => getType(value))
+    assert(new Set(types).size === 1, `Unexpected value:\n${inspect(value)}`)
+    return `${types[0]}[]`
+  }
+
+  throw new Error(`Unexpected value:\n${inspect(value)}`)
+}
+
 async function fetchText(url) {
   const response = await fetch(url)
   const text = await response.text()
@@ -29,7 +48,13 @@ async function fetchText(url) {
 async function writeFile(file, content) {
   const directory = new URL('./', file)
   await fs.mkdir(directory, { recursive: true })
-  await fs.writeFile(file, content + '\n')
+const formatted = await prettier.format(content, {
+filepath: url.fileURLToPath(file),
+singleQuote: true,
+arrowParens:'avoid',
+semi: false,
+})
+  await fs.writeFile(file, formatted)
 }
 
 async function getLanguageData() {
@@ -136,10 +161,10 @@ function* generateFiles(languagesContent, options) {
         let type
 
         for (const { language, value } of languagesWithValues) {
-          const languageValueType = getFieldType(value)
+          const languageValueType = getType(value)
           type ??= languageValueType
 
-          assert.deepEqual(
+          assert.equal(
             type,
             languageValueType,
             `Unmatched field type for '${field}' in '${language.name}'.`,
@@ -157,7 +182,6 @@ function* generateFiles(languagesContent, options) {
         ]
       }),
   )
-console.log(fields)
 
   //---------------------------------write-file---------------------------------
 
@@ -201,15 +225,11 @@ console.log(fields)
     yield {
       file: new URL('./index.d.ts', OUTPUT_LIB_DIRECTORY),
       content: [
-        `type ${languageNameIdentifier} =\n${indent(
-          languages
-            .map(language => `| ${JSON.stringify(language.name)}`)
-            .join('\n'),
-        )};`,
+        `type ${languageNameIdentifier} =\n${languages
+          .map(language => `| ${JSON.stringify(language.name)}`)
+          .join('\n')};`,
         `declare const ${namespaceIdentifier}: Record<${languageNameIdentifier}, ${namespaceIdentifier}.${interfaceIdentifier}>;`,
-        `declare namespace ${namespaceIdentifier} {\n${indent(
-          createInterface(),
-        )}\n}`,
+        `declare namespace ${namespaceIdentifier} {\n${createInterface()}\n}`,
         `export = ${namespaceIdentifier};`,
       ].join('\n\n'),
     }
@@ -217,11 +237,9 @@ console.log(fields)
     yield {
       file: new URL('./index.d.mts', OUTPUT_LIB_DIRECTORY),
       content: [
-        `export type ${languageNameIdentifier} =\n${indent(
-          languages
-            .map(language => `| ${JSON.stringify(language.name)}`)
-            .join('\n'),
-        )}`,
+        `export type ${languageNameIdentifier} =\n${languages
+          .map(language => `| ${JSON.stringify(language.name)}`)
+          .join('\n')}`,
         `export ${createInterface()}`,
         `declare const languages: Record<${languageNameIdentifier}, ${interfaceIdentifier}>`,
         `export default languages`,
@@ -229,24 +247,18 @@ console.log(fields)
     }
 
     function createInterface() {
-      return `interface ${interfaceIdentifier} {\n${indent(
-        [...fields.values()]
-          .map(
-            ({ name, description, required, type }) =>
-              '/**\n' +
-              description
-                .split('\n')
-                .map(x => ` * ${x}`)
-                .join('\n') +
-              '\n */\n' +
-              `${name}${required ? '' : '?'}: ${createFieldDefinition(type)}`,
-          )
-          .join('\n'),
-      )}\n}`
-    }
-
-    function createFieldDefinition(field) {
-      return field.type === 'array' ? `${field.subType}[]` : field.type
+      return `interface ${interfaceIdentifier} {\n${[...fields.values()]
+        .map(
+          ({ name, description, required, type }) =>
+            '/**\n' +
+            description
+              .split('\n')
+              .map(x => ` * ${x}`)
+              .join('\n') +
+            '\n */\n' +
+            `${name}${required ? '' : '?'}: ${type};`,
+        )
+        .join('\n')}\n}`
     }
   }
 

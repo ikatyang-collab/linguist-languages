@@ -1,13 +1,9 @@
 export default {
-  "name": "PlantUML",
-  "type": "data",
-  "color": "#fbbd16",
-  "extensions": [
-    ".puml",
-    ".iuml",
-    ".plantuml"
-  ],
-  "tmScope": "source.wsd",
-  "aceMode": "text",
-  "languageId": 833504686
+  name: 'PlantUML',
+  type: 'data',
+  color: '#fbbd16',
+  extensions: ['.puml', '.iuml', '.plantuml'],
+  tmScope: 'source.wsd',
+  aceMode: 'text',
+  languageId: 833504686,
 }

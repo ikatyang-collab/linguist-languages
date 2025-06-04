@@ -1,10 +1,8 @@
 export default {
-  "name": "Pure Data",
-  "type": "data",
-  "extensions": [
-    ".pd"
-  ],
-  "tmScope": "none",
-  "aceMode": "text",
-  "languageId": 300
+  name: 'Pure Data',
+  type: 'data',
+  extensions: ['.pd'],
+  tmScope: 'none',
+  aceMode: 'text',
+  languageId: 300,
 }

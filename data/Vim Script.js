@@ -1,30 +1,20 @@
 module.exports = {
-  "name": "Vim Script",
-  "type": "programming",
-  "color": "#199f4b",
-  "tmScope": "source.viml",
-  "aliases": [
-    "vim",
-    "viml",
-    "nvim",
-    "vimscript"
+  name: 'Vim Script',
+  type: 'programming',
+  color: '#199f4b',
+  tmScope: 'source.viml',
+  aliases: ['vim', 'viml', 'nvim', 'vimscript'],
+  extensions: ['.vim', '.vba', '.vimrc', '.vmb'],
+  filenames: [
+    '.exrc',
+    '.gvimrc',
+    '.nvimrc',
+    '.vimrc',
+    '_vimrc',
+    'gvimrc',
+    'nvimrc',
+    'vimrc',
   ],
-  "extensions": [
-    ".vim",
-    ".vba",
-    ".vimrc",
-    ".vmb"
-  ],
-  "filenames": [
-    ".exrc",
-    ".gvimrc",
-    ".nvimrc",
-    ".vimrc",
-    "_vimrc",
-    "gvimrc",
-    "nvimrc",
-    "vimrc"
-  ],
-  "aceMode": "text",
-  "languageId": 388
+  aceMode: 'text',
+  languageId: 388,
 }

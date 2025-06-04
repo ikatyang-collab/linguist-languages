@@ -1,15 +1,8 @@
 export default {
-  "name": "REALbasic",
-  "type": "programming",
-  "extensions": [
-    ".rbbas",
-    ".rbfrm",
-    ".rbmnu",
-    ".rbres",
-    ".rbtbar",
-    ".rbuistate"
-  ],
-  "tmScope": "source.vbnet",
-  "aceMode": "text",
-  "languageId": 310
+  name: 'REALbasic',
+  type: 'programming',
+  extensions: ['.rbbas', '.rbfrm', '.rbmnu', '.rbres', '.rbtbar', '.rbuistate'],
+  tmScope: 'source.vbnet',
+  aceMode: 'text',
+  languageId: 310,
 }

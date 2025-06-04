@@ -1,11 +1,9 @@
 export default {
-  "name": "Edge",
-  "type": "markup",
-  "color": "#0dffe0",
-  "extensions": [
-    ".edge"
-  ],
-  "tmScope": "text.html.edge",
-  "aceMode": "html",
-  "languageId": 460509620
+  name: 'Edge',
+  type: 'markup',
+  color: '#0dffe0',
+  extensions: ['.edge'],
+  tmScope: 'text.html.edge',
+  aceMode: 'html',
+  languageId: 460509620,
 }

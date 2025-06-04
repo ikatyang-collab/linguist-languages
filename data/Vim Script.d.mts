@@ -1,31 +1,21 @@
 declare const _: {
-  "name": "Vim Script",
-  "type": "programming",
-  "color": "#199f4b",
-  "tmScope": "source.viml",
-  "aliases": [
-    "vim",
-    "viml",
-    "nvim",
-    "vimscript"
-  ],
-  "extensions": [
-    ".vim",
-    ".vba",
-    ".vimrc",
-    ".vmb"
-  ],
-  "filenames": [
-    ".exrc",
-    ".gvimrc",
-    ".nvimrc",
-    ".vimrc",
-    "_vimrc",
-    "gvimrc",
-    "nvimrc",
-    "vimrc"
-  ],
-  "aceMode": "text",
-  "languageId": 388
+  name: 'Vim Script'
+  type: 'programming'
+  color: '#199f4b'
+  tmScope: 'source.viml'
+  aliases: ['vim', 'viml', 'nvim', 'vimscript']
+  extensions: ['.vim', '.vba', '.vimrc', '.vmb']
+  filenames: [
+    '.exrc',
+    '.gvimrc',
+    '.nvimrc',
+    '.vimrc',
+    '_vimrc',
+    'gvimrc',
+    'nvimrc',
+    'vimrc',
+  ]
+  aceMode: 'text'
+  languageId: 388
 }
 export default _

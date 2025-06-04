@@ -1,12 +1,9 @@
 export default {
-  "name": "Vala",
-  "type": "programming",
-  "color": "#a56de2",
-  "extensions": [
-    ".vala",
-    ".vapi"
-  ],
-  "tmScope": "source.vala",
-  "aceMode": "vala",
-  "languageId": 386
+  name: 'Vala',
+  type: 'programming',
+  color: '#a56de2',
+  extensions: ['.vala', '.vapi'],
+  tmScope: 'source.vala',
+  aceMode: 'vala',
+  languageId: 386,
 }
