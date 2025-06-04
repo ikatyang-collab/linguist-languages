@@ -3,10 +3,10 @@ module.exports = {
   type: 'programming',
   color: '#87AED7',
   extensions: ['.nl', '.lisp', '.lsp'],
-  interpreters: ['newlisp'],
   tmScope: 'source.lisp',
   aceMode: 'lisp',
+  languageId: 247,
   codemirrorMode: 'commonlisp',
   codemirrorMimeType: 'text/x-common-lisp',
-  languageId: 247,
+  interpreters: ['newlisp'],
 }

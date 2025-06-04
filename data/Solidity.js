@@ -2,8 +2,8 @@ module.exports = {
   name: 'Solidity',
   type: 'programming',
   color: '#AA6746',
-  aceMode: 'text',
-  tmScope: 'source.solidity',
   extensions: ['.sol'],
+  tmScope: 'source.solidity',
+  aceMode: 'text',
   languageId: 237469032,
 }

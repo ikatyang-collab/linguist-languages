@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Q#'
   type: 'programming'
-  extensions: ['.qs']
-  aliases: ['qsharp']
   color: '#fed659'
-  aceMode: 'text'
+  extensions: ['.qs']
   tmScope: 'source.qsharp'
+  aceMode: 'text'
   languageId: 697448245
+  aliases: ['qsharp']
 }
 export = _

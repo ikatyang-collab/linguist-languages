@@ -2,7 +2,6 @@ declare const _: {
   name: 'Gerber Image'
   type: 'data'
   color: '#d20b00'
-  aliases: ['rs-274x']
   extensions: [
     '.gbr',
     '.cmp',
@@ -21,9 +20,10 @@ declare const _: {
     '.ncl',
     '.sol',
   ]
-  interpreters: ['gerbv', 'gerbview']
   tmScope: 'source.gerber'
   aceMode: 'text'
   languageId: 404627610
+  aliases: ['rs-274x']
+  interpreters: ['gerbv', 'gerbview']
 }
 export = _

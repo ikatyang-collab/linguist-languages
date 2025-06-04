@@ -2,7 +2,6 @@ module.exports = {
   name: 'XML Property List',
   type: 'data',
   color: '#0060ac',
-  group: 'XML',
   extensions: [
     '.plist',
     '.stTheme',
@@ -14,7 +13,8 @@ module.exports = {
   ],
   tmScope: 'text.xml.plist',
   aceMode: 'xml',
+  languageId: 75622871,
   codemirrorMode: 'xml',
   codemirrorMimeType: 'text/xml',
-  languageId: 75622871,
+  group: 'XML',
 }

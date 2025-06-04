@@ -1,9 +1,9 @@
 export default {
   name: 'Modula-3',
   type: 'programming',
-  extensions: ['.i3', '.ig', '.m3', '.mg'],
   color: '#223388',
-  aceMode: 'text',
+  extensions: ['.i3', '.ig', '.m3', '.mg'],
   tmScope: 'source.modula-3',
+  aceMode: 'text',
   languageId: 564743864,
 }

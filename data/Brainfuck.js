@@ -5,7 +5,7 @@ module.exports = {
   extensions: ['.b', '.bf'],
   tmScope: 'source.bf',
   aceMode: 'text',
+  languageId: 38,
   codemirrorMode: 'brainfuck',
   codemirrorMimeType: 'text/x-brainfuck',
-  languageId: 38,
 }

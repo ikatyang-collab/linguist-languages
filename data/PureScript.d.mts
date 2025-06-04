@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.purs']
   tmScope: 'source.purescript'
   aceMode: 'haskell'
+  languageId: 302
   codemirrorMode: 'haskell'
   codemirrorMimeType: 'text/x-haskell'
-  languageId: 302
 }
 export default _

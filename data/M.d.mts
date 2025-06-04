@@ -1,12 +1,12 @@
 declare const _: {
   name: 'M'
   type: 'programming'
-  aliases: ['mumps']
   extensions: ['.mumps', '.m']
+  tmScope: 'none'
   aceMode: 'text'
+  languageId: 214
+  aliases: ['mumps']
   codemirrorMode: 'mumps'
   codemirrorMimeType: 'text/x-mumps'
-  languageId: 214
-  tmScope: 'none'
 }
 export default _

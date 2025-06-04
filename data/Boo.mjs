@@ -3,7 +3,7 @@ export default {
   type: 'programming',
   color: '#d4bec1',
   extensions: ['.boo'],
-  aceMode: 'text',
   tmScope: 'source.boo',
+  aceMode: 'text',
   languageId: 37,
 }

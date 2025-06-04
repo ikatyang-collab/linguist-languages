@@ -2,9 +2,9 @@ declare const _: {
   name: 'GEDCOM'
   type: 'data'
   color: '#003058'
-  aceMode: 'text'
   extensions: ['.ged']
   tmScope: 'source.gedcom'
+  aceMode: 'text'
   languageId: 459577965
 }
 export = _

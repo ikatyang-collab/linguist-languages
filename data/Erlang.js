@@ -12,11 +12,11 @@ module.exports = {
     '.xrl',
     '.yrl',
   ],
-  filenames: ['Emakefile', 'rebar.config', 'rebar.config.lock', 'rebar.lock'],
   tmScope: 'source.erlang',
   aceMode: 'erlang',
+  languageId: 104,
   codemirrorMode: 'erlang',
   codemirrorMimeType: 'text/x-erlang',
   interpreters: ['escript'],
-  languageId: 104,
+  filenames: ['Emakefile', 'rebar.config', 'rebar.config.lock', 'rebar.lock'],
 }

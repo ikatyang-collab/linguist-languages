@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Quake',
   type: 'programming',
-  filenames: ['m3makefile', 'm3overrides'],
   color: '#882233',
-  aceMode: 'text',
   tmScope: 'source.quake',
+  aceMode: 'text',
   languageId: 375265331,
+  filenames: ['m3makefile', 'm3overrides'],
 }

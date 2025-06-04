@@ -2,13 +2,13 @@ declare const _: {
   name: 'HTML+EEX'
   type: 'markup'
   color: '#6e4a7e'
-  tmScope: 'text.html.elixir'
-  group: 'HTML'
-  aliases: ['eex', 'heex', 'leex']
   extensions: ['.html.eex', '.heex', '.leex']
+  tmScope: 'text.html.elixir'
   aceMode: 'text'
+  languageId: 149
+  aliases: ['eex', 'heex', 'leex']
   codemirrorMode: 'htmlmixed'
   codemirrorMimeType: 'text/html'
-  languageId: 149
+  group: 'HTML'
 }
 export = _

@@ -2,11 +2,6 @@ declare const _: {
   name: 'JSON'
   type: 'data'
   color: '#292929'
-  tmScope: 'source.json'
-  aceMode: 'json'
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'application/json'
-  aliases: ['geojson', 'jsonl', 'sarif', 'topojson']
   extensions: [
     '.json',
     '.4DForm',
@@ -30,6 +25,12 @@ declare const _: {
     '.yy',
     '.yyp',
   ]
+  tmScope: 'source.json'
+  aceMode: 'json'
+  languageId: 174
+  aliases: ['geojson', 'jsonl', 'sarif', 'topojson']
+  codemirrorMode: 'javascript'
+  codemirrorMimeType: 'application/json'
   filenames: [
     '.all-contributorsrc',
     '.arcconfig',
@@ -50,6 +51,5 @@ declare const _: {
     'flake.lock',
     'mcmod.info',
   ]
-  languageId: 174
 }
 export default _

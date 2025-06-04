@@ -3,7 +3,7 @@ module.exports = {
   type: 'data',
   color: '#9e0101',
   extensions: ['.srt'],
-  aceMode: 'text',
   tmScope: 'text.srt',
+  aceMode: 'text',
   languageId: 360,
 }

@@ -4,8 +4,8 @@ declare const _: {
   extensions: ['.ebnf']
   tmScope: 'source.ebnf'
   aceMode: 'text'
+  languageId: 430
   codemirrorMode: 'ebnf'
   codemirrorMimeType: 'text/x-ebnf'
-  languageId: 430
 }
 export = _

@@ -1,9 +1,11 @@
 export default {
   name: 'SELinux Policy',
-  aliases: ['SELinux Kernel Policy Language', 'sepolicy'],
   type: 'data',
-  tmScope: 'source.sepolicy',
   extensions: ['.te'],
+  tmScope: 'source.sepolicy',
+  aceMode: 'text',
+  languageId: 880010326,
+  aliases: ['SELinux Kernel Policy Language', 'sepolicy'],
   filenames: [
     'file_contexts',
     'genfs_contexts',
@@ -11,6 +13,4 @@ export default {
     'port_contexts',
     'security_classes',
   ],
-  aceMode: 'text',
-  languageId: 880010326,
 }

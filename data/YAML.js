@@ -2,8 +2,6 @@ module.exports = {
   name: 'YAML',
   type: 'data',
   color: '#cb171e',
-  tmScope: 'source.yaml',
-  aliases: ['yml'],
   extensions: [
     '.yml',
     '.mir',
@@ -16,6 +14,12 @@ module.exports = {
     '.yaml.sed',
     '.yml.mysql',
   ],
+  tmScope: 'source.yaml',
+  aceMode: 'yaml',
+  languageId: 407,
+  aliases: ['yml'],
+  codemirrorMode: 'yaml',
+  codemirrorMimeType: 'text/x-yaml',
   filenames: [
     '.clang-format',
     '.clang-tidy',
@@ -26,8 +30,4 @@ module.exports = {
     'pixi.lock',
     'yarn.lock',
   ],
-  aceMode: 'yaml',
-  codemirrorMode: 'yaml',
-  codemirrorMimeType: 'text/x-yaml',
-  languageId: 407,
 }

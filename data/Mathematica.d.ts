@@ -13,11 +13,11 @@ declare const _: {
     '.wl',
     '.wlt',
   ]
-  aliases: ['mma', 'wolfram', 'wolfram language', 'wolfram lang', 'wl']
   tmScope: 'source.mathematica'
   aceMode: 'text'
+  languageId: 224
+  aliases: ['mma', 'wolfram', 'wolfram language', 'wolfram lang', 'wl']
   codemirrorMode: 'mathematica'
   codemirrorMimeType: 'text/x-mathematica'
-  languageId: 224
 }
 export = _

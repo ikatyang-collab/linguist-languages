@@ -5,7 +5,7 @@ module.exports = {
   extensions: ['.druby', '.duby', '.mirah'],
   tmScope: 'source.ruby',
   aceMode: 'ruby',
+  languageId: 232,
   codemirrorMode: 'ruby',
   codemirrorMimeType: 'text/x-ruby',
-  languageId: 232,
 }

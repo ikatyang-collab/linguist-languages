@@ -1,9 +1,9 @@
 declare const _: {
   name: 'HyPhy'
   type: 'programming'
-  aceMode: 'text'
   extensions: ['.bf']
   tmScope: 'none'
+  aceMode: 'text'
   languageId: 160
 }
 export default _

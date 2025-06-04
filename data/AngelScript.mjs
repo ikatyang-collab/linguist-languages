@@ -5,7 +5,7 @@ export default {
   extensions: ['.as', '.angelscript'],
   tmScope: 'source.angelscript',
   aceMode: 'text',
+  languageId: 389477596,
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-c++src',
-  languageId: 389477596,
 }

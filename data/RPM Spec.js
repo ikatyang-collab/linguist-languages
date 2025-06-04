@@ -1,11 +1,11 @@
 module.exports = {
   name: 'RPM Spec',
   type: 'data',
-  tmScope: 'source.rpm-spec',
   extensions: ['.spec'],
-  aliases: ['specfile'],
+  tmScope: 'source.rpm-spec',
   aceMode: 'text',
+  languageId: 314,
+  aliases: ['specfile'],
   codemirrorMode: 'rpm',
   codemirrorMimeType: 'text/x-rpm-spec',
-  languageId: 314,
 }

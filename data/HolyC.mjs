@@ -5,7 +5,7 @@ export default {
   extensions: ['.hc'],
   tmScope: 'source.hc',
   aceMode: 'c_cpp',
+  languageId: 928121743,
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-csrc',
-  languageId: 928121743,
 }

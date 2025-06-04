@@ -2,9 +2,9 @@ module.exports = {
   name: 'Cairo',
   type: 'programming',
   color: '#ff4a48',
-  aceMode: 'text',
-  tmScope: 'source.cairo',
   extensions: ['.cairo'],
-  group: 'Cairo',
+  tmScope: 'source.cairo',
+  aceMode: 'text',
   languageId: 620599567,
+  group: 'Cairo',
 }

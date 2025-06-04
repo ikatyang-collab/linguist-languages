@@ -2,10 +2,10 @@ declare const _: {
   name: 'Adblock Filter List'
   type: 'data'
   color: '#800000'
-  aceMode: 'text'
   extensions: ['.txt']
-  aliases: ['ad block filters', 'ad block', 'adb', 'adblock']
   tmScope: 'text.adblock'
+  aceMode: 'text'
   languageId: 884614762
+  aliases: ['ad block filters', 'ad block', 'adb', 'adblock']
 }
 export = _

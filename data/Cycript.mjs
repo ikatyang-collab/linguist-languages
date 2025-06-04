@@ -4,7 +4,7 @@ export default {
   extensions: ['.cy'],
   tmScope: 'source.js',
   aceMode: 'javascript',
+  languageId: 78,
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'text/javascript',
-  languageId: 78,
 }

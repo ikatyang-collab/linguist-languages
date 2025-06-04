@@ -5,7 +5,7 @@ module.exports = {
   extensions: ['.dhall'],
   tmScope: 'source.haskell',
   aceMode: 'haskell',
+  languageId: 793969321,
   codemirrorMode: 'haskell',
   codemirrorMimeType: 'text/x-haskell',
-  languageId: 793969321,
 }

@@ -3,7 +3,7 @@ module.exports = {
   type: 'programming',
   color: '#ee1e10',
   extensions: ['.arr'],
-  aceMode: 'python',
   tmScope: 'source.arr',
+  aceMode: 'python',
   languageId: 252961827,
 }

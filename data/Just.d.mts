@@ -1,9 +1,12 @@
 declare const _: {
   name: 'Just'
   type: 'programming'
-  aliases: ['Justfile']
   color: '#384d54'
+  extensions: ['.just']
   tmScope: 'source.just'
+  aceMode: 'text'
+  languageId: 128447695
+  aliases: ['Justfile']
   filenames: [
     '.JUSTFILE',
     '.Justfile',
@@ -12,8 +15,5 @@ declare const _: {
     'Justfile',
     'justfile',
   ]
-  extensions: ['.just']
-  aceMode: 'text'
-  languageId: 128447695
 }
 export default _

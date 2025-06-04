@@ -5,7 +5,7 @@ module.exports = {
   extensions: ['.v', '.veo'],
   tmScope: 'source.verilog',
   aceMode: 'verilog',
+  languageId: 387,
   codemirrorMode: 'verilog',
   codemirrorMimeType: 'text/x-verilog',
-  languageId: 387,
 }

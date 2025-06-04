@@ -2,11 +2,6 @@ export default {
   name: 'XML',
   type: 'data',
   color: '#0060ac',
-  tmScope: 'text.xml',
-  aceMode: 'xml',
-  codemirrorMode: 'xml',
-  codemirrorMimeType: 'text/xml',
-  aliases: ['rss', 'xsd', 'wsdl'],
   extensions: [
     '.xml',
     '.adml',
@@ -117,6 +112,12 @@ export default {
     '.xul',
     '.zcml',
   ],
+  tmScope: 'text.xml',
+  aceMode: 'xml',
+  languageId: 399,
+  aliases: ['rss', 'xsd', 'wsdl'],
+  codemirrorMode: 'xml',
+  codemirrorMimeType: 'text/xml',
   filenames: [
     '.classpath',
     '.cproject',
@@ -129,5 +130,4 @@ export default {
     'Web.config',
     'packages.config',
   ],
-  languageId: 399,
 }

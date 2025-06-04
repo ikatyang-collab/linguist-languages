@@ -32,8 +32,9 @@ module.exports = {
     '.rno',
     '.tmac',
   ],
-  filenames: ['eqnrc', 'mmn', 'mmt', 'troffrc', 'troffrc-end'],
   tmScope: 'text.roff',
+  aceMode: 'text',
+  languageId: 141,
   aliases: [
     'groff',
     'man',
@@ -44,9 +45,8 @@ module.exports = {
     'nroff',
     'troff',
   ],
-  wrap: true,
-  aceMode: 'text',
   codemirrorMode: 'troff',
   codemirrorMimeType: 'text/troff',
-  languageId: 141,
+  filenames: ['eqnrc', 'mmn', 'mmt', 'troffrc', 'troffrc-end'],
+  wrap: true,
 }

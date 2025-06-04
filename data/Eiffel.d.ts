@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.e']
   tmScope: 'source.eiffel'
   aceMode: 'eiffel'
+  languageId: 99
   codemirrorMode: 'eiffel'
   codemirrorMimeType: 'text/x-eiffel'
-  languageId: 99
 }
 export = _

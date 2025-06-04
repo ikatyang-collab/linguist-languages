@@ -4,6 +4,8 @@ declare const _: {
   color: '#2c6353'
   extensions: ['.bas', '.cls', '.ctl', '.Dsr', '.frm']
   tmScope: 'source.vba'
+  aceMode: 'text'
+  languageId: 679594952
   aliases: [
     'vb6',
     'vb 6',
@@ -11,9 +13,7 @@ declare const _: {
     'visual basic classic',
     'classic visual basic',
   ]
-  aceMode: 'text'
   codemirrorMode: 'vb'
   codemirrorMimeType: 'text/x-vb'
-  languageId: 679594952
 }
 export default _

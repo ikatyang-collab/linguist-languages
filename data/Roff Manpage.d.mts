@@ -2,7 +2,6 @@ declare const _: {
   name: 'Roff Manpage'
   type: 'markup'
   color: '#ecdebe'
-  group: 'Roff'
   extensions: [
     '.1',
     '.1in',
@@ -25,11 +24,12 @@ declare const _: {
     '.man',
     '.mdoc',
   ]
-  wrap: true
   tmScope: 'text.roff'
   aceMode: 'text'
+  languageId: 612669833
   codemirrorMode: 'troff'
   codemirrorMimeType: 'text/troff'
-  languageId: 612669833
+  group: 'Roff'
+  wrap: true
 }
 export default _

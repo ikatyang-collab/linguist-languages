@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.jade', '.pug']
   tmScope: 'text.jade'
   aceMode: 'jade'
+  languageId: 179
   codemirrorMode: 'pug'
   codemirrorMimeType: 'text/x-pug'
-  languageId: 179
 }
 export default _

@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.reg']
   tmScope: 'source.reg'
   aceMode: 'ini'
+  languageId: 969674868
   codemirrorMode: 'properties'
   codemirrorMimeType: 'text/x-properties'
-  languageId: 969674868
 }
 export default _

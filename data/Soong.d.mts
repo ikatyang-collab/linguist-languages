@@ -3,7 +3,7 @@ declare const _: {
   type: 'data'
   tmScope: 'source.bp'
   aceMode: 'text'
-  filenames: ['Android.bp']
   languageId: 222900098
+  filenames: ['Android.bp']
 }
 export default _

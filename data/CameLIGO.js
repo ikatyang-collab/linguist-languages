@@ -5,8 +5,8 @@ module.exports = {
   extensions: ['.mligo'],
   tmScope: 'source.mligo',
   aceMode: 'ocaml',
+  languageId: 829207807,
   codemirrorMode: 'mllike',
   codemirrorMimeType: 'text/x-ocaml',
   group: 'LigoLANG',
-  languageId: 829207807,
 }

@@ -2,10 +2,6 @@ declare const _: {
   name: 'SQL'
   type: 'data'
   color: '#e38c00'
-  tmScope: 'source.sql'
-  aceMode: 'sql'
-  codemirrorMode: 'sql'
-  codemirrorMimeType: 'text/x-sql'
   extensions: [
     '.sql',
     '.cql',
@@ -17,6 +13,10 @@ declare const _: {
     '.udf',
     '.viw',
   ]
+  tmScope: 'source.sql'
+  aceMode: 'sql'
   languageId: 333
+  codemirrorMode: 'sql'
+  codemirrorMimeType: 'text/x-sql'
 }
 export = _

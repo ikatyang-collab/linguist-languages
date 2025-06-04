@@ -3,8 +3,8 @@ declare const _: {
   type: 'programming'
   color: '#b2011d'
   extensions: ['.stan']
-  aceMode: 'text'
   tmScope: 'source.stan'
+  aceMode: 'text'
   languageId: 356
 }
 export default _

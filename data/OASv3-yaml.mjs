@@ -3,10 +3,10 @@ export default {
   type: 'data',
   color: '#85ea2d',
   extensions: ['.yaml', '.yml'],
-  group: 'OpenAPI Specification v3',
   tmScope: 'source.yaml',
   aceMode: 'yaml',
+  languageId: 51239111,
   codemirrorMode: 'yaml',
   codemirrorMimeType: 'text/x-yaml',
-  languageId: 51239111,
+  group: 'OpenAPI Specification v3',
 }

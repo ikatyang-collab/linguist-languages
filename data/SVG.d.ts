@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.svg']
   tmScope: 'text.xml.svg'
   aceMode: 'xml'
+  languageId: 337
   codemirrorMode: 'xml'
   codemirrorMimeType: 'text/xml'
-  languageId: 337
 }
 export = _

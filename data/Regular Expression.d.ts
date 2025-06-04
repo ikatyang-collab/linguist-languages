@@ -3,9 +3,9 @@ declare const _: {
   type: 'data'
   color: '#009a00'
   extensions: ['.regexp', '.regex']
-  aliases: ['regexp', 'regex']
-  aceMode: 'text'
   tmScope: 'source.regexp'
+  aceMode: 'text'
   languageId: 363378884
+  aliases: ['regexp', 'regex']
 }
 export = _

@@ -5,7 +5,7 @@ export default {
   extensions: ['.reg'],
   tmScope: 'source.reg',
   aceMode: 'ini',
+  languageId: 969674868,
   codemirrorMode: 'properties',
   codemirrorMimeType: 'text/x-properties',
-  languageId: 969674868,
 }

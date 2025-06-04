@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.md']
   tmScope: 'source.lisp'
   aceMode: 'lisp'
+  languageId: 121
   codemirrorMode: 'commonlisp'
   codemirrorMimeType: 'text/x-common-lisp'
-  languageId: 121
 }
 export = _

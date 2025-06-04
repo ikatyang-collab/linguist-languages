@@ -3,9 +3,9 @@ declare const _: {
   type: 'programming'
   color: '#ff4585'
   extensions: ['.moon']
-  interpreters: ['moon']
   tmScope: 'source.moonscript'
   aceMode: 'text'
   languageId: 238
+  interpreters: ['moon']
 }
 export = _

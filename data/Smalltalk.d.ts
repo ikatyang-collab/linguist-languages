@@ -3,11 +3,11 @@ declare const _: {
   type: 'programming'
   color: '#596706'
   extensions: ['.st', '.cs']
-  aliases: ['squeak']
   tmScope: 'source.smalltalk'
   aceMode: 'text'
+  languageId: 352
+  aliases: ['squeak']
   codemirrorMode: 'smalltalk'
   codemirrorMimeType: 'text/x-stsrc'
-  languageId: 352
 }
 export = _

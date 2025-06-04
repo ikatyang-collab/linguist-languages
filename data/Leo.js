@@ -5,6 +5,6 @@ module.exports = {
   extensions: ['.leo'],
   tmScope: 'source.leo',
   aceMode: 'text',
-  wrap: true,
   languageId: 916034822,
+  wrap: true,
 }

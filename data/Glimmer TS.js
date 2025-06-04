@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Glimmer TS',
   type: 'programming',
-  extensions: ['.gts'],
-  aceMode: 'typescript',
   color: '#3178c6',
+  extensions: ['.gts'],
   tmScope: 'source.gts',
-  group: 'TypeScript',
+  aceMode: 'typescript',
   languageId: 95110458,
+  group: 'TypeScript',
 }

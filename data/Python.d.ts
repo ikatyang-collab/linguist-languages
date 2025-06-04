@@ -1,10 +1,6 @@
 declare const _: {
   name: 'Python'
   type: 'programming'
-  tmScope: 'source.python'
-  aceMode: 'python'
-  codemirrorMode: 'python'
-  codemirrorMimeType: 'text/x-python'
   color: '#3572A5'
   extensions: [
     '.py',
@@ -25,9 +21,13 @@ declare const _: {
     '.wsgi',
     '.xpy',
   ]
-  filenames: ['.gclient', 'DEPS', 'SConscript', 'SConstruct', 'wscript']
-  interpreters: ['python', 'python2', 'python3', 'py', 'pypy', 'pypy3', 'uv']
-  aliases: ['python3', 'rusthon']
+  tmScope: 'source.python'
+  aceMode: 'python'
   languageId: 303
+  aliases: ['python3', 'rusthon']
+  codemirrorMode: 'python'
+  codemirrorMimeType: 'text/x-python'
+  interpreters: ['python', 'python2', 'python3', 'py', 'pypy', 'pypy3', 'uv']
+  filenames: ['.gclient', 'DEPS', 'SConscript', 'SConstruct', 'wscript']
 }
 export = _

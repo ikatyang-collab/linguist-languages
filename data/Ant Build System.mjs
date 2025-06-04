@@ -3,9 +3,9 @@ export default {
   type: 'data',
   color: '#A9157E',
   tmScope: 'text.xml.ant',
-  filenames: ['ant.xml', 'build.xml'],
   aceMode: 'xml',
+  languageId: 15,
   codemirrorMode: 'xml',
   codemirrorMimeType: 'application/xml',
-  languageId: 15,
+  filenames: ['ant.xml', 'build.xml'],
 }

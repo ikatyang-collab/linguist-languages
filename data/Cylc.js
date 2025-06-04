@@ -3,9 +3,9 @@ module.exports = {
   type: 'data',
   color: '#00b3fd',
   extensions: ['.cylc'],
-  filenames: ['suite.rc'],
   tmScope: 'source.cylc',
   aceMode: 'ini',
-  group: 'INI',
   languageId: 476447814,
+  group: 'INI',
+  filenames: ['suite.rc'],
 }

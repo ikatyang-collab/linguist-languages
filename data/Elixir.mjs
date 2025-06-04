@@ -5,7 +5,7 @@ export default {
   extensions: ['.ex', '.exs'],
   tmScope: 'source.elixir',
   aceMode: 'elixir',
-  filenames: ['mix.lock'],
-  interpreters: ['elixir'],
   languageId: 100,
+  interpreters: ['elixir'],
+  filenames: ['mix.lock'],
 }

@@ -3,9 +3,9 @@ declare const _: {
   type: 'programming'
   color: '#d0b68c'
   extensions: ['.v', '.coq']
-  aliases: ['coq', 'rocq']
   tmScope: 'source.coq'
   aceMode: 'text'
   languageId: 69
+  aliases: ['coq', 'rocq']
 }
 export default _

@@ -2,10 +2,10 @@ module.exports = {
   name: 'Jest Snapshot',
   type: 'data',
   color: '#15c213',
-  tmScope: 'source.jest.snap',
   extensions: ['.snap'],
+  tmScope: 'source.jest.snap',
   aceMode: 'javascript',
+  languageId: 774635084,
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'application/javascript',
-  languageId: 774635084,
 }

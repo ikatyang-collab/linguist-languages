@@ -5,7 +5,7 @@ export default {
   extensions: ['.ecl', '.eclxml'],
   tmScope: 'source.ecl',
   aceMode: 'text',
+  languageId: 93,
   codemirrorMode: 'ecl',
   codemirrorMimeType: 'text/x-ecl',
-  languageId: 93,
 }

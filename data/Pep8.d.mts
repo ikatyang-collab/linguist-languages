@@ -3,8 +3,8 @@ declare const _: {
   type: 'programming'
   color: '#C76F5B'
   extensions: ['.pep']
-  aceMode: 'text'
   tmScope: 'source.pep8'
+  aceMode: 'text'
   languageId: 840372442
 }
 export default _

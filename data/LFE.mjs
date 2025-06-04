@@ -5,7 +5,7 @@ export default {
   extensions: ['.lfe'],
   tmScope: 'source.lisp',
   aceMode: 'lisp',
+  languageId: 190,
   codemirrorMode: 'commonlisp',
   codemirrorMimeType: 'text/x-common-lisp',
-  languageId: 190,
 }

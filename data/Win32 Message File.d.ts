@@ -4,8 +4,8 @@ declare const _: {
   extensions: ['.mc']
   tmScope: 'source.win32-messages'
   aceMode: 'ini'
+  languageId: 950967261
   codemirrorMode: 'properties'
   codemirrorMimeType: 'text/x-properties'
-  languageId: 950967261
 }
 export = _

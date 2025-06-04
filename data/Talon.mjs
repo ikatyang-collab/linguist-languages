@@ -1,9 +1,9 @@
 export default {
   name: 'Talon',
   type: 'programming',
-  aceMode: 'text',
   color: '#333333',
   extensions: ['.talon'],
   tmScope: 'source.talon',
+  aceMode: 'text',
   languageId: 959889508,
 }

@@ -4,7 +4,7 @@ declare const _: {
   extensions: ['.neon']
   tmScope: 'source.neon'
   aceMode: 'text'
-  aliases: ['nette object notation', 'ne-on']
   languageId: 481192983
+  aliases: ['nette object notation', 'ne-on']
 }
 export default _

@@ -5,7 +5,7 @@ export default {
   extensions: ['.vhdl', '.vhd', '.vhf', '.vhi', '.vho', '.vhs', '.vht', '.vhw'],
   tmScope: 'source.vhdl',
   aceMode: 'vhdl',
+  languageId: 385,
   codemirrorMode: 'vhdl',
   codemirrorMimeType: 'text/x-vhdl',
-  languageId: 385,
 }

@@ -1,12 +1,14 @@
 module.exports = {
   name: 'Starlark',
   type: 'programming',
-  tmScope: 'source.python',
-  aceMode: 'python',
-  codemirrorMode: 'python',
-  codemirrorMimeType: 'text/x-python',
   color: '#76d275',
   extensions: ['.bzl', '.star'],
+  tmScope: 'source.python',
+  aceMode: 'python',
+  languageId: 960266174,
+  aliases: ['bazel', 'bzl'],
+  codemirrorMode: 'python',
+  codemirrorMimeType: 'text/x-python',
   filenames: [
     'BUCK',
     'BUILD',
@@ -17,6 +19,4 @@ module.exports = {
     'WORKSPACE.bazel',
     'WORKSPACE.bzlmod',
   ],
-  aliases: ['bazel', 'bzl'],
-  languageId: 960266174,
 }

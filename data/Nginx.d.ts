@@ -3,12 +3,12 @@ declare const _: {
   type: 'data'
   color: '#009639'
   extensions: ['.nginx', '.nginxconf', '.vhost']
-  filenames: ['nginx.conf']
   tmScope: 'source.nginx'
-  aliases: ['nginx configuration file']
   aceMode: 'text'
+  languageId: 248
+  aliases: ['nginx configuration file']
   codemirrorMode: 'nginx'
   codemirrorMimeType: 'text/x-nginx-conf'
-  languageId: 248
+  filenames: ['nginx.conf']
 }
 export = _

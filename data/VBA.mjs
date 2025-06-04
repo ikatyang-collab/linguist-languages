@@ -4,9 +4,9 @@ export default {
   color: '#867db1',
   extensions: ['.bas', '.cls', '.frm', '.vba'],
   tmScope: 'source.vba',
-  aliases: ['visual basic for applications'],
   aceMode: 'text',
+  languageId: 399230729,
+  aliases: ['visual basic for applications'],
   codemirrorMode: 'vb',
   codemirrorMimeType: 'text/x-vb',
-  languageId: 399230729,
 }

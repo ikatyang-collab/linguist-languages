@@ -1,12 +1,7 @@
 module.exports = {
   name: 'Ruby',
   type: 'programming',
-  tmScope: 'source.ruby',
-  aceMode: 'ruby',
-  codemirrorMode: 'ruby',
-  codemirrorMimeType: 'text/x-ruby',
   color: '#701516',
-  aliases: ['jruby', 'macruby', 'rake', 'rb', 'rbx'],
   extensions: [
     '.rb',
     '.builder',
@@ -31,6 +26,12 @@ module.exports = {
     '.thor',
     '.watchr',
   ],
+  tmScope: 'source.ruby',
+  aceMode: 'ruby',
+  languageId: 326,
+  aliases: ['jruby', 'macruby', 'rake', 'rb', 'rbx'],
+  codemirrorMode: 'ruby',
+  codemirrorMimeType: 'text/x-ruby',
   interpreters: ['ruby', 'macruby', 'rake', 'jruby', 'rbx'],
   filenames: [
     '.irbrc',
@@ -57,5 +58,4 @@ module.exports = {
     'Vagrantfile',
     'buildfile',
   ],
-  languageId: 326,
 }

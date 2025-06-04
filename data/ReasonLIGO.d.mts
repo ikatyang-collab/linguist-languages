@@ -2,12 +2,12 @@ declare const _: {
   name: 'ReasonLIGO'
   type: 'programming'
   color: '#ff5847'
+  extensions: ['.religo']
+  tmScope: 'source.religo'
   aceMode: 'rust'
+  languageId: 319002153
   codemirrorMode: 'rust'
   codemirrorMimeType: 'text/x-rustsrc'
   group: 'LigoLANG'
-  extensions: ['.religo']
-  tmScope: 'source.religo'
-  languageId: 319002153
 }
 export default _

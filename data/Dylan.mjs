@@ -5,7 +5,7 @@ export default {
   extensions: ['.dylan', '.dyl', '.intr', '.lid'],
   tmScope: 'source.dylan',
   aceMode: 'text',
+  languageId: 91,
   codemirrorMode: 'dylan',
   codemirrorMimeType: 'text/x-dylan',
-  languageId: 91,
 }

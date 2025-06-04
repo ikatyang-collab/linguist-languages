@@ -5,7 +5,7 @@ export default {
   extensions: ['.latte'],
   tmScope: 'text.html.smarty',
   aceMode: 'smarty',
+  languageId: 196,
   codemirrorMode: 'smarty',
   codemirrorMimeType: 'text/x-smarty',
-  languageId: 196,
 }

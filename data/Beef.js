@@ -5,7 +5,7 @@ module.exports = {
   extensions: ['.bf'],
   tmScope: 'source.cs',
   aceMode: 'csharp',
+  languageId: 545626333,
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-csharp',
-  languageId: 545626333,
 }

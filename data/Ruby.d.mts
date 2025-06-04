@@ -1,12 +1,7 @@
 declare const _: {
   name: 'Ruby'
   type: 'programming'
-  tmScope: 'source.ruby'
-  aceMode: 'ruby'
-  codemirrorMode: 'ruby'
-  codemirrorMimeType: 'text/x-ruby'
   color: '#701516'
-  aliases: ['jruby', 'macruby', 'rake', 'rb', 'rbx']
   extensions: [
     '.rb',
     '.builder',
@@ -31,6 +26,12 @@ declare const _: {
     '.thor',
     '.watchr',
   ]
+  tmScope: 'source.ruby'
+  aceMode: 'ruby'
+  languageId: 326
+  aliases: ['jruby', 'macruby', 'rake', 'rb', 'rbx']
+  codemirrorMode: 'ruby'
+  codemirrorMimeType: 'text/x-ruby'
   interpreters: ['ruby', 'macruby', 'rake', 'jruby', 'rbx']
   filenames: [
     '.irbrc',
@@ -57,6 +58,5 @@ declare const _: {
     'Vagrantfile',
     'buildfile',
   ]
-  languageId: 326
 }
 export default _

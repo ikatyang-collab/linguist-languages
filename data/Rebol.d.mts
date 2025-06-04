@@ -3,8 +3,8 @@ declare const _: {
   type: 'programming'
   color: '#358a5b'
   extensions: ['.reb', '.r', '.r2', '.r3', '.rebol']
-  aceMode: 'text'
   tmScope: 'source.rebol'
+  aceMode: 'text'
   languageId: 319
 }
 export default _

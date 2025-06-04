@@ -3,8 +3,8 @@ declare const _: {
   type: 'programming'
   color: '#ff0000'
   extensions: ['.ws']
-  aceMode: 'text'
   tmScope: 'source.witcherscript'
+  aceMode: 'text'
   languageId: 686821385
 }
 export = _

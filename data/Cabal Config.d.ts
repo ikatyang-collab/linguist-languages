@@ -2,13 +2,13 @@ declare const _: {
   name: 'Cabal Config'
   type: 'data'
   color: '#483465'
-  aliases: ['Cabal']
   extensions: ['.cabal']
-  filenames: ['cabal.config', 'cabal.project']
+  tmScope: 'source.cabal'
   aceMode: 'haskell'
+  languageId: 677095381
+  aliases: ['Cabal']
   codemirrorMode: 'haskell'
   codemirrorMimeType: 'text/x-haskell'
-  tmScope: 'source.cabal'
-  languageId: 677095381
+  filenames: ['cabal.config', 'cabal.project']
 }
 export = _

@@ -3,7 +3,7 @@ module.exports = {
   type: 'programming',
   color: '#003a52',
   extensions: ['.dwl'],
-  aceMode: 'text',
   tmScope: 'source.data-weave',
+  aceMode: 'text',
   languageId: 974514097,
 }

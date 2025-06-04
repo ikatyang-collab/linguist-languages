@@ -1,12 +1,12 @@
 export default {
   name: 'C2hs Haskell',
   type: 'programming',
-  group: 'Haskell',
-  aliases: ['c2hs'],
   extensions: ['.chs'],
   tmScope: 'source.haskell',
   aceMode: 'haskell',
+  languageId: 45,
+  aliases: ['c2hs'],
   codemirrorMode: 'haskell',
   codemirrorMimeType: 'text/x-haskell',
-  languageId: 45,
+  group: 'Haskell',
 }

@@ -1,9 +1,9 @@
 export default {
   name: 'Ballerina',
   type: 'programming',
+  color: '#FF5000',
   extensions: ['.bal'],
   tmScope: 'source.ballerina',
   aceMode: 'text',
-  color: '#FF5000',
   languageId: 720859680,
 }

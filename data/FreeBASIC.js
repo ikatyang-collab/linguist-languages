@@ -4,9 +4,9 @@ module.exports = {
   color: '#141AC9',
   extensions: ['.bi', '.bas'],
   tmScope: 'source.vbnet',
-  aliases: ['fb'],
   aceMode: 'text',
+  languageId: 472896659,
+  aliases: ['fb'],
   codemirrorMode: 'vb',
   codemirrorMimeType: 'text/x-vb',
-  languageId: 472896659,
 }

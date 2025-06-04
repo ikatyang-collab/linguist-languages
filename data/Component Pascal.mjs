@@ -5,7 +5,7 @@ export default {
   extensions: ['.cp', '.cps'],
   tmScope: 'source.pascal',
   aceMode: 'pascal',
+  languageId: 67,
   codemirrorMode: 'pascal',
   codemirrorMimeType: 'text/x-pascal',
-  languageId: 67,
 }

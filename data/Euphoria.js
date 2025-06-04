@@ -3,8 +3,8 @@ module.exports = {
   type: 'programming',
   color: '#FF790B',
   extensions: ['.e', '.ex'],
-  interpreters: ['eui', 'euiw'],
-  aceMode: 'text',
   tmScope: 'source.euphoria',
+  aceMode: 'text',
   languageId: 880693982,
+  interpreters: ['eui', 'euiw'],
 }

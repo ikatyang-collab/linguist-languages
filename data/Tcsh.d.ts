@@ -1,13 +1,13 @@
 declare const _: {
   name: 'Tcsh'
   type: 'programming'
-  group: 'Shell'
   extensions: ['.tcsh', '.csh']
-  interpreters: ['tcsh', 'csh']
   tmScope: 'source.shell'
   aceMode: 'sh'
+  languageId: 368
   codemirrorMode: 'shell'
   codemirrorMimeType: 'text/x-sh'
-  languageId: 368
+  interpreters: ['tcsh', 'csh']
+  group: 'Shell'
 }
 export = _

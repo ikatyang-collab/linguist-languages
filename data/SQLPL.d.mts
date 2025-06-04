@@ -2,11 +2,11 @@ declare const _: {
   name: 'SQLPL'
   type: 'programming'
   color: '#e38c00'
+  extensions: ['.sql', '.db2']
+  tmScope: 'source.sql'
   aceMode: 'sql'
+  languageId: 334
   codemirrorMode: 'sql'
   codemirrorMimeType: 'text/x-sql'
-  tmScope: 'source.sql'
-  extensions: ['.sql', '.db2']
-  languageId: 334
 }
 export default _

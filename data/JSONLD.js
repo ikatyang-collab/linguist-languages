@@ -5,7 +5,7 @@ module.exports = {
   extensions: ['.jsonld'],
   tmScope: 'source.js',
   aceMode: 'javascript',
+  languageId: 176,
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'application/json',
-  languageId: 176,
 }

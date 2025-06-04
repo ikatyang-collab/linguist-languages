@@ -4,7 +4,7 @@ export default {
   extensions: ['.sch', '.brd'],
   tmScope: 'text.xml',
   aceMode: 'xml',
+  languageId: 97,
   codemirrorMode: 'xml',
   codemirrorMimeType: 'text/xml',
-  languageId: 97,
 }

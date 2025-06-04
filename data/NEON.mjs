@@ -4,6 +4,6 @@ export default {
   extensions: ['.neon'],
   tmScope: 'source.neon',
   aceMode: 'text',
-  aliases: ['nette object notation', 'ne-on'],
   languageId: 481192983,
+  aliases: ['nette object notation', 'ne-on'],
 }

@@ -2,6 +2,9 @@ export default {
   name: 'SMT',
   type: 'programming',
   extensions: ['.smt2', '.smt', '.z3'],
+  tmScope: 'source.smt',
+  aceMode: 'text',
+  languageId: 330,
   interpreters: [
     'boolector',
     'cvc4',
@@ -14,7 +17,4 @@ export default {
     'yices2',
     'z3',
   ],
-  tmScope: 'source.smt',
-  aceMode: 'text',
-  languageId: 330,
 }

@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.swift']
   tmScope: 'source.swift'
   aceMode: 'text'
+  languageId: 362
   codemirrorMode: 'swift'
   codemirrorMimeType: 'text/x-swift'
-  languageId: 362
 }
 export = _

@@ -5,6 +5,7 @@ import { inspect } from 'node:util'
 import camelcase from 'camelcase'
 import { parse } from 'yaml'
 import * as prettier from 'prettier'
+import { outdent } from 'outdent'
 
 const DATA_FILES = [
   'https://raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml',
@@ -22,11 +23,11 @@ const excludedFields = new Set(['fsName', 'searchable'])
 
 const NAME_FIELD = 'name'
 
-const primativeTypes = new Set(['boolean', 'number', 'string'])
+const primitiveTypes = new Set(['boolean', 'number', 'string'])
 function getType(value) {
   const type = typeof value
 
-  if (primativeTypes.has(type)) {
+  if (primitiveTypes.has(type)) {
     return type
   }
 
@@ -48,12 +49,12 @@ async function fetchText(url) {
 async function writeFile(file, content) {
   const directory = new URL('./', file)
   await fs.mkdir(directory, { recursive: true })
-const formatted = await prettier.format(content, {
-filepath: url.fileURLToPath(file),
-singleQuote: true,
-arrowParens:'avoid',
-semi: false,
-})
+  const formatted = await prettier.format(content, {
+    filepath: url.fileURLToPath(file),
+    singleQuote: true,
+    arrowParens: 'avoid',
+    semi: false,
+  })
   await fs.writeFile(file, formatted)
 }
 
@@ -187,108 +188,127 @@ function* generateFiles(languagesContent, options) {
 
   const interfaceIdentifier = 'Language'
 
+  yield {
+    file: new URL('./index.js', OUTPUT_LIB_DIRECTORY),
+    content: outdent`
+    module.exports = {
+      ${languages
+        .map(
+          language =>
+            `${JSON.stringify(language.name)}: require(${JSON.stringify(
+              `../data/${getDataBasename(language)}`,
+            )})`,
+        )
+        .join(',\n')}
+    };
+   `,
+  }
+
   // FIXME: use named export once supported
   // Ref: https://github.com/microsoft/TypeScript/issues/40594
   yield {
-    file: new URL('./index.js', OUTPUT_LIB_DIRECTORY),
-    content: `module.exports = {\n${languages
-      .map(
-        language =>
-          `  ${JSON.stringify(language.name)}: require(${JSON.stringify(
-            `../data/${getDataBasename(language)}`,
-          )})`,
-      )
-      .join(',\n')}\n};`,
+    file: new URL('./index.mjs', OUTPUT_LIB_DIRECTORY),
+    content: outdent`
+      ${languages
+        .map(
+          (language, index) =>
+            `import _${index} from ${JSON.stringify(
+              `../data/${encodeURIComponent(getDataBasename(language))}.mjs`,
+            )}`,
+        )
+        .join('\n')}
+
+      export default {
+        ${languages
+          .map(
+            (language, index) => `${JSON.stringify(language.name)}: _${index}`,
+          )
+          .join(',\n')}
+      }
+    `,
+  }
+
+  const namespaceIdentifier = 'LinguistLanguages'
+  const languageNameIdentifier = 'LanguageName'
+  const interfaceCode = outdent`
+    interface ${interfaceIdentifier} {
+      ${[...fields.values()]
+        .map(
+          ({ name, description, required, type }) =>
+            outdent`
+              /**
+              ${description
+                .split('\n')
+                .map(x => `* ${x}`)
+                .join('\n')}
+              */
+              ${name}${required ? '' : '?'}: ${type};
+            `,
+        )
+        .join('\n')}
+    }
+  `
+
+  yield {
+    file: new URL('./index.d.ts', OUTPUT_LIB_DIRECTORY),
+    content: outdent`
+      type ${languageNameIdentifier} = ${languages
+        .map(language => JSON.stringify(language.name))
+        .join('\n| ')};
+
+      declare const ${namespaceIdentifier}: Record<${languageNameIdentifier}, ${namespaceIdentifier}.${interfaceIdentifier}>;
+
+      declare namespace ${namespaceIdentifier} {
+        ${interfaceCode}
+      }
+
+      export = ${namespaceIdentifier};
+    `,
   }
 
   yield {
-    file: new URL('./index.mjs', OUTPUT_LIB_DIRECTORY),
-    content: [
-      ...languages.map(
-        (language, i) =>
-          `import _${i} from ${JSON.stringify(
-            `../data/${encodeURIComponent(getDataBasename(language))}.mjs`,
-          )}`,
-      ),
-      `export default {`,
-      ...languages.map(
-        (language, index) => `  ${JSON.stringify(language.name)}: _${index},`,
-      ),
-      `}`,
-    ].join('\n'),
-  }
+    file: new URL('./index.d.mts', OUTPUT_LIB_DIRECTORY),
+    content: outdent`
+      export type ${languageNameIdentifier} = ${languages
+        .map(language => `${JSON.stringify(language.name)}`)
+        .join('\n| ')}
 
-  {
-    const namespaceIdentifier = 'LinguistLanguages'
-    const languageNameIdentifier = 'LanguageName'
+      export ${interfaceCode}
 
-    yield {
-      file: new URL('./index.d.ts', OUTPUT_LIB_DIRECTORY),
-      content: [
-        `type ${languageNameIdentifier} =\n${languages
-          .map(language => `| ${JSON.stringify(language.name)}`)
-          .join('\n')};`,
-        `declare const ${namespaceIdentifier}: Record<${languageNameIdentifier}, ${namespaceIdentifier}.${interfaceIdentifier}>;`,
-        `declare namespace ${namespaceIdentifier} {\n${createInterface()}\n}`,
-        `export = ${namespaceIdentifier};`,
-      ].join('\n\n'),
-    }
+      declare const languages: Record<${languageNameIdentifier}, ${interfaceIdentifier}>
 
-    yield {
-      file: new URL('./index.d.mts', OUTPUT_LIB_DIRECTORY),
-      content: [
-        `export type ${languageNameIdentifier} =\n${languages
-          .map(language => `| ${JSON.stringify(language.name)}`)
-          .join('\n')}`,
-        `export ${createInterface()}`,
-        `declare const languages: Record<${languageNameIdentifier}, ${interfaceIdentifier}>`,
-        `export default languages`,
-      ].join('\n\n'),
-    }
-
-    function createInterface() {
-      return `interface ${interfaceIdentifier} {\n${[...fields.values()]
-        .map(
-          ({ name, description, required, type }) =>
-            '/**\n' +
-            description
-              .split('\n')
-              .map(x => ` * ${x}`)
-              .join('\n') +
-            '\n */\n' +
-            `${name}${required ? '' : '?'}: ${type};`,
-        )
-        .join('\n')}\n}`
-    }
+      export default languages
+    `,
   }
 
   for (const language of languages) {
     const data = Object.fromEntries(
-      Object.entries(language).filter(([field]) => !excludedFields.has(field)),
+      [...fields.values()].map(({ name: field }) => [field, language[field]]),
     )
+    const dataString = JSON.stringify(data, undefined, 2)
 
     const basename = encodeURIComponent(getDataBasename(language))
     yield {
       file: new URL(`./${basename}.js`, OUTPUT_DATA_DIRECTORY),
-      content: `module.exports = ${JSON.stringify(data, undefined, 2)}`,
+      content: `module.exports = ${dataString}`,
     }
     yield {
       file: new URL(`./${basename}.d.ts`, OUTPUT_DATA_DIRECTORY),
-      content: [
-        `declare const _: ${JSON.stringify(data, undefined, 2)}`,
-        'export = _',
-      ].join('\n'),
+      content: outdent`
+        declare const _: ${dataString}
+        export = _
+      `,
     }
     yield {
       file: new URL(`./${basename}.mjs`, OUTPUT_DATA_DIRECTORY),
-      content: `export default ${JSON.stringify(data, undefined, 2)}`,
+      content: `export default ${dataString}`,
     }
     yield {
       file: new URL(`./${basename}.d.mts`, OUTPUT_DATA_DIRECTORY),
-      content: [
-        `declare const _: ${JSON.stringify(data, undefined, 2)}`,
-        'export default _',
-      ].join('\n'),
+      content: outdent`
+        declare const _: ${dataString}
+        export default _
+      `,
     }
   }
 
@@ -298,13 +318,13 @@ function* generateFiles(languagesContent, options) {
 }
 
 if (process.argv.includes('--run')) {
+  const languagesContent = await getLanguageData()
+
   await Promise.all(
     [OUTPUT_LIB_DIRECTORY, OUTPUT_DATA_DIRECTORY].map(directory =>
       fs.rm(directory, { recursive: true, force: true }),
     ),
   )
-
-  const languagesContent = await getLanguageData()
 
   await Promise.all(
     [...generateFiles(languagesContent)].map(({ file, content }) =>

@@ -1,8 +1,8 @@
 declare const _: {
   name: 'OpenQASM'
   type: 'programming'
-  extensions: ['.qasm']
   color: '#AA70FF'
+  extensions: ['.qasm']
   tmScope: 'source.qasm'
   aceMode: 'text'
   languageId: 153739399

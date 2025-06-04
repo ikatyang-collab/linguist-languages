@@ -3,8 +3,8 @@ declare const _: {
   type: 'programming'
   color: '#a23738'
   extensions: ['.wlk']
-  aceMode: 'text'
   tmScope: 'source.wollok'
+  aceMode: 'text'
   languageId: 632745969
 }
 export default _

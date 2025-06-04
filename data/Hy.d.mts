@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Hy'
   type: 'programming'
-  aceMode: 'text'
   color: '#7790B2'
   extensions: ['.hy']
-  interpreters: ['hy']
-  aliases: ['hylang']
   tmScope: 'source.hy'
+  aceMode: 'text'
   languageId: 159
+  aliases: ['hylang']
+  interpreters: ['hy']
 }
 export default _

@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Macaulay2',
   type: 'programming',
+  color: '#d8ffff',
   extensions: ['.m2'],
+  tmScope: 'source.m2',
+  aceMode: 'text',
+  languageId: 34167825,
   aliases: ['m2'],
   interpreters: ['M2'],
-  aceMode: 'text',
-  tmScope: 'source.m2',
-  color: '#d8ffff',
-  languageId: 34167825,
 }

@@ -4,8 +4,8 @@ declare const _: {
   extensions: ['.edc']
   tmScope: 'source.c++'
   aceMode: 'c_cpp'
+  languageId: 342840478
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-c++src'
-  languageId: 342840478
 }
 export default _

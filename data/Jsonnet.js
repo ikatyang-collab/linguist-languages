@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Jsonnet',
-  color: '#0064bd',
   type: 'programming',
-  aceMode: 'text',
+  color: '#0064bd',
   extensions: ['.jsonnet', '.libsonnet'],
   tmScope: 'source.jsonnet',
+  aceMode: 'text',
   languageId: 664885656,
 }

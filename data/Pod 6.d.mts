@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Pod 6'
   type: 'prose'
-  aceMode: 'perl'
-  tmScope: 'source.raku'
-  wrap: true
   extensions: ['.pod', '.pod6']
-  interpreters: ['perl6']
+  tmScope: 'source.raku'
+  aceMode: 'perl'
   languageId: 155357471
+  interpreters: ['perl6']
+  wrap: true
 }
 export default _

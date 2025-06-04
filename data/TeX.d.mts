@@ -2,12 +2,6 @@ declare const _: {
   name: 'TeX'
   type: 'markup'
   color: '#3D6117'
-  aceMode: 'tex'
-  codemirrorMode: 'stex'
-  codemirrorMimeType: 'text/x-stex'
-  tmScope: 'text.tex.latex'
-  wrap: true
-  aliases: ['latex']
   extensions: [
     '.tex',
     '.aux',
@@ -24,6 +18,12 @@ declare const _: {
     '.sty',
     '.toc',
   ]
+  tmScope: 'text.tex.latex'
+  aceMode: 'tex'
   languageId: 369
+  aliases: ['latex']
+  codemirrorMode: 'stex'
+  codemirrorMimeType: 'text/x-stex'
+  wrap: true
 }
 export default _

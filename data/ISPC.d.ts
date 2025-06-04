@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.ispc']
   tmScope: 'source.ispc'
   aceMode: 'c_cpp'
+  languageId: 327071
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-csrc'
-  languageId: 327071
 }
 export = _

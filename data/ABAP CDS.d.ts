@@ -4,7 +4,7 @@ declare const _: {
   color: '#555e25'
   extensions: ['.asddls']
   tmScope: 'source.abapcds'
-  languageId: 452681853
   aceMode: 'text'
+  languageId: 452681853
 }
 export = _

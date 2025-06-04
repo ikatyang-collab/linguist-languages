@@ -4,10 +4,10 @@ declare const _: {
   color: '#ec564c'
   extensions: ['.ics', '.ical']
   tmScope: 'source.iCalendar'
-  aliases: ['iCal']
   aceMode: 'properties'
+  languageId: 98384424
+  aliases: ['iCal']
   codemirrorMode: 'properties'
   codemirrorMimeType: 'text/x-properties'
-  languageId: 98384424
 }
 export = _

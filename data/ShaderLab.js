@@ -3,7 +3,7 @@ module.exports = {
   type: 'programming',
   color: '#222c37',
   extensions: ['.shader'],
-  aceMode: 'text',
   tmScope: 'source.shaderlab',
+  aceMode: 'text',
   languageId: 664257356,
 }

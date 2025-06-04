@@ -5,7 +5,7 @@ module.exports = {
   extensions: ['.sw'],
   tmScope: 'source.sway',
   aceMode: 'rust',
+  languageId: 271471144,
   codemirrorMode: 'rust',
   codemirrorMimeType: 'text/x-rustsrc',
-  languageId: 271471144,
 }

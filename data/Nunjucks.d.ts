@@ -3,9 +3,9 @@ declare const _: {
   type: 'markup'
   color: '#3d8137'
   extensions: ['.njk']
-  aliases: ['njk']
   tmScope: 'text.html.nunjucks'
   aceMode: 'nunjucks'
   languageId: 461856962
+  aliases: ['njk']
 }
 export = _

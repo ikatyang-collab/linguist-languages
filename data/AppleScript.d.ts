@@ -1,12 +1,12 @@
 declare const _: {
   name: 'AppleScript'
   type: 'programming'
-  aliases: ['osascript']
+  color: '#101F1F'
   extensions: ['.applescript', '.scpt']
-  interpreters: ['osascript']
   tmScope: 'source.applescript'
   aceMode: 'applescript'
-  color: '#101F1F'
   languageId: 19
+  aliases: ['osascript']
+  interpreters: ['osascript']
 }
 export = _

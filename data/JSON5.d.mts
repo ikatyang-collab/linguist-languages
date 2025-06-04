@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.json5']
   tmScope: 'source.js'
   aceMode: 'javascript'
+  languageId: 175
   codemirrorMode: 'javascript'
   codemirrorMimeType: 'application/json'
-  languageId: 175
 }
 export default _

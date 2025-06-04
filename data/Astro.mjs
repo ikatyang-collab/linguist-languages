@@ -5,7 +5,7 @@ export default {
   extensions: ['.astro'],
   tmScope: 'source.astro',
   aceMode: 'html',
+  languageId: 578209015,
   codemirrorMode: 'jsx',
   codemirrorMimeType: 'text/jsx',
-  languageId: 578209015,
 }

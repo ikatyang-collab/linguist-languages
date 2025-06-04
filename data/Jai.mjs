@@ -2,8 +2,8 @@ export default {
   name: 'Jai',
   type: 'programming',
   color: '#ab8b4b',
-  aceMode: 'text',
-  tmScope: 'source.jai',
   extensions: ['.jai'],
+  tmScope: 'source.jai',
+  aceMode: 'text',
   languageId: 70127133,
 }

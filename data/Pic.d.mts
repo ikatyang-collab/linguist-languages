@@ -1,13 +1,13 @@
 declare const _: {
   name: 'Pic'
   type: 'markup'
-  group: 'Roff'
-  tmScope: 'source.pic'
   extensions: ['.pic', '.chem']
-  aliases: ['pikchr']
+  tmScope: 'source.pic'
   aceMode: 'text'
+  languageId: 425
+  aliases: ['pikchr']
   codemirrorMode: 'troff'
   codemirrorMimeType: 'text/troff'
-  languageId: 425
+  group: 'Roff'
 }
 export default _

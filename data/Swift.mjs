@@ -5,7 +5,7 @@ export default {
   extensions: ['.swift'],
   tmScope: 'source.swift',
   aceMode: 'text',
+  languageId: 362,
   codemirrorMode: 'swift',
   codemirrorMimeType: 'text/x-swift',
-  languageId: 362,
 }

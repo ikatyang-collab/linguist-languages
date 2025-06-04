@@ -3,10 +3,10 @@ module.exports = {
   type: 'programming',
   color: '#5A8164',
   extensions: ['.apl', '.dyalog'],
-  interpreters: ['apl', 'aplx', 'dyalog'],
   tmScope: 'source.apl',
   aceMode: 'text',
+  languageId: 6,
   codemirrorMode: 'apl',
   codemirrorMimeType: 'text/apl',
-  languageId: 6,
+  interpreters: ['apl', 'aplx', 'dyalog'],
 }

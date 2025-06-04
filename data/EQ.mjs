@@ -5,7 +5,7 @@ export default {
   extensions: ['.eq'],
   tmScope: 'source.cs',
   aceMode: 'csharp',
+  languageId: 96,
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-csharp',
-  languageId: 96,
 }

@@ -5,7 +5,7 @@ module.exports = {
   extensions: ['.http'],
   tmScope: 'source.httpspec',
   aceMode: 'text',
+  languageId: 152,
   codemirrorMode: 'http',
   codemirrorMimeType: 'message/http',
-  languageId: 152,
 }

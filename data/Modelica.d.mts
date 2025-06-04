@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.mo']
   tmScope: 'source.modelica'
   aceMode: 'text'
+  languageId: 233
   codemirrorMode: 'modelica'
   codemirrorMimeType: 'text/x-modelica'
-  languageId: 233
 }
 export default _

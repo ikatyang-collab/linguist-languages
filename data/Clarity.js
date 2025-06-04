@@ -2,8 +2,8 @@ module.exports = {
   name: 'Clarity',
   type: 'programming',
   color: '#5546ff',
-  aceMode: 'lisp',
   extensions: ['.clar'],
   tmScope: 'source.clar',
+  aceMode: 'lisp',
   languageId: 91493841,
 }

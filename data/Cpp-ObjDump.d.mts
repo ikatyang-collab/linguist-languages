@@ -9,8 +9,8 @@ declare const _: {
     '.cxx-objdump',
   ]
   tmScope: 'objdump.x86asm'
-  aliases: ['c++-objdump']
   aceMode: 'assembly_x86'
   languageId: 70
+  aliases: ['c++-objdump']
 }
 export default _

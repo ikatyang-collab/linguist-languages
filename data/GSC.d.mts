@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.gsc', '.csc', '.gsh']
   tmScope: 'source.gsc'
   aceMode: 'c_cpp'
+  languageId: 257856279
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-csrc'
-  languageId: 257856279
 }
 export default _

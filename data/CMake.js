@@ -3,10 +3,10 @@ module.exports = {
   type: 'programming',
   color: '#DA3434',
   extensions: ['.cmake', '.cmake.in'],
-  filenames: ['CMakeLists.txt'],
   tmScope: 'source.cmake',
   aceMode: 'text',
+  languageId: 47,
   codemirrorMode: 'cmake',
   codemirrorMimeType: 'text/x-cmake',
-  languageId: 47,
+  filenames: ['CMakeLists.txt'],
 }

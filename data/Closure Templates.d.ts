@@ -2,12 +2,12 @@ declare const _: {
   name: 'Closure Templates'
   type: 'markup'
   color: '#0d948f'
-  aceMode: 'soy_template'
-  codemirrorMode: 'soy'
-  codemirrorMimeType: 'text/x-soy'
-  aliases: ['soy']
   extensions: ['.soy']
   tmScope: 'text.html.soy'
+  aceMode: 'soy_template'
   languageId: 357046146
+  aliases: ['soy']
+  codemirrorMode: 'soy'
+  codemirrorMimeType: 'text/x-soy'
 }
 export = _

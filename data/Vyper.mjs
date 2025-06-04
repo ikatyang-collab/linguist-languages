@@ -1,9 +1,9 @@
 export default {
   name: 'Vyper',
   type: 'programming',
-  extensions: ['.vy'],
   color: '#9F4CF2',
-  aceMode: 'text',
+  extensions: ['.vy'],
   tmScope: 'source.vyper',
+  aceMode: 'text',
   languageId: 1055641948,
 }

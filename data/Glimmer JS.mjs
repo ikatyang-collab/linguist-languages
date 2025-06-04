@@ -1,10 +1,10 @@
 export default {
   name: 'Glimmer JS',
   type: 'programming',
-  extensions: ['.gjs'],
-  aceMode: 'javascript',
   color: '#F5835F',
+  extensions: ['.gjs'],
   tmScope: 'source.gjs',
-  group: 'JavaScript',
+  aceMode: 'javascript',
   languageId: 5523150,
+  group: 'JavaScript',
 }

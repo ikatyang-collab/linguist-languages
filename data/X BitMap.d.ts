@@ -1,13 +1,13 @@
 declare const _: {
   name: 'X BitMap'
   type: 'data'
-  group: 'C'
-  aliases: ['xbm']
   extensions: ['.xbm']
-  aceMode: 'c_cpp'
   tmScope: 'source.c'
+  aceMode: 'c_cpp'
+  languageId: 782911107
+  aliases: ['xbm']
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-csrc'
-  languageId: 782911107
+  group: 'C'
 }
 export = _

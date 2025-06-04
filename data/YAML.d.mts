@@ -2,8 +2,6 @@ declare const _: {
   name: 'YAML'
   type: 'data'
   color: '#cb171e'
-  tmScope: 'source.yaml'
-  aliases: ['yml']
   extensions: [
     '.yml',
     '.mir',
@@ -16,6 +14,12 @@ declare const _: {
     '.yaml.sed',
     '.yml.mysql',
   ]
+  tmScope: 'source.yaml'
+  aceMode: 'yaml'
+  languageId: 407
+  aliases: ['yml']
+  codemirrorMode: 'yaml'
+  codemirrorMimeType: 'text/x-yaml'
   filenames: [
     '.clang-format',
     '.clang-tidy',
@@ -26,9 +30,5 @@ declare const _: {
     'pixi.lock',
     'yarn.lock',
   ]
-  aceMode: 'yaml'
-  codemirrorMode: 'yaml'
-  codemirrorMimeType: 'text/x-yaml'
-  languageId: 407
 }
 export default _

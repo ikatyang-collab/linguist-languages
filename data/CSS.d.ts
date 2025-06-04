@@ -1,12 +1,12 @@
 declare const _: {
   name: 'CSS'
   type: 'markup'
-  tmScope: 'source.css'
-  aceMode: 'css'
-  codemirrorMode: 'css'
-  codemirrorMimeType: 'text/css'
   color: '#663399'
   extensions: ['.css']
+  tmScope: 'source.css'
+  aceMode: 'css'
   languageId: 50
+  codemirrorMode: 'css'
+  codemirrorMimeType: 'text/css'
 }
 export = _

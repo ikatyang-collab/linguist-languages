@@ -1,8 +1,8 @@
 declare const _: {
   name: 'Omgrofl'
   type: 'programming'
-  extensions: ['.omgrofl']
   color: '#cabbff'
+  extensions: ['.omgrofl']
   tmScope: 'none'
   aceMode: 'text'
   languageId: 260

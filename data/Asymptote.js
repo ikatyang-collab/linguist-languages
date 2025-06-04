@@ -3,10 +3,10 @@ module.exports = {
   type: 'programming',
   color: '#ff0000',
   extensions: ['.asy'],
-  interpreters: ['asy'],
   tmScope: 'source.c++',
   aceMode: 'c_cpp',
+  languageId: 591605007,
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-kotlin',
-  languageId: 591605007,
+  interpreters: ['asy'],
 }

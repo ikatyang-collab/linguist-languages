@@ -14,6 +14,12 @@ export default {
     '.properties',
     '.url',
   ],
+  tmScope: 'source.ini',
+  aceMode: 'ini',
+  languageId: 163,
+  aliases: ['dosini'],
+  codemirrorMode: 'properties',
+  codemirrorMimeType: 'text/x-properties',
   filenames: [
     '.buckconfig',
     '.coveragerc',
@@ -25,10 +31,4 @@ export default {
     'pylintrc',
     'vlcrc',
   ],
-  tmScope: 'source.ini',
-  aliases: ['dosini'],
-  aceMode: 'ini',
-  codemirrorMode: 'properties',
-  codemirrorMimeType: 'text/x-properties',
-  languageId: 163,
 }

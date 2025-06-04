@@ -5,7 +5,7 @@ export default {
   extensions: ['.oz'],
   tmScope: 'source.oz',
   aceMode: 'text',
+  languageId: 270,
   codemirrorMode: 'oz',
   codemirrorMimeType: 'text/x-oz',
-  languageId: 270,
 }

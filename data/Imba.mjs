@@ -3,7 +3,7 @@ export default {
   type: 'programming',
   color: '#16cec6',
   extensions: ['.imba'],
-  aceMode: 'text',
   tmScope: 'source.imba',
+  aceMode: 'text',
   languageId: 1057618448,
 }

@@ -5,7 +5,7 @@ export default {
   extensions: ['.pro', '.dlm'],
   tmScope: 'source.idl',
   aceMode: 'text',
+  languageId: 161,
   codemirrorMode: 'idl',
   codemirrorMimeType: 'text/x-idl',
-  languageId: 161,
 }

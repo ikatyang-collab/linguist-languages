@@ -5,7 +5,7 @@ export default {
   extensions: ['.volt'],
   tmScope: 'source.d',
   aceMode: 'd',
+  languageId: 390,
   codemirrorMode: 'd',
   codemirrorMimeType: 'text/x-d',
-  languageId: 390,
 }

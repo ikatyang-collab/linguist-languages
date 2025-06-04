@@ -2,8 +2,8 @@ declare const _: {
   name: 'Logos'
   type: 'programming'
   extensions: ['.xm', '.x', '.xi']
-  aceMode: 'text'
   tmScope: 'source.logos'
+  aceMode: 'text'
   languageId: 209
 }
 export default _

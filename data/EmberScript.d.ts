@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.em', '.emberscript']
   tmScope: 'source.coffee'
   aceMode: 'coffee'
+  languageId: 103
   codemirrorMode: 'coffeescript'
   codemirrorMimeType: 'text/x-coffeescript'
-  languageId: 103
 }
 export = _

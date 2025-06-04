@@ -1,12 +1,12 @@
 module.exports = {
   name: 'OpenRC runscript',
   type: 'programming',
-  group: 'Shell',
-  aliases: ['openrc'],
-  interpreters: ['openrc-run'],
   tmScope: 'source.shell',
   aceMode: 'sh',
+  languageId: 265,
+  aliases: ['openrc'],
   codemirrorMode: 'shell',
   codemirrorMimeType: 'text/x-sh',
-  languageId: 265,
+  interpreters: ['openrc-run'],
+  group: 'Shell',
 }

@@ -3,10 +3,10 @@ export default {
   type: 'programming',
   color: '#fedf5b',
   extensions: ['.pyx', '.pxd', '.pxi'],
-  aliases: ['pyrex'],
   tmScope: 'source.cython',
   aceMode: 'text',
+  languageId: 79,
+  aliases: ['pyrex'],
   codemirrorMode: 'python',
   codemirrorMimeType: 'text/x-cython',
-  languageId: 79,
 }

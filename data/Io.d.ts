@@ -3,9 +3,9 @@ declare const _: {
   type: 'programming'
   color: '#a9188d'
   extensions: ['.io']
-  interpreters: ['io']
   tmScope: 'source.io'
   aceMode: 'io'
   languageId: 168
+  interpreters: ['io']
 }
 export = _

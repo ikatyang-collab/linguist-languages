@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.lvproj', '.lvclass', '.lvlib']
   tmScope: 'text.xml'
   aceMode: 'xml'
+  languageId: 194
   codemirrorMode: 'xml'
   codemirrorMimeType: 'text/xml'
-  languageId: 194
 }
 export default _

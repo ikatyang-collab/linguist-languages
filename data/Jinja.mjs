@@ -2,11 +2,11 @@ export default {
   name: 'Jinja',
   type: 'markup',
   color: '#a52a22',
-  aliases: ['django', 'html+django', 'html+jinja', 'htmldjango'],
   extensions: ['.jinja', '.j2', '.jinja2'],
   tmScope: 'text.html.django',
   aceMode: 'django',
+  languageId: 147,
+  aliases: ['django', 'html+django', 'html+jinja', 'htmldjango'],
   codemirrorMode: 'django',
   codemirrorMimeType: 'text/x-django',
-  languageId: 147,
 }

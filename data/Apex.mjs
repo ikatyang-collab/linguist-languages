@@ -5,7 +5,7 @@ export default {
   extensions: ['.cls', '.apex', '.trigger'],
   tmScope: 'source.apex',
   aceMode: 'java',
+  languageId: 17,
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-java',
-  languageId: 17,
 }

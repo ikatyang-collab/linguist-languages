@@ -4,8 +4,8 @@ declare const _: {
   extensions: ['.cob', '.cbl', '.ccp', '.cobol', '.cpy']
   tmScope: 'source.cobol'
   aceMode: 'cobol'
+  languageId: 48
   codemirrorMode: 'cobol'
   codemirrorMimeType: 'text/x-cobol'
-  languageId: 48
 }
 export = _

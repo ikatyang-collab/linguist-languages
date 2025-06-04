@@ -2,8 +2,8 @@ export default {
   name: 'Clarion',
   type: 'programming',
   color: '#db901e',
-  aceMode: 'text',
   extensions: ['.clw'],
   tmScope: 'source.clarion',
+  aceMode: 'text',
   languageId: 59,
 }

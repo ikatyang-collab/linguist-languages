@@ -1,13 +1,13 @@
 export default {
   name: 'Common Workflow Language',
-  aliases: ['cwl'],
   type: 'programming',
+  color: '#B5314C',
+  extensions: ['.cwl'],
+  tmScope: 'source.cwl',
   aceMode: 'yaml',
+  languageId: 988547172,
+  aliases: ['cwl'],
   codemirrorMode: 'yaml',
   codemirrorMimeType: 'text/x-yaml',
-  extensions: ['.cwl'],
   interpreters: ['cwl-runner'],
-  color: '#B5314C',
-  tmScope: 'source.cwl',
-  languageId: 988547172,
 }

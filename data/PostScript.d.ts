@@ -4,8 +4,8 @@ declare const _: {
   color: '#da291c'
   extensions: ['.ps', '.eps', '.epsi', '.pfa']
   tmScope: 'source.postscript'
-  aliases: ['postscr']
   aceMode: 'text'
   languageId: 291
+  aliases: ['postscr']
 }
 export = _

@@ -2,8 +2,8 @@ module.exports = {
   name: 'GEDCOM',
   type: 'data',
   color: '#003058',
-  aceMode: 'text',
   extensions: ['.ged'],
   tmScope: 'source.gedcom',
+  aceMode: 'text',
   languageId: 459577965,
 }

@@ -3,8 +3,8 @@ module.exports = {
   type: 'programming',
   color: '#7b9db4',
   extensions: ['.fy', '.fancypack'],
-  filenames: ['Fakefile'],
   tmScope: 'source.fancy',
   aceMode: 'text',
   languageId: 109,
+  filenames: ['Fakefile'],
 }

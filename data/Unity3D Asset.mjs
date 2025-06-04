@@ -2,9 +2,6 @@ export default {
   name: 'Unity3D Asset',
   type: 'data',
   color: '#222c37',
-  aceMode: 'yaml',
-  codemirrorMode: 'yaml',
-  codemirrorMimeType: 'text/x-yaml',
   extensions: [
     '.anim',
     '.asset',
@@ -15,5 +12,8 @@ export default {
     '.unity',
   ],
   tmScope: 'source.yaml',
+  aceMode: 'yaml',
   languageId: 380,
+  codemirrorMode: 'yaml',
+  codemirrorMimeType: 'text/x-yaml',
 }

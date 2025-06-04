@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Kickstart',
   type: 'data',
-  aceMode: 'text',
   extensions: ['.ks'],
   tmScope: 'source.kickstart',
+  aceMode: 'text',
   languageId: 692635484,
 }

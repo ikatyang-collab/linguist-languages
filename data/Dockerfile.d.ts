@@ -1,14 +1,14 @@
 declare const _: {
   name: 'Dockerfile'
   type: 'programming'
-  aliases: ['Containerfile']
   color: '#384d54'
-  tmScope: 'source.dockerfile'
   extensions: ['.dockerfile', '.containerfile']
-  filenames: ['Containerfile', 'Dockerfile']
+  tmScope: 'source.dockerfile'
   aceMode: 'dockerfile'
+  languageId: 89
+  aliases: ['Containerfile']
   codemirrorMode: 'dockerfile'
   codemirrorMimeType: 'text/x-dockerfile'
-  languageId: 89
+  filenames: ['Containerfile', 'Dockerfile']
 }
 export = _

@@ -1,8 +1,8 @@
 declare const _: {
   name: 'Ninja'
   type: 'data'
-  tmScope: 'source.ninja'
   extensions: ['.ninja']
+  tmScope: 'source.ninja'
   aceMode: 'text'
   languageId: 250
 }

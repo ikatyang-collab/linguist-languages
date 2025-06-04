@@ -2,8 +2,8 @@ module.exports = {
   name: 'hoon',
   type: 'programming',
   color: '#00b171',
+  extensions: ['.hoon'],
   tmScope: 'source.hoon',
   aceMode: 'text',
-  extensions: ['.hoon'],
   languageId: 560883276,
 }

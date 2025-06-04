@@ -4,8 +4,8 @@ declare const _: {
   extensions: ['.i']
   tmScope: 'source.c++'
   aceMode: 'c_cpp'
+  languageId: 1066250075
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-c++src'
-  languageId: 1066250075
 }
 export default _

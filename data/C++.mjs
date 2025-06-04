@@ -1,12 +1,7 @@
 export default {
   name: 'C++',
   type: 'programming',
-  tmScope: 'source.c++',
-  aceMode: 'c_cpp',
-  codemirrorMode: 'clike',
-  codemirrorMimeType: 'text/x-c++src',
   color: '#f34b7d',
-  aliases: ['cpp'],
   extensions: [
     '.cpp',
     '.c++',
@@ -29,5 +24,10 @@ export default {
     '.tpp',
     '.txx',
   ],
+  tmScope: 'source.c++',
+  aceMode: 'c_cpp',
   languageId: 43,
+  aliases: ['cpp'],
+  codemirrorMode: 'clike',
+  codemirrorMimeType: 'text/x-c++src',
 }

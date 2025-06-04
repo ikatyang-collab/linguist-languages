@@ -3,7 +3,7 @@ module.exports = {
   type: 'programming',
   color: '#b2011d',
   extensions: ['.stan'],
-  aceMode: 'text',
   tmScope: 'source.stan',
+  aceMode: 'text',
   languageId: 356,
 }

@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.elm']
   tmScope: 'source.elm'
   aceMode: 'elm'
+  languageId: 101
   codemirrorMode: 'elm'
   codemirrorMimeType: 'text/x-elm'
-  languageId: 101
 }
 export default _

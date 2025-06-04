@@ -14,6 +14,12 @@ declare const _: {
     '.properties',
     '.url',
   ]
+  tmScope: 'source.ini'
+  aceMode: 'ini'
+  languageId: 163
+  aliases: ['dosini']
+  codemirrorMode: 'properties'
+  codemirrorMimeType: 'text/x-properties'
   filenames: [
     '.buckconfig',
     '.coveragerc',
@@ -25,11 +31,5 @@ declare const _: {
     'pylintrc',
     'vlcrc',
   ]
-  tmScope: 'source.ini'
-  aliases: ['dosini']
-  aceMode: 'ini'
-  codemirrorMode: 'properties'
-  codemirrorMimeType: 'text/x-properties'
-  languageId: 163
 }
 export default _

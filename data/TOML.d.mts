@@ -3,6 +3,11 @@ declare const _: {
   type: 'data'
   color: '#9c4221'
   extensions: ['.toml']
+  tmScope: 'source.toml'
+  aceMode: 'toml'
+  languageId: 365
+  codemirrorMode: 'toml'
+  codemirrorMimeType: 'text/x-toml'
   filenames: [
     'Cargo.lock',
     'Cargo.toml.orig',
@@ -12,10 +17,5 @@ declare const _: {
     'poetry.lock',
     'uv.lock',
   ]
-  tmScope: 'source.toml'
-  aceMode: 'toml'
-  codemirrorMode: 'toml'
-  codemirrorMimeType: 'text/x-toml'
-  languageId: 365
 }
 export default _

@@ -3,11 +3,11 @@ declare const _: {
   type: 'programming'
   color: '#844FBA'
   extensions: ['.hcl', '.nomad', '.tf', '.tfvars', '.workflow']
-  aliases: ['HashiCorp Configuration Language', 'terraform']
+  tmScope: 'source.hcl'
   aceMode: 'ruby'
+  languageId: 144
+  aliases: ['HashiCorp Configuration Language', 'terraform']
   codemirrorMode: 'ruby'
   codemirrorMimeType: 'text/x-ruby'
-  tmScope: 'source.hcl'
-  languageId: 144
 }
 export = _

@@ -1,11 +1,11 @@
 export default {
   name: 'wisp',
   type: 'programming',
-  aceMode: 'clojure',
-  codemirrorMode: 'clojure',
-  codemirrorMimeType: 'text/x-clojure',
   color: '#7582D1',
   extensions: ['.wisp'],
   tmScope: 'source.clojure',
+  aceMode: 'clojure',
   languageId: 420,
+  codemirrorMode: 'clojure',
+  codemirrorMimeType: 'text/x-clojure',
 }

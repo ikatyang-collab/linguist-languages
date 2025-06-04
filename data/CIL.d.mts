@@ -1,8 +1,8 @@
 declare const _: {
   name: 'CIL'
   type: 'data'
-  tmScope: 'source.cil'
   extensions: ['.cil']
+  tmScope: 'source.cil'
   aceMode: 'text'
   languageId: 29176339
 }

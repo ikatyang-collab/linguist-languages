@@ -3,11 +3,11 @@ declare const _: {
   type: 'programming'
   color: '#945db7'
   extensions: ['.vb', '.vbhtml']
-  aliases: ['visual basic', 'vbnet', 'vb .net', 'vb.net']
   tmScope: 'source.vbnet'
   aceMode: 'text'
+  languageId: 389
+  aliases: ['visual basic', 'vbnet', 'vb .net', 'vb.net']
   codemirrorMode: 'vb'
   codemirrorMimeType: 'text/x-vb'
-  languageId: 389
 }
 export = _

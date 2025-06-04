@@ -5,7 +5,7 @@ export default {
   extensions: ['.dae'],
   tmScope: 'text.xml',
   aceMode: 'xml',
+  languageId: 49,
   codemirrorMode: 'xml',
   codemirrorMimeType: 'text/xml',
-  languageId: 49,
 }

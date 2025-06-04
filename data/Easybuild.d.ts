@@ -2,12 +2,12 @@ declare const _: {
   name: 'Easybuild'
   type: 'data'
   color: '#069406'
-  group: 'Python'
+  extensions: ['.eb']
+  tmScope: 'source.python'
   aceMode: 'python'
+  languageId: 342840477
   codemirrorMode: 'python'
   codemirrorMimeType: 'text/x-python'
-  tmScope: 'source.python'
-  extensions: ['.eb']
-  languageId: 342840477
+  group: 'Python'
 }
 export = _

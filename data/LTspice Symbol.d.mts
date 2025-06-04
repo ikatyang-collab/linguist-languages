@@ -4,8 +4,8 @@ declare const _: {
   extensions: ['.asy']
   tmScope: 'source.ltspice.symbol'
   aceMode: 'text'
+  languageId: 1013566805
   codemirrorMode: 'spreadsheet'
   codemirrorMimeType: 'text/x-spreadsheet'
-  languageId: 1013566805
 }
 export default _

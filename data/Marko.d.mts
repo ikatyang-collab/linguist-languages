@@ -2,12 +2,12 @@ declare const _: {
   name: 'Marko'
   type: 'markup'
   color: '#42bff2'
-  tmScope: 'text.marko'
   extensions: ['.marko']
-  aliases: ['markojs']
+  tmScope: 'text.marko'
   aceMode: 'text'
+  languageId: 932782397
+  aliases: ['markojs']
   codemirrorMode: 'htmlmixed'
   codemirrorMimeType: 'text/html'
-  languageId: 932782397
 }
 export default _

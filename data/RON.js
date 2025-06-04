@@ -3,7 +3,7 @@ module.exports = {
   type: 'data',
   color: '#a62c00',
   extensions: ['.ron'],
-  aceMode: 'rust',
   tmScope: 'source.ron',
+  aceMode: 'rust',
   languageId: 587855233,
 }

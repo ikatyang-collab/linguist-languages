@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Genie',
   type: 'programming',
-  aceMode: 'text',
-  extensions: ['.gs'],
   color: '#fb855d',
+  extensions: ['.gs'],
   tmScope: 'none',
+  aceMode: 'text',
   languageId: 792408528,
 }

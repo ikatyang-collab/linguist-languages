@@ -3,10 +3,10 @@ module.exports = {
   type: 'programming',
   color: '#00B4AB',
   extensions: ['.dart'],
-  interpreters: ['dart'],
   tmScope: 'source.dart',
   aceMode: 'dart',
+  languageId: 87,
   codemirrorMode: 'dart',
   codemirrorMimeType: 'application/dart',
-  languageId: 87,
+  interpreters: ['dart'],
 }

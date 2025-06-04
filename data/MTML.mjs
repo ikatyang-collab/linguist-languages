@@ -5,7 +5,7 @@ export default {
   extensions: ['.mtml'],
   tmScope: 'text.html.basic',
   aceMode: 'html',
+  languageId: 218,
   codemirrorMode: 'htmlmixed',
   codemirrorMimeType: 'text/html',
-  languageId: 218,
 }

@@ -5,7 +5,7 @@ export default {
   extensions: ['.nut'],
   tmScope: 'source.nut',
   aceMode: 'c_cpp',
+  languageId: 355,
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-c++src',
-  languageId: 355,
 }

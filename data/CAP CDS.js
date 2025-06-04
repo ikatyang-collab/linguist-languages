@@ -1,10 +1,10 @@
 module.exports = {
   name: 'CAP CDS',
   type: 'programming',
-  tmScope: 'source.cds',
   color: '#0092d1',
-  aliases: ['cds'],
   extensions: ['.cds'],
+  tmScope: 'source.cds',
   aceMode: 'text',
   languageId: 390788699,
+  aliases: ['cds'],
 }

@@ -3,7 +3,7 @@ export default {
   type: 'programming',
   color: '#94B0C7',
   extensions: ['.nc'],
-  aceMode: 'text',
   tmScope: 'source.nesc',
+  aceMode: 'text',
   languageId: 417,
 }

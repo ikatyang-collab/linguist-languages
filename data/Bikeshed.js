@@ -5,7 +5,7 @@ module.exports = {
   extensions: ['.bs'],
   tmScope: 'source.csswg',
   aceMode: 'html',
+  languageId: 1055528081,
   codemirrorMode: 'htmlmixed',
   codemirrorMimeType: 'text/html',
-  languageId: 1055528081,
 }

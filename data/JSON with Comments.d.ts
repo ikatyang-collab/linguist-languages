@@ -2,12 +2,6 @@ declare const _: {
   name: 'JSON with Comments'
   type: 'data'
   color: '#292929'
-  group: 'JSON'
-  tmScope: 'source.json.comments'
-  aceMode: 'javascript'
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'text/javascript'
-  aliases: ['jsonc']
   extensions: [
     '.jsonc',
     '.code-snippets',
@@ -27,6 +21,13 @@ declare const _: {
     '.sublime_metrics',
     '.sublime_session',
   ]
+  tmScope: 'source.json.comments'
+  aceMode: 'javascript'
+  languageId: 423
+  aliases: ['jsonc']
+  codemirrorMode: 'javascript'
+  codemirrorMimeType: 'text/javascript'
+  group: 'JSON'
   filenames: [
     '.babelrc',
     '.devcontainer.json',
@@ -42,6 +43,5 @@ declare const _: {
     'tsconfig.json',
     'tslint.json',
   ]
-  languageId: 423
 }
 export = _

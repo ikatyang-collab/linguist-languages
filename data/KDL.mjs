@@ -5,7 +5,7 @@ export default {
   extensions: ['.kdl'],
   tmScope: 'source.kdl',
   aceMode: 'tcl',
+  languageId: 931123626,
   codemirrorMode: 'yacas',
   codemirrorMimeType: 'text/x-yacas',
-  languageId: 931123626,
 }

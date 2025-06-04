@@ -5,7 +5,7 @@ export default {
   extensions: ['.slim'],
   tmScope: 'text.slim',
   aceMode: 'text',
+  languageId: 350,
   codemirrorMode: 'slim',
   codemirrorMimeType: 'text/x-slim',
-  languageId: 350,
 }

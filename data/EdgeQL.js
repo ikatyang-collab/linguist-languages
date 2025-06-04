@@ -2,9 +2,9 @@ module.exports = {
   name: 'EdgeQL',
   type: 'programming',
   color: '#31A7FF',
-  aliases: ['esdl'],
   extensions: ['.edgeql', '.esdl'],
-  aceMode: 'text',
   tmScope: 'source.edgeql',
+  aceMode: 'text',
   languageId: 925235833,
+  aliases: ['esdl'],
 }

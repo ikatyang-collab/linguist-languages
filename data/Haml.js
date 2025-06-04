@@ -5,7 +5,7 @@ module.exports = {
   extensions: ['.haml', '.haml.deface'],
   tmScope: 'text.haml',
   aceMode: 'haml',
+  languageId: 154,
   codemirrorMode: 'haml',
   codemirrorMimeType: 'text/x-haml',
-  languageId: 154,
 }

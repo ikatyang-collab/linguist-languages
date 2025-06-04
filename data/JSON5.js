@@ -5,7 +5,7 @@ module.exports = {
   extensions: ['.json5'],
   tmScope: 'source.js',
   aceMode: 'javascript',
+  languageId: 175,
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'application/json',
-  languageId: 175,
 }

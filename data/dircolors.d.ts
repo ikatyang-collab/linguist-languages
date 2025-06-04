@@ -2,6 +2,9 @@ declare const _: {
   name: 'dircolors'
   type: 'data'
   extensions: ['.dircolors']
+  tmScope: 'source.dircolors'
+  aceMode: 'text'
+  languageId: 691605112
   filenames: [
     '.dir_colors',
     '.dircolors',
@@ -10,8 +13,5 @@ declare const _: {
     '_dircolors',
     'dir_colors',
   ]
-  tmScope: 'source.dircolors'
-  aceMode: 'text'
-  languageId: 691605112
 }
 export = _

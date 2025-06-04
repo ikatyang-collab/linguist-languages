@@ -2,8 +2,8 @@ export default {
   name: 'Survex data',
   type: 'data',
   color: '#ffcc99',
+  extensions: ['.svx'],
   tmScope: 'none',
   aceMode: 'text',
-  extensions: ['.svx'],
   languageId: 24470517,
 }

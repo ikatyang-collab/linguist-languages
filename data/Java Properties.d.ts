@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.properties']
   tmScope: 'source.java-properties'
   aceMode: 'properties'
+  languageId: 519377561
   codemirrorMode: 'properties'
   codemirrorMimeType: 'text/x-properties'
-  languageId: 519377561
 }
 export = _

@@ -3,10 +3,10 @@ module.exports = {
   type: 'data',
   color: '#85ea2d',
   extensions: ['.json'],
-  group: 'OpenAPI Specification v3',
   tmScope: 'source.json',
   aceMode: 'json',
+  languageId: 980062566,
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'application/json',
-  languageId: 980062566,
+  group: 'OpenAPI Specification v3',
 }

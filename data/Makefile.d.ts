@@ -2,8 +2,14 @@ declare const _: {
   name: 'Makefile'
   type: 'programming'
   color: '#427819'
-  aliases: ['bsdmake', 'make', 'mf']
   extensions: ['.mak', '.d', '.make', '.makefile', '.mk', '.mkfile']
+  tmScope: 'source.makefile'
+  aceMode: 'makefile'
+  languageId: 220
+  aliases: ['bsdmake', 'make', 'mf']
+  codemirrorMode: 'cmake'
+  codemirrorMimeType: 'text/x-cmake'
+  interpreters: ['make']
   filenames: [
     'BSDmakefile',
     'GNUmakefile',
@@ -19,11 +25,5 @@ declare const _: {
     'makefile.sco',
     'mkfile',
   ]
-  interpreters: ['make']
-  tmScope: 'source.makefile'
-  aceMode: 'makefile'
-  codemirrorMode: 'cmake'
-  codemirrorMimeType: 'text/x-cmake'
-  languageId: 220
 }
 export = _

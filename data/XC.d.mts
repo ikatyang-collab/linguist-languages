@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.xc']
   tmScope: 'source.xc'
   aceMode: 'c_cpp'
+  languageId: 398
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-csrc'
-  languageId: 398
 }
 export default _

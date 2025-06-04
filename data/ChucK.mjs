@@ -5,7 +5,7 @@ export default {
   extensions: ['.ck'],
   tmScope: 'source.java',
   aceMode: 'java',
+  languageId: 57,
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-java',
-  languageId: 57,
 }

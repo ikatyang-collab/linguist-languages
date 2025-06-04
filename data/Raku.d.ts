@@ -17,12 +17,12 @@ declare const _: {
     '.rakumod',
     '.t',
   ]
-  interpreters: ['perl6', 'raku', 'rakudo']
-  aliases: ['perl6', 'perl-6']
   tmScope: 'source.raku'
   aceMode: 'perl'
+  languageId: 283
+  aliases: ['perl6', 'perl-6']
   codemirrorMode: 'perl'
   codemirrorMimeType: 'text/x-perl'
-  languageId: 283
+  interpreters: ['perl6', 'raku', 'rakudo']
 }
 export = _

@@ -5,8 +5,8 @@ module.exports = {
   extensions: ['.ligo'],
   tmScope: 'source.ligo',
   aceMode: 'pascal',
+  languageId: 1040646257,
   codemirrorMode: 'pascal',
   codemirrorMimeType: 'text/x-pascal',
   group: 'LigoLANG',
-  languageId: 1040646257,
 }

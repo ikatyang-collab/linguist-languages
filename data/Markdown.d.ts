@@ -2,11 +2,6 @@ declare const _: {
   name: 'Markdown'
   type: 'prose'
   color: '#083fa1'
-  aliases: ['md', 'pandoc']
-  aceMode: 'markdown'
-  codemirrorMode: 'gfm'
-  codemirrorMimeType: 'text/x-gfm'
-  wrap: true
   extensions: [
     '.md',
     '.livemd',
@@ -20,8 +15,13 @@ declare const _: {
     '.scd',
     '.workbook',
   ]
-  filenames: ['contents.lr']
   tmScope: 'text.md'
+  aceMode: 'markdown'
   languageId: 222
+  aliases: ['md', 'pandoc']
+  codemirrorMode: 'gfm'
+  codemirrorMimeType: 'text/x-gfm'
+  filenames: ['contents.lr']
+  wrap: true
 }
 export = _

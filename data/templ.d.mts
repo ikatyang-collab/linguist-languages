@@ -3,8 +3,8 @@ declare const _: {
   type: 'markup'
   color: '#66D0DD'
   extensions: ['.templ']
-  aceMode: 'text'
   tmScope: 'source.templ'
+  aceMode: 'text'
   languageId: 795579337
 }
 export default _

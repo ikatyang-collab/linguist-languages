@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Jolie'
   type: 'programming'
-  extensions: ['.ol', '.iol']
-  interpreters: ['jolie']
   color: '#843179'
-  aceMode: 'text'
+  extensions: ['.ol', '.iol']
   tmScope: 'source.jolie'
+  aceMode: 'text'
   languageId: 998078858
+  interpreters: ['jolie']
 }
 export = _

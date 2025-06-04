@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Kit'
   type: 'markup'
-  aceMode: 'html'
-  codemirrorMode: 'htmlmixed'
-  codemirrorMimeType: 'text/html'
   extensions: ['.kit']
   tmScope: 'text.html.basic'
+  aceMode: 'html'
   languageId: 188
+  codemirrorMode: 'htmlmixed'
+  codemirrorMimeType: 'text/html'
 }
 export = _

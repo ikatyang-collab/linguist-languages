@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.hip']
   tmScope: 'source.c++'
   aceMode: 'c_cpp'
+  languageId: 674379998
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-c++src'
-  languageId: 674379998
 }
 export = _

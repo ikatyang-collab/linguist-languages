@@ -3,8 +3,8 @@ declare const _: {
   type: 'programming'
   color: '#64E6AD'
   tmScope: 'source.singularity'
-  filenames: ['Singularity']
   aceMode: 'text'
   languageId: 987024632
+  filenames: ['Singularity']
 }
 export = _

@@ -2,12 +2,12 @@ declare const _: {
   name: 'NumPy'
   type: 'programming'
   color: '#9C8AF9'
-  group: 'Python'
   extensions: ['.numpy', '.numpyw', '.numsc']
   tmScope: 'none'
   aceMode: 'text'
+  languageId: 254
   codemirrorMode: 'python'
   codemirrorMimeType: 'text/x-python'
-  languageId: 254
+  group: 'Python'
 }
 export = _

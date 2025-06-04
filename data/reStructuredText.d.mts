@@ -2,13 +2,13 @@ declare const _: {
   name: 'reStructuredText'
   type: 'prose'
   color: '#141414'
-  wrap: true
-  aliases: ['rst']
   extensions: ['.rst', '.rest', '.rest.txt', '.rst.txt']
   tmScope: 'text.restructuredtext'
   aceMode: 'text'
+  languageId: 419
+  aliases: ['rst']
   codemirrorMode: 'rst'
   codemirrorMimeType: 'text/x-rst'
-  languageId: 419
+  wrap: true
 }
 export default _

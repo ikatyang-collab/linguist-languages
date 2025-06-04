@@ -2,7 +2,7 @@ module.exports = {
   name: 'Monkey',
   type: 'programming',
   extensions: ['.monkey', '.monkey2'],
-  aceMode: 'text',
   tmScope: 'source.monkey',
+  aceMode: 'text',
   languageId: 236,
 }

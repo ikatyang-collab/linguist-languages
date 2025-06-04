@@ -1,12 +1,12 @@
 export default {
   name: 'Julia',
   type: 'programming',
-  extensions: ['.jl'],
-  interpreters: ['julia'],
   color: '#a270ba',
+  extensions: ['.jl'],
   tmScope: 'source.julia',
   aceMode: 'julia',
+  languageId: 184,
   codemirrorMode: 'julia',
   codemirrorMimeType: 'text/x-julia',
-  languageId: 184,
+  interpreters: ['julia'],
 }

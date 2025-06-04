@@ -4,8 +4,8 @@ declare const _: {
   extensions: ['.ttl']
   tmScope: 'source.turtle'
   aceMode: 'text'
+  languageId: 376
   codemirrorMode: 'turtle'
   codemirrorMimeType: 'text/turtle'
-  languageId: 376
 }
 export default _

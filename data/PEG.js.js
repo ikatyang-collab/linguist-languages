@@ -5,7 +5,7 @@ module.exports = {
   extensions: ['.pegjs', '.peggy'],
   tmScope: 'source.peggy',
   aceMode: 'javascript',
+  languageId: 81442128,
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'text/javascript',
-  languageId: 81442128,
 }

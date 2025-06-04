@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Hack',
   type: 'programming',
-  aceMode: 'php',
-  codemirrorMode: 'php',
-  codemirrorMimeType: 'application/x-httpd-php',
+  color: '#878787',
   extensions: ['.hack', '.hh', '.hhi', '.php'],
   tmScope: 'source.hack',
-  color: '#878787',
+  aceMode: 'php',
   languageId: 153,
+  codemirrorMode: 'php',
+  codemirrorMimeType: 'application/x-httpd-php',
 }

@@ -4,6 +4,6 @@ module.exports = {
   extensions: ['.conllu', '.conll'],
   tmScope: 'text.conllu',
   aceMode: 'text',
-  aliases: ['CoNLL', 'CoNLL-X'],
   languageId: 421026389,
+  aliases: ['CoNLL', 'CoNLL-X'],
 }

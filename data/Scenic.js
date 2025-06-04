@@ -5,6 +5,6 @@ module.exports = {
   extensions: ['.scenic'],
   tmScope: 'source.scenic',
   aceMode: 'text',
-  interpreters: ['scenic'],
   languageId: 619814037,
+  interpreters: ['scenic'],
 }

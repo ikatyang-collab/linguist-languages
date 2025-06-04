@@ -5,8 +5,8 @@ declare const _: {
   extensions: ['.sas']
   tmScope: 'source.sas'
   aceMode: 'text'
+  languageId: 328
   codemirrorMode: 'sas'
   codemirrorMimeType: 'text/x-sas'
-  languageId: 328
 }
 export default _

@@ -1,9 +1,11 @@
 module.exports = {
   name: 'Text',
   type: 'prose',
-  wrap: true,
-  aliases: ['fundamental', 'plain text'],
   extensions: ['.txt', '.fr', '.nb', '.ncl', '.no'],
+  tmScope: 'none',
+  aceMode: 'text',
+  languageId: 372,
+  aliases: ['fundamental', 'plain text'],
   filenames: [
     'CITATION',
     'CITATIONS',
@@ -31,7 +33,5 @@ module.exports = {
     'use.mask',
     'use.stable.mask',
   ],
-  tmScope: 'none',
-  aceMode: 'text',
-  languageId: 372,
+  wrap: true,
 }

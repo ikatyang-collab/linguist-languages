@@ -3,9 +3,9 @@ declare const _: {
   type: 'programming'
   color: '#f50000'
   extensions: ['.red', '.reds']
-  aliases: ['red/system']
   tmScope: 'source.red'
   aceMode: 'text'
   languageId: 320
+  aliases: ['red/system']
 }
 export default _

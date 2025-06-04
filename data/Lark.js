@@ -5,7 +5,7 @@ module.exports = {
   extensions: ['.lark'],
   tmScope: 'source.lark',
   aceMode: 'text',
+  languageId: 758480799,
   codemirrorMode: 'ebnf',
   codemirrorMimeType: 'text/x-ebnf',
-  languageId: 758480799,
 }
