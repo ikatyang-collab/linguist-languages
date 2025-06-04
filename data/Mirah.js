@@ -1,15 +1,11 @@
 module.exports = {
-  "name": "Mirah",
-  "type": "programming",
-  "color": "#c7a938",
-  "extensions": [
-    ".druby",
-    ".duby",
-    ".mirah"
-  ],
-  "tmScope": "source.ruby",
-  "aceMode": "ruby",
-  "codemirrorMode": "ruby",
-  "codemirrorMimeType": "text/x-ruby",
-  "languageId": 232
+  name: 'Mirah',
+  type: 'programming',
+  color: '#c7a938',
+  extensions: ['.druby', '.duby', '.mirah'],
+  tmScope: 'source.ruby',
+  aceMode: 'ruby',
+  languageId: 232,
+  codemirrorMode: 'ruby',
+  codemirrorMimeType: 'text/x-ruby',
 }

@@ -1,17 +1,11 @@
 module.exports = {
-  "name": "Protocol Buffer",
-  "type": "data",
-  "aliases": [
-    "proto",
-    "protobuf",
-    "Protocol Buffers"
-  ],
-  "extensions": [
-    ".proto"
-  ],
-  "tmScope": "source.proto",
-  "aceMode": "protobuf",
-  "codemirrorMode": "protobuf",
-  "codemirrorMimeType": "text/x-protobuf",
-  "languageId": 297
+  name: 'Protocol Buffer',
+  type: 'data',
+  extensions: ['.proto'],
+  tmScope: 'source.proto',
+  aceMode: 'protobuf',
+  languageId: 297,
+  aliases: ['proto', 'protobuf', 'Protocol Buffers'],
+  codemirrorMode: 'protobuf',
+  codemirrorMimeType: 'text/x-protobuf',
 }

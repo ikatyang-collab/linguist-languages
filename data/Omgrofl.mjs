@@ -1,11 +1,9 @@
 export default {
-  "name": "Omgrofl",
-  "type": "programming",
-  "extensions": [
-    ".omgrofl"
-  ],
-  "color": "#cabbff",
-  "tmScope": "none",
-  "aceMode": "text",
-  "languageId": 260
+  name: 'Omgrofl',
+  type: 'programming',
+  color: '#cabbff',
+  extensions: ['.omgrofl'],
+  tmScope: 'none',
+  aceMode: 'text',
+  languageId: 260,
 }

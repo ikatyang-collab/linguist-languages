@@ -1,14 +1,12 @@
 declare const _: {
-  "name": "SCSS",
-  "type": "markup",
-  "color": "#c6538c",
-  "tmScope": "source.css.scss",
-  "aceMode": "scss",
-  "codemirrorMode": "css",
-  "codemirrorMimeType": "text/x-scss",
-  "extensions": [
-    ".scss"
-  ],
-  "languageId": 329
+  name: 'SCSS'
+  type: 'markup'
+  color: '#c6538c'
+  extensions: ['.scss']
+  tmScope: 'source.css.scss'
+  aceMode: 'scss'
+  languageId: 329
+  codemirrorMode: 'css'
+  codemirrorMimeType: 'text/x-scss'
 }
 export default _

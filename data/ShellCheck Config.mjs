@@ -1,16 +1,12 @@
 export default {
-  "name": "ShellCheck Config",
-  "type": "data",
-  "color": "#cecfcb",
-  "filenames": [
-    ".shellcheckrc"
-  ],
-  "aliases": [
-    "shellcheckrc"
-  ],
-  "tmScope": "source.shellcheckrc",
-  "aceMode": "ini",
-  "codemirrorMode": "properties",
-  "codemirrorMimeType": "text/x-properties",
-  "languageId": 687511714
+  name: 'ShellCheck Config',
+  type: 'data',
+  color: '#cecfcb',
+  tmScope: 'source.shellcheckrc',
+  aceMode: 'ini',
+  languageId: 687511714,
+  aliases: ['shellcheckrc'],
+  codemirrorMode: 'properties',
+  codemirrorMimeType: 'text/x-properties',
+  filenames: ['.shellcheckrc'],
 }

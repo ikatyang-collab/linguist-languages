@@ -1,14 +1,10 @@
 export default {
-  "name": "RouterOS Script",
-  "type": "programming",
-  "aceMode": "text",
-  "extensions": [
-    ".rsc"
-  ],
-  "interpreters": [
-    "RouterOS"
-  ],
-  "color": "#DE3941",
-  "tmScope": "none",
-  "languageId": 592853203
+  name: 'RouterOS Script',
+  type: 'programming',
+  color: '#DE3941',
+  extensions: ['.rsc'],
+  tmScope: 'none',
+  aceMode: 'text',
+  languageId: 592853203,
+  interpreters: ['RouterOS'],
 }

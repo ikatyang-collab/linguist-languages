@@ -1,11 +1,9 @@
 export default {
-  "name": "Rez",
-  "type": "programming",
-  "extensions": [
-    ".r"
-  ],
-  "tmScope": "source.rez",
-  "aceMode": "text",
-  "color": "#FFDAB3",
-  "languageId": 498022874
+  name: 'Rez',
+  type: 'programming',
+  color: '#FFDAB3',
+  extensions: ['.r'],
+  tmScope: 'source.rez',
+  aceMode: 'text',
+  languageId: 498022874,
 }

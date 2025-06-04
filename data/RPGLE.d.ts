@@ -1,17 +1,11 @@
 declare const _: {
-  "name": "RPGLE",
-  "type": "programming",
-  "aceMode": "text",
-  "color": "#2BDE21",
-  "aliases": [
-    "ile rpg",
-    "sqlrpgle"
-  ],
-  "extensions": [
-    ".rpgle",
-    ".sqlrpgle"
-  ],
-  "tmScope": "source.rpgle",
-  "languageId": 609977990
+  name: 'RPGLE'
+  type: 'programming'
+  color: '#2BDE21'
+  extensions: ['.rpgle', '.sqlrpgle']
+  tmScope: 'source.rpgle'
+  aceMode: 'text'
+  languageId: 609977990
+  aliases: ['ile rpg', 'sqlrpgle']
 }
 export = _

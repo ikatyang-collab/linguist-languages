@@ -1,28 +1,22 @@
 export default {
-  "name": "Starlark",
-  "type": "programming",
-  "tmScope": "source.python",
-  "aceMode": "python",
-  "codemirrorMode": "python",
-  "codemirrorMimeType": "text/x-python",
-  "color": "#76d275",
-  "extensions": [
-    ".bzl",
-    ".star"
+  name: 'Starlark',
+  type: 'programming',
+  color: '#76d275',
+  extensions: ['.bzl', '.star'],
+  tmScope: 'source.python',
+  aceMode: 'python',
+  languageId: 960266174,
+  aliases: ['bazel', 'bzl'],
+  codemirrorMode: 'python',
+  codemirrorMimeType: 'text/x-python',
+  filenames: [
+    'BUCK',
+    'BUILD',
+    'BUILD.bazel',
+    'MODULE.bazel',
+    'Tiltfile',
+    'WORKSPACE',
+    'WORKSPACE.bazel',
+    'WORKSPACE.bzlmod',
   ],
-  "filenames": [
-    "BUCK",
-    "BUILD",
-    "BUILD.bazel",
-    "MODULE.bazel",
-    "Tiltfile",
-    "WORKSPACE",
-    "WORKSPACE.bazel",
-    "WORKSPACE.bzlmod"
-  ],
-  "aliases": [
-    "bazel",
-    "bzl"
-  ],
-  "languageId": 960266174
 }

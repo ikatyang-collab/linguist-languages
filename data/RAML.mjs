@@ -1,13 +1,11 @@
 export default {
-  "name": "RAML",
-  "type": "markup",
-  "aceMode": "yaml",
-  "codemirrorMode": "yaml",
-  "codemirrorMimeType": "text/x-yaml",
-  "tmScope": "source.yaml",
-  "color": "#77d9fb",
-  "extensions": [
-    ".raml"
-  ],
-  "languageId": 308
+  name: 'RAML',
+  type: 'markup',
+  color: '#77d9fb',
+  extensions: ['.raml'],
+  tmScope: 'source.yaml',
+  aceMode: 'yaml',
+  languageId: 308,
+  codemirrorMode: 'yaml',
+  codemirrorMimeType: 'text/x-yaml',
 }

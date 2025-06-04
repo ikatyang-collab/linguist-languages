@@ -1,13 +1,11 @@
 module.exports = {
-  "name": "Rouge",
-  "type": "programming",
-  "aceMode": "clojure",
-  "codemirrorMode": "clojure",
-  "codemirrorMimeType": "text/x-clojure",
-  "color": "#cc0088",
-  "extensions": [
-    ".rg"
-  ],
-  "tmScope": "source.clojure",
-  "languageId": 325
+  name: 'Rouge',
+  type: 'programming',
+  color: '#cc0088',
+  extensions: ['.rg'],
+  tmScope: 'source.clojure',
+  aceMode: 'clojure',
+  languageId: 325,
+  codemirrorMode: 'clojure',
+  codemirrorMimeType: 'text/x-clojure',
 }

@@ -1,11 +1,9 @@
 export default {
-  "name": "Filebench WML",
-  "type": "programming",
-  "color": "#F6B900",
-  "extensions": [
-    ".f"
-  ],
-  "tmScope": "none",
-  "aceMode": "text",
-  "languageId": 111
+  name: 'Filebench WML',
+  type: 'programming',
+  color: '#F6B900',
+  extensions: ['.f'],
+  tmScope: 'none',
+  aceMode: 'text',
+  languageId: 111,
 }

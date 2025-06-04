@@ -1,17 +1,13 @@
 declare const _: {
-  "name": "Julia",
-  "type": "programming",
-  "extensions": [
-    ".jl"
-  ],
-  "interpreters": [
-    "julia"
-  ],
-  "color": "#a270ba",
-  "tmScope": "source.julia",
-  "aceMode": "julia",
-  "codemirrorMode": "julia",
-  "codemirrorMimeType": "text/x-julia",
-  "languageId": 184
+  name: 'Julia'
+  type: 'programming'
+  color: '#a270ba'
+  extensions: ['.jl']
+  tmScope: 'source.julia'
+  aceMode: 'julia'
+  languageId: 184
+  codemirrorMode: 'julia'
+  codemirrorMimeType: 'text/x-julia'
+  interpreters: ['julia']
 }
 export = _

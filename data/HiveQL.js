@@ -1,12 +1,9 @@
 module.exports = {
-  "name": "HiveQL",
-  "type": "programming",
-  "extensions": [
-    ".q",
-    ".hql"
-  ],
-  "color": "#dce200",
-  "tmScope": "source.hql",
-  "aceMode": "sql",
-  "languageId": 931814087
+  name: 'HiveQL',
+  type: 'programming',
+  color: '#dce200',
+  extensions: ['.q', '.hql'],
+  tmScope: 'source.hql',
+  aceMode: 'sql',
+  languageId: 931814087,
 }

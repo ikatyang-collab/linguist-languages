@@ -1,16 +1,10 @@
 declare const _: {
-  "name": "Module Management System",
-  "type": "programming",
-  "extensions": [
-    ".mms",
-    ".mmk"
-  ],
-  "filenames": [
-    "descrip.mmk",
-    "descrip.mms"
-  ],
-  "tmScope": "none",
-  "aceMode": "text",
-  "languageId": 235
+  name: 'Module Management System'
+  type: 'programming'
+  extensions: ['.mms', '.mmk']
+  tmScope: 'none'
+  aceMode: 'text'
+  languageId: 235
+  filenames: ['descrip.mmk', 'descrip.mms']
 }
 export = _

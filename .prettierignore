@@ -1,5 +1,3 @@
-/lib/
-/data/
-/vendor/
-
+/lib
+/data
 /pnpm-lock.yaml

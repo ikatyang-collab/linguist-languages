@@ -1,14 +1,10 @@
 module.exports = {
-  "name": "OMNeT++ NED",
-  "type": "programming",
-  "extensions": [
-    ".ned"
-  ],
-  "color": "#08607c",
-  "tmScope": "source.ned",
-  "aceMode": "text",
-  "aliases": [
-    "omnetpp-ned"
-  ],
-  "languageId": 924868392
+  name: 'OMNeT++ NED',
+  type: 'programming',
+  color: '#08607c',
+  extensions: ['.ned'],
+  tmScope: 'source.ned',
+  aceMode: 'text',
+  languageId: 924868392,
+  aliases: ['omnetpp-ned'],
 }

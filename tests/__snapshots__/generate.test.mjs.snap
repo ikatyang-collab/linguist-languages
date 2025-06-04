@@ -1,0 +1,375 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`generateFiles > data/Fstar.d.mts 1`] = `
+declare const _: {
+  "name": "F*",
+  "type": "programming",
+  "color": "#572e30",
+  "aliases": [
+    "fstar"
+  ],
+  "extensions": [
+    ".fst"
+  ],
+  "tmScope": "source.fstar",
+  "aceMode": "text",
+  "languageId": 336943375
+}
+export default _
+`;
+
+exports[`generateFiles > data/Fstar.d.ts 1`] = `
+declare const _: {
+  "name": "F*",
+  "type": "programming",
+  "color": "#572e30",
+  "aliases": [
+    "fstar"
+  ],
+  "extensions": [
+    ".fst"
+  ],
+  "tmScope": "source.fstar",
+  "aceMode": "text",
+  "languageId": 336943375
+}
+export = _
+`;
+
+exports[`generateFiles > data/Fstar.js 1`] = `
+module.exports = {
+  "name": "F*",
+  "type": "programming",
+  "color": "#572e30",
+  "aliases": [
+    "fstar"
+  ],
+  "extensions": [
+    ".fst"
+  ],
+  "tmScope": "source.fstar",
+  "aceMode": "text",
+  "languageId": 336943375
+}
+`;
+
+exports[`generateFiles > data/Fstar.mjs 1`] = `
+export default {
+  "name": "F*",
+  "type": "programming",
+  "color": "#572e30",
+  "aliases": [
+    "fstar"
+  ],
+  "extensions": [
+    ".fst"
+  ],
+  "tmScope": "source.fstar",
+  "aceMode": "text",
+  "languageId": 336943375
+}
+`;
+
+exports[`generateFiles > data/Test Test 2.d.mts 1`] = `
+declare const _: {
+  "name": "Test Test 2",
+  "type": "programming",
+  "color": "#E8274B",
+  "extensions": [
+    ".abap"
+  ],
+  "aceMode": "abap",
+  "languageId": 1,
+  "wrap": true
+}
+export default _
+`;
+
+exports[`generateFiles > data/Test Test 2.d.ts 1`] = `
+declare const _: {
+  "name": "Test Test 2",
+  "type": "programming",
+  "color": "#E8274B",
+  "extensions": [
+    ".abap"
+  ],
+  "aceMode": "abap",
+  "languageId": 1,
+  "wrap": true
+}
+export = _
+`;
+
+exports[`generateFiles > data/Test Test 2.js 1`] = `
+module.exports = {
+  "name": "Test Test 2",
+  "type": "programming",
+  "color": "#E8274B",
+  "extensions": [
+    ".abap"
+  ],
+  "aceMode": "abap",
+  "languageId": 1,
+  "wrap": true
+}
+`;
+
+exports[`generateFiles > data/Test Test 2.mjs 1`] = `
+export default {
+  "name": "Test Test 2",
+  "type": "programming",
+  "color": "#E8274B",
+  "extensions": [
+    ".abap"
+  ],
+  "aceMode": "abap",
+  "languageId": 1,
+  "wrap": true
+}
+`;
+
+exports[`generateFiles > data/Test1.d.mts 1`] = `
+declare const _: {
+  "name": "Test1",
+  "type": "programming",
+  "color": "#814CCC",
+  "aliases": [
+    "hello"
+  ],
+  "extensions": [
+    ".bsl",
+    ".os"
+  ],
+  "tmScope": "source.bsl",
+  "aceMode": "text",
+  "languageId": 0
+}
+export default _
+`;
+
+exports[`generateFiles > data/Test1.d.ts 1`] = `
+declare const _: {
+  "name": "Test1",
+  "type": "programming",
+  "color": "#814CCC",
+  "aliases": [
+    "hello"
+  ],
+  "extensions": [
+    ".bsl",
+    ".os"
+  ],
+  "tmScope": "source.bsl",
+  "aceMode": "text",
+  "languageId": 0
+}
+export = _
+`;
+
+exports[`generateFiles > data/Test1.js 1`] = `
+module.exports = {
+  "name": "Test1",
+  "type": "programming",
+  "color": "#814CCC",
+  "aliases": [
+    "hello"
+  ],
+  "extensions": [
+    ".bsl",
+    ".os"
+  ],
+  "tmScope": "source.bsl",
+  "aceMode": "text",
+  "languageId": 0
+}
+`;
+
+exports[`generateFiles > data/Test1.mjs 1`] = `
+export default {
+  "name": "Test1",
+  "type": "programming",
+  "color": "#814CCC",
+  "aliases": [
+    "hello"
+  ],
+  "extensions": [
+    ".bsl",
+    ".os"
+  ],
+  "tmScope": "source.bsl",
+  "aceMode": "text",
+  "languageId": 0
+}
+`;
+
+exports[`generateFiles > lib/index.d.mts 1`] = `
+export type LanguageName = "Test1"
+| "Test Test 2"
+| "F*"
+
+export interface Language {
+  /**
+* Language name.
+*/
+name: string;
+/**
+* Either data, programming, markup, prose, or nil
+*/
+type: string;
+/**
+* CSS hex color to represent the language. Only used if type is "programming" or "markup".
+*/
+color: string;
+/**
+* An Array of additional aliases (implicitly
+* includes name.downcase)
+*/
+aliases?: string[];
+/**
+* An Array of associated extensions (the first one is
+* considered the primary extension, the others should be
+* listed alphabetically)
+*/
+extensions: string[];
+/**
+* The TextMate scope that represents this programming
+* language. This should match one of the scopes listed in
+* the grammars.yml file. Use "none" if there is no grammar
+* for this language.
+*/
+tmScope?: string;
+/**
+* A String name of the Ace Mode used for highlighting whenever
+* a file is edited. This must match one of the filenames in https://gh.io/acemodes.
+* Use "text" if a mode does not exist.
+*/
+aceMode: string;
+/**
+* Integer used as a language-name-independent indexed field so that we can rename
+* languages in Linguist without reindexing all the code on GitHub. Must not be
+* changed for existing languages without the explicit permission of GitHub staff.
+*/
+languageId: number;
+/**
+* Boolean wrap to enable line wrapping (default: false)
+*/
+wrap?: boolean;
+}
+
+declare const languages: Record<LanguageName, Language>
+
+export default languages
+`;
+
+exports[`generateFiles > lib/index.d.ts 1`] = `
+type LanguageName = "Test1"
+| "Test Test 2"
+| "F*";
+
+declare const LinguistLanguages: Record<LanguageName, LinguistLanguages.Language>;
+
+declare namespace LinguistLanguages {
+  interface Language {
+  /**
+* Language name.
+*/
+name: string;
+/**
+* Either data, programming, markup, prose, or nil
+*/
+type: string;
+/**
+* CSS hex color to represent the language. Only used if type is "programming" or "markup".
+*/
+color: string;
+/**
+* An Array of additional aliases (implicitly
+* includes name.downcase)
+*/
+aliases?: string[];
+/**
+* An Array of associated extensions (the first one is
+* considered the primary extension, the others should be
+* listed alphabetically)
+*/
+extensions: string[];
+/**
+* The TextMate scope that represents this programming
+* language. This should match one of the scopes listed in
+* the grammars.yml file. Use "none" if there is no grammar
+* for this language.
+*/
+tmScope?: string;
+/**
+* A String name of the Ace Mode used for highlighting whenever
+* a file is edited. This must match one of the filenames in https://gh.io/acemodes.
+* Use "text" if a mode does not exist.
+*/
+aceMode: string;
+/**
+* Integer used as a language-name-independent indexed field so that we can rename
+* languages in Linguist without reindexing all the code on GitHub. Must not be
+* changed for existing languages without the explicit permission of GitHub staff.
+*/
+languageId: number;
+/**
+* Boolean wrap to enable line wrapping (default: false)
+*/
+wrap?: boolean;
+}
+}
+
+export = LinguistLanguages;
+`;
+
+exports[`generateFiles > lib/index.js 1`] = `
+module.exports = {
+  "Test1": require("../data/Test1"),
+"Test Test 2": require("../data/Test Test 2"),
+"F*": require("../data/Fstar")
+};
+`;
+
+exports[`generateFiles > lib/index.mjs 1`] = `
+import _0 from "../data/Test1.mjs"
+import _1 from "../data/Test%20Test%202.mjs"
+import _2 from "../data/Fstar.mjs"
+
+export default {
+  "Test1": _0,
+"Test Test 2": _1,
+"F*": _2
+}
+`;
+
+exports[`parseFieldDescriptions 1`] = `
+{
+  "aceMode": "A String name of the Ace Mode used for highlighting whenever
+a file is edited. This must match one of the filenames in https://gh.io/acemodes.
+Use "text" if a mode does not exist.",
+  "aliases": "An Array of additional aliases (implicitly
+includes name.downcase)",
+  "codemirrorMimeType": "A String name of the file mime type used for highlighting whenever a file is edited.
+This should match the \`mime\` associated with the mode from https://git.io/f4SoQ",
+  "codemirrorMode": "A String name of the CodeMirror Mode used for highlighting whenever a file is edited.
+This must match a mode from https://git.io/vi9Fx",
+  "color": "CSS hex color to represent the language. Only used if type is "programming" or "markup".",
+  "extensions": "An Array of associated extensions (the first one is
+considered the primary extension, the others should be
+listed alphabetically)",
+  "filenames": "An Array of filenames commonly associated with the language",
+  "group": "Name of the parent language. Languages in a group are counted
+in the statistics as the parent language.",
+  "interpreters": "An Array of associated interpreters",
+  "languageId": "Integer used as a language-name-independent indexed field so that we can rename
+languages in Linguist without reindexing all the code on GitHub. Must not be
+changed for existing languages without the explicit permission of GitHub staff.",
+  "name": "Language name.",
+  "tmScope": "The TextMate scope that represents this programming
+language. This should match one of the scopes listed in
+the grammars.yml file. Use "none" if there is no grammar
+for this language.",
+  "type": "Either data, programming, markup, prose, or nil",
+  "wrap": "Boolean wrap to enable line wrapping (default: false)",
+}
+`;

@@ -1,49 +1,47 @@
 declare const _: {
-  "name": "JSON with Comments",
-  "type": "data",
-  "color": "#292929",
-  "group": "JSON",
-  "tmScope": "source.json.comments",
-  "aceMode": "javascript",
-  "codemirrorMode": "javascript",
-  "codemirrorMimeType": "text/javascript",
-  "aliases": [
-    "jsonc"
-  ],
-  "extensions": [
-    ".jsonc",
-    ".code-snippets",
-    ".code-workspace",
-    ".sublime-build",
-    ".sublime-color-scheme",
-    ".sublime-commands",
-    ".sublime-completions",
-    ".sublime-keymap",
-    ".sublime-macro",
-    ".sublime-menu",
-    ".sublime-mousemap",
-    ".sublime-project",
-    ".sublime-settings",
-    ".sublime-theme",
-    ".sublime-workspace",
-    ".sublime_metrics",
-    ".sublime_session"
-  ],
-  "filenames": [
-    ".babelrc",
-    ".devcontainer.json",
-    ".eslintrc.json",
-    ".jscsrc",
-    ".jshintrc",
-    ".jslintrc",
-    ".swcrc",
-    "api-extractor.json",
-    "devcontainer.json",
-    "jsconfig.json",
-    "language-configuration.json",
-    "tsconfig.json",
-    "tslint.json"
-  ],
-  "languageId": 423
+  name: 'JSON with Comments'
+  type: 'data'
+  color: '#292929'
+  extensions: [
+    '.jsonc',
+    '.code-snippets',
+    '.code-workspace',
+    '.sublime-build',
+    '.sublime-color-scheme',
+    '.sublime-commands',
+    '.sublime-completions',
+    '.sublime-keymap',
+    '.sublime-macro',
+    '.sublime-menu',
+    '.sublime-mousemap',
+    '.sublime-project',
+    '.sublime-settings',
+    '.sublime-theme',
+    '.sublime-workspace',
+    '.sublime_metrics',
+    '.sublime_session',
+  ]
+  tmScope: 'source.json.comments'
+  aceMode: 'javascript'
+  languageId: 423
+  aliases: ['jsonc']
+  codemirrorMode: 'javascript'
+  codemirrorMimeType: 'text/javascript'
+  group: 'JSON'
+  filenames: [
+    '.babelrc',
+    '.devcontainer.json',
+    '.eslintrc.json',
+    '.jscsrc',
+    '.jshintrc',
+    '.jslintrc',
+    '.swcrc',
+    'api-extractor.json',
+    'devcontainer.json',
+    'jsconfig.json',
+    'language-configuration.json',
+    'tsconfig.json',
+    'tslint.json',
+  ]
 }
 export default _

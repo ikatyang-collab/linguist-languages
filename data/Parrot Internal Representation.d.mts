@@ -1,18 +1,12 @@
 declare const _: {
-  "name": "Parrot Internal Representation",
-  "group": "Parrot",
-  "tmScope": "source.parrot.pir",
-  "type": "programming",
-  "aliases": [
-    "pir"
-  ],
-  "extensions": [
-    ".pir"
-  ],
-  "interpreters": [
-    "parrot"
-  ],
-  "aceMode": "text",
-  "languageId": 280
+  name: 'Parrot Internal Representation'
+  type: 'programming'
+  extensions: ['.pir']
+  tmScope: 'source.parrot.pir'
+  aceMode: 'text'
+  languageId: 280
+  aliases: ['pir']
+  interpreters: ['parrot']
+  group: 'Parrot'
 }
 export default _

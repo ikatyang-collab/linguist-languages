@@ -1,29 +1,29 @@
 declare const _: {
-  "name": "PLSQL",
-  "type": "programming",
-  "aceMode": "sql",
-  "codemirrorMode": "sql",
-  "codemirrorMimeType": "text/x-plsql",
-  "tmScope": "none",
-  "color": "#dad8d8",
-  "extensions": [
-    ".pls",
-    ".bdy",
-    ".ddl",
-    ".fnc",
-    ".pck",
-    ".pkb",
-    ".pks",
-    ".plb",
-    ".plsql",
-    ".prc",
-    ".spc",
-    ".sql",
-    ".tpb",
-    ".tps",
-    ".trg",
-    ".vw"
-  ],
-  "languageId": 273
+  name: 'PLSQL'
+  type: 'programming'
+  color: '#dad8d8'
+  extensions: [
+    '.pls',
+    '.bdy',
+    '.ddl',
+    '.fnc',
+    '.pck',
+    '.pkb',
+    '.pks',
+    '.plb',
+    '.plsql',
+    '.prc',
+    '.spc',
+    '.sql',
+    '.tpb',
+    '.tps',
+    '.trg',
+    '.vw',
+  ]
+  tmScope: 'none'
+  aceMode: 'sql'
+  languageId: 273
+  codemirrorMode: 'sql'
+  codemirrorMimeType: 'text/x-plsql'
 }
 export default _

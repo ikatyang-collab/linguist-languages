@@ -1,17 +1,11 @@
 module.exports = {
-  "name": "Caddyfile",
-  "type": "data",
-  "color": "#22b638",
-  "aliases": [
-    "Caddy"
-  ],
-  "extensions": [
-    ".caddyfile"
-  ],
-  "filenames": [
-    "Caddyfile"
-  ],
-  "aceMode": "text",
-  "tmScope": "source.Caddyfile",
-  "languageId": 615465151
+  name: 'Caddyfile',
+  type: 'data',
+  color: '#22b638',
+  extensions: ['.caddyfile'],
+  tmScope: 'source.Caddyfile',
+  aceMode: 'text',
+  languageId: 615465151,
+  aliases: ['Caddy'],
+  filenames: ['Caddyfile'],
 }

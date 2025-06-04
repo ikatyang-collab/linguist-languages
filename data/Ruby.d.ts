@@ -1,74 +1,62 @@
 declare const _: {
-  "name": "Ruby",
-  "type": "programming",
-  "tmScope": "source.ruby",
-  "aceMode": "ruby",
-  "codemirrorMode": "ruby",
-  "codemirrorMimeType": "text/x-ruby",
-  "color": "#701516",
-  "aliases": [
-    "jruby",
-    "macruby",
-    "rake",
-    "rb",
-    "rbx"
-  ],
-  "extensions": [
-    ".rb",
-    ".builder",
-    ".eye",
-    ".fcgi",
-    ".gemspec",
-    ".god",
-    ".jbuilder",
-    ".mspec",
-    ".pluginspec",
-    ".podspec",
-    ".prawn",
-    ".rabl",
-    ".rake",
-    ".rbi",
-    ".rbuild",
-    ".rbw",
-    ".rbx",
-    ".ru",
-    ".ruby",
-    ".spec",
-    ".thor",
-    ".watchr"
-  ],
-  "interpreters": [
-    "ruby",
-    "macruby",
-    "rake",
-    "jruby",
-    "rbx"
-  ],
-  "filenames": [
-    ".irbrc",
-    ".pryrc",
-    ".simplecov",
-    "Appraisals",
-    "Berksfile",
-    "Brewfile",
-    "Buildfile",
-    "Capfile",
-    "Dangerfile",
-    "Deliverfile",
-    "Fastfile",
-    "Gemfile",
-    "Guardfile",
-    "Jarfile",
-    "Mavenfile",
-    "Podfile",
-    "Puppetfile",
-    "Rakefile",
-    "Snapfile",
-    "Steepfile",
-    "Thorfile",
-    "Vagrantfile",
-    "buildfile"
-  ],
-  "languageId": 326
+  name: 'Ruby'
+  type: 'programming'
+  color: '#701516'
+  extensions: [
+    '.rb',
+    '.builder',
+    '.eye',
+    '.fcgi',
+    '.gemspec',
+    '.god',
+    '.jbuilder',
+    '.mspec',
+    '.pluginspec',
+    '.podspec',
+    '.prawn',
+    '.rabl',
+    '.rake',
+    '.rbi',
+    '.rbuild',
+    '.rbw',
+    '.rbx',
+    '.ru',
+    '.ruby',
+    '.spec',
+    '.thor',
+    '.watchr',
+  ]
+  tmScope: 'source.ruby'
+  aceMode: 'ruby'
+  languageId: 326
+  aliases: ['jruby', 'macruby', 'rake', 'rb', 'rbx']
+  codemirrorMode: 'ruby'
+  codemirrorMimeType: 'text/x-ruby'
+  interpreters: ['ruby', 'macruby', 'rake', 'jruby', 'rbx']
+  filenames: [
+    '.irbrc',
+    '.pryrc',
+    '.simplecov',
+    'Appraisals',
+    'Berksfile',
+    'Brewfile',
+    'Buildfile',
+    'Capfile',
+    'Dangerfile',
+    'Deliverfile',
+    'Fastfile',
+    'Gemfile',
+    'Guardfile',
+    'Jarfile',
+    'Mavenfile',
+    'Podfile',
+    'Puppetfile',
+    'Rakefile',
+    'Snapfile',
+    'Steepfile',
+    'Thorfile',
+    'Vagrantfile',
+    'buildfile',
+  ]
 }
 export = _

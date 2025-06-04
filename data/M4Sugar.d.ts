@@ -1,18 +1,12 @@
 declare const _: {
-  "name": "M4Sugar",
-  "type": "programming",
-  "group": "M4",
-  "aliases": [
-    "autoconf"
-  ],
-  "extensions": [
-    ".m4"
-  ],
-  "filenames": [
-    "configure.ac"
-  ],
-  "tmScope": "source.m4",
-  "aceMode": "text",
-  "languageId": 216
+  name: 'M4Sugar'
+  type: 'programming'
+  extensions: ['.m4']
+  tmScope: 'source.m4'
+  aceMode: 'text'
+  languageId: 216
+  aliases: ['autoconf']
+  group: 'M4'
+  filenames: ['configure.ac']
 }
 export = _

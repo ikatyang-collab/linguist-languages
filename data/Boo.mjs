@@ -1,11 +1,9 @@
 export default {
-  "name": "Boo",
-  "type": "programming",
-  "color": "#d4bec1",
-  "extensions": [
-    ".boo"
-  ],
-  "aceMode": "text",
-  "tmScope": "source.boo",
-  "languageId": 37
+  name: 'Boo',
+  type: 'programming',
+  color: '#d4bec1',
+  extensions: ['.boo'],
+  tmScope: 'source.boo',
+  aceMode: 'text',
+  languageId: 37,
 }

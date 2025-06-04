@@ -1,18 +1,13 @@
 declare const _: {
-  "name": "Smalltalk",
-  "type": "programming",
-  "color": "#596706",
-  "extensions": [
-    ".st",
-    ".cs"
-  ],
-  "aliases": [
-    "squeak"
-  ],
-  "tmScope": "source.smalltalk",
-  "aceMode": "text",
-  "codemirrorMode": "smalltalk",
-  "codemirrorMimeType": "text/x-stsrc",
-  "languageId": 352
+  name: 'Smalltalk'
+  type: 'programming'
+  color: '#596706'
+  extensions: ['.st', '.cs']
+  tmScope: 'source.smalltalk'
+  aceMode: 'text'
+  languageId: 352
+  aliases: ['squeak']
+  codemirrorMode: 'smalltalk'
+  codemirrorMimeType: 'text/x-stsrc'
 }
 export = _

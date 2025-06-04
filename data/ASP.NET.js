@@ -1,22 +1,12 @@
 module.exports = {
-  "name": "ASP.NET",
-  "type": "programming",
-  "tmScope": "text.html.asp",
-  "color": "#9400ff",
-  "aliases": [
-    "aspx",
-    "aspx-vb"
-  ],
-  "extensions": [
-    ".asax",
-    ".ascx",
-    ".ashx",
-    ".asmx",
-    ".aspx",
-    ".axd"
-  ],
-  "aceMode": "text",
-  "codemirrorMode": "htmlembedded",
-  "codemirrorMimeType": "application/x-aspx",
-  "languageId": 564186416
+  name: 'ASP.NET',
+  type: 'programming',
+  color: '#9400ff',
+  extensions: ['.asax', '.ascx', '.ashx', '.asmx', '.aspx', '.axd'],
+  tmScope: 'text.html.asp',
+  aceMode: 'text',
+  languageId: 564186416,
+  aliases: ['aspx', 'aspx-vb'],
+  codemirrorMode: 'htmlembedded',
+  codemirrorMimeType: 'application/x-aspx',
 }

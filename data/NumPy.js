@@ -1,16 +1,12 @@
 module.exports = {
-  "name": "NumPy",
-  "type": "programming",
-  "color": "#9C8AF9",
-  "group": "Python",
-  "extensions": [
-    ".numpy",
-    ".numpyw",
-    ".numsc"
-  ],
-  "tmScope": "none",
-  "aceMode": "text",
-  "codemirrorMode": "python",
-  "codemirrorMimeType": "text/x-python",
-  "languageId": 254
+  name: 'NumPy',
+  type: 'programming',
+  color: '#9C8AF9',
+  extensions: ['.numpy', '.numpyw', '.numsc'],
+  tmScope: 'none',
+  aceMode: 'text',
+  languageId: 254,
+  codemirrorMode: 'python',
+  codemirrorMimeType: 'text/x-python',
+  group: 'Python',
 }

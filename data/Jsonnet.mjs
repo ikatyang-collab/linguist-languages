@@ -1,12 +1,9 @@
 export default {
-  "name": "Jsonnet",
-  "color": "#0064bd",
-  "type": "programming",
-  "aceMode": "text",
-  "extensions": [
-    ".jsonnet",
-    ".libsonnet"
-  ],
-  "tmScope": "source.jsonnet",
-  "languageId": 664885656
+  name: 'Jsonnet',
+  type: 'programming',
+  color: '#0064bd',
+  extensions: ['.jsonnet', '.libsonnet'],
+  tmScope: 'source.jsonnet',
+  aceMode: 'text',
+  languageId: 664885656,
 }

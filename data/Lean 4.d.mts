@@ -1,12 +1,10 @@
 declare const _: {
-  "name": "Lean 4",
-  "type": "programming",
-  "group": "Lean",
-  "extensions": [
-    ".lean"
-  ],
-  "tmScope": "source.lean4",
-  "aceMode": "text",
-  "languageId": 455147478
+  name: 'Lean 4'
+  type: 'programming'
+  extensions: ['.lean']
+  tmScope: 'source.lean4'
+  aceMode: 'text'
+  languageId: 455147478
+  group: 'Lean'
 }
 export default _

@@ -1,10 +1,8 @@
 export default {
-  "name": "Oberon",
-  "type": "programming",
-  "extensions": [
-    ".ob2"
-  ],
-  "tmScope": "source.modula2",
-  "aceMode": "text",
-  "languageId": 677210597
+  name: 'Oberon',
+  type: 'programming',
+  extensions: ['.ob2'],
+  tmScope: 'source.modula2',
+  aceMode: 'text',
+  languageId: 677210597,
 }

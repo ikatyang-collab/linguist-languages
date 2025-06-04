@@ -1,20 +1,14 @@
 module.exports = {
-  "name": "EditorConfig",
-  "type": "data",
-  "color": "#fff1f2",
-  "group": "INI",
-  "extensions": [
-    ".editorconfig"
-  ],
-  "filenames": [
-    ".editorconfig"
-  ],
-  "aliases": [
-    "editor-config"
-  ],
-  "aceMode": "ini",
-  "codemirrorMode": "properties",
-  "codemirrorMimeType": "text/x-properties",
-  "tmScope": "source.editorconfig",
-  "languageId": 96139566
+  name: 'EditorConfig',
+  type: 'data',
+  color: '#fff1f2',
+  extensions: ['.editorconfig'],
+  tmScope: 'source.editorconfig',
+  aceMode: 'ini',
+  languageId: 96139566,
+  aliases: ['editor-config'],
+  codemirrorMode: 'properties',
+  codemirrorMimeType: 'text/x-properties',
+  group: 'INI',
+  filenames: ['.editorconfig'],
 }

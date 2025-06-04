@@ -1,19 +1,13 @@
 declare const _: {
-  "name": "Objective-C++",
-  "type": "programming",
-  "tmScope": "source.objc++",
-  "color": "#6866fb",
-  "aliases": [
-    "obj-c++",
-    "objc++",
-    "objectivec++"
-  ],
-  "extensions": [
-    ".mm"
-  ],
-  "aceMode": "objectivec",
-  "codemirrorMode": "clike",
-  "codemirrorMimeType": "text/x-objectivec",
-  "languageId": 258
+  name: 'Objective-C++'
+  type: 'programming'
+  color: '#6866fb'
+  extensions: ['.mm']
+  tmScope: 'source.objc++'
+  aceMode: 'objectivec'
+  languageId: 258
+  aliases: ['obj-c++', 'objc++', 'objectivec++']
+  codemirrorMode: 'clike'
+  codemirrorMimeType: 'text/x-objectivec'
 }
 export = _

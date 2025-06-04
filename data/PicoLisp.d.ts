@@ -1,16 +1,11 @@
 declare const _: {
-  "name": "PicoLisp",
-  "type": "programming",
-  "color": "#6067af",
-  "extensions": [
-    ".l"
-  ],
-  "interpreters": [
-    "picolisp",
-    "pil"
-  ],
-  "tmScope": "source.lisp",
-  "aceMode": "lisp",
-  "languageId": 285
+  name: 'PicoLisp'
+  type: 'programming'
+  color: '#6067af'
+  extensions: ['.l']
+  tmScope: 'source.lisp'
+  aceMode: 'lisp'
+  languageId: 285
+  interpreters: ['picolisp', 'pil']
 }
 export = _

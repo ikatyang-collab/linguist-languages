@@ -1,10 +1,8 @@
 module.exports = {
-  "name": "Smali",
-  "type": "programming",
-  "extensions": [
-    ".smali"
-  ],
-  "aceMode": "text",
-  "tmScope": "source.smali",
-  "languageId": 351
+  name: 'Smali',
+  type: 'programming',
+  extensions: ['.smali'],
+  tmScope: 'source.smali',
+  aceMode: 'text',
+  languageId: 351,
 }

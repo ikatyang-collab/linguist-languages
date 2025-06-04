@@ -1,12 +1,10 @@
 declare const _: {
-  "name": "Jasmin",
-  "type": "programming",
-  "color": "#d03600",
-  "aceMode": "java",
-  "extensions": [
-    ".j"
-  ],
-  "tmScope": "source.jasmin",
-  "languageId": 180
+  name: 'Jasmin'
+  type: 'programming'
+  color: '#d03600'
+  extensions: ['.j']
+  tmScope: 'source.jasmin'
+  aceMode: 'java'
+  languageId: 180
 }
 export = _

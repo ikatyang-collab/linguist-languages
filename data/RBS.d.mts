@@ -1,15 +1,13 @@
 declare const _: {
-  "name": "RBS",
-  "type": "data",
-  "aceMode": "ruby",
-  "codemirrorMode": "ruby",
-  "codemirrorMimeType": "text/x-ruby",
-  "extensions": [
-    ".rbs"
-  ],
-  "color": "#701516",
-  "tmScope": "source.rbs",
-  "group": "Ruby",
-  "languageId": 899227493
+  name: 'RBS'
+  type: 'data'
+  color: '#701516'
+  extensions: ['.rbs']
+  tmScope: 'source.rbs'
+  aceMode: 'ruby'
+  languageId: 899227493
+  codemirrorMode: 'ruby'
+  codemirrorMimeType: 'text/x-ruby'
+  group: 'Ruby'
 }
 export default _

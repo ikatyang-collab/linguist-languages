@@ -1,16 +1,12 @@
 declare const _: {
-  "name": "RPM Spec",
-  "type": "data",
-  "tmScope": "source.rpm-spec",
-  "extensions": [
-    ".spec"
-  ],
-  "aliases": [
-    "specfile"
-  ],
-  "aceMode": "text",
-  "codemirrorMode": "rpm",
-  "codemirrorMimeType": "text/x-rpm-spec",
-  "languageId": 314
+  name: 'RPM Spec'
+  type: 'data'
+  extensions: ['.spec']
+  tmScope: 'source.rpm-spec'
+  aceMode: 'text'
+  languageId: 314
+  aliases: ['specfile']
+  codemirrorMode: 'rpm'
+  codemirrorMimeType: 'text/x-rpm-spec'
 }
 export default _

@@ -1,37 +1,35 @@
 declare const _: {
-  "name": "INI",
-  "type": "data",
-  "color": "#d1dbe0",
-  "extensions": [
-    ".ini",
-    ".cfg",
-    ".cnf",
-    ".dof",
-    ".frm",
-    ".lektorproject",
-    ".prefs",
-    ".pro",
-    ".properties",
-    ".url"
-  ],
-  "filenames": [
-    ".buckconfig",
-    ".coveragerc",
-    ".flake8",
-    ".pylintrc",
-    "HOSTS",
-    "buildozer.spec",
-    "hosts",
-    "pylintrc",
-    "vlcrc"
-  ],
-  "tmScope": "source.ini",
-  "aliases": [
-    "dosini"
-  ],
-  "aceMode": "ini",
-  "codemirrorMode": "properties",
-  "codemirrorMimeType": "text/x-properties",
-  "languageId": 163
+  name: 'INI'
+  type: 'data'
+  color: '#d1dbe0'
+  extensions: [
+    '.ini',
+    '.cfg',
+    '.cnf',
+    '.dof',
+    '.frm',
+    '.lektorproject',
+    '.prefs',
+    '.pro',
+    '.properties',
+    '.url',
+  ]
+  tmScope: 'source.ini'
+  aceMode: 'ini'
+  languageId: 163
+  aliases: ['dosini']
+  codemirrorMode: 'properties'
+  codemirrorMimeType: 'text/x-properties'
+  filenames: [
+    '.buckconfig',
+    '.coveragerc',
+    '.flake8',
+    '.pylintrc',
+    'HOSTS',
+    'buildozer.spec',
+    'hosts',
+    'pylintrc',
+    'vlcrc',
+  ]
 }
 export default _

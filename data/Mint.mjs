@@ -1,11 +1,9 @@
 export default {
-  "name": "Mint",
-  "type": "programming",
-  "extensions": [
-    ".mint"
-  ],
-  "aceMode": "text",
-  "color": "#02b046",
-  "tmScope": "source.mint",
-  "languageId": 968740319
+  name: 'Mint',
+  type: 'programming',
+  color: '#02b046',
+  extensions: ['.mint'],
+  tmScope: 'source.mint',
+  aceMode: 'text',
+  languageId: 968740319,
 }

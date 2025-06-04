@@ -1,12 +1,10 @@
 declare const _: {
-  "name": "ObjectScript",
-  "type": "programming",
-  "extensions": [
-    ".cls"
-  ],
-  "languageId": 202735509,
-  "tmScope": "source.objectscript",
-  "color": "#424893",
-  "aceMode": "text"
+  name: 'ObjectScript'
+  type: 'programming'
+  color: '#424893'
+  extensions: ['.cls']
+  tmScope: 'source.objectscript'
+  aceMode: 'text'
+  languageId: 202735509
 }
 export = _

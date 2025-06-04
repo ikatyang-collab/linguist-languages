@@ -1,23 +1,13 @@
 declare const _: {
-  "name": "HTML",
-  "type": "markup",
-  "tmScope": "text.html.basic",
-  "aceMode": "html",
-  "codemirrorMode": "htmlmixed",
-  "codemirrorMimeType": "text/html",
-  "color": "#e34c26",
-  "aliases": [
-    "xhtml"
-  ],
-  "extensions": [
-    ".html",
-    ".hta",
-    ".htm",
-    ".html.hl",
-    ".inc",
-    ".xht",
-    ".xhtml"
-  ],
-  "languageId": 146
+  name: 'HTML'
+  type: 'markup'
+  color: '#e34c26'
+  extensions: ['.html', '.hta', '.htm', '.html.hl', '.inc', '.xht', '.xhtml']
+  tmScope: 'text.html.basic'
+  aceMode: 'html'
+  languageId: 146
+  aliases: ['xhtml']
+  codemirrorMode: 'htmlmixed'
+  codemirrorMimeType: 'text/html'
 }
 export = _

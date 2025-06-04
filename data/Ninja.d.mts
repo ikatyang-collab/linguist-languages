@@ -1,11 +1,9 @@
 declare const _: {
-  "name": "Ninja",
-  "type": "data",
-  "tmScope": "source.ninja",
-  "extensions": [
-    ".ninja"
-  ],
-  "aceMode": "text",
-  "languageId": 250
+  name: 'Ninja'
+  type: 'data'
+  extensions: ['.ninja']
+  tmScope: 'source.ninja'
+  aceMode: 'text'
+  languageId: 250
 }
 export default _

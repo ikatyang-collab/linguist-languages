@@ -1,12 +1,10 @@
 declare const _: {
-  "name": "TSQL",
-  "type": "programming",
-  "color": "#e38c00",
-  "extensions": [
-    ".sql"
-  ],
-  "aceMode": "sql",
-  "tmScope": "source.tsql",
-  "languageId": 918334941
+  name: 'TSQL'
+  type: 'programming'
+  color: '#e38c00'
+  extensions: ['.sql']
+  tmScope: 'source.tsql'
+  aceMode: 'sql'
+  languageId: 918334941
 }
 export = _

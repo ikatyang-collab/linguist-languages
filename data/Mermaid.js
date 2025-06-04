@@ -1,15 +1,10 @@
 module.exports = {
-  "name": "Mermaid",
-  "type": "markup",
-  "color": "#ff3670",
-  "aliases": [
-    "mermaid example"
-  ],
-  "extensions": [
-    ".mmd",
-    ".mermaid"
-  ],
-  "tmScope": "source.mermaid",
-  "aceMode": "text",
-  "languageId": 385992043
+  name: 'Mermaid',
+  type: 'markup',
+  color: '#ff3670',
+  extensions: ['.mmd', '.mermaid'],
+  tmScope: 'source.mermaid',
+  aceMode: 'text',
+  languageId: 385992043,
+  aliases: ['mermaid example'],
 }

@@ -1,19 +1,11 @@
 declare const _: {
-  "name": "Batchfile",
-  "type": "programming",
-  "aliases": [
-    "bat",
-    "batch",
-    "dosbatch",
-    "winbatch"
-  ],
-  "extensions": [
-    ".bat",
-    ".cmd"
-  ],
-  "tmScope": "source.batchfile",
-  "aceMode": "batchfile",
-  "color": "#C1F12E",
-  "languageId": 29
+  name: 'Batchfile'
+  type: 'programming'
+  color: '#C1F12E'
+  extensions: ['.bat', '.cmd']
+  tmScope: 'source.batchfile'
+  aceMode: 'batchfile'
+  languageId: 29
+  aliases: ['bat', 'batch', 'dosbatch', 'winbatch']
 }
 export = _

@@ -1,18 +1,13 @@
 declare const _: {
-  "name": "ReScript",
-  "type": "programming",
-  "color": "#ed5051",
-  "aceMode": "rust",
-  "codemirrorMode": "rust",
-  "codemirrorMimeType": "text/x-rustsrc",
-  "extensions": [
-    ".res",
-    ".resi"
-  ],
-  "interpreters": [
-    "ocaml"
-  ],
-  "tmScope": "source.rescript",
-  "languageId": 501875647
+  name: 'ReScript'
+  type: 'programming'
+  color: '#ed5051'
+  extensions: ['.res', '.resi']
+  tmScope: 'source.rescript'
+  aceMode: 'rust'
+  languageId: 501875647
+  codemirrorMode: 'rust'
+  codemirrorMimeType: 'text/x-rustsrc'
+  interpreters: ['ocaml']
 }
 export = _

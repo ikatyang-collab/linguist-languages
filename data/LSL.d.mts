@@ -1,16 +1,11 @@
 declare const _: {
-  "name": "LSL",
-  "type": "programming",
-  "tmScope": "source.lsl",
-  "aceMode": "lsl",
-  "extensions": [
-    ".lsl",
-    ".lslp"
-  ],
-  "interpreters": [
-    "lsl"
-  ],
-  "color": "#3d9970",
-  "languageId": 193
+  name: 'LSL'
+  type: 'programming'
+  color: '#3d9970'
+  extensions: ['.lsl', '.lslp']
+  tmScope: 'source.lsl'
+  aceMode: 'lsl'
+  languageId: 193
+  interpreters: ['lsl']
 }
 export default _

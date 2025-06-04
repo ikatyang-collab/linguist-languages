@@ -1,19 +1,10 @@
 module.exports = {
-  "name": "jq",
-  "color": "#c7254e",
-  "aceMode": "text",
-  "type": "programming",
-  "extensions": [
-    ".jq"
-  ],
-  "interpreters": [
-    "gojq",
-    "jaq",
-    "jq",
-    "jqjq",
-    "jqq",
-    "query-json"
-  ],
-  "tmScope": "source.jq",
-  "languageId": 905371884
+  name: 'jq',
+  type: 'programming',
+  color: '#c7254e',
+  extensions: ['.jq'],
+  tmScope: 'source.jq',
+  aceMode: 'text',
+  languageId: 905371884,
+  interpreters: ['gojq', 'jaq', 'jq', 'jqjq', 'jqq', 'query-json'],
 }

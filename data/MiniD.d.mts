@@ -1,11 +1,9 @@
 declare const _: {
-  "name": "MiniD",
-  "type": "programming",
-  "extensions": [
-    ".minid"
-  ],
-  "tmScope": "none",
-  "aceMode": "text",
-  "languageId": 231
+  name: 'MiniD'
+  type: 'programming'
+  extensions: ['.minid']
+  tmScope: 'none'
+  aceMode: 'text'
+  languageId: 231
 }
 export default _

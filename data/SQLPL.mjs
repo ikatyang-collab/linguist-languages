@@ -1,14 +1,11 @@
 export default {
-  "name": "SQLPL",
-  "type": "programming",
-  "color": "#e38c00",
-  "aceMode": "sql",
-  "codemirrorMode": "sql",
-  "codemirrorMimeType": "text/x-sql",
-  "tmScope": "source.sql",
-  "extensions": [
-    ".sql",
-    ".db2"
-  ],
-  "languageId": 334
+  name: 'SQLPL',
+  type: 'programming',
+  color: '#e38c00',
+  extensions: ['.sql', '.db2'],
+  tmScope: 'source.sql',
+  aceMode: 'sql',
+  languageId: 334,
+  codemirrorMode: 'sql',
+  codemirrorMimeType: 'text/x-sql',
 }

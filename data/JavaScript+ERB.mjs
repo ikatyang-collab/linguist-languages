@@ -1,14 +1,12 @@
 export default {
-  "name": "JavaScript+ERB",
-  "type": "programming",
-  "color": "#f1e05a",
-  "tmScope": "source.js",
-  "group": "JavaScript",
-  "extensions": [
-    ".js.erb"
-  ],
-  "aceMode": "javascript",
-  "codemirrorMode": "javascript",
-  "codemirrorMimeType": "application/javascript",
-  "languageId": 914318960
+  name: 'JavaScript+ERB',
+  type: 'programming',
+  color: '#f1e05a',
+  extensions: ['.js.erb'],
+  tmScope: 'source.js',
+  aceMode: 'javascript',
+  languageId: 914318960,
+  codemirrorMode: 'javascript',
+  codemirrorMimeType: 'application/javascript',
+  group: 'JavaScript',
 }

@@ -1,15 +1,11 @@
 declare const _: {
-  "name": "SmPL",
-  "type": "programming",
-  "extensions": [
-    ".cocci"
-  ],
-  "aliases": [
-    "coccinelle"
-  ],
-  "aceMode": "text",
-  "tmScope": "source.smpl",
-  "color": "#c94949",
-  "languageId": 164123055
+  name: 'SmPL'
+  type: 'programming'
+  color: '#c94949'
+  extensions: ['.cocci']
+  tmScope: 'source.smpl'
+  aceMode: 'text'
+  languageId: 164123055
+  aliases: ['coccinelle']
 }
 export default _

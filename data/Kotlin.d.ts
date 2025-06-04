@@ -1,16 +1,12 @@
 declare const _: {
-  "name": "Kotlin",
-  "type": "programming",
-  "color": "#A97BFF",
-  "extensions": [
-    ".kt",
-    ".ktm",
-    ".kts"
-  ],
-  "tmScope": "source.kotlin",
-  "aceMode": "text",
-  "codemirrorMode": "clike",
-  "codemirrorMimeType": "text/x-kotlin",
-  "languageId": 189
+  name: 'Kotlin'
+  type: 'programming'
+  color: '#A97BFF'
+  extensions: ['.kt', '.ktm', '.kts']
+  tmScope: 'source.kotlin'
+  aceMode: 'text'
+  languageId: 189
+  codemirrorMode: 'clike'
+  codemirrorMimeType: 'text/x-kotlin'
 }
 export = _

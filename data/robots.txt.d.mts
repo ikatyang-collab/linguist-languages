@@ -1,15 +1,10 @@
 declare const _: {
-  "name": "robots.txt",
-  "type": "data",
-  "aliases": [
-    "robots",
-    "robots txt"
-  ],
-  "filenames": [
-    "robots.txt"
-  ],
-  "aceMode": "text",
-  "tmScope": "text.robots-txt",
-  "languageId": 674736065
+  name: 'robots.txt'
+  type: 'data'
+  tmScope: 'text.robots-txt'
+  aceMode: 'text'
+  languageId: 674736065
+  aliases: ['robots', 'robots txt']
+  filenames: ['robots.txt']
 }
 export default _

@@ -1,22 +1,14 @@
 declare const _: {
-  "name": "Nginx",
-  "type": "data",
-  "color": "#009639",
-  "extensions": [
-    ".nginx",
-    ".nginxconf",
-    ".vhost"
-  ],
-  "filenames": [
-    "nginx.conf"
-  ],
-  "tmScope": "source.nginx",
-  "aliases": [
-    "nginx configuration file"
-  ],
-  "aceMode": "text",
-  "codemirrorMode": "nginx",
-  "codemirrorMimeType": "text/x-nginx-conf",
-  "languageId": 248
+  name: 'Nginx'
+  type: 'data'
+  color: '#009639'
+  extensions: ['.nginx', '.nginxconf', '.vhost']
+  tmScope: 'source.nginx'
+  aceMode: 'text'
+  languageId: 248
+  aliases: ['nginx configuration file']
+  codemirrorMode: 'nginx'
+  codemirrorMimeType: 'text/x-nginx-conf'
+  filenames: ['nginx.conf']
 }
 export default _

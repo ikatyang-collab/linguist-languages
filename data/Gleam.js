@@ -1,11 +1,9 @@
 module.exports = {
-  "name": "Gleam",
-  "type": "programming",
-  "color": "#ffaff3",
-  "aceMode": "text",
-  "extensions": [
-    ".gleam"
-  ],
-  "tmScope": "source.gleam",
-  "languageId": 1054258749
+  name: 'Gleam',
+  type: 'programming',
+  color: '#ffaff3',
+  extensions: ['.gleam'],
+  tmScope: 'source.gleam',
+  aceMode: 'text',
+  languageId: 1054258749,
 }

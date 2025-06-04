@@ -1,17 +1,13 @@
 declare const _: {
-  "name": "Go",
-  "type": "programming",
-  "color": "#00ADD8",
-  "aliases": [
-    "golang"
-  ],
-  "extensions": [
-    ".go"
-  ],
-  "tmScope": "source.go",
-  "aceMode": "golang",
-  "codemirrorMode": "go",
-  "codemirrorMimeType": "text/x-go",
-  "languageId": 132
+  name: 'Go'
+  type: 'programming'
+  color: '#00ADD8'
+  extensions: ['.go']
+  tmScope: 'source.go'
+  aceMode: 'golang'
+  languageId: 132
+  aliases: ['golang']
+  codemirrorMode: 'go'
+  codemirrorMimeType: 'text/x-go'
 }
 export default _

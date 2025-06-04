@@ -1,14 +1,10 @@
 declare const _: {
-  "name": "Yacc",
-  "type": "programming",
-  "extensions": [
-    ".y",
-    ".yacc",
-    ".yy"
-  ],
-  "tmScope": "source.yacc",
-  "aceMode": "text",
-  "color": "#4B6C4B",
-  "languageId": 409
+  name: 'Yacc'
+  type: 'programming'
+  color: '#4B6C4B'
+  extensions: ['.y', '.yacc', '.yy']
+  tmScope: 'source.yacc'
+  aceMode: 'text'
+  languageId: 409
 }
 export default _

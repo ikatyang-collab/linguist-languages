@@ -1,12 +1,10 @@
 declare const _: {
-  "name": "KerboScript",
-  "type": "programming",
-  "aceMode": "text",
-  "extensions": [
-    ".ks"
-  ],
-  "color": "#41adf0",
-  "tmScope": "source.kerboscript",
-  "languageId": 59716426
+  name: 'KerboScript'
+  type: 'programming'
+  color: '#41adf0'
+  extensions: ['.ks']
+  tmScope: 'source.kerboscript'
+  aceMode: 'text'
+  languageId: 59716426
 }
 export default _

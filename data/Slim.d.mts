@@ -1,14 +1,12 @@
 declare const _: {
-  "name": "Slim",
-  "type": "markup",
-  "color": "#2b2b2b",
-  "extensions": [
-    ".slim"
-  ],
-  "tmScope": "text.slim",
-  "aceMode": "text",
-  "codemirrorMode": "slim",
-  "codemirrorMimeType": "text/x-slim",
-  "languageId": 350
+  name: 'Slim'
+  type: 'markup'
+  color: '#2b2b2b'
+  extensions: ['.slim']
+  tmScope: 'text.slim'
+  aceMode: 'text'
+  languageId: 350
+  codemirrorMode: 'slim'
+  codemirrorMimeType: 'text/x-slim'
 }
 export default _

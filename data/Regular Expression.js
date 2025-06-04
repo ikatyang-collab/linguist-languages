@@ -1,16 +1,10 @@
 module.exports = {
-  "name": "Regular Expression",
-  "type": "data",
-  "color": "#009a00",
-  "extensions": [
-    ".regexp",
-    ".regex"
-  ],
-  "aliases": [
-    "regexp",
-    "regex"
-  ],
-  "aceMode": "text",
-  "tmScope": "source.regexp",
-  "languageId": 363378884
+  name: 'Regular Expression',
+  type: 'data',
+  color: '#009a00',
+  extensions: ['.regexp', '.regex'],
+  tmScope: 'source.regexp',
+  aceMode: 'text',
+  languageId: 363378884,
+  aliases: ['regexp', 'regex'],
 }

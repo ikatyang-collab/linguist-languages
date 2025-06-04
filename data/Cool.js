@@ -1,10 +1,8 @@
 module.exports = {
-  "name": "Cool",
-  "type": "programming",
-  "extensions": [
-    ".cl"
-  ],
-  "tmScope": "source.cool",
-  "aceMode": "text",
-  "languageId": 68
+  name: 'Cool',
+  type: 'programming',
+  extensions: ['.cl'],
+  tmScope: 'source.cool',
+  aceMode: 'text',
+  languageId: 68,
 }

@@ -1,12 +1,10 @@
 module.exports = {
-  "name": "RDoc",
-  "type": "prose",
-  "color": "#701516",
-  "aceMode": "rdoc",
-  "wrap": true,
-  "extensions": [
-    ".rdoc"
-  ],
-  "tmScope": "text.rdoc",
-  "languageId": 309
+  name: 'RDoc',
+  type: 'prose',
+  color: '#701516',
+  extensions: ['.rdoc'],
+  tmScope: 'text.rdoc',
+  aceMode: 'rdoc',
+  languageId: 309,
+  wrap: true,
 }

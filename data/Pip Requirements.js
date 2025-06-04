@@ -1,12 +1,9 @@
 module.exports = {
-  "name": "Pip Requirements",
-  "type": "data",
-  "color": "#FFD343",
-  "filenames": [
-    "requirements-dev.txt",
-    "requirements.txt"
-  ],
-  "aceMode": "text",
-  "tmScope": "source.pip-requirements",
-  "languageId": 684385621
+  name: 'Pip Requirements',
+  type: 'data',
+  color: '#FFD343',
+  tmScope: 'source.pip-requirements',
+  aceMode: 'text',
+  languageId: 684385621,
+  filenames: ['requirements-dev.txt', 'requirements.txt'],
 }

@@ -1,14 +1,12 @@
 declare const _: {
-  "name": "Maven POM",
-  "type": "data",
-  "group": "XML",
-  "tmScope": "text.xml.pom",
-  "filenames": [
-    "pom.xml"
-  ],
-  "aceMode": "xml",
-  "codemirrorMode": "xml",
-  "codemirrorMimeType": "text/xml",
-  "languageId": 226
+  name: 'Maven POM'
+  type: 'data'
+  tmScope: 'text.xml.pom'
+  aceMode: 'xml'
+  languageId: 226
+  codemirrorMode: 'xml'
+  codemirrorMimeType: 'text/xml'
+  group: 'XML'
+  filenames: ['pom.xml']
 }
 export default _

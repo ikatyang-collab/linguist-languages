@@ -1,19 +1,11 @@
 declare const _: {
-  "name": "Nim",
-  "type": "programming",
-  "color": "#ffc200",
-  "extensions": [
-    ".nim",
-    ".nim.cfg",
-    ".nimble",
-    ".nimrod",
-    ".nims"
-  ],
-  "filenames": [
-    "nim.cfg"
-  ],
-  "aceMode": "text",
-  "tmScope": "source.nim",
-  "languageId": 249
+  name: 'Nim'
+  type: 'programming'
+  color: '#ffc200'
+  extensions: ['.nim', '.nim.cfg', '.nimble', '.nimrod', '.nims']
+  tmScope: 'source.nim'
+  aceMode: 'text'
+  languageId: 249
+  filenames: ['nim.cfg']
 }
 export default _

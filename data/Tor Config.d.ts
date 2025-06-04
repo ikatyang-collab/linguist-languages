@@ -1,15 +1,11 @@
 declare const _: {
-  "name": "Tor Config",
-  "type": "data",
-  "color": "#59316b",
-  "filenames": [
-    "torrc"
-  ],
-  "tmScope": "source.torrc",
-  "aceMode": "apache_conf",
-  "aliases": [
-    "torrc"
-  ],
-  "languageId": 1016912802
+  name: 'Tor Config'
+  type: 'data'
+  color: '#59316b'
+  tmScope: 'source.torrc'
+  aceMode: 'apache_conf'
+  languageId: 1016912802
+  aliases: ['torrc']
+  filenames: ['torrc']
 }
 export = _

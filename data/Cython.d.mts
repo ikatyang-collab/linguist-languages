@@ -1,19 +1,13 @@
 declare const _: {
-  "name": "Cython",
-  "type": "programming",
-  "color": "#fedf5b",
-  "extensions": [
-    ".pyx",
-    ".pxd",
-    ".pxi"
-  ],
-  "aliases": [
-    "pyrex"
-  ],
-  "tmScope": "source.cython",
-  "aceMode": "text",
-  "codemirrorMode": "python",
-  "codemirrorMimeType": "text/x-cython",
-  "languageId": 79
+  name: 'Cython'
+  type: 'programming'
+  color: '#fedf5b'
+  extensions: ['.pyx', '.pxd', '.pxi']
+  tmScope: 'source.cython'
+  aceMode: 'text'
+  languageId: 79
+  aliases: ['pyrex']
+  codemirrorMode: 'python'
+  codemirrorMimeType: 'text/x-cython'
 }
 export default _

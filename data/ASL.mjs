@@ -1,11 +1,8 @@
 export default {
-  "name": "ASL",
-  "type": "programming",
-  "aceMode": "text",
-  "extensions": [
-    ".asl",
-    ".dsl"
-  ],
-  "tmScope": "source.asl",
-  "languageId": 124996147
+  name: 'ASL',
+  type: 'programming',
+  extensions: ['.asl', '.dsl'],
+  tmScope: 'source.asl',
+  aceMode: 'text',
+  languageId: 124996147,
 }

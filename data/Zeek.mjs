@@ -1,14 +1,9 @@
 export default {
-  "name": "Zeek",
-  "type": "programming",
-  "aliases": [
-    "bro"
-  ],
-  "extensions": [
-    ".zeek",
-    ".bro"
-  ],
-  "tmScope": "source.zeek",
-  "aceMode": "text",
-  "languageId": 40
+  name: 'Zeek',
+  type: 'programming',
+  extensions: ['.zeek', '.bro'],
+  tmScope: 'source.zeek',
+  aceMode: 'text',
+  languageId: 40,
+  aliases: ['bro'],
 }

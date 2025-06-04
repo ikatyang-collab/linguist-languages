@@ -1,13 +1,11 @@
 declare const _: {
-  "name": "Gradle Kotlin DSL",
-  "group": "Gradle",
-  "type": "data",
-  "color": "#02303a",
-  "extensions": [
-    ".gradle.kts"
-  ],
-  "aceMode": "text",
-  "tmScope": "source.kotlin",
-  "languageId": 432600901
+  name: 'Gradle Kotlin DSL'
+  type: 'data'
+  color: '#02303a'
+  extensions: ['.gradle.kts']
+  tmScope: 'source.kotlin'
+  aceMode: 'text'
+  languageId: 432600901
+  group: 'Gradle'
 }
 export = _

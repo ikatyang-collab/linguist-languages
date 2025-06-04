@@ -1,17 +1,10 @@
 export default {
-  "name": "ColdFusion",
-  "type": "programming",
-  "aceMode": "coldfusion",
-  "color": "#ed2cd6",
-  "aliases": [
-    "cfm",
-    "cfml",
-    "coldfusion html"
-  ],
-  "extensions": [
-    ".cfm",
-    ".cfml"
-  ],
-  "tmScope": "text.html.cfm",
-  "languageId": 64
+  name: 'ColdFusion',
+  type: 'programming',
+  color: '#ed2cd6',
+  extensions: ['.cfm', '.cfml'],
+  tmScope: 'text.html.cfm',
+  aceMode: 'coldfusion',
+  languageId: 64,
+  aliases: ['cfm', 'cfml', 'coldfusion html'],
 }

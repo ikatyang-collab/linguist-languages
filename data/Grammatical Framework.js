@@ -1,16 +1,12 @@
 module.exports = {
-  "name": "Grammatical Framework",
-  "type": "programming",
-  "aliases": [
-    "gf"
-  ],
-  "extensions": [
-    ".gf"
-  ],
-  "color": "#ff0000",
-  "tmScope": "source.gf",
-  "aceMode": "haskell",
-  "codemirrorMode": "haskell",
-  "codemirrorMimeType": "text/x-haskell",
-  "languageId": 137
+  name: 'Grammatical Framework',
+  type: 'programming',
+  color: '#ff0000',
+  extensions: ['.gf'],
+  tmScope: 'source.gf',
+  aceMode: 'haskell',
+  languageId: 137,
+  aliases: ['gf'],
+  codemirrorMode: 'haskell',
+  codemirrorMimeType: 'text/x-haskell',
 }

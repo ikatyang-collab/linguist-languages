@@ -1,17 +1,11 @@
 declare const _: {
-  "name": "Texinfo",
-  "type": "prose",
-  "wrap": true,
-  "extensions": [
-    ".texinfo",
-    ".texi",
-    ".txi"
-  ],
-  "aceMode": "text",
-  "tmScope": "text.texinfo",
-  "interpreters": [
-    "makeinfo"
-  ],
-  "languageId": 988020015
+  name: 'Texinfo'
+  type: 'prose'
+  extensions: ['.texinfo', '.texi', '.txi']
+  tmScope: 'text.texinfo'
+  aceMode: 'text'
+  languageId: 988020015
+  interpreters: ['makeinfo']
+  wrap: true
 }
 export default _

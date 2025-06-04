@@ -1,10 +1,8 @@
 module.exports = {
-  "name": "Graph Modeling Language",
-  "type": "data",
-  "extensions": [
-    ".gml"
-  ],
-  "tmScope": "none",
-  "aceMode": "text",
-  "languageId": 138
+  name: 'Graph Modeling Language',
+  type: 'data',
+  extensions: ['.gml'],
+  tmScope: 'none',
+  aceMode: 'text',
+  languageId: 138,
 }

@@ -1,16 +1,12 @@
 export default {
-  "name": "Marko",
-  "type": "markup",
-  "color": "#42bff2",
-  "tmScope": "text.marko",
-  "extensions": [
-    ".marko"
-  ],
-  "aliases": [
-    "markojs"
-  ],
-  "aceMode": "text",
-  "codemirrorMode": "htmlmixed",
-  "codemirrorMimeType": "text/html",
-  "languageId": 932782397
+  name: 'Marko',
+  type: 'markup',
+  color: '#42bff2',
+  extensions: ['.marko'],
+  tmScope: 'text.marko',
+  aceMode: 'text',
+  languageId: 932782397,
+  aliases: ['markojs'],
+  codemirrorMode: 'htmlmixed',
+  codemirrorMimeType: 'text/html',
 }

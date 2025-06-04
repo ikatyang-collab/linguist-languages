@@ -1,12 +1,10 @@
 module.exports = {
-  "name": "Sieve",
-  "type": "programming",
-  "tmScope": "source.sieve",
-  "aceMode": "text",
-  "extensions": [
-    ".sieve"
-  ],
-  "codemirrorMode": "sieve",
-  "codemirrorMimeType": "application/sieve",
-  "languageId": 208976687
+  name: 'Sieve',
+  type: 'programming',
+  extensions: ['.sieve'],
+  tmScope: 'source.sieve',
+  aceMode: 'text',
+  languageId: 208976687,
+  codemirrorMode: 'sieve',
+  codemirrorMimeType: 'application/sieve',
 }
