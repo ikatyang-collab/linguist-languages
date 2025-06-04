@@ -205,7 +205,7 @@ export async function run(
     await write(
       new URL('./index.d.ts', OUTPUT_LIB_DIRECTORY),
       [
-        `type ${languageNameIdentifier} =\n${indent(
+        `export type ${languageNameIdentifier} =\n${indent(
           languages
             .map(language => `| ${JSON.stringify(language.name)}`)
             .join('\n'),
