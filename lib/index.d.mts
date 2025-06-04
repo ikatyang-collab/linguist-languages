@@ -690,6 +690,7 @@ export type LanguageName =
   | "Vala"
   | "Valve Data Format"
   | "Velocity Template Language"
+  | "Vento"
   | "Verilog"
   | "Vim Help File"
   | "Vim Script"
