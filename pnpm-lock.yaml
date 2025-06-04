@@ -29,9 +29,6 @@ importers:
       vite:
         specifier: 6.3.5
         version: 6.3.5(@types/node@22.15.29)(yaml@2.8.0)
-      vite-node:
-        specifier: 3.2.1
-        version: 3.2.1(@types/node@22.15.29)(yaml@2.8.0)
       vitest:
         specifier: 3.2.1
         version: 3.2.1(@types/node@22.15.29)(yaml@2.8.0)

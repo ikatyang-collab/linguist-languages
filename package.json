@@ -43,7 +43,6 @@
     "prettier": "3.5.3",
     "typescript": "5.8.3",
     "vite": "6.3.5",
-    "vite-node": "3.2.1",
     "vitest": "3.2.1",
     "yaml": "2.8.0"
   },
