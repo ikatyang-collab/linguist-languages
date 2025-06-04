@@ -80,6 +80,7 @@ module.exports = {
     ".scxml",
     ".sfproj",
     ".shproj",
+    ".slnx",
     ".srdf",
     ".storyboard",
     ".sublime-snippet",

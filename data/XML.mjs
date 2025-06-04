@@ -80,6 +80,7 @@ export default {
     ".scxml",
     ".sfproj",
     ".shproj",
+    ".slnx",
     ".srdf",
     ".storyboard",
     ".sublime-snippet",

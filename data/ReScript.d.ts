@@ -6,7 +6,8 @@ declare const _: {
   "codemirrorMode": "rust",
   "codemirrorMimeType": "text/x-rustsrc",
   "extensions": [
-    ".res"
+    ".res",
+    ".resi"
   ],
   "interpreters": [
     "ocaml"
