@@ -1,4 +1,4 @@
-export type LanguageName =
+type LanguageName =
   | "1C Enterprise"
   | "2-Dimensional Array"
   | "4D"
