@@ -1,9 +1,10 @@
 {
-  "include": ["lib/**/*", "scripts/**/*"],
+  "include": ["lib/**/*", "data/**/*"],
   "compilerOptions": {
     "strict": true,
     "module": "Node16",
     "moduleResolution": "Node16",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "noEmit": true,
   }
 }

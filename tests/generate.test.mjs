@@ -1,9 +1,9 @@
 import url from 'node:url'
 import * as serializer from 'jest-snapshot-serializer-raw'
 import { test, expect } from 'vitest'
-import { run } from './generate.mjs'
+import { run } from '../scripts/generate.mjs'
 
-expect.addSnapshotSerializer(serializer as any)
+expect.addSnapshotSerializer(serializer)
 
 const fakeLanguagesYml = `
 # Defines all Languages known to GitHub.
@@ -55,9 +55,9 @@ F*:
   language_id: 336943375
 `
 
-const writes: [URL, string][] = []
-
 test('run', async () => {
+  const writes = []
+
   await run(fakeLanguagesYml, {
     clean: false,
     write: (file, content) => writes.push([file, content]),

@@ -31,9 +31,9 @@
   "scripts": {
     "prepack": "pnpm run build",
     "lint": "prettier --check .",
-    "check": "tsc --noEmit",
+    "check": "tsc",
     "test": "vitest",
-    "build": "vite-node ./scripts/generate.mts -- run"
+    "build": "node ./scripts/generate.mjs --run"
   },
   "devDependencies": {
     "@types/node": "22.15.29",

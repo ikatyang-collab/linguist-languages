@@ -2,7 +2,7 @@ import assert from 'node:assert'
 import fs from 'node:fs/promises'
 import camelcase from 'camelcase'
 import { parse } from 'yaml'
-import { getFieldType, Field, indent } from './utils.mjs'
+import { getFieldType, indent } from './utils.mjs'
 
 const DATA_FILES = [
   'https://raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml',
@@ -18,13 +18,13 @@ const CACHE_EXPIRE_TIME = 1 * 60 * 60 * 1000 // One hour
 
 const NAME_FIELD = 'name'
 
-async function fetchText(url: string) {
+async function fetchText(url) {
   const response = await fetch(url)
   const text = await response.text()
   return text
 }
 
-async function writeFile(file: URL, content: string) {
+async function writeFile(file, content) {
   const directory = new URL('./', file)
   await fs.mkdir(directory, { recursive: true })
   await fs.writeFile(file, content + '\n')
@@ -49,19 +49,9 @@ async function getLanguageData() {
   return text
 }
 
-export async function run(
-  languagesContent: string,
-  options?: {
-    clean?: boolean
-    read?: (filename: URL) => string
-    write?: (filename: URL, content: string) => void
-  },
-) {
-  /* c8 ignore start */
+export async function run(languagesContent, options) {
   const { clean = true, write = writeFile } = options || {}
-  /* c8 ignore stop */
 
-  /* c8 ignore start */
   if (clean) {
     await Promise.all(
       [OUTPUT_LIB_DIRECTORY, OUTPUT_DATA_DIRECTORY].map(directory =>
@@ -69,43 +59,33 @@ export async function run(
       ),
     )
   }
-  /* c8 ignore stop */
-
-  interface Language {
-    name: string
-    fsName?: string
-    [key: string]: any
-  }
 
   const descriptions = languagesContent
-    .match(/#\n((?:#.+\n)+?)#\n/)![1]
+    .match(/#\n((?:#.+\n)+?)#\n/)[1]
     .split('\n')
     .map(x => x.slice(2))
     .join('\n')
     .split(/^(\w+)/m)
     .slice(1)
-    .reduce(
-      (descriptions, content, index, contents) => {
-        if (index % 2 === 1) {
-          const fieldName = contents[index - 1]
-          const alignmentLength = content.indexOf('-') + 2
-          descriptions[camelcase(fieldName)] = content
-            .trimEnd()
-            .split('\n')
-            .map((x, i) =>
-              x.slice(
-                i === 0 ? alignmentLength : alignmentLength + fieldName.length,
-              ),
-            )
-            .join('\n')
-        }
-        return descriptions
-      },
-      {} as { [fieldName: string]: string },
-    )
+    .reduce((descriptions, content, index, contents) => {
+      if (index % 2 === 1) {
+        const fieldName = contents[index - 1]
+        const alignmentLength = content.indexOf('-') + 2
+        descriptions[camelcase(fieldName)] = content
+          .trimEnd()
+          .split('\n')
+          .map((x, i) =>
+            x.slice(
+              i === 0 ? alignmentLength : alignmentLength + fieldName.length,
+            ),
+          )
+          .join('\n')
+      }
+      return descriptions
+    }, {})
 
   const languages = (rawLanguage =>
-    Object.keys(rawLanguage).map((name: keyof typeof rawLanguage): Language => {
+    Object.keys(rawLanguage).map(name => {
       const language = rawLanguage[name]
 
       assert(
@@ -120,13 +100,13 @@ export async function run(
           }),
         { name },
       )
-    }))(parse(languagesContent) as Record<string, any>)
+    }))(parse(languagesContent))
 
   /**
    * - true: required
    * - false: optional
    */
-  const fieldRequireds: Record<string, boolean> = {}
+  const fieldRequireds = {}
 
   languages.forEach(language => {
     Object.keys(language).forEach(fieldName => {
@@ -144,7 +124,7 @@ export async function run(
     })
   })
 
-  const fieldTypes: Record<string, Field> = {}
+  const fieldTypes = {}
 
   languages.forEach(language => {
     Object.keys(language).forEach(fieldName => {
@@ -252,7 +232,7 @@ export async function run(
           .join('\n'),
       )}\n}`
     }
-    function createFieldDefinition(field: Field) {
+    function createFieldDefinition(field) {
       return field.type === 'array' ? `${field.subType}[]` : field.type
     }
   }
@@ -285,7 +265,7 @@ export async function run(
     }),
   )
 
-  function getDataBasename(language: Language) {
+  function getDataBasename(language) {
     return language.fsName || language.name
   }
 }
