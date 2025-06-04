@@ -1,7 +1,11 @@
 import url from 'node:url'
 import * as serializer from 'jest-snapshot-serializer-raw'
 import { test, expect } from 'vitest'
-import { run } from '../scripts/generate.mjs'
+import {
+  run,
+  getLanguageData,
+  parseFieldDescriptions,
+} from '../scripts/generate.mjs'
 
 expect.addSnapshotSerializer(serializer)
 
@@ -54,6 +58,13 @@ F*:
   ace_mode: text
   language_id: 336943375
 `
+
+test('parseFieldDescriptions', async () => {
+  const content = await getLanguageData()
+  const fields = parseFieldDescriptions(content)
+
+  expect(fields).toMatchSnapshot()
+})
 
 test('run', async () => {
   const writes = []

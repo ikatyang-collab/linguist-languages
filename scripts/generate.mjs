@@ -49,18 +49,8 @@ async function getLanguageData() {
   return text
 }
 
-export async function run(languagesContent, options) {
-  const { clean = true, write = writeFile } = options || {}
-
-  if (clean) {
-    await Promise.all(
-      [OUTPUT_LIB_DIRECTORY, OUTPUT_DATA_DIRECTORY].map(directory =>
-        fs.rm(directory, { recursive: true, force: true }),
-      ),
-    )
-  }
-
-  const descriptions = languagesContent
+function parseFieldDescriptions(content) {
+  return content
     .match(/#\n((?:#.+\n)+?)#\n/)[1]
     .split('\n')
     .map(x => x.slice(2))
@@ -83,6 +73,20 @@ export async function run(languagesContent, options) {
       }
       return descriptions
     }, {})
+}
+
+async function run(languagesContent, options) {
+  const { clean = true, write = writeFile } = options || {}
+
+  if (clean) {
+    await Promise.all(
+      [OUTPUT_LIB_DIRECTORY, OUTPUT_DATA_DIRECTORY].map(directory =>
+        fs.rm(directory, { recursive: true, force: true }),
+      ),
+    )
+  }
+
+  const descriptions = parseFieldDescriptions(languagesContent)
 
   const languages = (rawLanguage =>
     Object.keys(rawLanguage).map(name => {
@@ -276,3 +280,5 @@ if (process.argv[2] === 'run') {
   await run(languagesContent)
 }
 /* c8 ignore stop */
+
+export { parseFieldDescriptions, run, getLanguageData }
