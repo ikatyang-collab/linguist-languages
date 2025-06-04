@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`generateFiles > <cwd>/data/Fstar.d.mts 1`] = `
+exports[`generateFiles > data/Fstar.d.mts 1`] = `
 declare const _: {
   "name": "F*",
   "type": "programming",
@@ -18,7 +18,7 @@ declare const _: {
 export default _
 `;
 
-exports[`generateFiles > <cwd>/data/Fstar.d.ts 1`] = `
+exports[`generateFiles > data/Fstar.d.ts 1`] = `
 declare const _: {
   "name": "F*",
   "type": "programming",
@@ -36,7 +36,7 @@ declare const _: {
 export = _
 `;
 
-exports[`generateFiles > <cwd>/data/Fstar.js 1`] = `
+exports[`generateFiles > data/Fstar.js 1`] = `
 module.exports = {
   "name": "F*",
   "type": "programming",
@@ -53,7 +53,7 @@ module.exports = {
 }
 `;
 
-exports[`generateFiles > <cwd>/data/Fstar.mjs 1`] = `
+exports[`generateFiles > data/Fstar.mjs 1`] = `
 export default {
   "name": "F*",
   "type": "programming",
@@ -70,7 +70,7 @@ export default {
 }
 `;
 
-exports[`generateFiles > <cwd>/data/Test Test 2.d.mts 1`] = `
+exports[`generateFiles > data/Test Test 2.d.mts 1`] = `
 declare const _: {
   "name": "Test Test 2",
   "type": "programming",
@@ -85,7 +85,7 @@ declare const _: {
 export default _
 `;
 
-exports[`generateFiles > <cwd>/data/Test Test 2.d.ts 1`] = `
+exports[`generateFiles > data/Test Test 2.d.ts 1`] = `
 declare const _: {
   "name": "Test Test 2",
   "type": "programming",
@@ -100,7 +100,7 @@ declare const _: {
 export = _
 `;
 
-exports[`generateFiles > <cwd>/data/Test Test 2.js 1`] = `
+exports[`generateFiles > data/Test Test 2.js 1`] = `
 module.exports = {
   "name": "Test Test 2",
   "type": "programming",
@@ -114,7 +114,7 @@ module.exports = {
 }
 `;
 
-exports[`generateFiles > <cwd>/data/Test Test 2.mjs 1`] = `
+exports[`generateFiles > data/Test Test 2.mjs 1`] = `
 export default {
   "name": "Test Test 2",
   "type": "programming",
@@ -128,7 +128,7 @@ export default {
 }
 `;
 
-exports[`generateFiles > <cwd>/data/Test1.d.mts 1`] = `
+exports[`generateFiles > data/Test1.d.mts 1`] = `
 declare const _: {
   "name": "Test1",
   "type": "programming",
@@ -147,7 +147,7 @@ declare const _: {
 export default _
 `;
 
-exports[`generateFiles > <cwd>/data/Test1.d.ts 1`] = `
+exports[`generateFiles > data/Test1.d.ts 1`] = `
 declare const _: {
   "name": "Test1",
   "type": "programming",
@@ -166,7 +166,7 @@ declare const _: {
 export = _
 `;
 
-exports[`generateFiles > <cwd>/data/Test1.js 1`] = `
+exports[`generateFiles > data/Test1.js 1`] = `
 module.exports = {
   "name": "Test1",
   "type": "programming",
@@ -184,7 +184,7 @@ module.exports = {
 }
 `;
 
-exports[`generateFiles > <cwd>/data/Test1.mjs 1`] = `
+exports[`generateFiles > data/Test1.mjs 1`] = `
 export default {
   "name": "Test1",
   "type": "programming",
@@ -202,7 +202,7 @@ export default {
 }
 `;
 
-exports[`generateFiles > <cwd>/lib/index.d.mts 1`] = `
+exports[`generateFiles > lib/index.d.mts 1`] = `
 export type LanguageName = "Test1"
 | "Test Test 2"
 | "F*"
@@ -261,7 +261,7 @@ declare const languages: Record<LanguageName, Language>
 export default languages
 `;
 
-exports[`generateFiles > <cwd>/lib/index.d.ts 1`] = `
+exports[`generateFiles > lib/index.d.ts 1`] = `
 type LanguageName = "Test1"
 | "Test Test 2"
 | "F*";
@@ -322,7 +322,7 @@ wrap?: boolean;
 export = LinguistLanguages;
 `;
 
-exports[`generateFiles > <cwd>/lib/index.js 1`] = `
+exports[`generateFiles > lib/index.js 1`] = `
 module.exports = {
   "Test1": require("../data/Test1"),
 "Test Test 2": require("../data/Test Test 2"),
@@ -330,7 +330,7 @@ module.exports = {
 };
 `;
 
-exports[`generateFiles > <cwd>/lib/index.mjs 1`] = `
+exports[`generateFiles > lib/index.mjs 1`] = `
 import _0 from "../data/Test1.mjs"
 import _1 from "../data/Test%20Test%202.mjs"
 import _2 from "../data/Fstar.mjs"

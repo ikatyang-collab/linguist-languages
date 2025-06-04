@@ -88,11 +88,6 @@ test('parseFieldDescriptions', async () => {
 
 test('generateFiles', async () => {
   for (const { file, content } of generateFiles(fakeLanguagesYml)) {
-    expect(serializer.wrap(content)).toMatchSnapshot(
-      '<cwd>/' +
-        decodeURIComponent(
-          file.href.slice(new URL('../ ', import.meta.url).href.length),
-        ),
-    )
+    expect(serializer.wrap(content)).toMatchSnapshot(decodeURIComponent(file))
   }
 })

@@ -34,7 +34,7 @@
     "fix": "prettier --write .",
     "check": "tsc",
     "test": "vitest",
-    "build": "node ./scripts/generate.mjs --run"
+    "build": "node ./scripts/build.mjs"
   },
   "devDependencies": {
     "@types/node": "22.15.29",

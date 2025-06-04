@@ -1,18 +1,14 @@
 import assert from 'node:assert/strict'
 import fs from 'node:fs/promises'
-import url from 'node:url'
 import { inspect } from 'node:util'
 import camelcase from 'camelcase'
 import { parse } from 'yaml'
-import * as prettier from 'prettier'
 import { outdent } from 'outdent'
 
 const DATA_FILES = [
   'https://raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml',
   'https://gh-proxy.com/raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml',
 ]
-const OUTPUT_LIB_DIRECTORY = new URL('../lib/', import.meta.url)
-const OUTPUT_DATA_DIRECTORY = new URL('../data/', import.meta.url)
 const LANGUAGES_FILE_CACHE_FILE = new URL(
   '../.temp/languages.yml',
   import.meta.url,
@@ -44,18 +40,6 @@ async function fetchText(url) {
   const response = await fetch(url)
   const text = await response.text()
   return text
-}
-
-async function writeFile(file, content) {
-  const directory = new URL('./', file)
-  await fs.mkdir(directory, { recursive: true })
-  const formatted = await prettier.format(content, {
-    filepath: url.fileURLToPath(file),
-    singleQuote: true,
-    arrowParens: 'avoid',
-    semi: false,
-  })
-  await fs.writeFile(file, formatted)
 }
 
 async function getLanguageData() {
@@ -189,7 +173,7 @@ function* generateFiles(languagesContent, options) {
   const interfaceIdentifier = 'Language'
 
   yield {
-    file: new URL('./index.js', OUTPUT_LIB_DIRECTORY),
+    file: 'lib/index.js',
     content: outdent`
     module.exports = {
       ${languages
@@ -207,7 +191,7 @@ function* generateFiles(languagesContent, options) {
   // FIXME: use named export once supported
   // Ref: https://github.com/microsoft/TypeScript/issues/40594
   yield {
-    file: new URL('./index.mjs', OUTPUT_LIB_DIRECTORY),
+    file: 'lib/index.mjs',
     content: outdent`
       ${languages
         .map(
@@ -250,7 +234,7 @@ function* generateFiles(languagesContent, options) {
   `
 
   yield {
-    file: new URL('./index.d.ts', OUTPUT_LIB_DIRECTORY),
+    file: 'lib/index.d.ts',
     content: outdent`
       type ${languageNameIdentifier} = ${languages
         .map(language => JSON.stringify(language.name))
@@ -267,7 +251,7 @@ function* generateFiles(languagesContent, options) {
   }
 
   yield {
-    file: new URL('./index.d.mts', OUTPUT_LIB_DIRECTORY),
+    file: 'lib/index.d.mts',
     content: outdent`
       export type ${languageNameIdentifier} = ${languages
         .map(language => `${JSON.stringify(language.name)}`)
@@ -289,22 +273,22 @@ function* generateFiles(languagesContent, options) {
 
     const basename = encodeURIComponent(getDataBasename(language))
     yield {
-      file: new URL(`./${basename}.js`, OUTPUT_DATA_DIRECTORY),
+      file: `data/${basename}.js`,
       content: `module.exports = ${dataString}`,
     }
     yield {
-      file: new URL(`./${basename}.d.ts`, OUTPUT_DATA_DIRECTORY),
+      file: `data/${basename}.d.ts`,
       content: outdent`
         declare const _: ${dataString}
         export = _
       `,
     }
     yield {
-      file: new URL(`./${basename}.mjs`, OUTPUT_DATA_DIRECTORY),
+      file: `data/${basename}.mjs`,
       content: `export default ${dataString}`,
     }
     yield {
-      file: new URL(`./${basename}.d.mts`, OUTPUT_DATA_DIRECTORY),
+      file: `data/${basename}.d.mts`,
       content: outdent`
         declare const _: ${dataString}
         export default _
@@ -315,22 +299,6 @@ function* generateFiles(languagesContent, options) {
   function getDataBasename(language) {
     return language.fsName || language.name
   }
-}
-
-if (process.argv.includes('--run')) {
-  const languagesContent = await getLanguageData()
-
-  await Promise.all(
-    [OUTPUT_LIB_DIRECTORY, OUTPUT_DATA_DIRECTORY].map(directory =>
-      fs.rm(directory, { recursive: true, force: true }),
-    ),
-  )
-
-  await Promise.all(
-    [...generateFiles(languagesContent)].map(({ file, content }) =>
-      writeFile(file, content),
-    ),
-  )
 }
 
 export { parseFieldDescriptions, generateFiles, getLanguageData }
