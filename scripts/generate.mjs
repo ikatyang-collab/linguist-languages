@@ -16,6 +16,8 @@ const LANGUAGES_FILE_CACHE_FILE = new URL(
 )
 const CACHE_EXPIRE_TIME = 1 * 60 * 60 * 1000 // One hour
 
+const excludedFields = new Set(['fsName'])
+
 const NAME_FIELD = 'name'
 
 async function fetchText(url) {
@@ -57,22 +59,38 @@ function parseFieldDescriptions(content) {
     .join('\n')
     .split(/^(\w+)/m)
     .slice(1)
-    .reduce((descriptions, content, index, contents) => {
-      if (index % 2 === 1) {
-        const fieldName = contents[index - 1]
-        const alignmentLength = content.indexOf('-') + 2
-        descriptions[camelcase(fieldName)] = content
-          .trimEnd()
-          .split('\n')
-          .map((x, i) =>
-            x.slice(
-              i === 0 ? alignmentLength : alignmentLength + fieldName.length,
-            ),
+    .reduce(
+      (descriptions, content, index, contents) => {
+        if (index % 2 === 1) {
+          const rawFieldName = contents[index - 1]
+          const fieldName = camelcase(rawFieldName)
+
+          assert(
+            fieldName !== NAME_FIELD,
+            `Name field '${NAME_FIELD}' should not have desciptions.`,
           )
-          .join('\n')
-      }
-      return descriptions
-    }, {})
+
+          if (excludedFields.has(fieldName)) {
+            return descriptions
+          }
+
+          const alignmentLength = content.indexOf('-') + 2
+          descriptions[fieldName] = content
+            .trimEnd()
+            .split('\n')
+            .map((x, i) =>
+              x.slice(
+                i === 0
+                  ? alignmentLength
+                  : alignmentLength + rawFieldName.length,
+              ),
+            )
+            .join('\n')
+        }
+        return descriptions
+      },
+      { [NAME_FIELD]: 'Language name.' },
+    )
 }
 
 async function run(languagesContent, options) {
@@ -87,46 +105,40 @@ async function run(languagesContent, options) {
   }
 
   const descriptions = parseFieldDescriptions(languagesContent)
+  const data = parse(languagesContent)
 
-  const languages = (rawLanguage =>
-    Object.keys(rawLanguage).map(name => {
-      const language = rawLanguage[name]
+  const languages = Object.entries(data).map(([name, language]) => {
+    assert(
+      !Object.hasOwn(language, NAME_FIELD),
+      `Conflict field '${NAME_FIELD}' in '${name}' language.`,
+    )
 
-      assert(
-        !(NAME_FIELD in language),
-        `Conflict field ${NAME_FIELD} in ${name}`,
-      )
+    return {
+      name,
+      ...Object.fromEntries(
+        Object.entries(language)
+          .map(([key, value]) => {
+            // if (excludedFields.has(key)) {
+            //   return
+            // }
 
-      return Object.keys(language).reduce(
-        (reduced, fieldName) =>
-          Object.assign(reduced, {
-            [camelcase(fieldName)]: language[fieldName],
-          }),
-        { name },
-      )
-    }))(parse(languagesContent))
-
-  /**
-   * - true: required
-   * - false: optional
-   */
-  const fieldRequireds = {}
-
-  languages.forEach(language => {
-    Object.keys(language).forEach(fieldName => {
-      // find all fields
-      fieldRequireds[fieldName] = true
-    })
+            return [camelcase(key), value]
+          })
+          .filter(Boolean),
+      ),
+    }
   })
 
-  languages.forEach(language => {
-    Object.keys(fieldRequireds).forEach(fieldName => {
-      if (!(fieldName in language)) {
-        // mark optional fields
-        fieldRequireds[fieldName] = false
-      }
-    })
-  })
+  const allFields = [
+    ...new Set(languages.flatMap(language => Object.keys(language))),
+  ].filter(field => !excludedFields.has(field))
+
+  const fieldRequireds = Object.fromEntries(
+    allFields.map(field => [
+      field,
+      languages.every(language => Object.hasOwn(language, field)),
+    ]),
+  )
 
   const fieldTypes = {}
 
@@ -219,6 +231,7 @@ async function run(languagesContent, options) {
     function createInterface() {
       return `interface ${interfaceIdentifier} {\n${indent(
         Object.keys(fieldTypes)
+          .filter(field => !excludedFields.has(field))
           .map(
             fieldName =>
               (fieldName in descriptions
@@ -243,26 +256,32 @@ async function run(languagesContent, options) {
 
   await Promise.all(
     languages.map(async language => {
+      const data = Object.fromEntries(
+        Object.entries(language).filter(
+          ([field]) => !excludedFields.has(field),
+        ),
+      )
+
       const basename = encodeURIComponent(getDataBasename(language))
       await write(
         new URL(`./${basename}.js`, OUTPUT_DATA_DIRECTORY),
-        `module.exports = ${JSON.stringify(language, null, 2)}`,
+        `module.exports = ${JSON.stringify(data, undefined, 2)}`,
       )
       await write(
         new URL(`./${basename}.d.ts`, OUTPUT_DATA_DIRECTORY),
         [
-          `declare const _: ${JSON.stringify(language, null, 2)}`,
+          `declare const _: ${JSON.stringify(data, undefined, 2)}`,
           'export = _',
         ].join('\n'),
       )
       await write(
         new URL(`./${basename}.mjs`, OUTPUT_DATA_DIRECTORY),
-        `export default ${JSON.stringify(language, null, 2)}`,
+        `export default ${JSON.stringify(data, undefined, 2)}`,
       )
       await write(
         new URL(`./${basename}.d.mts`, OUTPUT_DATA_DIRECTORY),
         [
-          `declare const _: ${JSON.stringify(language, null, 2)}`,
+          `declare const _: ${JSON.stringify(data, undefined, 2)}`,
           'export default _',
         ].join('\n'),
       )
@@ -274,11 +293,9 @@ async function run(languagesContent, options) {
   }
 }
 
-/* c8 ignore start */
-if (process.argv[2] === 'run') {
+if (process.argv.includes('--run')) {
   const languagesContent = await getLanguageData()
   await run(languagesContent)
 }
-/* c8 ignore stop */
 
 export { parseFieldDescriptions, run, getLanguageData }

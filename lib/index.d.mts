@@ -777,6 +777,9 @@ export type LanguageName =
   | "xBase"
 
 export interface Language {
+  /**
+   * Language name.
+   */
   name: string
   /**
    * Either data, programming, markup, prose, or nil
@@ -843,12 +846,6 @@ export interface Language {
    * Boolean wrap to enable line wrapping (default: false)
    */
   wrap?: boolean
-  /**
-   * Optional field. Only necessary as a replacement for the sample directory name if the
-   * language name is not a valid filename under the Windows filesystem (e.g., if it
-   * contains an asterisk).
-   */
-  fsName?: string
   searchable?: boolean
 }
 

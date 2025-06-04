@@ -1,6 +1,5 @@
 module.exports = {
   "name": "F*",
-  "fsName": "Fstar",
   "type": "programming",
   "color": "#572e30",
   "aliases": [

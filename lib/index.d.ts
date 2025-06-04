@@ -780,6 +780,9 @@ declare const LinguistLanguages: Record<LanguageName, LinguistLanguages.Language
 
 declare namespace LinguistLanguages {
   interface Language {
+    /**
+     * Language name.
+     */
     name: string
     /**
      * Either data, programming, markup, prose, or nil
@@ -846,12 +849,6 @@ declare namespace LinguistLanguages {
      * Boolean wrap to enable line wrapping (default: false)
      */
     wrap?: boolean
-    /**
-     * Optional field. Only necessary as a replacement for the sample directory name if the
-     * language name is not a valid filename under the Windows filesystem (e.g., if it
-     * contains an asterisk).
-     */
-    fsName?: string
     searchable?: boolean
   }
 }

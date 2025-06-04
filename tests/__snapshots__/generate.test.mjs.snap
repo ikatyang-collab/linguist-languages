@@ -16,15 +16,13 @@ This must match a mode from https://git.io/vi9Fx",
 considered the primary extension, the others should be
 listed alphabetically)",
   "filenames": "An Array of filenames commonly associated with the language",
-  "fsName": "Optional field. Only necessary as a replacement for the sample directory name if the
-language name is not a valid filename under the Windows filesystem (e.g., if it
-contains an asterisk).",
   "group": "Name of the parent language. Languages in a group are counted
 in the statistics as the parent language.",
   "interpreters": "An Array of associated interpreters",
   "languageId": "Integer used as a language-name-independent indexed field so that we can rename
 languages in Linguist without reindexing all the code on GitHub. Must not be
 changed for existing languages without the explicit permission of GitHub staff.",
+  "name": "Language name.",
   "tmScope": "The TextMate scope that represents this programming
 language. This should match one of the scopes listed in
 the grammars.yml file. Use "none" if there is no grammar
@@ -37,7 +35,6 @@ for this language.",
 exports[`run > <cwd>/data/Fstar.d.mts 1`] = `
 declare const _: {
   "name": "F*",
-  "fsName": "Fstar",
   "type": "programming",
   "color": "#572e30",
   "aliases": [
@@ -56,7 +53,6 @@ export default _
 exports[`run > <cwd>/data/Fstar.d.ts 1`] = `
 declare const _: {
   "name": "F*",
-  "fsName": "Fstar",
   "type": "programming",
   "color": "#572e30",
   "aliases": [
@@ -75,7 +71,6 @@ export = _
 exports[`run > <cwd>/data/Fstar.js 1`] = `
 module.exports = {
   "name": "F*",
-  "fsName": "Fstar",
   "type": "programming",
   "color": "#572e30",
   "aliases": [
@@ -93,7 +88,6 @@ module.exports = {
 exports[`run > <cwd>/data/Fstar.mjs 1`] = `
 export default {
   "name": "F*",
-  "fsName": "Fstar",
   "type": "programming",
   "color": "#572e30",
   "aliases": [
@@ -247,6 +241,9 @@ export type LanguageName =
   | "F*"
 
 export interface Language {
+  /**
+   * Language name.
+   */
   name: string
   /**
    * Either data, programming, markup, prose, or nil
@@ -268,12 +265,6 @@ export interface Language {
   aceMode: string
   languageId: number
   wrap?: boolean
-  /**
-   * Optional field. Only necessary as a replacement for the sample directory name if the
-   * language name is not a valid filename under the Windows filesystem (e.g., if it
-   * contains an asterisk).
-   */
-  fsName?: string
 }
 
 declare const languages: Record<LanguageName, Language>
@@ -291,6 +282,9 @@ declare const LinguistLanguages: Record<LanguageName, LinguistLanguages.Language
 
 declare namespace LinguistLanguages {
   interface Language {
+    /**
+     * Language name.
+     */
     name: string
     /**
      * Either data, programming, markup, prose, or nil
@@ -312,12 +306,6 @@ declare namespace LinguistLanguages {
     aceMode: string
     languageId: number
     wrap?: boolean
-    /**
-     * Optional field. Only necessary as a replacement for the sample directory name if the
-     * language name is not a valid filename under the Windows filesystem (e.g., if it
-     * contains an asterisk).
-     */
-    fsName?: string
   }
 }
 
