@@ -7,6 +7,7 @@ export default {
     ".cfg",
     ".cnf",
     ".dof",
+    ".frm",
     ".lektorproject",
     ".prefs",
     ".pro",

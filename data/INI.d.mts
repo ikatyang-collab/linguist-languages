@@ -7,6 +7,7 @@ declare const _: {
     ".cfg",
     ".cnf",
     ".dof",
+    ".frm",
     ".lektorproject",
     ".prefs",
     ".pro",
