@@ -248,7 +248,7 @@ export default languages
 `;
 
 exports[`run > <cwd>/lib/index.d.ts 1`] = `
-type LanguageName =
+export type LanguageName =
   | "Test1"
   | "Test Test 2"
   | "F*";
