@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict'
 import fs from 'node:fs/promises'
 import { inspect } from 'node:util'
+import url from 'node:url'
+import * as prettier from 'prettier'
 import camelcase from 'camelcase'
 import { parse } from 'yaml'
 import { outdent } from 'outdent'
@@ -56,7 +58,7 @@ async function getLanguageData() {
 
   const text = await Promise.any(DATA_FILES.map(url => fetchText(url)))
 
-  await writeFile(LANGUAGES_FILE_CACHE_FILE, text)
+  await writeFile(LANGUAGES_FILE_CACHE_FILE, text, { format: false })
 
   return text
 }
@@ -301,4 +303,20 @@ function* generateFiles(languagesContent, options) {
   }
 }
 
-export { parseFieldDescriptions, generateFiles, getLanguageData }
+async function writeFile(file, content, { format = true } = {}) {
+  const directory = new URL('./', file)
+  await fs.mkdir(directory, { recursive: true })
+
+  content = format
+    ? await prettier.format(content, {
+        filepath: url.fileURLToPath(file),
+        singleQuote: true,
+        arrowParens: 'avoid',
+        semi: false,
+      })
+    : content
+
+  await fs.writeFile(file, content)
+}
+
+export { parseFieldDescriptions, generateFiles, getLanguageData, writeFile }
