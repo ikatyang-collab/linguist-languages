@@ -780,72 +780,72 @@ export interface Language {
   /**
    * Language name.
    */
-  name: string
+  readonly name: string
   /**
    * Either data, programming, markup, prose, or nil
    */
-  type: string
+  readonly type: string
   /**
    * CSS hex color to represent the language. Only used if type is "programming" or "markup".
    */
-  color?: string
+  readonly color?: string
   /**
    * An Array of associated extensions (the first one is
    * considered the primary extension, the others should be
    * listed alphabetically)
    */
-  extensions?: string[]
+  readonly extensions?: readonly string[]
   /**
    * The TextMate scope that represents this programming
    * language. This should match one of the scopes listed in
    * the grammars.yml file. Use "none" if there is no grammar
    * for this language.
    */
-  tmScope: string
+  readonly tmScope: string
   /**
    * A String name of the Ace Mode used for highlighting whenever
    * a file is edited. This must match one of the filenames in https://gh.io/acemodes.
    * Use "text" if a mode does not exist.
    */
-  aceMode: string
+  readonly aceMode: string
   /**
    * Integer used as a language-name-independent indexed field so that we can rename
    * languages in Linguist without reindexing all the code on GitHub. Must not be
    * changed for existing languages without the explicit permission of GitHub staff.
    */
-  languageId: number
+  readonly languageId: number
   /**
    * An Array of additional aliases (implicitly
    * includes name.downcase)
    */
-  aliases?: string[]
+  readonly aliases?: readonly string[]
   /**
    * A String name of the CodeMirror Mode used for highlighting whenever a file is edited.
    * This must match a mode from https://git.io/vi9Fx
    */
-  codemirrorMode?: string
+  readonly codemirrorMode?: string
   /**
    * A String name of the file mime type used for highlighting whenever a file is edited.
    * This should match the `mime` associated with the mode from https://git.io/f4SoQ
    */
-  codemirrorMimeType?: string
+  readonly codemirrorMimeType?: string
   /**
    * An Array of associated interpreters
    */
-  interpreters?: string[]
+  readonly interpreters?: readonly string[]
   /**
    * Name of the parent language. Languages in a group are counted
    * in the statistics as the parent language.
    */
-  group?: string
+  readonly group?: string
   /**
    * An Array of filenames commonly associated with the language
    */
-  filenames?: string[]
+  readonly filenames?: readonly string[]
   /**
    * Boolean wrap to enable line wrapping (default: false)
    */
-  wrap?: boolean
+  readonly wrap?: boolean
 }
 
 export { default as '1C Enterprise' } from '../data/1C_20_Enterprise.mjs'

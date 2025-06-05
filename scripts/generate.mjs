@@ -33,7 +33,7 @@ function getType(value) {
   if (Array.isArray(value)) {
     const types = value.map(value => getType(value))
     assert(new Set(types).size === 1, `Unexpected value:\n${inspect(value)}`)
-    return `${types[0]}[]`
+    return `readonly (${types[0]})[]`
   }
 
   throw new Error(`Unexpected value:\n${inspect(value)}`)
@@ -229,7 +229,7 @@ function* generateFiles(languagesContent, options) {
                 .map(x => `* ${x}`)
                 .join('\n')}
               */
-              ${name}${required ? '' : '?'}: ${type};
+              readonly ${name}${required ? '' : '?'}: ${type};
             `,
         )
         .join('\n')}
