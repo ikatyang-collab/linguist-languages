@@ -89,6 +89,6 @@ test('parseFieldDescriptions', async () => {
 
 test('generateFiles', async () => {
   for (const { file, content } of generateFiles(fakeLanguagesYml)) {
-    expect(serializer.wrap(content)).toMatchSnapshot(decodeURIComponent(file))
+    expect(serializer.wrap(content)).toMatchSnapshot(file)
   }
 })

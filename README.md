@@ -22,6 +22,7 @@ import javascript from 'linguist-languages/data/JavaScript'
 > [!IMPORTANT]
 > Due to file system or runtime limitation, the file location is not always the same as language name.
 > Eg: `F*` data is saved in `data/F_2a_.mjs`
+>
 > ```js
 > import FStar from 'linguist-languages/data/F_2a_'
 > ```

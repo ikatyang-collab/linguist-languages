@@ -339,9 +339,4 @@ async function writeFile(file, content, { format = true } = {}) {
   await fs.writeFile(file, content)
 }
 
-export {
-  parseFieldDescriptions,
-  generateFiles,
-  getLanguageData,
-  writeFile,
-  }
+export { parseFieldDescriptions, generateFiles, getLanguageData, writeFile }
