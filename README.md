@@ -16,6 +16,12 @@ npm install linguist-languages
 Import specific language data
 
 ```js
+import { JavaScript as javascript, 'F*' as FStar } from 'linguist-languages'
+```
+
+Or
+
+```js
 import javascript from 'linguist-languages/data/JavaScript'
 ```
 
@@ -30,7 +36,7 @@ import javascript from 'linguist-languages/data/JavaScript'
 Import all languages data
 
 ```js
-import languages from 'linguist-languages'
+import * as languages from 'linguist-languages'
 
 const javascript = languages.JavaScript
 ```
