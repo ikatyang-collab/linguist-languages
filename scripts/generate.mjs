@@ -116,11 +116,13 @@ function* generateFiles(languagesContent, options) {
     )
 
     const fileBaseName = getFileName(name)
+    const lowercasedFileBaseName = fileBaseName.toLocaleLowerCase()
 
     assert(
-      !seenFileBaseNames.has(fileBaseName),
+      !seenFileBaseNames.has(lowercasedFileBaseName),
       `File base name already exists '${fileBaseName}'.`,
     )
+    seenFileBaseNames.add(lowercasedFileBaseName)
 
     return {
       [NAME_FIELD]: name,
