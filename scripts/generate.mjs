@@ -256,14 +256,14 @@ function* generateFiles(languagesContent, options) {
 
       export ${interfaceCode};
 
-      export {
-        ${languages
-          .map(
-            language =>
-              `${interfaceIdentifier} as ${JSON.stringify(language.name)}`,
-          )
-          .join(',')}
-      };
+      ${languages
+        .map(
+          language =>
+            `export {default as ${JSON.stringify(language.name)}} from ${JSON.stringify(
+              `../data/${language[FILE_BASE_NAME_FIELD]}.mjs`,
+            )}`,
+        )
+        .join('\n')}
     `,
   }
 
