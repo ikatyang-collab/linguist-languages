@@ -264,7 +264,7 @@ function* generateFiles(languagesContent, options) {
         .map(
           language =>
             outdent`
-              export type {
+              export {
                 default as ${JSON.stringify(language.name)},
               } from ${JSON.stringify(
                 `../data/${language[FILE_BASE_NAME_FIELD]}.mjs`,
