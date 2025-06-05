@@ -64,45 +64,42 @@ async function getLanguageData() {
 }
 
 function parseFieldDescriptions(content) {
-  return content
-    .match(/#\n((?:#.+\n)+?)#\n/)[1]
-    .split('\n')
-    .map(x => x.slice(2))
-    .join('\n')
-    .split(/^(\w+)/m)
-    .slice(1)
-    .reduce(
-      (descriptions, content, index, contents) => {
-        if (index % 2 === 1) {
-          const rawFieldName = contents[index - 1]
-          const fieldName = camelcase(rawFieldName)
+  const descriptions = { [NAME_FIELD]: 'Language name.' }
 
-          assert(
-            fieldName !== NAME_FIELD,
-            `Name field '${NAME_FIELD}' should not have desciptions.`,
-          )
+  let fieldName
+  let alignmentLength
+  for (const [line] of content.matchAll(/(?<=\n)# (?:\w+ + -| +) .+(?=\n)/g)) {
+    const match = line.match(/^# (?<field>\w+) + - (?<content>.+)$/)
+    if (match) {
+      const { field, content } = match.groups
 
-          if (excludedFields.has(fieldName)) {
-            return descriptions
-          }
+      assert(
+        fieldName !== NAME_FIELD,
+        `Name field '${NAME_FIELD}' should not have descriptions.`,
+      )
 
-          const alignmentLength = content.indexOf('-') + 2
-          descriptions[fieldName] = content
-            .trimEnd()
-            .split('\n')
-            .map((x, i) =>
-              x.slice(
-                i === 0
-                  ? alignmentLength
-                  : alignmentLength + rawFieldName.length,
-              ),
-            )
-            .join('\n')
-        }
-        return descriptions
-      },
-      { [NAME_FIELD]: 'Language name.' },
+      fieldName = camelcase(field)
+
+      descriptions[fieldName] = content
+      alignmentLength = line.length - content.length
+      continue
+    }
+
+    assert(
+      fieldName &&
+        alignmentLength &&
+        line.startsWith('#' + ' '.repeat(alignmentLength - 1)),
+      `Unexpected line:\n${line}`,
     )
+
+    descriptions[fieldName] += `\n${line.slice(alignmentLength)}`
+  }
+
+  for (const fieldName of excludedFields) {
+    delete descriptions[fieldName]
+  }
+
+  return descriptions
 }
 
 function* generateFiles(languagesContent, options) {
