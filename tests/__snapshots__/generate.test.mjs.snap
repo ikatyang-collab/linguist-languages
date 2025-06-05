@@ -256,13 +256,13 @@ languageId: number;
 wrap?: boolean;
 };
 
-export type {
+export {
   default as "Test1",
 } from "../data/Test1.mjs";
-export type {
+export {
   default as "Test Test 2",
 } from "../data/Test_20_Test_20_2.mjs";
-export type {
+export {
   default as "F*",
 } from "../data/F_2a_.mjs";
 `;
