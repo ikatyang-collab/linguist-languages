@@ -3,7 +3,7 @@
   "version": "7.31.2",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "description": "Linguist languages.yml in JSON format",
+  "description": "Linguist languages data",
   "keywords": [
     "data",
     "json",

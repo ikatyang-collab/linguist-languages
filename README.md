@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/linguist-languages.svg)](https://www.npmjs.com/package/linguist-languages)
 [![build](https://img.shields.io/github/actions/workflow/status/ikatyang/linguist-languages/test.yml)](https://github.com/ikatyang/linguist-languages/actions?query=branch%3Amain)
 
-[Linguist `languages.yml`](https://github.com/github/linguist/blob/main/lib/linguist/languages.yml) in JSON format
+[Linguist `languages.yaml`](https://github.com/github/linguist/blob/main/lib/linguist/languages.yml) data in JS format.
 
 ## Install
 
