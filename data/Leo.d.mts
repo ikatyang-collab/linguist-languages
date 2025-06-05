@@ -1,7 +1,7 @@
 declare const _: {
   name: 'Leo'
   type: 'programming'
-  color: '#6814EC'
+  color: '#C4FFC2'
   extensions: ['.leo']
   tmScope: 'source.leo'
   aceMode: 'text'
