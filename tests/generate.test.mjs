@@ -6,6 +6,7 @@ import {
   getLanguageData,
   parseFieldDescriptions,
 } from '../scripts/generate.mjs'
+import { parse } from 'yaml'
 
 expect.addSnapshotSerializer(serializer)
 

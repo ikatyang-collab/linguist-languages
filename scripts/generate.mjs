@@ -20,6 +20,7 @@ const CACHE_EXPIRE_TIME = 1 * 60 * 60 * 1000 // One hour
 const excludedFields = new Set(['fsName', 'searchable'])
 
 const NAME_FIELD = 'name'
+const FILE_BASE_NAME_FIELD = Symbol('FILE_BASE_NAME_FIELD')
 
 const primitiveTypes = new Set(['boolean', 'number', 'string'])
 function getType(value) {
@@ -104,6 +105,7 @@ function parseFieldDescriptions(content) {
 
 function* generateFiles(languagesContent, options) {
   const descriptions = parseFieldDescriptions(languagesContent)
+  const seenFileBaseNames = new Set()
 
   const data = parse(languagesContent)
 
@@ -113,8 +115,16 @@ function* generateFiles(languagesContent, options) {
       `Conflict field '${NAME_FIELD}' in '${name}' language.`,
     )
 
+    const fileBaseName = getFileName(name)
+
+    assert(
+      !seenFileBaseNames.has(fileBaseName),
+      `File base name already exists '${fileBaseName}'.`,
+    )
+
     return {
-      name,
+      [NAME_FIELD]: name,
+      [FILE_BASE_NAME_FIELD]: fileBaseName,
       ...Object.fromEntries(
         Object.entries(language)
           .map(([key, value]) => [camelcase(key), value])
@@ -179,7 +189,7 @@ function* generateFiles(languagesContent, options) {
         .map(
           language =>
             `${JSON.stringify(language.name)}: require(${JSON.stringify(
-              `../data/${getDataBasename(language)}`,
+              `../data/${language[FILE_BASE_NAME_FIELD]}`,
             )})`,
         )
         .join(',\n')}
@@ -196,7 +206,7 @@ function* generateFiles(languagesContent, options) {
         .map(
           (language, index) =>
             `import _${index} from ${JSON.stringify(
-              `../data/${encodeURIComponent(getDataBasename(language))}.mjs`,
+              `../data/${language[FILE_BASE_NAME_FIELD]}.mjs`,
             )}`,
         )
         .join('\n')}
@@ -270,7 +280,7 @@ function* generateFiles(languagesContent, options) {
     )
     const dataString = JSON.stringify(data, undefined, 2)
 
-    const basename = encodeURIComponent(getDataBasename(language))
+    const basename = language[FILE_BASE_NAME_FIELD]
     yield {
       file: `data/${basename}.js`,
       content: `module.exports = ${dataString}`,
@@ -294,10 +304,23 @@ function* generateFiles(languagesContent, options) {
       `,
     }
   }
+}
 
-  function getDataBasename(language) {
-    return language.fsName || language.name
-  }
+function getFileName(name) {
+  const filename = [...name]
+    .map(character =>
+      /[0-9a-zA-Z\-\.]/.test(character)
+        ? character
+        : `_${character.codePointAt(0).toString(16)}_`,
+    )
+    .join('')
+
+  assert(
+    encodeURIComponent(filename) === filename,
+    `Can not generate filename for '${name}'`,
+  )
+
+  return filename
 }
 
 async function writeFile(file, content, { format = true } = {}) {
@@ -316,4 +339,9 @@ async function writeFile(file, content, { format = true } = {}) {
   await fs.writeFile(file, content)
 }
 
-export { parseFieldDescriptions, generateFiles, getLanguageData, writeFile }
+export {
+  parseFieldDescriptions,
+  generateFiles,
+  getLanguageData,
+  writeFile,
+  }
