@@ -205,7 +205,7 @@ export default {
 exports[`generateFiles > lib/index.d.mts 1`] = `
 export type LanguageName = "Test1"
 | "Test Test 2"
-| "F*"
+| "F*";
 
 export interface Language {
   /**
@@ -254,11 +254,17 @@ languageId: number;
 * Boolean wrap to enable line wrapping (default: false)
 */
 wrap?: boolean;
-}
+};
 
-declare const languages: Record<LanguageName, Language>
-
-export default languages
+export type {
+  default as "Test1",
+} from "../data/Test1.mjs";
+export type {
+  default as "Test Test 2",
+} from "../data/Test_20_Test_20_2.mjs";
+export type {
+  default as "F*",
+} from "../data/F_2a_.mjs";
 `;
 
 exports[`generateFiles > lib/index.d.ts 1`] = `
@@ -331,15 +337,15 @@ module.exports = {
 `;
 
 exports[`generateFiles > lib/index.mjs 1`] = `
-import _0 from "../data/Test1.mjs"
-import _1 from "../data/Test_20_Test_20_2.mjs"
-import _2 from "../data/F_2a_.mjs"
-
-export default {
-  "Test1": _0,
-"Test Test 2": _1,
-"F*": _2
-}
+export {
+  default as "Test1"
+} from "../data/Test1.mjs";
+export {
+  default as "Test Test 2"
+} from "../data/Test_20_Test_20_2.mjs";
+export {
+  default as "F*"
+} from "../data/F_2a_.mjs";
 `;
 
 exports[`parseFieldDescriptions 1`] = `

@@ -202,9 +202,13 @@ function* generateFiles(languagesContent, options) {
     content: languages
       .map(
         language =>
-          `export {default as ${JSON.stringify(language.name)}} from ${JSON.stringify(
-            `../data/${language[FILE_BASE_NAME_FIELD]}.mjs`,
-          )}`,
+          outdent`
+            export {
+              default as ${JSON.stringify(language.name)}
+            } from ${JSON.stringify(
+              `../data/${language[FILE_BASE_NAME_FIELD]}.mjs`,
+            )};
+          `,
       )
       .join('\n'),
   }
@@ -259,9 +263,13 @@ function* generateFiles(languagesContent, options) {
       ${languages
         .map(
           language =>
-            `export {default as ${JSON.stringify(language.name)}} from ${JSON.stringify(
-              `../data/${language[FILE_BASE_NAME_FIELD]}.mjs`,
-            )}`,
+            outdent`
+              export type {
+                default as ${JSON.stringify(language.name)},
+              } from ${JSON.stringify(
+                `../data/${language[FILE_BASE_NAME_FIELD]}.mjs`,
+              )};
+            `,
         )
         .join('\n')}
     `,
