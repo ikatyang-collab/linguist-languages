@@ -16,11 +16,17 @@ npm install linguist-languages
 Import specific language data
 
 ```js
+import { JavaScript as javascript, 'F*' as FStar } from 'linguist-languages'
+```
+
+Or
+
+```js
 import javascript from 'linguist-languages/data/JavaScript'
 ```
 
 > [!IMPORTANT]
-> Due to file system or runtime limitation, the file location is not always the same as language name.
+> Due to file system and runtime limitation, the file location is not always the same as language name.
 > Eg: `F*` data is saved in `data/F_2a_.mjs`
 >
 > ```js
@@ -30,7 +36,7 @@ import javascript from 'linguist-languages/data/JavaScript'
 Import all languages data
 
 ```js
-import languages from 'linguist-languages'
+import * as languages from 'linguist-languages'
 
 const javascript = languages.JavaScript
 ```

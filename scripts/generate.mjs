@@ -197,28 +197,20 @@ function* generateFiles(languagesContent, options) {
    `,
   }
 
-  // FIXME: use named export once supported
-  // Ref: https://github.com/microsoft/TypeScript/issues/40594
   yield {
     file: 'lib/index.mjs',
-    content: outdent`
-      ${languages
-        .map(
-          (language, index) =>
-            `import _${index} from ${JSON.stringify(
+    content: languages
+      .map(
+        language =>
+          outdent`
+            export {
+              default as ${JSON.stringify(language.name)}
+            } from ${JSON.stringify(
               `../data/${language[FILE_BASE_NAME_FIELD]}.mjs`,
-            )}`,
-        )
-        .join('\n')}
-
-      export default {
-        ${languages
-          .map(
-            (language, index) => `${JSON.stringify(language.name)}: _${index}`,
-          )
-          .join(',\n')}
-      }
-    `,
+            )};
+          `,
+      )
+      .join('\n'),
   }
 
   const namespaceIdentifier = 'LinguistLanguages'
@@ -264,13 +256,22 @@ function* generateFiles(languagesContent, options) {
     content: outdent`
       export type ${languageNameIdentifier} = ${languages
         .map(language => `${JSON.stringify(language.name)}`)
-        .join('\n| ')}
+        .join('\n| ')};
 
-      export ${interfaceCode}
+      export ${interfaceCode};
 
-      declare const languages: Record<${languageNameIdentifier}, ${interfaceIdentifier}>
-
-      export default languages
+      ${languages
+        .map(
+          language =>
+            outdent`
+              export {
+                default as ${JSON.stringify(language.name)},
+              } from ${JSON.stringify(
+                `../data/${language[FILE_BASE_NAME_FIELD]}.mjs`,
+              )};
+            `,
+        )
+        .join('\n')}
     `,
   }
 
