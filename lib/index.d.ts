@@ -432,6 +432,7 @@ type LanguageName =
   | 'NewLisp'
   | 'Nextflow'
   | 'Nginx'
+  | 'Nickel'
   | 'Nim'
   | 'Ninja'
   | 'Nit'
