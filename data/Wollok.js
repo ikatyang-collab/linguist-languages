@@ -4,6 +4,6 @@ module.exports = {
   color: '#a23738',
   extensions: ['.wlk'],
   tmScope: 'source.wollok',
-  aceMode: 'text',
+  aceMode: 'wollok',
   languageId: 632745969,
 }

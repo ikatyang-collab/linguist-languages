@@ -4,7 +4,7 @@ module.exports = {
   color: '#15dcdc',
   extensions: ['.vbs'],
   tmScope: 'source.vbnet',
-  aceMode: 'text',
+  aceMode: 'vbscript',
   languageId: 408016005,
   codemirrorMode: 'vbscript',
   codemirrorMimeType: 'text/vbscript',

@@ -8,5 +8,5 @@ module.exports = {
   languageId: 198,
   aliases: ['less-css'],
   codemirrorMode: 'css',
-  codemirrorMimeType: 'text/css',
+  codemirrorMimeType: 'text/x-less',
 }

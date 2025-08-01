@@ -4,7 +4,7 @@ module.exports = {
   color: '#2b2b2b',
   extensions: ['.slim'],
   tmScope: 'text.slim',
-  aceMode: 'text',
+  aceMode: 'slim',
   languageId: 350,
   codemirrorMode: 'slim',
   codemirrorMimeType: 'text/x-slim',

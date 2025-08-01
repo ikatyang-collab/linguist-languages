@@ -4,6 +4,6 @@ export default {
   color: '#ff0000',
   extensions: ['.bas'],
   tmScope: 'source.basic',
-  aceMode: 'text',
+  aceMode: 'basic',
   languageId: 28923963,
 }

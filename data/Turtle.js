@@ -3,7 +3,7 @@ module.exports = {
   type: 'data',
   extensions: ['.ttl'],
   tmScope: 'source.turtle',
-  aceMode: 'text',
+  aceMode: 'turtle',
   languageId: 376,
   codemirrorMode: 'turtle',
   codemirrorMimeType: 'text/turtle',

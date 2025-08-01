@@ -3,7 +3,7 @@ module.exports = {
   type: 'programming',
   extensions: ['.zeek', '.bro'],
   tmScope: 'source.zeek',
-  aceMode: 'text',
+  aceMode: 'zeek',
   languageId: 40,
   aliases: ['bro'],
 }

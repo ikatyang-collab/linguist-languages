@@ -4,7 +4,7 @@ declare const _: {
   color: '#1797c0'
   extensions: ['.cls', '.apex', '.trigger']
   tmScope: 'source.apex'
-  aceMode: 'java'
+  aceMode: 'apex'
   languageId: 17
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-java'

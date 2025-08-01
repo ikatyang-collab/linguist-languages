@@ -3,7 +3,7 @@ declare const _: {
   type: 'programming'
   extensions: ['.asl', '.dsl']
   tmScope: 'source.asl'
-  aceMode: 'text'
+  aceMode: 'asl'
   languageId: 124996147
 }
 export default _

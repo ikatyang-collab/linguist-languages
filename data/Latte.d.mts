@@ -4,7 +4,7 @@ declare const _: {
   color: '#f2a542'
   extensions: ['.latte']
   tmScope: 'text.html.smarty'
-  aceMode: 'smarty'
+  aceMode: 'latte'
   languageId: 196
   codemirrorMode: 'smarty'
   codemirrorMimeType: 'text/x-smarty'

@@ -4,7 +4,7 @@ declare const _: {
   color: '#2e1052'
   extensions: ['.ecr']
   tmScope: 'text.html.ecr'
-  aceMode: 'text'
+  aceMode: 'html_ruby'
   languageId: 148
   aliases: ['ecr']
   codemirrorMode: 'htmlmixed'

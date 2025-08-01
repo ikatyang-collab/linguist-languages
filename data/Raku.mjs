@@ -18,7 +18,7 @@ export default {
     '.t',
   ],
   tmScope: 'source.raku',
-  aceMode: 'perl',
+  aceMode: 'raku',
   languageId: 283,
   aliases: ['perl6', 'perl-6'],
   codemirrorMode: 'perl',

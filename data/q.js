@@ -6,4 +6,6 @@ module.exports = {
   tmScope: 'source.q',
   aceMode: 'text',
   languageId: 970539067,
+  codemirrorMode: 'q',
+  codemirrorMimeType: 'text/x-q',
 }

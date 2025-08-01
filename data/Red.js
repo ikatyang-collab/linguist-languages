@@ -4,7 +4,7 @@ module.exports = {
   color: '#f50000',
   extensions: ['.red', '.reds'],
   tmScope: 'source.red',
-  aceMode: 'text',
+  aceMode: 'red',
   languageId: 320,
   aliases: ['red/system'],
 }

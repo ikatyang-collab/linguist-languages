@@ -7,5 +7,5 @@ export default {
   aceMode: 'javascript',
   languageId: 176,
   codemirrorMode: 'javascript',
-  codemirrorMimeType: 'application/json',
+  codemirrorMimeType: 'application/ld+json',
 }

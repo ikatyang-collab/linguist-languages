@@ -4,7 +4,7 @@ declare const _: {
   color: '#F05138'
   extensions: ['.swift']
   tmScope: 'source.swift'
-  aceMode: 'text'
+  aceMode: 'swift'
   languageId: 362
   codemirrorMode: 'swift'
   codemirrorMimeType: 'text/x-swift'

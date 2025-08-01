@@ -4,7 +4,7 @@ declare const _: {
   color: '#267CB9'
   extensions: ['.json5']
   tmScope: 'source.js'
-  aceMode: 'javascript'
+  aceMode: 'json5'
   languageId: 175
   codemirrorMode: 'javascript'
   codemirrorMimeType: 'application/json'

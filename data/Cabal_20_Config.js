@@ -4,7 +4,7 @@ module.exports = {
   color: '#483465',
   extensions: ['.cabal'],
   tmScope: 'source.cabal',
-  aceMode: 'haskell',
+  aceMode: 'haskell_cabal',
   languageId: 677095381,
   aliases: ['Cabal'],
   codemirrorMode: 'haskell',

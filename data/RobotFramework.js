@@ -4,6 +4,6 @@ module.exports = {
   color: '#00c0b5',
   extensions: ['.robot', '.resource'],
   tmScope: 'text.robot',
-  aceMode: 'text',
+  aceMode: 'robot',
   languageId: 324,
 }

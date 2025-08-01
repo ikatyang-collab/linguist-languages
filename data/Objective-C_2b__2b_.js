@@ -8,5 +8,5 @@ module.exports = {
   languageId: 258,
   aliases: ['obj-c++', 'objc++', 'objectivec++'],
   codemirrorMode: 'clike',
-  codemirrorMimeType: 'text/x-objectivec',
+  codemirrorMimeType: 'text/x-objectivec++',
 }
