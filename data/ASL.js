@@ -3,6 +3,6 @@ module.exports = {
   type: 'programming',
   extensions: ['.asl', '.dsl'],
   tmScope: 'source.asl',
-  aceMode: 'text',
+  aceMode: 'asl',
   languageId: 124996147,
 }

@@ -6,5 +6,7 @@ declare const _: {
   tmScope: 'source.q'
   aceMode: 'text'
   languageId: 970539067
+  codemirrorMode: 'q'
+  codemirrorMimeType: 'text/x-q'
 }
 export default _

@@ -1,7 +1,7 @@
 module.exports = {
   name: 'SWIG',
   type: 'programming',
-  extensions: ['.i'],
+  extensions: ['.i', '.swg', '.swig'],
   tmScope: 'source.c++',
   aceMode: 'c_cpp',
   languageId: 1066250075,

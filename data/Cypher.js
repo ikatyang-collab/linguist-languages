@@ -6,4 +6,6 @@ module.exports = {
   tmScope: 'source.cypher',
   aceMode: 'text',
   languageId: 850806976,
+  codemirrorMode: 'cypher',
+  codemirrorMimeType: 'application/x-cypher-query',
 }

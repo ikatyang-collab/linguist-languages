@@ -4,7 +4,7 @@ module.exports = {
   color: '#fc5757',
   extensions: ['.mediawiki', '.wiki', '.wikitext'],
   tmScope: 'text.html.mediawiki',
-  aceMode: 'text',
+  aceMode: 'mediawiki',
   languageId: 228,
   aliases: ['mediawiki', 'wiki'],
   wrap: true,

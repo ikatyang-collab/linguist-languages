@@ -21,7 +21,7 @@ module.exports = {
     '.vw',
   ],
   tmScope: 'none',
-  aceMode: 'sql',
+  aceMode: 'plsql',
   languageId: 273,
   codemirrorMode: 'sql',
   codemirrorMimeType: 'text/x-plsql',

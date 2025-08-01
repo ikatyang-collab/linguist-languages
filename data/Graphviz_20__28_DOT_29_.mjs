@@ -4,6 +4,6 @@ export default {
   color: '#2596be',
   extensions: ['.dot', '.gv'],
   tmScope: 'source.dot',
-  aceMode: 'text',
+  aceMode: 'dot',
   languageId: 140,
 }

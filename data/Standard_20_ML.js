@@ -8,5 +8,5 @@ module.exports = {
   languageId: 357,
   aliases: ['sml'],
   codemirrorMode: 'mllike',
-  codemirrorMimeType: 'text/x-ocaml',
+  codemirrorMimeType: 'text/x-sml',
 }

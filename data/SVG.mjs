@@ -4,7 +4,7 @@ export default {
   color: '#ff9900',
   extensions: ['.svg'],
   tmScope: 'text.xml.svg',
-  aceMode: 'xml',
+  aceMode: 'svg',
   languageId: 337,
   codemirrorMode: 'xml',
   codemirrorMimeType: 'text/xml',

@@ -4,7 +4,7 @@ module.exports = {
   color: '#b845fc',
   extensions: ['.fs', '.fsi', '.fsx'],
   tmScope: 'source.fsharp',
-  aceMode: 'text',
+  aceMode: 'fsharp',
   languageId: 105,
   aliases: ['fsharp'],
   codemirrorMode: 'mllike',

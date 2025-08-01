@@ -7,7 +7,7 @@ declare const _: {
   aceMode: 'django'
   languageId: 147
   aliases: ['django', 'html+django', 'html+jinja', 'htmldjango']
-  codemirrorMode: 'django'
-  codemirrorMimeType: 'text/x-django'
+  codemirrorMode: 'jinja2'
+  codemirrorMimeType: 'text/jinja2'
 }
 export = _

@@ -4,7 +4,7 @@ declare const _: {
   color: '#44a51c'
   extensions: ['.qml', '.qbs']
   tmScope: 'source.qml'
-  aceMode: 'text'
+  aceMode: 'qml'
   languageId: 305
 }
 export default _

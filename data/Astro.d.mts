@@ -4,7 +4,7 @@ declare const _: {
   color: '#ff5a03'
   extensions: ['.astro']
   tmScope: 'source.astro'
-  aceMode: 'html'
+  aceMode: 'astro'
   languageId: 578209015
   codemirrorMode: 'jsx'
   codemirrorMimeType: 'text/jsx'

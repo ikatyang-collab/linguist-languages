@@ -6,4 +6,6 @@ module.exports = {
   tmScope: 'source.hxml',
   aceMode: 'text',
   languageId: 786683730,
+  codemirrorMode: 'haxe',
+  codemirrorMimeType: 'text/x-hxml',
 }

@@ -4,7 +4,7 @@ export default {
   color: '#778899',
   extensions: ['.bib', '.bibtex'],
   tmScope: 'text.bibtex',
-  aceMode: 'tex',
+  aceMode: 'bibtex',
   languageId: 982188347,
   codemirrorMode: 'stex',
   codemirrorMimeType: 'text/x-stex',

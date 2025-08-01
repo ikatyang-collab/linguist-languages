@@ -8,6 +8,6 @@ declare const _: {
   languageId: 357
   aliases: ['sml']
   codemirrorMode: 'mllike'
-  codemirrorMimeType: 'text/x-ocaml'
+  codemirrorMimeType: 'text/x-sml'
 }
 export = _

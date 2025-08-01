@@ -6,4 +6,6 @@ module.exports = {
   tmScope: 'text.html.js',
   aceMode: 'ejs',
   languageId: 95,
+  codemirrorMode: 'htmlembedded',
+  codemirrorMimeType: 'application/x-ejs',
 }

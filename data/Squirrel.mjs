@@ -7,5 +7,5 @@ export default {
   aceMode: 'c_cpp',
   languageId: 355,
   codemirrorMode: 'clike',
-  codemirrorMimeType: 'text/x-c++src',
+  codemirrorMimeType: 'text/x-squirrel',
 }

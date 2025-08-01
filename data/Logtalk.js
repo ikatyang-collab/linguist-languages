@@ -4,6 +4,6 @@ module.exports = {
   color: '#295b9a',
   extensions: ['.lgt', '.logtalk'],
   tmScope: 'source.logtalk',
-  aceMode: 'text',
+  aceMode: 'logtalk',
   languageId: 210,
 }

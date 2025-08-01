@@ -4,7 +4,7 @@ declare const _: {
   color: '#844FBA'
   extensions: ['.hcl', '.nomad', '.tf', '.tfvars', '.workflow']
   tmScope: 'source.hcl'
-  aceMode: 'ruby'
+  aceMode: 'terraform'
   languageId: 144
   aliases: ['HashiCorp Configuration Language', 'terraform']
   codemirrorMode: 'ruby'

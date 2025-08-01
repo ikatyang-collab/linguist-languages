@@ -4,7 +4,7 @@ declare const _: {
   color: '#302B6D'
   extensions: ['.pp']
   tmScope: 'source.puppet'
-  aceMode: 'text'
+  aceMode: 'puppet'
   languageId: 299
   codemirrorMode: 'puppet'
   codemirrorMimeType: 'text/x-puppet'

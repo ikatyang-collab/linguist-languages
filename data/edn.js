@@ -6,5 +6,5 @@ module.exports = {
   aceMode: 'clojure',
   languageId: 414,
   codemirrorMode: 'clojure',
-  codemirrorMimeType: 'text/x-clojure',
+  codemirrorMimeType: 'application/edn',
 }

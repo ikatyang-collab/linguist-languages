@@ -4,7 +4,7 @@ module.exports = {
   color: '#000100',
   extensions: ['.cr'],
   tmScope: 'source.crystal',
-  aceMode: 'ruby',
+  aceMode: 'crystal',
   languageId: 72,
   codemirrorMode: 'crystal',
   codemirrorMimeType: 'text/x-crystal',

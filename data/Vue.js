@@ -4,6 +4,8 @@ module.exports = {
   color: '#41b883',
   extensions: ['.vue'],
   tmScope: 'source.vue',
-  aceMode: 'html',
+  aceMode: 'vue',
   languageId: 391,
+  codemirrorMode: 'vue',
+  codemirrorMimeType: 'text/x-vue',
 }

@@ -4,8 +4,10 @@ declare const _: {
   color: '#5B2063'
   extensions: ['.feature', '.story']
   tmScope: 'text.gherkin.feature'
-  aceMode: 'text'
+  aceMode: 'gherkin'
   languageId: 76
   aliases: ['cucumber']
+  codemirrorMode: 'gherkin'
+  codemirrorMimeType: 'text/x-feature'
 }
 export = _

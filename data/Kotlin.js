@@ -4,7 +4,7 @@ module.exports = {
   color: '#A97BFF',
   extensions: ['.kt', '.ktm', '.kts'],
   tmScope: 'source.kotlin',
-  aceMode: 'text',
+  aceMode: 'kotlin',
   languageId: 189,
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-kotlin',
