@@ -1,6 +1,6 @@
 {
   "name": "linguist-languages",
-  "version": "8.0.0",
+  "version": "8.1.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "description": "Linguist languages data",
