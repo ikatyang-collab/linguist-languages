@@ -4,7 +4,7 @@ declare const _: {
   color: '#ec915c'
   extensions: ['.zig', '.zig.zon']
   tmScope: 'source.zig'
-  aceMode: 'text'
+  aceMode: 'zig'
   languageId: 646424281
 }
 export = _

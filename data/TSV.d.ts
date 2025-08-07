@@ -4,7 +4,7 @@ declare const _: {
   color: '#237346'
   extensions: ['.tsv', '.vcf']
   tmScope: 'source.generic-db'
-  aceMode: 'text'
+  aceMode: 'tsv'
   languageId: 1035892117
   aliases: ['tab-seperated values']
 }

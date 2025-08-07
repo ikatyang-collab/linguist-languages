@@ -4,7 +4,7 @@ declare const _: {
   color: '#237346'
   extensions: ['.csv']
   tmScope: 'none'
-  aceMode: 'text'
+  aceMode: 'csv'
   languageId: 51
 }
 export default _

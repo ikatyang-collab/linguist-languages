@@ -4,7 +4,7 @@ export default {
   color: '#701516',
   extensions: ['.erb', '.erb.deface', '.rhtml'],
   tmScope: 'text.html.erb',
-  aceMode: 'text',
+  aceMode: 'html_ruby',
   languageId: 150,
   aliases: ['erb', 'rhtml', 'html+ruby'],
   codemirrorMode: 'htmlembedded',

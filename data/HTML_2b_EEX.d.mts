@@ -4,7 +4,7 @@ declare const _: {
   color: '#6e4a7e'
   extensions: ['.html.eex', '.heex', '.leex']
   tmScope: 'text.html.elixir'
-  aceMode: 'text'
+  aceMode: 'html_elixir'
   languageId: 149
   aliases: ['eex', 'heex', 'leex']
   codemirrorMode: 'htmlmixed'

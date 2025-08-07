@@ -4,6 +4,6 @@ export default {
   color: '#f7523f',
   extensions: ['.blade', '.blade.php'],
   tmScope: 'text.html.php.blade',
-  aceMode: 'text',
+  aceMode: 'php_laravel_blade',
   languageId: 33,
 }

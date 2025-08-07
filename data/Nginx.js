@@ -4,7 +4,7 @@ module.exports = {
   color: '#009639',
   extensions: ['.nginx', '.nginxconf', '.vhost'],
   tmScope: 'source.nginx',
-  aceMode: 'text',
+  aceMode: 'nginx',
   languageId: 248,
   aliases: ['nginx configuration file'],
   codemirrorMode: 'nginx',

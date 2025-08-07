@@ -4,7 +4,7 @@ declare const _: {
   color: '#c44536'
   extensions: ['.smithy']
   tmScope: 'source.smithy'
-  aceMode: 'text'
+  aceMode: 'smithy'
   languageId: 1027892786
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-csrc'

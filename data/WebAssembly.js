@@ -7,6 +7,6 @@ module.exports = {
   aceMode: 'lisp',
   languageId: 956556503,
   aliases: ['wast', 'wasm'],
-  codemirrorMode: 'commonlisp',
-  codemirrorMimeType: 'text/x-common-lisp',
+  codemirrorMode: 'wast',
+  codemirrorMimeType: 'text/webassembly',
 }

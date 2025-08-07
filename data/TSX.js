@@ -4,9 +4,9 @@ module.exports = {
   color: '#3178c6',
   extensions: ['.tsx'],
   tmScope: 'source.tsx',
-  aceMode: 'javascript',
+  aceMode: 'tsx',
   languageId: 94901924,
   codemirrorMode: 'jsx',
-  codemirrorMimeType: 'text/jsx',
+  codemirrorMimeType: 'text/typescript-jsx',
   group: 'TypeScript',
 }

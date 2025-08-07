@@ -4,7 +4,9 @@ declare const _: {
   color: '#fcd7de'
   extensions: ['.pig']
   tmScope: 'source.pig_latin'
-  aceMode: 'text'
+  aceMode: 'pig'
   languageId: 286
+  codemirrorMode: 'pig'
+  codemirrorMimeType: 'text/x-pig'
 }
 export = _

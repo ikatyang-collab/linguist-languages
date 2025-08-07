@@ -6,6 +6,6 @@ declare const _: {
   aceMode: 'clojure'
   languageId: 414
   codemirrorMode: 'clojure'
-  codemirrorMimeType: 'text/x-clojure'
+  codemirrorMimeType: 'application/edn'
 }
 export default _

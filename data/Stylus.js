@@ -6,4 +6,6 @@ module.exports = {
   tmScope: 'source.stylus',
   aceMode: 'stylus',
   languageId: 359,
+  codemirrorMode: 'stylus',
+  codemirrorMimeType: 'text/x-styl',
 }
