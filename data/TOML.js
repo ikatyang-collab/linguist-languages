@@ -2,7 +2,7 @@ module.exports = {
   name: 'TOML',
   type: 'data',
   color: '#9c4221',
-  extensions: ['.toml'],
+  extensions: ['.toml', '.toml.example'],
   tmScope: 'source.toml',
   aceMode: 'toml',
   languageId: 365,

@@ -18,6 +18,7 @@ module.exports = {
     '.env.production',
     '.env.sample',
     '.env.staging',
+    '.env.template',
     '.env.test',
     '.env.testing',
   ],
