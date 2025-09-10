@@ -15,22 +15,6 @@ function* generateFiles(data, options) {
   const interfaceIdentifier = 'Language'
 
   yield {
-    file: 'lib/index.js',
-    content: outdent`
-      module.exports = {
-        ${languages
-          .map(
-            language =>
-              `${JSON.stringify(language.name)}: require(${JSON.stringify(
-                `../data/${language[FILE_BASE_NAME_FIELD]}`,
-              )})`,
-          )
-          .join(',\n')}
-      };
-    `,
-  }
-
-  yield {
     file: 'lib/index.mjs',
     content: languages
       .map(
@@ -66,23 +50,6 @@ function* generateFiles(data, options) {
         .join('\n')}
     }
   `
-
-  yield {
-    file: 'lib/index.d.ts',
-    content: outdent`
-      type ${languageNameIdentifier} = ${languages
-        .map(language => JSON.stringify(language.name))
-        .join('\n| ')};
-
-      declare const ${namespaceIdentifier}: Record<${languageNameIdentifier}, ${namespaceIdentifier}.${interfaceIdentifier}>;
-
-      declare namespace ${namespaceIdentifier} {
-        ${interfaceCode}
-      }
-
-      export = ${namespaceIdentifier};
-    `,
-  }
 
   yield {
     file: 'lib/index.d.mts',
@@ -122,17 +89,6 @@ function* generateFiles(data, options) {
     const dataString = JSON.stringify(data, undefined, 2)
 
     const basename = language[FILE_BASE_NAME_FIELD]
-    yield {
-      file: `data/${basename}.js`,
-      content: `module.exports = ${dataString}`,
-    }
-    yield {
-      file: `data/${basename}.d.ts`,
-      content: outdent`
-        declare const _: ${dataString}
-        export = _
-      `,
-    }
     yield {
       file: `data/${basename}.mjs`,
       content: `export default ${dataString}`,

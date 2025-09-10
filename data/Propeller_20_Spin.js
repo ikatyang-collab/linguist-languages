@@ -1,9 +1,0 @@
-module.exports = {
-  name: 'Propeller Spin',
-  type: 'programming',
-  aceMode: 'text',
-  extensions: ['.spin'],
-  languageId: 296,
-  tmScope: 'source.spin',
-  color: '#7fa2a7',
-}
