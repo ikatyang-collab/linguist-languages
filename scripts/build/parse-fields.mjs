@@ -77,8 +77,7 @@ function parseFields(data, languages = parseLanguages(data)) {
       const fields = parseFieldsContent(content, required)
       return fields
     }),
-  ]
-    .filter(field => !EXCLUDED_FIELDS.has(field.name))
+  ].filter(field => !EXCLUDED_FIELDS.has(field.name))
 
   // Some required property is currently missing
   const getRequiredFromLanguages = field =>
