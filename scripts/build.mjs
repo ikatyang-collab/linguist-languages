@@ -1,10 +1,6 @@
 import fs from 'node:fs/promises'
-import {
-  parseFieldDescriptions,
-  generateFiles,
-  getLanguageData,
-  writeFile,
-} from './generate.mjs'
+import { generateFiles, getLanguageData } from './generate.mjs'
+import { writeFile } from './utilities.mjs'
 
 const PROJECT_ROOT = new URL('../', import.meta.url)
 
