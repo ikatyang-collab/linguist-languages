@@ -34,16 +34,16 @@ exports[`generateFiles > data/F_2a_.d.mts 1`] = `
 declare const _: {
   "name": "F*",
   "type": "programming",
-  "color": "#572e30",
+  "aceMode": "text",
   "extensions": [
     ".fst"
   ],
-  "tmScope": "source.fstar",
-  "aceMode": "text",
   "languageId": 336943375,
+  "tmScope": "source.fstar",
   "aliases": [
     "fstar"
-  ]
+  ],
+  "color": "#572e30"
 }
 export default _
 `;
@@ -52,16 +52,16 @@ exports[`generateFiles > data/F_2a_.d.ts 1`] = `
 declare const _: {
   "name": "F*",
   "type": "programming",
-  "color": "#572e30",
+  "aceMode": "text",
   "extensions": [
     ".fst"
   ],
-  "tmScope": "source.fstar",
-  "aceMode": "text",
   "languageId": 336943375,
+  "tmScope": "source.fstar",
   "aliases": [
     "fstar"
-  ]
+  ],
+  "color": "#572e30"
 }
 export = _
 `;
@@ -70,16 +70,16 @@ exports[`generateFiles > data/F_2a_.js 1`] = `
 module.exports = {
   "name": "F*",
   "type": "programming",
-  "color": "#572e30",
+  "aceMode": "text",
   "extensions": [
     ".fst"
   ],
-  "tmScope": "source.fstar",
-  "aceMode": "text",
   "languageId": 336943375,
+  "tmScope": "source.fstar",
   "aliases": [
     "fstar"
-  ]
+  ],
+  "color": "#572e30"
 }
 `;
 
@@ -87,16 +87,16 @@ exports[`generateFiles > data/F_2a_.mjs 1`] = `
 export default {
   "name": "F*",
   "type": "programming",
-  "color": "#572e30",
+  "aceMode": "text",
   "extensions": [
     ".fst"
   ],
-  "tmScope": "source.fstar",
-  "aceMode": "text",
   "languageId": 336943375,
+  "tmScope": "source.fstar",
   "aliases": [
     "fstar"
-  ]
+  ],
+  "color": "#572e30"
 }
 `;
 
@@ -104,12 +104,12 @@ exports[`generateFiles > data/Test_20_Test_20_2.d.mts 1`] = `
 declare const _: {
   "name": "Test Test 2",
   "type": "programming",
-  "color": "#E8274B",
+  "aceMode": "abap",
   "extensions": [
     ".abap"
   ],
-  "aceMode": "abap",
   "languageId": 1,
+  "color": "#E8274B",
   "wrap": true
 }
 export default _
@@ -119,12 +119,12 @@ exports[`generateFiles > data/Test_20_Test_20_2.d.ts 1`] = `
 declare const _: {
   "name": "Test Test 2",
   "type": "programming",
-  "color": "#E8274B",
+  "aceMode": "abap",
   "extensions": [
     ".abap"
   ],
-  "aceMode": "abap",
   "languageId": 1,
+  "color": "#E8274B",
   "wrap": true
 }
 export = _
@@ -134,12 +134,12 @@ exports[`generateFiles > data/Test_20_Test_20_2.js 1`] = `
 module.exports = {
   "name": "Test Test 2",
   "type": "programming",
-  "color": "#E8274B",
+  "aceMode": "abap",
   "extensions": [
     ".abap"
   ],
-  "aceMode": "abap",
   "languageId": 1,
+  "color": "#E8274B",
   "wrap": true
 }
 `;
@@ -148,12 +148,12 @@ exports[`generateFiles > data/Test_20_Test_20_2.mjs 1`] = `
 export default {
   "name": "Test Test 2",
   "type": "programming",
-  "color": "#E8274B",
+  "aceMode": "abap",
   "extensions": [
     ".abap"
   ],
-  "aceMode": "abap",
   "languageId": 1,
+  "color": "#E8274B",
   "wrap": true
 }
 `;
@@ -162,17 +162,17 @@ exports[`generateFiles > data/Test1.d.mts 1`] = `
 declare const _: {
   "name": "Test1",
   "type": "programming",
-  "color": "#814CCC",
+  "aceMode": "text",
   "extensions": [
     ".bsl",
     ".os"
   ],
-  "tmScope": "source.bsl",
-  "aceMode": "text",
   "languageId": 0,
+  "tmScope": "source.bsl",
   "aliases": [
     "hello"
-  ]
+  ],
+  "color": "#814CCC"
 }
 export default _
 `;
@@ -181,17 +181,17 @@ exports[`generateFiles > data/Test1.d.ts 1`] = `
 declare const _: {
   "name": "Test1",
   "type": "programming",
-  "color": "#814CCC",
+  "aceMode": "text",
   "extensions": [
     ".bsl",
     ".os"
   ],
-  "tmScope": "source.bsl",
-  "aceMode": "text",
   "languageId": 0,
+  "tmScope": "source.bsl",
   "aliases": [
     "hello"
-  ]
+  ],
+  "color": "#814CCC"
 }
 export = _
 `;
@@ -200,17 +200,17 @@ exports[`generateFiles > data/Test1.js 1`] = `
 module.exports = {
   "name": "Test1",
   "type": "programming",
-  "color": "#814CCC",
+  "aceMode": "text",
   "extensions": [
     ".bsl",
     ".os"
   ],
-  "tmScope": "source.bsl",
-  "aceMode": "text",
   "languageId": 0,
+  "tmScope": "source.bsl",
   "aliases": [
     "hello"
-  ]
+  ],
+  "color": "#814CCC"
 }
 `;
 
@@ -218,17 +218,17 @@ exports[`generateFiles > data/Test1.mjs 1`] = `
 export default {
   "name": "Test1",
   "type": "programming",
-  "color": "#814CCC",
+  "aceMode": "text",
   "extensions": [
     ".bsl",
     ".os"
   ],
-  "tmScope": "source.bsl",
-  "aceMode": "text",
   "languageId": 0,
+  "tmScope": "source.bsl",
   "aliases": [
     "hello"
-  ]
+  ],
+  "color": "#814CCC"
 }
 `;
 
@@ -247,30 +247,31 @@ readonly name: string;
 */
 readonly type: string;
 /**
-* CSS colour code used to represent the language (format: "#RRGGBB").
+* Ace mode used when editing files which use the language. This must match
+* one of the names in https://gh.io/acemodes. Use "text" if no mode exists.
 */
-readonly color?: string;
+readonly aceMode: string;
 /**
 * List of associated file extensions, sorted in ascending ASCII order,
 * except for the language's primary extension, which is always listed first.
 */
 readonly extensions: readonly (string)[];
 /**
-* The TextMate scope that represents this programming language.
-* This should match one of the scopes listed in grammars.yml.
-* Use "none" if there is no TextMate grammar for this language.
+* List of associated filenames, sorted in ascending ASCII order.
+* May be omitted if the extensions field is present (and vice versa).
 */
-readonly tmScope?: string;
-/**
-* Ace mode used when editing files which use the language. This must match
-* one of the names in https://gh.io/acemodes. Use "text" if no mode exists.
-*/
-readonly aceMode: string;
+readonly filenames?: undefined;
 /**
 * Unique identifier used internally by GitHub, generated by running
 * \`script/update-ids\`. Do not fill out this field manually.
 */
 readonly languageId: number;
+/**
+* The TextMate scope that represents this programming language.
+* This should match one of the scopes listed in grammars.yml.
+* Use "none" if there is no TextMate grammar for this language.
+*/
+readonly tmScope?: string;
 /**
 * List of additional aliases (implicitly includes lowercased forms of language's name).
 * These are used in fenced code-blocks, code searches by language, and in overrides.
@@ -287,20 +288,19 @@ readonly codemirrorMode?: undefined;
 */
 readonly codemirrorMimeType?: undefined;
 /**
-* List of programs that execute the language (by running and/or compiling it).
-* These are consulted when scrutinising a file's hashbang to determine its language.
+* CSS colour code used to represent the language (format: "#RRGGBB").
 */
-readonly interpreters?: undefined;
+readonly color?: string;
 /**
 * Name of the parent language. Languages in a group contribute to the usage statistics
 * of their parent language.
 */
 readonly group?: undefined;
 /**
-* List of associated filenames, sorted in ascending ASCII order.
-* May be omitted if the extensions field is present (and vice versa).
+* List of programs that execute the language (by running and/or compiling it).
+* These are consulted when scrutinising a file's hashbang to determine its language.
 */
-readonly filenames?: undefined;
+readonly interpreters?: undefined;
 /**
 * Enable soft line-wrapping (default: false)
 */
@@ -336,30 +336,31 @@ readonly name: string;
 */
 readonly type: string;
 /**
-* CSS colour code used to represent the language (format: "#RRGGBB").
+* Ace mode used when editing files which use the language. This must match
+* one of the names in https://gh.io/acemodes. Use "text" if no mode exists.
 */
-readonly color?: string;
+readonly aceMode: string;
 /**
 * List of associated file extensions, sorted in ascending ASCII order,
 * except for the language's primary extension, which is always listed first.
 */
 readonly extensions: readonly (string)[];
 /**
-* The TextMate scope that represents this programming language.
-* This should match one of the scopes listed in grammars.yml.
-* Use "none" if there is no TextMate grammar for this language.
+* List of associated filenames, sorted in ascending ASCII order.
+* May be omitted if the extensions field is present (and vice versa).
 */
-readonly tmScope?: string;
-/**
-* Ace mode used when editing files which use the language. This must match
-* one of the names in https://gh.io/acemodes. Use "text" if no mode exists.
-*/
-readonly aceMode: string;
+readonly filenames?: undefined;
 /**
 * Unique identifier used internally by GitHub, generated by running
 * \`script/update-ids\`. Do not fill out this field manually.
 */
 readonly languageId: number;
+/**
+* The TextMate scope that represents this programming language.
+* This should match one of the scopes listed in grammars.yml.
+* Use "none" if there is no TextMate grammar for this language.
+*/
+readonly tmScope?: string;
 /**
 * List of additional aliases (implicitly includes lowercased forms of language's name).
 * These are used in fenced code-blocks, code searches by language, and in overrides.
@@ -376,20 +377,19 @@ readonly codemirrorMode?: undefined;
 */
 readonly codemirrorMimeType?: undefined;
 /**
-* List of programs that execute the language (by running and/or compiling it).
-* These are consulted when scrutinising a file's hashbang to determine its language.
+* CSS colour code used to represent the language (format: "#RRGGBB").
 */
-readonly interpreters?: undefined;
+readonly color?: string;
 /**
 * Name of the parent language. Languages in a group contribute to the usage statistics
 * of their parent language.
 */
 readonly group?: undefined;
 /**
-* List of associated filenames, sorted in ascending ASCII order.
-* May be omitted if the extensions field is present (and vice versa).
+* List of programs that execute the language (by running and/or compiling it).
+* These are consulted when scrutinising a file's hashbang to determine its language.
 */
-readonly filenames?: undefined;
+readonly interpreters?: undefined;
 /**
 * Enable soft line-wrapping (default: false)
 */

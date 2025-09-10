@@ -4,18 +4,26 @@ import url from 'node:url'
 import { inspect } from 'node:util'
 import * as prettier from 'prettier'
 
+export async function readFile(file) {
+  try {
+    return await fs.readFile(file, 'utf8')
+  } catch {
+    return ''
+  }
+}
+
 export async function writeFile(file, content, { format = true } = {}) {
   const directory = new URL('./', file)
   await fs.mkdir(directory, { recursive: true })
 
-  content = format
-    ? await prettier.format(content, {
-        filepath: url.fileURLToPath(file),
-        singleQuote: true,
-        arrowParens: 'avoid',
-        semi: false,
-      })
-    : content
+  if (format) {
+    content = await prettier.format(content, {
+      filepath: url.fileURLToPath(file),
+      singleQuote: true,
+      arrowParens: 'avoid',
+      semi: false,
+    })
+  }
 
   await fs.writeFile(file, content)
 }

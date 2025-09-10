@@ -22,7 +22,7 @@ jobs:
         with:
           submodules: true
       - uses: ./.github/actions/setup
-      - run: pnpm build
+      - run: pnpm build --update
       - uses: peter-evans/create-pull-request@v7
         with:
           commit-message: 'feat: update data'

@@ -8,38 +8,9 @@ import parseLanguages from './parse-languages.mjs'
 import parseFields from './parse-fields.mjs'
 import { NAME_FIELD, FILE_BASE_NAME_FIELD } from './constants.mjs'
 
-const DATA_FILES = [
-  'https://raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml',
-  'https://gh-proxy.com/raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml',
-]
-const LANGUAGES_FILE_CACHE_FILE = new URL(
-  '../.temp/languages.yml',
-  import.meta.url,
-)
-const CACHE_EXPIRE_TIME = 1 * 60 * 60 * 1000 // One hour
-
-async function getLanguageData() {
-  let stats
-  try {
-    stats = await fs.stat(LANGUAGES_FILE_CACHE_FILE)
-  } catch {
-    // No op
-  }
-
-  if (stats?.mtimeMs && stats.mtimeMs > Date.now() - CACHE_EXPIRE_TIME) {
-    return fs.readFile(LANGUAGES_FILE_CACHE_FILE, 'utf8')
-  }
-
-  const text = await Promise.any(DATA_FILES.map(url => fetchText(url)))
-
-  await writeFile(LANGUAGES_FILE_CACHE_FILE, text, { format: false })
-
-  return text
-}
-
-function* generateFiles(content, options) {
-  const languages = parseLanguages(content)
-  const fields = parseFields(content, languages)
+function* generateFiles(data, options) {
+  const languages = parseLanguages(data)
+  const fields = parseFields(data, languages)
 
   const interfaceIdentifier = 'Language'
 
@@ -79,7 +50,7 @@ function* generateFiles(content, options) {
   const languageNameIdentifier = 'LanguageName'
   const interfaceCode = outdent`
     interface ${interfaceIdentifier} {
-      ${[...fields.values()]
+      ${fields
         .map(
           ({ name, description, required, type }) =>
             outdent`
@@ -137,9 +108,16 @@ function* generateFiles(content, options) {
     `,
   }
 
+  const fieldNames = new Set(fields.map(({ name }) => name))
   for (const language of languages) {
+    for (const key of Object.keys(language)) {
+      if (!fieldNames.has(key)) {
+        throw new Error(`Unexpected property '${key}' in '${language.name}'.`)
+      }
+    }
+
     const data = Object.fromEntries(
-      [...fields.values()].map(({ name: field }) => [field, language[field]]),
+      fields.map(({ name: field }) => [field, language[field]]),
     )
     const dataString = JSON.stringify(data, undefined, 2)
 
@@ -169,4 +147,4 @@ function* generateFiles(content, options) {
   }
 }
 
-export { generateFiles, getLanguageData }
+export default generateFiles

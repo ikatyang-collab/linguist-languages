@@ -52,42 +52,48 @@ function parseFieldsContent(lines, required) {
   return fields
 }
 
-function parseFields(content, languages) {
+const stripDownloadInformation = data => {
+  if (data.startsWith('# Data downloaded at')) {
+    return data.slice(data.indexOf('\n') + 1)
+  }
+
+  return data;
+}
+
+function parseFields(data, languages) {
+  data = stripDownloadInformation(data);
+
   const expectedHeadText =
     outdent`
       # Defines all languages known to GitHub.
       #
     ` + '\n'
 
-  assert(content.startsWith(expectedHeadText), 'Unexpected content')
+  assert(data.startsWith(expectedHeadText), 'Unexpected data')
 
-  content = content.slice(expectedHeadText.length)
+  data = data.slice(expectedHeadText.length)
 
-  let lines = content.split('---')[0].trimEnd().split('\n')
+  let lines = data.split('---')[0].trimEnd().split('\n')
 
   assert(lines.every(line => line === '#' || line.startsWith('# ')))
 
   lines = lines.map(line => line.slice(2))
 
-  const fields = new Map(
-    [
-      { name: NAME_FIELD, description: 'Language name.', required: true },
-      ...[
-        { headText: 'Required fields:', required: true },
-        { headText: 'Optional fields:', required: false },
-      ].flatMap(({ headText, required }) => {
-        const startIndex = lines.indexOf(headText)
-        assert(startIndex !== -1, `Missing required text '${headText}'`)
-        const endIndex = lines.indexOf('', startIndex)
-        assert(
-          endIndex !== -1,
-          `Missing required empty line after '${headText}'`,
-        )
-        let content = lines.slice(startIndex + 1, endIndex)
-        const fields = parseFieldsContent(content, required)
-        return fields
-      }),
-    ]
+  const fields = [
+    { name: NAME_FIELD, description: 'Language name.', required: true },
+    ...[
+      { headText: 'Required fields:', required: true },
+      { headText: 'Optional fields:', required: false },
+    ].flatMap(({ headText, required }) => {
+      const startIndex = lines.indexOf(headText)
+      assert(startIndex !== -1, `Missing required text '${headText}'`)
+      const endIndex = lines.indexOf('', startIndex)
+      assert(endIndex !== -1, `Missing required empty line after '${headText}'`)
+      let content = lines.slice(startIndex + 1, endIndex)
+      const fields = parseFieldsContent(content, required)
+      return fields
+    }),
+  ]
       .toSorted((fieldA, fieldB) => {
         const [indexA, indexB] = [fieldA, fieldB].map(field => {
           const index = orders.indexOf(field.name)
@@ -95,19 +101,16 @@ function parseFields(content, languages) {
         })
 
         return indexA - indexB
-      })
-      .filter(field => !EXCLUDED_FIELDS.has(field.name))
-      .map(field => [field.name, field]),
-  )
+      }).filter(field => !EXCLUDED_FIELDS.has(field.name))
 
   // Some required property is currently missing
   const getRequiredFromLanguages = field =>
     languages.every(language => Object.hasOwn(language, field.name))
-  for (const field of fields.values()) {
+  for (const field of fields) {
     field.required &&= getRequiredFromLanguages(field)
   }
 
-  for (const field of fields.values()) {
+  for (const field of fields) {
     let type
     for (const language of languages) {
       if (Object.hasOwn(language, field.name)) {
