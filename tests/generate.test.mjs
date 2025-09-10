@@ -13,8 +13,8 @@ import {
 expect.addSnapshotSerializer(serializer)
 
 test('field descriptions', async () => {
-  const content = await readFile(DATA_FILE)
-  const fields = parseFields(content, parseLanguages(content))
+  const data = await readFile(DATA_FILE)
+  const fields = parseFields(data)
 
   expect(
     Object.fromEntries(
@@ -24,10 +24,10 @@ test('field descriptions', async () => {
 })
 
 test('generateFiles', async () => {
-  const fakeYamlFile = new URL('./data-for-test.yml', import.meta.url)
-  const fakeLanguagesYml = await readFile(fakeYamlFile)
+  const file = new URL('./data-for-test.yml', import.meta.url)
+  const data = await readFile(file)
 
-  for (const { file, content } of generateFiles(fakeLanguagesYml)) {
+  for (const { file, content } of generateFiles(data)) {
     expect(serializer.wrap(content)).toMatchSnapshot(file)
   }
 })

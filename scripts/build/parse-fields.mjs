@@ -3,6 +3,7 @@ import { outdent } from 'outdent'
 import camelcase from 'camelcase'
 import { NAME_FIELD, EXCLUDED_FIELDS } from './constants.mjs'
 import { getType } from './utilities.mjs'
+import parseLanguages from './parse-languages.mjs'
 
 const orders = [
   'name',
@@ -60,7 +61,7 @@ const stripDownloadInformation = data => {
   return data
 }
 
-function parseFields(data, languages) {
+function parseFields(data, languages = parseLanguages(data)) {
   data = stripDownloadInformation(data)
 
   const expectedHeadText =
