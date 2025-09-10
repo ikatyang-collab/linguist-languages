@@ -57,11 +57,11 @@ const stripDownloadInformation = data => {
     return data.slice(data.indexOf('\n') + 1)
   }
 
-  return data;
+  return data
 }
 
 function parseFields(data, languages) {
-  data = stripDownloadInformation(data);
+  data = stripDownloadInformation(data)
 
   const expectedHeadText =
     outdent`
@@ -94,14 +94,15 @@ function parseFields(data, languages) {
       return fields
     }),
   ]
-      .toSorted((fieldA, fieldB) => {
-        const [indexA, indexB] = [fieldA, fieldB].map(field => {
-          const index = orders.indexOf(field.name)
-          return index === -1 ? Number.POSITIVE_INFINITY : index
-        })
+    .toSorted((fieldA, fieldB) => {
+      const [indexA, indexB] = [fieldA, fieldB].map(field => {
+        const index = orders.indexOf(field.name)
+        return index === -1 ? Number.POSITIVE_INFINITY : index
+      })
 
-        return indexA - indexB
-      }).filter(field => !EXCLUDED_FIELDS.has(field.name))
+      return indexA - indexB
+    })
+    .filter(field => !EXCLUDED_FIELDS.has(field.name))
 
   // Some required property is currently missing
   const getRequiredFromLanguages = field =>
