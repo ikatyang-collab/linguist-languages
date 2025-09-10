@@ -1,7 +1,11 @@
 import assert from 'node:assert/strict'
 import camelcase from 'camelcase'
 import { parse as parseYaml } from 'yaml'
-import { NAME_FIELD, FILE_BASE_NAME_FIELD } from './constants.mjs'
+import {
+  NAME_FIELD,
+  FILE_BASE_NAME_FIELD,
+  EXCLUDED_FIELDS,
+} from './constants.mjs'
 
 function parseLanguages(content) {
   const seenFileBaseNames = new Set()
@@ -28,7 +32,7 @@ function parseLanguages(content) {
       ...Object.fromEntries(
         Object.entries(language)
           .map(([key, value]) => [camelcase(key), value])
-          .filter(Boolean),
+          .filter(([key]) => !EXCLUDED_FIELDS.has(key)),
       ),
     }
   })
