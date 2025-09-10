@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Beef'
   type: 'programming'
-  color: '#a52f4e'
-  extensions: ['.bf']
-  tmScope: 'source.cs'
   aceMode: 'csharp'
+  extensions: ['.bf']
   languageId: 545626333
+  tmScope: 'source.cs'
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-csharp'
+  color: '#a52f4e'
 }
 export = _

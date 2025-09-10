@@ -1,10 +1,10 @@
 export default {
   name: 'Adblock Filter List',
   type: 'data',
-  color: '#800000',
-  extensions: ['.txt'],
-  tmScope: 'text.adblock',
   aceMode: 'text',
+  extensions: ['.txt'],
   languageId: 884614762,
+  tmScope: 'text.adblock',
   aliases: ['ad block filters', 'ad block', 'adb', 'adblock'],
+  color: '#800000',
 }

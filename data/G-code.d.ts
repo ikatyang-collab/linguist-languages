@@ -1,10 +1,10 @@
 declare const _: {
   name: 'G-code'
   type: 'programming'
-  color: '#D08CF2'
-  extensions: ['.g', '.cnc', '.gco', '.gcode']
-  tmScope: 'source.gcode'
   aceMode: 'gcode'
+  extensions: ['.g', '.cnc', '.gco', '.gcode']
   languageId: 117
+  tmScope: 'source.gcode'
+  color: '#D08CF2'
 }
 export = _

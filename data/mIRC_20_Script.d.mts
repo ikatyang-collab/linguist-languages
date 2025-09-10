@@ -1,10 +1,10 @@
 declare const _: {
   name: 'mIRC Script'
   type: 'programming'
-  color: '#3d57c3'
-  extensions: ['.mrc']
-  tmScope: 'source.msl'
   aceMode: 'text'
+  extensions: ['.mrc']
   languageId: 517654727
+  tmScope: 'source.msl'
+  color: '#3d57c3'
 }
 export default _

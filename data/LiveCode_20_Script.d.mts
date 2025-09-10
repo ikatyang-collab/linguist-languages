@@ -1,10 +1,10 @@
 declare const _: {
   name: 'LiveCode Script'
   type: 'programming'
-  color: '#0c5ba5'
-  extensions: ['.livecodescript']
-  tmScope: 'source.livecodescript'
   aceMode: 'text'
+  extensions: ['.livecodescript']
   languageId: 891017
+  tmScope: 'source.livecodescript'
+  color: '#0c5ba5'
 }
 export default _

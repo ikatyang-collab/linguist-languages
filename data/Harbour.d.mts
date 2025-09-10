@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Harbour'
   type: 'programming'
-  color: '#0e60e3'
-  extensions: ['.hb']
-  tmScope: 'source.harbour'
   aceMode: 'text'
+  extensions: ['.hb']
   languageId: 156
+  tmScope: 'source.harbour'
+  color: '#0e60e3'
 }
 export default _

@@ -1,12 +1,12 @@
 export default {
   name: 'OASv3-json',
   type: 'data',
-  color: '#85ea2d',
-  extensions: ['.json'],
-  tmScope: 'source.json',
   aceMode: 'json',
+  extensions: ['.json'],
   languageId: 980062566,
+  tmScope: 'source.json',
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'application/json',
+  color: '#85ea2d',
   group: 'OpenAPI Specification v3',
 }

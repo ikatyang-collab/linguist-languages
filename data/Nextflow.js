@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Nextflow',
   type: 'programming',
-  color: '#3ac486',
-  extensions: ['.nf'],
-  tmScope: 'source.nextflow',
   aceMode: 'groovy',
-  languageId: 506780613,
-  interpreters: ['nextflow'],
+  extensions: ['.nf'],
   filenames: ['nextflow.config'],
+  languageId: 506780613,
+  tmScope: 'source.nextflow',
+  color: '#3ac486',
+  interpreters: ['nextflow'],
 }

@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Glimmer TS'
   type: 'programming'
-  color: '#3178c6'
-  extensions: ['.gts']
-  tmScope: 'source.gts'
   aceMode: 'typescript'
+  extensions: ['.gts']
   languageId: 95110458
+  tmScope: 'source.gts'
+  color: '#3178c6'
   group: 'TypeScript'
 }
 export = _

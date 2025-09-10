@@ -1,8 +1,8 @@
 module.exports = {
   name: 'NL',
   type: 'data',
-  extensions: ['.nl'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.nl'],
   languageId: 241,
+  tmScope: 'none',
 }

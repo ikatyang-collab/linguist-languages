@@ -1,9 +1,9 @@
 export default {
   name: 'CLIPS',
   type: 'programming',
-  color: '#00A300',
-  extensions: ['.clp'],
-  tmScope: 'source.clips',
   aceMode: 'text',
+  extensions: ['.clp'],
   languageId: 46,
+  tmScope: 'source.clips',
+  color: '#00A300',
 }

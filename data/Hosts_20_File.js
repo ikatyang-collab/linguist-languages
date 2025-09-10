@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Hosts File',
   type: 'data',
-  color: '#308888',
-  tmScope: 'source.hosts',
   aceMode: 'text',
-  languageId: 231021894,
-  aliases: ['hosts'],
   filenames: ['HOSTS', 'hosts', 'hosts.txt'],
+  languageId: 231021894,
+  tmScope: 'source.hosts',
+  aliases: ['hosts'],
+  color: '#308888',
 }

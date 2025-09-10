@@ -1,9 +1,9 @@
 module.exports = {
   name: 'YARA',
   type: 'programming',
-  color: '#220000',
-  extensions: ['.yar', '.yara'],
-  tmScope: 'source.yara',
   aceMode: 'text',
+  extensions: ['.yar', '.yara'],
   languageId: 805122868,
+  tmScope: 'source.yara',
+  color: '#220000',
 }

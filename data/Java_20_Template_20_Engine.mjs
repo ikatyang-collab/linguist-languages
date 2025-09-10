@@ -1,11 +1,11 @@
 export default {
   name: 'Java Template Engine',
   type: 'programming',
-  color: '#2A6277',
-  extensions: ['.jte'],
-  tmScope: 'text.html.jte',
   aceMode: 'text',
+  extensions: ['.jte'],
   languageId: 599494012,
+  tmScope: 'text.html.jte',
   aliases: ['jte'],
+  color: '#2A6277',
   group: 'Java',
 }

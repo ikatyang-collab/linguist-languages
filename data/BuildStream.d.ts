@@ -1,10 +1,10 @@
 declare const _: {
   name: 'BuildStream'
   type: 'data'
-  color: '#006bff'
-  extensions: ['.bst']
-  tmScope: 'source.yaml'
   aceMode: 'yaml'
+  extensions: ['.bst']
   languageId: 84359046
+  tmScope: 'source.yaml'
+  color: '#006bff'
 }
 export = _

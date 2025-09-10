@@ -1,14 +1,14 @@
 declare const _: {
   name: 'Bluespec BH'
   type: 'programming'
-  color: '#12223c'
-  extensions: ['.bs']
-  tmScope: 'source.bh'
   aceMode: 'haskell'
+  extensions: ['.bs']
   languageId: 641580358
+  tmScope: 'source.bh'
   aliases: ['bh', 'bluespec classic']
   codemirrorMode: 'haskell'
   codemirrorMimeType: 'text/x-haskell'
+  color: '#12223c'
   group: 'Bluespec'
 }
 export = _

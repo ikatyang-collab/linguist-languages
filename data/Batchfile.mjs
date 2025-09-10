@@ -1,10 +1,10 @@
 export default {
   name: 'Batchfile',
   type: 'programming',
-  color: '#C1F12E',
-  extensions: ['.bat', '.cmd'],
-  tmScope: 'source.batchfile',
   aceMode: 'batchfile',
+  extensions: ['.bat', '.cmd'],
   languageId: 29,
+  tmScope: 'source.batchfile',
   aliases: ['bat', 'batch', 'dosbatch', 'winbatch'],
+  color: '#C1F12E',
 }

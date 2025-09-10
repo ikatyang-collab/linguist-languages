@@ -1,9 +1,9 @@
 export default {
   name: 'Singularity',
   type: 'programming',
-  color: '#64E6AD',
-  tmScope: 'source.singularity',
   aceMode: 'text',
-  languageId: 987024632,
   filenames: ['Singularity'],
+  languageId: 987024632,
+  tmScope: 'source.singularity',
+  color: '#64E6AD',
 }

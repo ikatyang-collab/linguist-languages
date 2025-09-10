@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Quake'
   type: 'programming'
-  color: '#882233'
-  tmScope: 'source.quake'
   aceMode: 'text'
-  languageId: 375265331
   filenames: ['m3makefile', 'm3overrides']
+  languageId: 375265331
+  tmScope: 'source.quake'
+  color: '#882233'
 }
 export default _

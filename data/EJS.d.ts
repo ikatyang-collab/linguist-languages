@@ -1,12 +1,12 @@
 declare const _: {
   name: 'EJS'
   type: 'markup'
-  color: '#a91e50'
-  extensions: ['.ejs', '.ect', '.ejs.t', '.jst']
-  tmScope: 'text.html.js'
   aceMode: 'ejs'
+  extensions: ['.ejs', '.ect', '.ejs.t', '.jst']
   languageId: 95
+  tmScope: 'text.html.js'
   codemirrorMode: 'htmlembedded'
   codemirrorMimeType: 'application/x-ejs'
+  color: '#a91e50'
 }
 export = _

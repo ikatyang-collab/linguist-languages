@@ -1,13 +1,13 @@
 declare const _: {
   name: 'OCaml'
   type: 'programming'
-  color: '#ef7a08'
-  extensions: ['.ml', '.eliom', '.eliomi', '.ml4', '.mli', '.mll', '.mly']
-  tmScope: 'source.ocaml'
   aceMode: 'ocaml'
+  extensions: ['.ml', '.eliom', '.eliomi', '.ml4', '.mli', '.mll', '.mly']
   languageId: 255
+  tmScope: 'source.ocaml'
   codemirrorMode: 'mllike'
   codemirrorMimeType: 'text/x-ocaml'
+  color: '#ef7a08'
   interpreters: ['ocaml', 'ocamlrun', 'ocamlscript']
 }
 export default _

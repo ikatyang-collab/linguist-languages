@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Literate CoffeeScript'
   type: 'programming'
-  color: '#244776'
-  extensions: ['.litcoffee', '.coffee.md']
-  tmScope: 'source.litcoffee'
   aceMode: 'text'
+  extensions: ['.litcoffee', '.coffee.md']
   languageId: 206
+  tmScope: 'source.litcoffee'
   aliases: ['litcoffee']
+  color: '#244776'
   group: 'CoffeeScript'
   wrap: true
 }

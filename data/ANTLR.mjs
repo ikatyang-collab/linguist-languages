@@ -1,9 +1,9 @@
 export default {
   name: 'ANTLR',
   type: 'programming',
-  color: '#9DC3FF',
-  extensions: ['.g4'],
-  tmScope: 'source.antlr',
   aceMode: 'text',
+  extensions: ['.g4'],
   languageId: 4,
+  tmScope: 'source.antlr',
+  color: '#9DC3FF',
 }

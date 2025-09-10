@@ -1,11 +1,11 @@
 declare const _: {
   name: 'SmPL'
   type: 'programming'
-  color: '#c94949'
-  extensions: ['.cocci']
-  tmScope: 'source.smpl'
   aceMode: 'text'
+  extensions: ['.cocci']
   languageId: 164123055
+  tmScope: 'source.smpl'
   aliases: ['coccinelle']
+  color: '#c94949'
 }
 export = _

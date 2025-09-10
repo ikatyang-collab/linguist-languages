@@ -1,11 +1,11 @@
 export default {
   name: 'JSONLD',
   type: 'data',
-  color: '#0c479c',
-  extensions: ['.jsonld'],
-  tmScope: 'source.js',
   aceMode: 'javascript',
+  extensions: ['.jsonld'],
   languageId: 176,
+  tmScope: 'source.js',
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'application/ld+json',
+  color: '#0c479c',
 }

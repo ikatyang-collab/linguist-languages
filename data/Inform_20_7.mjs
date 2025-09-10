@@ -1,10 +1,10 @@
 export default {
   name: 'Inform 7',
   type: 'programming',
-  extensions: ['.ni', '.i7x'],
-  tmScope: 'source.inform7',
   aceMode: 'text',
+  extensions: ['.ni', '.i7x'],
   languageId: 166,
+  tmScope: 'source.inform7',
   aliases: ['i7', 'inform7'],
   wrap: true,
 }

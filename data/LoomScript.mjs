@@ -1,8 +1,8 @@
 export default {
   name: 'LoomScript',
   type: 'programming',
-  extensions: ['.ls'],
-  tmScope: 'source.loomscript',
   aceMode: 'text',
+  extensions: ['.ls'],
   languageId: 212,
+  tmScope: 'source.loomscript',
 }

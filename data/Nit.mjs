@@ -1,9 +1,9 @@
 export default {
   name: 'Nit',
   type: 'programming',
-  color: '#009917',
-  extensions: ['.nit'],
-  tmScope: 'source.nit',
   aceMode: 'text',
+  extensions: ['.nit'],
   languageId: 251,
+  tmScope: 'source.nit',
+  color: '#009917',
 }

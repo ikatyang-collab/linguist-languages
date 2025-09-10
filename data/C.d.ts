@@ -1,13 +1,13 @@
 declare const _: {
   name: 'C'
   type: 'programming'
-  color: '#555555'
-  extensions: ['.c', '.cats', '.h', '.h.in', '.idc']
-  tmScope: 'source.c'
   aceMode: 'c_cpp'
+  extensions: ['.c', '.cats', '.h', '.h.in', '.idc']
   languageId: 41
+  tmScope: 'source.c'
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-csrc'
+  color: '#555555'
   interpreters: ['tcc']
 }
 export = _

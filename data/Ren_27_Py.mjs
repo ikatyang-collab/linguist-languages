@@ -1,10 +1,10 @@
 export default {
   name: "Ren'Py",
   type: 'programming',
-  color: '#ff7f7f',
-  extensions: ['.rpy'],
-  tmScope: 'source.renpy',
   aceMode: 'python',
+  extensions: ['.rpy'],
   languageId: 322,
+  tmScope: 'source.renpy',
   aliases: ['renpy'],
+  color: '#ff7f7f',
 }

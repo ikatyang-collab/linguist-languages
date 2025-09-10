@@ -1,10 +1,10 @@
 declare const _: {
   name: 'GAP'
   type: 'programming'
-  color: '#0000cc'
-  extensions: ['.g', '.gap', '.gd', '.gi', '.tst']
-  tmScope: 'source.gap'
   aceMode: 'text'
+  extensions: ['.g', '.gap', '.gd', '.gi', '.tst']
   languageId: 119
+  tmScope: 'source.gap'
+  color: '#0000cc'
 }
 export = _

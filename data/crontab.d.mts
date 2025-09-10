@@ -1,11 +1,11 @@
 declare const _: {
   name: 'crontab'
   type: 'data'
-  color: '#ead7ac'
-  tmScope: 'text.crontab'
   aceMode: 'tcl'
-  languageId: 705203557
-  aliases: ['cron', 'cron table']
   filenames: ['crontab']
+  languageId: 705203557
+  tmScope: 'text.crontab'
+  aliases: ['cron', 'cron table']
+  color: '#ead7ac'
 }
 export default _

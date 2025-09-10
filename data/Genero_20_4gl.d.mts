@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Genero 4gl'
   type: 'programming'
-  color: '#63408e'
-  extensions: ['.4gl']
-  tmScope: 'source.genero-4gl'
   aceMode: 'text'
+  extensions: ['.4gl']
   languageId: 986054050
+  tmScope: 'source.genero-4gl'
+  color: '#63408e'
 }
 export default _

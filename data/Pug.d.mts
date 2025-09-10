@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Pug'
   type: 'markup'
-  color: '#a86454'
-  extensions: ['.jade', '.pug']
-  tmScope: 'text.jade'
   aceMode: 'jade'
+  extensions: ['.jade', '.pug']
   languageId: 179
+  tmScope: 'text.jade'
   codemirrorMode: 'pug'
   codemirrorMimeType: 'text/x-pug'
+  color: '#a86454'
 }
 export default _

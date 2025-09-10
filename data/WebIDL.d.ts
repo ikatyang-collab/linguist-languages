@@ -1,10 +1,10 @@
 declare const _: {
   name: 'WebIDL'
   type: 'programming'
-  extensions: ['.webidl']
-  tmScope: 'source.webidl'
   aceMode: 'text'
+  extensions: ['.webidl']
   languageId: 395
+  tmScope: 'source.webidl'
   codemirrorMode: 'webidl'
   codemirrorMimeType: 'text/x-webidl'
 }

@@ -1,11 +1,11 @@
 module.exports = {
   name: 'HXML',
   type: 'data',
-  color: '#f68712',
-  extensions: ['.hxml'],
-  tmScope: 'source.hxml',
   aceMode: 'text',
+  extensions: ['.hxml'],
   languageId: 786683730,
+  tmScope: 'source.hxml',
   codemirrorMode: 'haxe',
   codemirrorMimeType: 'text/x-hxml',
+  color: '#f68712',
 }

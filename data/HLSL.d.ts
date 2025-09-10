@@ -1,10 +1,10 @@
 declare const _: {
   name: 'HLSL'
   type: 'programming'
-  color: '#aace60'
-  extensions: ['.hlsl', '.cginc', '.fx', '.fxh', '.hlsli']
-  tmScope: 'source.hlsl'
   aceMode: 'text'
+  extensions: ['.hlsl', '.cginc', '.fx', '.fxh', '.hlsli']
   languageId: 145
+  tmScope: 'source.hlsl'
+  color: '#aace60'
 }
 export = _

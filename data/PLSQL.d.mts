@@ -1,7 +1,7 @@
 declare const _: {
   name: 'PLSQL'
   type: 'programming'
-  color: '#dad8d8'
+  aceMode: 'plsql'
   extensions: [
     '.pls',
     '.bdy',
@@ -20,10 +20,10 @@ declare const _: {
     '.trg',
     '.vw',
   ]
-  tmScope: 'none'
-  aceMode: 'plsql'
   languageId: 273
+  tmScope: 'none'
   codemirrorMode: 'sql'
   codemirrorMimeType: 'text/x-plsql'
+  color: '#dad8d8'
 }
 export default _

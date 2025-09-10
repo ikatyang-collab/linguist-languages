@@ -1,7 +1,7 @@
 module.exports = {
   name: 'TeX',
   type: 'markup',
-  color: '#3D6117',
+  aceMode: 'tex',
   extensions: [
     '.tex',
     '.aux',
@@ -18,11 +18,11 @@ module.exports = {
     '.sty',
     '.toc',
   ],
-  tmScope: 'text.tex.latex',
-  aceMode: 'tex',
   languageId: 369,
+  tmScope: 'text.tex.latex',
   aliases: ['latex'],
   codemirrorMode: 'stex',
   codemirrorMimeType: 'text/x-stex',
+  color: '#3D6117',
   wrap: true,
 }

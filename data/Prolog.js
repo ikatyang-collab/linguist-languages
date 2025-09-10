@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Prolog',
   type: 'programming',
-  color: '#74283c',
-  extensions: ['.pl', '.plt', '.pro', '.prolog', '.yap'],
-  tmScope: 'source.prolog',
   aceMode: 'prolog',
+  extensions: ['.pl', '.plt', '.pro', '.prolog', '.yap'],
   languageId: 295,
+  tmScope: 'source.prolog',
+  color: '#74283c',
   interpreters: ['swipl', 'yap'],
 }

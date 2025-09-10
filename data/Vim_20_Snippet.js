@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Vim Snippet',
   type: 'markup',
-  color: '#199f4b',
-  extensions: ['.snip', '.snippet', '.snippets'],
-  tmScope: 'source.vim-snippet',
   aceMode: 'text',
+  extensions: ['.snip', '.snippet', '.snippets'],
   languageId: 81265970,
+  tmScope: 'source.vim-snippet',
   aliases: ['SnipMate', 'UltiSnip', 'UltiSnips', 'NeoSnippet'],
+  color: '#199f4b',
 }

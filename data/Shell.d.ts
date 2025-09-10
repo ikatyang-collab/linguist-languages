@@ -1,7 +1,7 @@
 declare const _: {
   name: 'Shell'
   type: 'programming'
-  color: '#89e051'
+  aceMode: 'sh'
   extensions: [
     '.sh',
     '.bash',
@@ -16,23 +16,6 @@ declare const _: {
     '.trigger',
     '.zsh',
     '.zsh-theme',
-  ]
-  tmScope: 'source.shell'
-  aceMode: 'sh'
-  languageId: 346
-  aliases: ['sh', 'shell-script', 'bash', 'zsh', 'envrc']
-  codemirrorMode: 'shell'
-  codemirrorMimeType: 'text/x-sh'
-  interpreters: [
-    'ash',
-    'bash',
-    'dash',
-    'ksh',
-    'mksh',
-    'pdksh',
-    'rc',
-    'sh',
-    'zsh',
   ]
   filenames: [
     '.bash_aliases',
@@ -71,6 +54,23 @@ declare const _: {
     'zprofile',
     'zshenv',
     'zshrc',
+  ]
+  languageId: 346
+  tmScope: 'source.shell'
+  aliases: ['sh', 'shell-script', 'bash', 'zsh', 'envrc']
+  codemirrorMode: 'shell'
+  codemirrorMimeType: 'text/x-sh'
+  color: '#89e051'
+  interpreters: [
+    'ash',
+    'bash',
+    'dash',
+    'ksh',
+    'mksh',
+    'pdksh',
+    'rc',
+    'sh',
+    'zsh',
   ]
 }
 export = _

@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Jai',
   type: 'programming',
-  color: '#ab8b4b',
-  extensions: ['.jai'],
-  tmScope: 'source.jai',
   aceMode: 'text',
+  extensions: ['.jai'],
   languageId: 70127133,
+  tmScope: 'source.jai',
+  color: '#ab8b4b',
 }

@@ -1,7 +1,7 @@
 declare const _: {
   name: 'Lua'
   type: 'programming'
-  color: '#000080'
+  aceMode: 'lua'
   extensions: [
     '.lua',
     '.fcgi',
@@ -12,12 +12,12 @@ declare const _: {
     '.rockspec',
     '.wlua',
   ]
-  tmScope: 'source.lua'
-  aceMode: 'lua'
+  filenames: ['.luacheckrc']
   languageId: 213
+  tmScope: 'source.lua'
   codemirrorMode: 'lua'
   codemirrorMimeType: 'text/x-lua'
+  color: '#000080'
   interpreters: ['lua']
-  filenames: ['.luacheckrc']
 }
 export = _

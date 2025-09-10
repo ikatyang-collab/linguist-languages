@@ -1,7 +1,7 @@
 module.exports = {
   name: 'SQL',
   type: 'data',
-  color: '#e38c00',
+  aceMode: 'sql',
   extensions: [
     '.sql',
     '.cql',
@@ -13,9 +13,9 @@ module.exports = {
     '.udf',
     '.viw',
   ],
-  tmScope: 'source.sql',
-  aceMode: 'sql',
   languageId: 333,
+  tmScope: 'source.sql',
   codemirrorMode: 'sql',
   codemirrorMimeType: 'text/x-sql',
+  color: '#e38c00',
 }

@@ -1,9 +1,9 @@
 module.exports = {
   name: 'TXL',
   type: 'programming',
-  color: '#0178b8',
-  extensions: ['.txl'],
-  tmScope: 'source.txl',
   aceMode: 'text',
+  extensions: ['.txl'],
   languageId: 366,
+  tmScope: 'source.txl',
+  color: '#0178b8',
 }

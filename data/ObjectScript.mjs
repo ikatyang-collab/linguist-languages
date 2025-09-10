@@ -1,9 +1,9 @@
 export default {
   name: 'ObjectScript',
   type: 'programming',
-  color: '#424893',
-  extensions: ['.cls'],
-  tmScope: 'source.objectscript',
   aceMode: 'text',
+  extensions: ['.cls'],
   languageId: 202735509,
+  tmScope: 'source.objectscript',
+  color: '#424893',
 }

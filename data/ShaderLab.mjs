@@ -1,9 +1,9 @@
 export default {
   name: 'ShaderLab',
   type: 'programming',
-  color: '#222c37',
-  extensions: ['.shader'],
-  tmScope: 'source.shaderlab',
   aceMode: 'text',
+  extensions: ['.shader'],
   languageId: 664257356,
+  tmScope: 'source.shaderlab',
+  color: '#222c37',
 }

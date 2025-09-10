@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Xtend'
   type: 'programming'
-  color: '#24255d'
-  extensions: ['.xtend']
-  tmScope: 'source.xtend'
   aceMode: 'text'
+  extensions: ['.xtend']
   languageId: 406
+  tmScope: 'source.xtend'
+  color: '#24255d'
 }
 export default _

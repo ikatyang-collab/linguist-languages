@@ -1,10 +1,10 @@
 export default {
   name: 'XProc',
   type: 'programming',
-  extensions: ['.xpl', '.xproc'],
-  tmScope: 'text.xml',
   aceMode: 'xml',
+  extensions: ['.xpl', '.xproc'],
   languageId: 401,
+  tmScope: 'text.xml',
   codemirrorMode: 'xml',
   codemirrorMimeType: 'text/xml',
 }

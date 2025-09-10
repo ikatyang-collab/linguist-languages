@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Clue'
   type: 'programming'
-  color: '#0009b5'
-  extensions: ['.clue']
-  tmScope: 'source.clue'
   aceMode: 'text'
+  extensions: ['.clue']
   languageId: 163763508
+  tmScope: 'source.clue'
+  color: '#0009b5'
 }
 export = _

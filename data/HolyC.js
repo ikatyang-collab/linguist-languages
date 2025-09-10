@@ -1,11 +1,11 @@
 module.exports = {
   name: 'HolyC',
   type: 'programming',
-  color: '#ffefaf',
-  extensions: ['.hc'],
-  tmScope: 'source.hc',
   aceMode: 'c_cpp',
+  extensions: ['.hc'],
   languageId: 928121743,
+  tmScope: 'source.hc',
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-csrc',
+  color: '#ffefaf',
 }

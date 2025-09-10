@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Frege',
   type: 'programming',
-  color: '#00cafe',
-  extensions: ['.fr'],
-  tmScope: 'source.haskell',
   aceMode: 'haskell',
+  extensions: ['.fr'],
   languageId: 116,
+  tmScope: 'source.haskell',
+  color: '#00cafe',
 }

@@ -1,9 +1,9 @@
 module.exports = {
   name: 'ooc',
   type: 'programming',
-  color: '#b0b77e',
-  extensions: ['.ooc'],
-  tmScope: 'source.ooc',
   aceMode: 'text',
+  extensions: ['.ooc'],
   languageId: 418,
+  tmScope: 'source.ooc',
+  color: '#b0b77e',
 }

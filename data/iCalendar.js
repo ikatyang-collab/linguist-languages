@@ -1,12 +1,12 @@
 module.exports = {
   name: 'iCalendar',
   type: 'data',
-  color: '#ec564c',
-  extensions: ['.ics', '.ical'],
-  tmScope: 'source.iCalendar',
   aceMode: 'properties',
+  extensions: ['.ics', '.ical'],
   languageId: 98384424,
+  tmScope: 'source.iCalendar',
   aliases: ['iCal'],
   codemirrorMode: 'properties',
   codemirrorMimeType: 'text/x-properties',
+  color: '#ec564c',
 }

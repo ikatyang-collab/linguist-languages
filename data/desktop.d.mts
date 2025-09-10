@@ -1,9 +1,9 @@
 declare const _: {
   name: 'desktop'
   type: 'data'
-  extensions: ['.desktop', '.desktop.in', '.service']
-  tmScope: 'source.desktop'
   aceMode: 'text'
+  extensions: ['.desktop', '.desktop.in', '.service']
   languageId: 412
+  tmScope: 'source.desktop'
 }
 export default _

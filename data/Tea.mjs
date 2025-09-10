@@ -1,8 +1,8 @@
 export default {
   name: 'Tea',
   type: 'markup',
-  extensions: ['.tea'],
-  tmScope: 'source.tea',
   aceMode: 'text',
+  extensions: ['.tea'],
   languageId: 370,
+  tmScope: 'source.tea',
 }

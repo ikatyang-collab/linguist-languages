@@ -1,12 +1,12 @@
 module.exports = {
   name: 'RBS',
   type: 'data',
-  color: '#701516',
-  extensions: ['.rbs'],
-  tmScope: 'source.rbs',
   aceMode: 'ruby',
+  extensions: ['.rbs'],
   languageId: 899227493,
+  tmScope: 'source.rbs',
   codemirrorMode: 'ruby',
   codemirrorMimeType: 'text/x-ruby',
+  color: '#701516',
   group: 'Ruby',
 }

@@ -1,12 +1,12 @@
 module.exports = {
   name: 'F#',
   type: 'programming',
-  color: '#b845fc',
-  extensions: ['.fs', '.fsi', '.fsx'],
-  tmScope: 'source.fsharp',
   aceMode: 'fsharp',
+  extensions: ['.fs', '.fsi', '.fsx'],
   languageId: 105,
+  tmScope: 'source.fsharp',
   aliases: ['fsharp'],
   codemirrorMode: 'mllike',
   codemirrorMimeType: 'text/x-fsharp',
+  color: '#b845fc',
 }

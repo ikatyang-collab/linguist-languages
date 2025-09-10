@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Gemini'
   type: 'prose'
-  color: '#ff6900'
-  extensions: ['.gmi']
-  tmScope: 'source.gemini'
   aceMode: 'text'
+  extensions: ['.gmi']
   languageId: 310828396
+  tmScope: 'source.gemini'
   aliases: ['gemtext']
+  color: '#ff6900'
   wrap: true
 }
 export = _

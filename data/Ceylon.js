@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Ceylon',
   type: 'programming',
-  color: '#dfa535',
-  extensions: ['.ceylon'],
-  tmScope: 'source.ceylon',
   aceMode: 'text',
+  extensions: ['.ceylon'],
   languageId: 54,
+  tmScope: 'source.ceylon',
+  color: '#dfa535',
 }

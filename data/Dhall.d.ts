@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Dhall'
   type: 'programming'
-  color: '#dfafff'
-  extensions: ['.dhall']
-  tmScope: 'source.haskell'
   aceMode: 'haskell'
+  extensions: ['.dhall']
   languageId: 793969321
+  tmScope: 'source.haskell'
   codemirrorMode: 'haskell'
   codemirrorMimeType: 'text/x-haskell'
+  color: '#dfafff'
 }
 export = _

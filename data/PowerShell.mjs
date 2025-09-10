@@ -1,13 +1,13 @@
 export default {
   name: 'PowerShell',
   type: 'programming',
-  color: '#012456',
-  extensions: ['.ps1', '.psd1', '.psm1'],
-  tmScope: 'source.powershell',
   aceMode: 'powershell',
+  extensions: ['.ps1', '.psd1', '.psm1'],
   languageId: 293,
+  tmScope: 'source.powershell',
   aliases: ['posh', 'pwsh'],
   codemirrorMode: 'powershell',
   codemirrorMimeType: 'application/x-powershell',
+  color: '#012456',
   interpreters: ['pwsh'],
 }

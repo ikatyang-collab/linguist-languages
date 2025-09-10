@@ -1,7 +1,7 @@
 export default {
   name: 'JSON with Comments',
   type: 'data',
-  color: '#292929',
+  aceMode: 'javascript',
   extensions: [
     '.jsonc',
     '.code-snippets',
@@ -21,13 +21,6 @@ export default {
     '.sublime_metrics',
     '.sublime_session',
   ],
-  tmScope: 'source.json.comments',
-  aceMode: 'javascript',
-  languageId: 423,
-  aliases: ['jsonc'],
-  codemirrorMode: 'javascript',
-  codemirrorMimeType: 'text/javascript',
-  group: 'JSON',
   filenames: [
     '.babelrc',
     '.devcontainer.json',
@@ -43,4 +36,11 @@ export default {
     'tsconfig.json',
     'tslint.json',
   ],
+  languageId: 423,
+  tmScope: 'source.json.comments',
+  aliases: ['jsonc'],
+  codemirrorMode: 'javascript',
+  codemirrorMimeType: 'text/javascript',
+  color: '#292929',
+  group: 'JSON',
 }

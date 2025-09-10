@@ -1,9 +1,9 @@
 declare const _: {
   name: 'Proguard'
   type: 'data'
-  extensions: ['.pro']
-  tmScope: 'none'
   aceMode: 'text'
+  extensions: ['.pro']
   languageId: 716513858
+  tmScope: 'none'
 }
 export = _

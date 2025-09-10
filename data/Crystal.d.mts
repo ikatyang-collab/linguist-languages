@@ -1,13 +1,13 @@
 declare const _: {
   name: 'Crystal'
   type: 'programming'
-  color: '#000100'
-  extensions: ['.cr']
-  tmScope: 'source.crystal'
   aceMode: 'crystal'
+  extensions: ['.cr']
   languageId: 72
+  tmScope: 'source.crystal'
   codemirrorMode: 'crystal'
   codemirrorMimeType: 'text/x-crystal'
+  color: '#000100'
   interpreters: ['crystal']
 }
 export default _

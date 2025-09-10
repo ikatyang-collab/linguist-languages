@@ -1,10 +1,10 @@
 declare const _: {
   name: 'LOLCODE'
   type: 'programming'
-  color: '#cc9900'
-  extensions: ['.lol']
-  tmScope: 'source.lolcode'
   aceMode: 'text'
+  extensions: ['.lol']
   languageId: 192
+  tmScope: 'source.lolcode'
+  color: '#cc9900'
 }
 export default _

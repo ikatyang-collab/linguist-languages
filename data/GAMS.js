@@ -1,9 +1,9 @@
 module.exports = {
   name: 'GAMS',
   type: 'programming',
-  color: '#f49a22',
-  extensions: ['.gms'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.gms'],
   languageId: 118,
+  tmScope: 'none',
+  color: '#f49a22',
 }

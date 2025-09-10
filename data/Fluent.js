@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Fluent',
   type: 'programming',
-  color: '#ffcc33',
-  extensions: ['.ftl'],
-  tmScope: 'source.ftl',
   aceMode: 'text',
+  extensions: ['.ftl'],
   languageId: 206353404,
+  tmScope: 'source.ftl',
+  color: '#ffcc33',
 }

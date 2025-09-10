@@ -1,11 +1,11 @@
 export default {
   name: 'JSONiq',
   type: 'programming',
-  color: '#40d47e',
-  extensions: ['.jq'],
-  tmScope: 'source.jsoniq',
   aceMode: 'jsoniq',
+  extensions: ['.jq'],
   languageId: 177,
+  tmScope: 'source.jsoniq',
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'application/json',
+  color: '#40d47e',
 }

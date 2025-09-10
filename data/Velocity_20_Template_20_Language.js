@@ -1,12 +1,12 @@
 module.exports = {
   name: 'Velocity Template Language',
   type: 'markup',
-  color: '#507cff',
-  extensions: ['.vtl'],
-  tmScope: 'source.velocity',
   aceMode: 'velocity',
+  extensions: ['.vtl'],
   languageId: 292377326,
+  tmScope: 'source.velocity',
   aliases: ['vtl', 'velocity'],
   codemirrorMode: 'velocity',
   codemirrorMimeType: 'text/velocity',
+  color: '#507cff',
 }

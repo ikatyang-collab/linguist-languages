@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Euphoria'
   type: 'programming'
-  color: '#FF790B'
-  extensions: ['.e', '.ex']
-  tmScope: 'source.euphoria'
   aceMode: 'text'
+  extensions: ['.e', '.ex']
   languageId: 880693982
+  tmScope: 'source.euphoria'
+  color: '#FF790B'
   interpreters: ['eui', 'euiw']
 }
 export = _

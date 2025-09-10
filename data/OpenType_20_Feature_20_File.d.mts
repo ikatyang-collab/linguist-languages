@@ -1,10 +1,10 @@
 declare const _: {
   name: 'OpenType Feature File'
   type: 'data'
-  extensions: ['.fea']
-  tmScope: 'source.opentype'
   aceMode: 'text'
+  extensions: ['.fea']
   languageId: 374317347
+  tmScope: 'source.opentype'
   aliases: ['AFDKO']
 }
 export default _

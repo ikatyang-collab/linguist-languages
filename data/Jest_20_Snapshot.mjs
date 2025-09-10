@@ -1,11 +1,11 @@
 export default {
   name: 'Jest Snapshot',
   type: 'data',
-  color: '#15c213',
-  extensions: ['.snap'],
-  tmScope: 'source.jest.snap',
   aceMode: 'javascript',
+  extensions: ['.snap'],
   languageId: 774635084,
+  tmScope: 'source.jest.snap',
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'application/javascript',
+  color: '#15c213',
 }

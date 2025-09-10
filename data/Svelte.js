@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Svelte',
   type: 'markup',
-  color: '#ff3e00',
-  extensions: ['.svelte'],
-  tmScope: 'source.svelte',
   aceMode: 'html',
+  extensions: ['.svelte'],
   languageId: 928734530,
+  tmScope: 'source.svelte',
   codemirrorMode: 'htmlmixed',
   codemirrorMimeType: 'text/html',
+  color: '#ff3e00',
 }

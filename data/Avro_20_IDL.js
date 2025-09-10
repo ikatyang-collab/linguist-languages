@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Avro IDL',
   type: 'data',
-  color: '#0040FF',
-  extensions: ['.avdl'],
-  tmScope: 'source.avro',
   aceMode: 'text',
+  extensions: ['.avdl'],
   languageId: 785497837,
+  tmScope: 'source.avro',
+  color: '#0040FF',
 }

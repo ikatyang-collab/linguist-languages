@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Cirru'
   type: 'programming'
-  color: '#ccccff'
-  extensions: ['.cirru']
-  tmScope: 'source.cirru'
   aceMode: 'cirru'
+  extensions: ['.cirru']
   languageId: 58
+  tmScope: 'source.cirru'
+  color: '#ccccff'
 }
 export = _

@@ -1,8 +1,8 @@
 export default {
   name: 'CIL',
   type: 'data',
-  extensions: ['.cil'],
-  tmScope: 'source.cil',
   aceMode: 'text',
+  extensions: ['.cil'],
   languageId: 29176339,
+  tmScope: 'source.cil',
 }

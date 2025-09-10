@@ -1,12 +1,12 @@
 export default {
   name: 'LigoLANG',
   type: 'programming',
-  color: '#0e74ff',
-  extensions: ['.ligo'],
-  tmScope: 'source.ligo',
   aceMode: 'pascal',
+  extensions: ['.ligo'],
   languageId: 1040646257,
+  tmScope: 'source.ligo',
   codemirrorMode: 'pascal',
   codemirrorMimeType: 'text/x-pascal',
+  color: '#0e74ff',
   group: 'LigoLANG',
 }

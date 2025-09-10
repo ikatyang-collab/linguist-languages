@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Modula-2',
   type: 'programming',
-  color: '#10253f',
-  extensions: ['.mod'],
-  tmScope: 'source.modula2',
   aceMode: 'text',
+  extensions: ['.mod'],
   languageId: 234,
+  tmScope: 'source.modula2',
+  color: '#10253f',
 }

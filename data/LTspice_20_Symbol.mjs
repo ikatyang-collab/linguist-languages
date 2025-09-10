@@ -1,10 +1,10 @@
 export default {
   name: 'LTspice Symbol',
   type: 'data',
-  extensions: ['.asy'],
-  tmScope: 'source.ltspice.symbol',
   aceMode: 'text',
+  extensions: ['.asy'],
   languageId: 1013566805,
+  tmScope: 'source.ltspice.symbol',
   codemirrorMode: 'spreadsheet',
   codemirrorMimeType: 'text/x-spreadsheet',
 }

@@ -1,14 +1,8 @@
 module.exports = {
   name: 'Emacs Lisp',
   type: 'programming',
-  color: '#c065db',
-  extensions: ['.el', '.emacs', '.emacs.desktop'],
-  tmScope: 'source.emacs.lisp',
   aceMode: 'lisp',
-  languageId: 102,
-  aliases: ['elisp', 'emacs'],
-  codemirrorMode: 'commonlisp',
-  codemirrorMimeType: 'text/x-common-lisp',
+  extensions: ['.el', '.emacs', '.emacs.desktop'],
   filenames: [
     '.abbrev_defs',
     '.emacs',
@@ -21,4 +15,10 @@ module.exports = {
     '_emacs',
     'abbrev_defs',
   ],
+  languageId: 102,
+  tmScope: 'source.emacs.lisp',
+  aliases: ['elisp', 'emacs'],
+  codemirrorMode: 'commonlisp',
+  codemirrorMimeType: 'text/x-common-lisp',
+  color: '#c065db',
 }

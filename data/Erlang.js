@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Erlang',
   type: 'programming',
-  color: '#B83998',
+  aceMode: 'erlang',
   extensions: [
     '.erl',
     '.app',
@@ -12,11 +12,11 @@ module.exports = {
     '.xrl',
     '.yrl',
   ],
-  tmScope: 'source.erlang',
-  aceMode: 'erlang',
+  filenames: ['Emakefile', 'rebar.config', 'rebar.config.lock', 'rebar.lock'],
   languageId: 104,
+  tmScope: 'source.erlang',
   codemirrorMode: 'erlang',
   codemirrorMimeType: 'text/x-erlang',
+  color: '#B83998',
   interpreters: ['escript'],
-  filenames: ['Emakefile', 'rebar.config', 'rebar.config.lock', 'rebar.lock'],
 }

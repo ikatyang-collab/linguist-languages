@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Unix Assembly'
   type: 'programming'
-  extensions: ['.s', '.ms']
-  tmScope: 'source.x86'
   aceMode: 'assembly_x86'
+  extensions: ['.s', '.ms']
   languageId: 120
+  tmScope: 'source.x86'
   aliases: ['gas', 'gnu asm', 'unix asm']
   group: 'Assembly'
 }

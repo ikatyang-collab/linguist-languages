@@ -1,9 +1,9 @@
 declare const _: {
   name: 'RenderScript'
   type: 'programming'
-  extensions: ['.rs', '.rsh']
-  tmScope: 'none'
   aceMode: 'text'
+  extensions: ['.rs', '.rsh']
   languageId: 323
+  tmScope: 'none'
 }
 export default _

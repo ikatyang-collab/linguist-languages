@@ -1,9 +1,9 @@
 export default {
   name: 'JAR Manifest',
   type: 'data',
-  color: '#b07219',
-  tmScope: 'source.yaml',
   aceMode: 'text',
-  languageId: 447261135,
   filenames: ['MANIFEST.MF'],
+  languageId: 447261135,
+  tmScope: 'source.yaml',
+  color: '#b07219',
 }

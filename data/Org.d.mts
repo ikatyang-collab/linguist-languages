@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Org'
   type: 'prose'
-  color: '#77aa99'
-  extensions: ['.org']
-  tmScope: 'none'
   aceMode: 'text'
+  extensions: ['.org']
   languageId: 267
+  tmScope: 'none'
+  color: '#77aa99'
   wrap: true
 }
 export default _

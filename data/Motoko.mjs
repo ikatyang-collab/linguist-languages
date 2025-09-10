@@ -1,9 +1,9 @@
 export default {
   name: 'Motoko',
   type: 'programming',
-  color: '#fbb03b',
-  extensions: ['.mo'],
-  tmScope: 'source.mo',
   aceMode: 'text',
+  extensions: ['.mo'],
   languageId: 202937027,
+  tmScope: 'source.mo',
+  color: '#fbb03b',
 }

@@ -1,10 +1,8 @@
 module.exports = {
   name: 'dircolors',
   type: 'data',
-  extensions: ['.dircolors'],
-  tmScope: 'source.dircolors',
   aceMode: 'text',
-  languageId: 691605112,
+  extensions: ['.dircolors'],
   filenames: [
     '.dir_colors',
     '.dircolors',
@@ -13,4 +11,6 @@ module.exports = {
     '_dircolors',
     'dir_colors',
   ],
+  languageId: 691605112,
+  tmScope: 'source.dircolors',
 }

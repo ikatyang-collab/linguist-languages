@@ -1,9 +1,9 @@
 export default {
   name: 'ABAP CDS',
   type: 'programming',
-  color: '#555e25',
-  extensions: ['.asddls'],
-  tmScope: 'source.abapcds',
   aceMode: 'text',
+  extensions: ['.asddls'],
   languageId: 452681853,
+  tmScope: 'source.abapcds',
+  color: '#555e25',
 }

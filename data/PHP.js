@@ -1,7 +1,7 @@
 module.exports = {
   name: 'PHP',
   type: 'programming',
-  color: '#4F5D95',
+  aceMode: 'php',
   extensions: [
     '.php',
     '.aw',
@@ -14,12 +14,12 @@ module.exports = {
     '.phps',
     '.phpt',
   ],
-  tmScope: 'text.html.php',
-  aceMode: 'php',
+  filenames: ['.php', '.php_cs', '.php_cs.dist', 'Phakefile'],
   languageId: 272,
+  tmScope: 'text.html.php',
   aliases: ['inc'],
   codemirrorMode: 'php',
   codemirrorMimeType: 'application/x-httpd-php',
+  color: '#4F5D95',
   interpreters: ['php'],
-  filenames: ['.php', '.php_cs', '.php_cs.dist', 'Phakefile'],
 }

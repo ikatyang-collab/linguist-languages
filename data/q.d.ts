@@ -1,12 +1,12 @@
 declare const _: {
   name: 'q'
   type: 'programming'
-  color: '#0040cd'
-  extensions: ['.q']
-  tmScope: 'source.q'
   aceMode: 'text'
+  extensions: ['.q']
   languageId: 970539067
+  tmScope: 'source.q'
   codemirrorMode: 'q'
   codemirrorMimeType: 'text/x-q'
+  color: '#0040cd'
 }
 export = _

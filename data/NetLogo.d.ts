@@ -1,12 +1,12 @@
 declare const _: {
   name: 'NetLogo'
   type: 'programming'
-  color: '#ff6375'
-  extensions: ['.nlogo']
-  tmScope: 'source.lisp'
   aceMode: 'lisp'
+  extensions: ['.nlogo']
   languageId: 246
+  tmScope: 'source.lisp'
   codemirrorMode: 'commonlisp'
   codemirrorMimeType: 'text/x-common-lisp'
+  color: '#ff6375'
 }
 export = _

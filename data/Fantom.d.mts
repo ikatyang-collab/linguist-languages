@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Fantom'
   type: 'programming'
-  color: '#14253c'
-  extensions: ['.fan']
-  tmScope: 'source.fan'
   aceMode: 'text'
+  extensions: ['.fan']
   languageId: 110
+  tmScope: 'source.fan'
+  color: '#14253c'
 }
 export default _

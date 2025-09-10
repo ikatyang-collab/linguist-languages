@@ -1,10 +1,10 @@
 export default {
   name: 'X10',
   type: 'programming',
-  color: '#4B6BEF',
-  extensions: ['.x10'],
-  tmScope: 'source.x10',
   aceMode: 'text',
+  extensions: ['.x10'],
   languageId: 397,
+  tmScope: 'source.x10',
   aliases: ['xten'],
+  color: '#4B6BEF',
 }

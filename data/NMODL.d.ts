@@ -1,10 +1,10 @@
 declare const _: {
   name: 'NMODL'
   type: 'programming'
-  color: '#00356B'
-  extensions: ['.mod']
-  tmScope: 'none'
   aceMode: 'text'
+  extensions: ['.mod']
   languageId: 136456478
+  tmScope: 'none'
+  color: '#00356B'
 }
 export = _

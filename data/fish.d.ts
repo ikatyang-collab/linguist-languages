@@ -1,12 +1,12 @@
 declare const _: {
   name: 'fish'
   type: 'programming'
-  color: '#4aae47'
-  extensions: ['.fish']
-  tmScope: 'source.fish'
   aceMode: 'text'
+  extensions: ['.fish']
   languageId: 415
-  interpreters: ['fish']
+  tmScope: 'source.fish'
+  color: '#4aae47'
   group: 'Shell'
+  interpreters: ['fish']
 }
 export = _

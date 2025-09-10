@@ -1,11 +1,11 @@
 declare const _: {
   name: 'cURL Config'
   type: 'data'
-  tmScope: 'source.curlrc'
   aceMode: 'text'
+  filenames: ['.curlrc', '_curlrc']
   languageId: 992375436
+  tmScope: 'source.curlrc'
   aliases: ['curlrc']
   group: 'INI'
-  filenames: ['.curlrc', '_curlrc']
 }
 export = _

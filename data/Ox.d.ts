@@ -1,9 +1,9 @@
 declare const _: {
   name: 'Ox'
   type: 'programming'
-  extensions: ['.ox', '.oxh', '.oxo']
-  tmScope: 'source.ox'
   aceMode: 'text'
+  extensions: ['.ox', '.oxh', '.oxo']
   languageId: 268
+  tmScope: 'source.ox'
 }
 export = _

@@ -1,10 +1,10 @@
 module.exports = {
   name: 'XS',
   type: 'programming',
-  extensions: ['.xs'],
-  tmScope: 'source.c',
   aceMode: 'c_cpp',
+  extensions: ['.xs'],
   languageId: 403,
+  tmScope: 'source.c',
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-csrc',
 }

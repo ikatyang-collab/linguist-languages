@@ -1,11 +1,11 @@
 export default {
   name: 'UnrealScript',
   type: 'programming',
-  color: '#a54c4d',
-  extensions: ['.uc'],
-  tmScope: 'source.java',
   aceMode: 'java',
+  extensions: ['.uc'],
   languageId: 382,
+  tmScope: 'source.java',
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-java',
+  color: '#a54c4d',
 }

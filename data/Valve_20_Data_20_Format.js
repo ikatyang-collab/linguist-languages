@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Valve Data Format',
   type: 'data',
-  color: '#f26025',
-  extensions: ['.vdf'],
-  tmScope: 'source.keyvalues',
   aceMode: 'text',
+  extensions: ['.vdf'],
   languageId: 544060961,
+  tmScope: 'source.keyvalues',
   aliases: ['keyvalues', 'vdf'],
+  color: '#f26025',
 }

@@ -1,14 +1,14 @@
 declare const _: {
   name: 'Ecmarkup'
   type: 'markup'
-  color: '#eb8131'
-  extensions: ['.html']
-  tmScope: 'text.html.ecmarkup'
   aceMode: 'html'
+  extensions: ['.html']
   languageId: 844766630
+  tmScope: 'text.html.ecmarkup'
   aliases: ['ecmarkdown']
   codemirrorMode: 'htmlmixed'
   codemirrorMimeType: 'text/html'
+  color: '#eb8131'
   group: 'HTML'
 }
 export = _

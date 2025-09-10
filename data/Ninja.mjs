@@ -1,8 +1,8 @@
 export default {
   name: 'Ninja',
   type: 'data',
-  extensions: ['.ninja'],
-  tmScope: 'source.ninja',
   aceMode: 'text',
+  extensions: ['.ninja'],
   languageId: 250,
+  tmScope: 'source.ninja',
 }

@@ -1,11 +1,11 @@
 declare const _: {
   name: 'ImageJ Macro'
   type: 'programming'
-  color: '#99AAFF'
-  extensions: ['.ijm']
-  tmScope: 'none'
   aceMode: 'text'
+  extensions: ['.ijm']
   languageId: 575143428
+  tmScope: 'none'
   aliases: ['ijm']
+  color: '#99AAFF'
 }
 export = _

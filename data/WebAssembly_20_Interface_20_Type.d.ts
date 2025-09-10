@@ -1,13 +1,13 @@
 declare const _: {
   name: 'WebAssembly Interface Type'
   type: 'data'
-  color: '#6250e7'
-  extensions: ['.wit']
-  tmScope: 'source.wit'
   aceMode: 'text'
+  extensions: ['.wit']
   languageId: 134534086
+  tmScope: 'source.wit'
   aliases: ['wit']
   codemirrorMode: 'webidl'
   codemirrorMimeType: 'text/x-webidl'
+  color: '#6250e7'
 }
 export = _

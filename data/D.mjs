@@ -1,12 +1,12 @@
 export default {
   name: 'D',
   type: 'programming',
-  color: '#ba595e',
-  extensions: ['.d', '.di'],
-  tmScope: 'source.d',
   aceMode: 'd',
+  extensions: ['.d', '.di'],
   languageId: 80,
+  tmScope: 'source.d',
   aliases: ['Dlang'],
   codemirrorMode: 'd',
   codemirrorMimeType: 'text/x-d',
+  color: '#ba595e',
 }

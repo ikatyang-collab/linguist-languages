@@ -1,9 +1,9 @@
 export default {
   name: 'Futhark',
   type: 'programming',
-  color: '#5f021f',
-  extensions: ['.fut'],
-  tmScope: 'source.futhark',
   aceMode: 'text',
+  extensions: ['.fut'],
   languageId: 97358117,
+  tmScope: 'source.futhark',
+  color: '#5f021f',
 }

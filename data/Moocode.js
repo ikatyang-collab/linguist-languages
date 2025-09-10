@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Moocode',
   type: 'programming',
-  extensions: ['.moo'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.moo'],
   languageId: 237,
+  tmScope: 'none',
 }

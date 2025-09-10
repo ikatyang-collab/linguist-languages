@@ -1,10 +1,10 @@
 export default {
   name: 'MUF',
   type: 'programming',
-  extensions: ['.muf', '.m'],
-  tmScope: 'none',
   aceMode: 'forth',
+  extensions: ['.muf', '.m'],
   languageId: 219,
+  tmScope: 'none',
   codemirrorMode: 'forth',
   codemirrorMimeType: 'text/x-forth',
   group: 'Forth',

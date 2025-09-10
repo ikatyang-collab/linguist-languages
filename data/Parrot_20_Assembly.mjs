@@ -1,11 +1,11 @@
 export default {
   name: 'Parrot Assembly',
   type: 'programming',
-  extensions: ['.pasm'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.pasm'],
   languageId: 279,
+  tmScope: 'none',
   aliases: ['pasm'],
-  interpreters: ['parrot'],
   group: 'Parrot',
+  interpreters: ['parrot'],
 }

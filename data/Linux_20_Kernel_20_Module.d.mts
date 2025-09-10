@@ -1,9 +1,9 @@
 declare const _: {
   name: 'Linux Kernel Module'
   type: 'data'
-  extensions: ['.mod']
-  tmScope: 'none'
   aceMode: 'text'
+  extensions: ['.mod']
   languageId: 203
+  tmScope: 'none'
 }
 export default _

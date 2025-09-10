@@ -1,10 +1,10 @@
 export default {
   name: 'Regular Expression',
   type: 'data',
-  color: '#009a00',
-  extensions: ['.regexp', '.regex'],
-  tmScope: 'source.regexp',
   aceMode: 'text',
+  extensions: ['.regexp', '.regex'],
   languageId: 363378884,
+  tmScope: 'source.regexp',
   aliases: ['regexp', 'regex'],
+  color: '#009a00',
 }

@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Kusto',
   type: 'data',
-  extensions: ['.csl', '.kql'],
-  tmScope: 'source.kusto',
   aceMode: 'text',
+  extensions: ['.csl', '.kql'],
   languageId: 225697190,
+  tmScope: 'source.kusto',
 }

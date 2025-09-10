@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Bicep'
   type: 'programming'
-  color: '#519aba'
-  extensions: ['.bicep', '.bicepparam']
-  tmScope: 'source.bicep'
   aceMode: 'text'
+  extensions: ['.bicep', '.bicepparam']
   languageId: 321200902
+  tmScope: 'source.bicep'
+  color: '#519aba'
 }
 export = _

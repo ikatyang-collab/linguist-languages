@@ -1,11 +1,11 @@
 export default {
   name: 'Hy',
   type: 'programming',
-  color: '#7790B2',
-  extensions: ['.hy'],
-  tmScope: 'source.hy',
   aceMode: 'text',
+  extensions: ['.hy'],
   languageId: 159,
+  tmScope: 'source.hy',
   aliases: ['hylang'],
+  color: '#7790B2',
   interpreters: ['hy'],
 }

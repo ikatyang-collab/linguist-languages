@@ -1,13 +1,13 @@
 declare const _: {
   name: 'Haskell'
   type: 'programming'
-  color: '#5e5086'
-  extensions: ['.hs', '.hs-boot', '.hsc']
-  tmScope: 'source.haskell'
   aceMode: 'haskell'
+  extensions: ['.hs', '.hs-boot', '.hsc']
   languageId: 157
+  tmScope: 'source.haskell'
   codemirrorMode: 'haskell'
   codemirrorMimeType: 'text/x-haskell'
+  color: '#5e5086'
   interpreters: ['runghc', 'runhaskell', 'runhugs']
 }
 export default _

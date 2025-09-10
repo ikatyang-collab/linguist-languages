@@ -1,13 +1,13 @@
 declare const _: {
   name: 'Grammatical Framework'
   type: 'programming'
-  color: '#ff0000'
-  extensions: ['.gf']
-  tmScope: 'source.gf'
   aceMode: 'haskell'
+  extensions: ['.gf']
   languageId: 137
+  tmScope: 'source.gf'
   aliases: ['gf']
   codemirrorMode: 'haskell'
   codemirrorMimeType: 'text/x-haskell'
+  color: '#ff0000'
 }
 export = _

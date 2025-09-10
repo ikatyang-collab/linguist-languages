@@ -1,13 +1,13 @@
 module.exports = {
   name: 'HTML+Razor',
   type: 'markup',
-  color: '#512be4',
-  extensions: ['.cshtml', '.razor'],
-  tmScope: 'text.html.cshtml',
   aceMode: 'razor',
+  extensions: ['.cshtml', '.razor'],
   languageId: 479039817,
+  tmScope: 'text.html.cshtml',
   aliases: ['razor'],
   codemirrorMode: 'htmlmixed',
   codemirrorMimeType: 'text/html',
+  color: '#512be4',
   group: 'HTML',
 }

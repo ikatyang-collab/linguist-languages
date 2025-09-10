@@ -1,11 +1,11 @@
 export default {
   name: 'Verilog',
   type: 'programming',
-  color: '#b2b7f8',
-  extensions: ['.v', '.veo'],
-  tmScope: 'source.verilog',
   aceMode: 'verilog',
+  extensions: ['.v', '.veo'],
   languageId: 387,
+  tmScope: 'source.verilog',
   codemirrorMode: 'verilog',
   codemirrorMimeType: 'text/x-verilog',
+  color: '#b2b7f8',
 }

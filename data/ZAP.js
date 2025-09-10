@@ -1,9 +1,9 @@
 module.exports = {
   name: 'ZAP',
   type: 'programming',
-  color: '#0d665e',
-  extensions: ['.zap', '.xzap'],
-  tmScope: 'source.zap',
   aceMode: 'text',
+  extensions: ['.zap', '.xzap'],
   languageId: 952972794,
+  tmScope: 'source.zap',
+  color: '#0d665e',
 }

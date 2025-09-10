@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Protocol Buffer Text Format'
   type: 'data'
-  extensions: ['.textproto', '.pbt', '.pbtxt']
-  tmScope: 'source.textproto'
   aceMode: 'text'
+  extensions: ['.textproto', '.pbt', '.pbtxt']
   languageId: 436568854
+  tmScope: 'source.textproto'
   aliases: ['text proto', 'protobuf text format']
 }
 export default _

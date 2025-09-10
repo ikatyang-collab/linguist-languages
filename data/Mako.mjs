@@ -1,9 +1,9 @@
 export default {
   name: 'Mako',
   type: 'programming',
-  color: '#7e858d',
-  extensions: ['.mako', '.mao'],
-  tmScope: 'text.html.mako',
   aceMode: 'text',
+  extensions: ['.mako', '.mao'],
   languageId: 221,
+  tmScope: 'text.html.mako',
+  color: '#7e858d',
 }

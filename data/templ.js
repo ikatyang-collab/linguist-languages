@@ -1,9 +1,9 @@
 module.exports = {
   name: 'templ',
   type: 'markup',
-  color: '#66D0DD',
-  extensions: ['.templ'],
-  tmScope: 'source.templ',
   aceMode: 'text',
+  extensions: ['.templ'],
   languageId: 795579337,
+  tmScope: 'source.templ',
+  color: '#66D0DD',
 }

@@ -1,10 +1,10 @@
 module.exports = {
   name: 'KiCad Schematic',
   type: 'data',
-  color: '#2f4aab',
-  extensions: ['.kicad_sch', '.kicad_sym', '.sch'],
-  tmScope: 'source.pcb.schematic',
   aceMode: 'text',
+  extensions: ['.kicad_sch', '.kicad_sym', '.sch'],
   languageId: 622447435,
+  tmScope: 'source.pcb.schematic',
   aliases: ['eeschema schematic'],
+  color: '#2f4aab',
 }

@@ -1,10 +1,10 @@
 export default {
   name: 'Fancy',
   type: 'programming',
-  color: '#7b9db4',
-  extensions: ['.fy', '.fancypack'],
-  tmScope: 'source.fancy',
   aceMode: 'text',
-  languageId: 109,
+  extensions: ['.fy', '.fancypack'],
   filenames: ['Fakefile'],
+  languageId: 109,
+  tmScope: 'source.fancy',
+  color: '#7b9db4',
 }

@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Zig'
   type: 'programming'
-  color: '#ec915c'
-  extensions: ['.zig', '.zig.zon']
-  tmScope: 'source.zig'
   aceMode: 'zig'
+  extensions: ['.zig', '.zig.zon']
   languageId: 646424281
+  tmScope: 'source.zig'
+  color: '#ec915c'
 }
 export default _

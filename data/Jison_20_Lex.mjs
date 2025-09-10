@@ -1,10 +1,10 @@
 export default {
   name: 'Jison Lex',
   type: 'programming',
-  color: '#56b3cb',
-  extensions: ['.jisonlex'],
-  tmScope: 'source.jisonlex',
   aceMode: 'text',
+  extensions: ['.jisonlex'],
   languageId: 406395330,
+  tmScope: 'source.jisonlex',
+  color: '#56b3cb',
   group: 'Lex',
 }

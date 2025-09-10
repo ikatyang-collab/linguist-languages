@@ -1,14 +1,14 @@
 export default {
   name: 'Nu',
   type: 'programming',
-  color: '#c9df40',
-  extensions: ['.nu'],
-  tmScope: 'source.nu',
   aceMode: 'scheme',
+  extensions: ['.nu'],
+  filenames: ['Nukefile'],
   languageId: 253,
+  tmScope: 'source.nu',
   aliases: ['nush'],
   codemirrorMode: 'scheme',
   codemirrorMimeType: 'text/x-scheme',
+  color: '#c9df40',
   interpreters: ['nush'],
-  filenames: ['Nukefile'],
 }

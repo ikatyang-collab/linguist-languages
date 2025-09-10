@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Redirect Rules'
   type: 'data'
-  tmScope: 'source.redirects'
   aceMode: 'text'
-  languageId: 1020148948
-  aliases: ['redirects']
   filenames: ['_redirects']
+  languageId: 1020148948
+  tmScope: 'source.redirects'
+  aliases: ['redirects']
 }
 export default _

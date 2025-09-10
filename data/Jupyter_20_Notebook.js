@@ -1,13 +1,13 @@
 module.exports = {
   name: 'Jupyter Notebook',
   type: 'markup',
-  color: '#DA5B0B',
-  extensions: ['.ipynb'],
-  tmScope: 'source.json',
   aceMode: 'json',
+  extensions: ['.ipynb'],
+  filenames: ['Notebook'],
   languageId: 185,
+  tmScope: 'source.json',
   aliases: ['IPython Notebook'],
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'application/json',
-  filenames: ['Notebook'],
+  color: '#DA5B0B',
 }

@@ -1,10 +1,10 @@
 export default {
   name: 'RUNOFF',
   type: 'markup',
-  color: '#665a4e',
-  extensions: ['.rnh', '.rno'],
-  tmScope: 'text.runoff',
   aceMode: 'text',
+  extensions: ['.rnh', '.rno'],
   languageId: 315,
+  tmScope: 'text.runoff',
+  color: '#665a4e',
   wrap: true,
 }

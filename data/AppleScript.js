@@ -1,11 +1,11 @@
 module.exports = {
   name: 'AppleScript',
   type: 'programming',
-  color: '#101F1F',
-  extensions: ['.applescript', '.scpt'],
-  tmScope: 'source.applescript',
   aceMode: 'applescript',
+  extensions: ['.applescript', '.scpt'],
   languageId: 19,
+  tmScope: 'source.applescript',
   aliases: ['osascript'],
+  color: '#101F1F',
   interpreters: ['osascript'],
 }

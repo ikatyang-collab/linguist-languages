@@ -1,13 +1,13 @@
 declare const _: {
   name: 'Git Attributes'
   type: 'data'
-  color: '#F44D27'
-  tmScope: 'source.gitattributes'
   aceMode: 'gitignore'
+  filenames: ['.gitattributes']
   languageId: 956324166
+  tmScope: 'source.gitattributes'
   aliases: ['gitattributes']
   codemirrorMode: 'shell'
   codemirrorMimeType: 'text/x-sh'
-  filenames: ['.gitattributes']
+  color: '#F44D27'
 }
 export default _

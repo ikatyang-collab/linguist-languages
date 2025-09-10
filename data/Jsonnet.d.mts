@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Jsonnet'
   type: 'programming'
-  color: '#0064bd'
-  extensions: ['.jsonnet', '.libsonnet']
-  tmScope: 'source.jsonnet'
   aceMode: 'text'
+  extensions: ['.jsonnet', '.libsonnet']
   languageId: 664885656
+  tmScope: 'source.jsonnet'
+  color: '#0064bd'
 }
 export default _

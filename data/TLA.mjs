@@ -1,9 +1,9 @@
 export default {
   name: 'TLA',
   type: 'programming',
-  color: '#4b0079',
-  extensions: ['.tla'],
-  tmScope: 'source.tla',
   aceMode: 'text',
+  extensions: ['.tla'],
   languageId: 364,
+  tmScope: 'source.tla',
+  color: '#4b0079',
 }

@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Curry',
   type: 'programming',
-  color: '#531242',
-  extensions: ['.curry'],
-  tmScope: 'source.curry',
   aceMode: 'haskell',
+  extensions: ['.curry'],
   languageId: 439829048,
+  tmScope: 'source.curry',
+  color: '#531242',
 }

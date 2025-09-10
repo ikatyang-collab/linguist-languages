@@ -1,9 +1,9 @@
 export default {
   name: 'NetLinx+ERB',
   type: 'programming',
-  color: '#747faa',
-  extensions: ['.axs.erb', '.axi.erb'],
-  tmScope: 'source.netlinx.erb',
   aceMode: 'text',
+  extensions: ['.axs.erb', '.axi.erb'],
   languageId: 245,
+  tmScope: 'source.netlinx.erb',
+  color: '#747faa',
 }

@@ -1,11 +1,11 @@
 export default {
   name: 'SRecode Template',
   type: 'markup',
-  color: '#348a34',
-  extensions: ['.srt'],
-  tmScope: 'source.lisp',
   aceMode: 'lisp',
+  extensions: ['.srt'],
   languageId: 335,
+  tmScope: 'source.lisp',
   codemirrorMode: 'commonlisp',
   codemirrorMimeType: 'text/x-common-lisp',
+  color: '#348a34',
 }

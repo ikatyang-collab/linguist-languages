@@ -1,12 +1,12 @@
 declare const _: {
   name: 'NPM Config'
   type: 'data'
-  color: '#cb3837'
-  tmScope: 'source.ini.npmrc'
   aceMode: 'text'
-  languageId: 685022663
-  aliases: ['npmrc']
-  group: 'INI'
   filenames: ['.npmrc']
+  languageId: 685022663
+  tmScope: 'source.ini.npmrc'
+  aliases: ['npmrc']
+  color: '#cb3837'
+  group: 'INI'
 }
 export = _

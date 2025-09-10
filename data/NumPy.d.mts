@@ -1,13 +1,13 @@
 declare const _: {
   name: 'NumPy'
   type: 'programming'
-  color: '#9C8AF9'
-  extensions: ['.numpy', '.numpyw', '.numsc']
-  tmScope: 'none'
   aceMode: 'text'
+  extensions: ['.numpy', '.numpyw', '.numsc']
   languageId: 254
+  tmScope: 'none'
   codemirrorMode: 'python'
   codemirrorMimeType: 'text/x-python'
+  color: '#9C8AF9'
   group: 'Python'
 }
 export default _

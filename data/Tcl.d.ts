@@ -1,15 +1,15 @@
 declare const _: {
   name: 'Tcl'
   type: 'programming'
-  color: '#e4cc98'
-  extensions: ['.tcl', '.adp', '.sdc', '.tcl.in', '.tm', '.xdc']
-  tmScope: 'source.tcl'
   aceMode: 'tcl'
+  extensions: ['.tcl', '.adp', '.sdc', '.tcl.in', '.tm', '.xdc']
+  filenames: ['owh', 'starfield']
   languageId: 367
+  tmScope: 'source.tcl'
   aliases: ['sdc', 'xdc']
   codemirrorMode: 'tcl'
   codemirrorMimeType: 'text/x-tcl'
+  color: '#e4cc98'
   interpreters: ['tclsh', 'wish']
-  filenames: ['owh', 'starfield']
 }
 export = _

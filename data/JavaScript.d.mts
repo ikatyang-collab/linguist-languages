@@ -1,7 +1,7 @@
 declare const _: {
   name: 'JavaScript'
   type: 'programming'
-  color: '#f1e05a'
+  aceMode: 'javascript'
   extensions: [
     '.js',
     '._js',
@@ -29,12 +29,13 @@ declare const _: {
     '.xsjs',
     '.xsjslib',
   ]
-  tmScope: 'source.js'
-  aceMode: 'javascript'
+  filenames: ['Jakefile']
   languageId: 183
+  tmScope: 'source.js'
   aliases: ['js', 'node']
   codemirrorMode: 'javascript'
   codemirrorMimeType: 'text/javascript'
+  color: '#f1e05a'
   interpreters: [
     'chakra',
     'd8',
@@ -47,6 +48,5 @@ declare const _: {
     'v8',
     'v8-shell',
   ]
-  filenames: ['Jakefile']
 }
 export default _

@@ -1,9 +1,9 @@
 module.exports = {
   name: 'MiniZinc',
   type: 'programming',
-  color: '#06a9e6',
-  extensions: ['.mzn'],
-  tmScope: 'source.mzn',
   aceMode: 'text',
+  extensions: ['.mzn'],
   languageId: 238874535,
+  tmScope: 'source.mzn',
+  color: '#06a9e6',
 }

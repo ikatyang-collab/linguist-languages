@@ -1,7 +1,7 @@
 export default {
   name: 'JavaScript',
   type: 'programming',
-  color: '#f1e05a',
+  aceMode: 'javascript',
   extensions: [
     '.js',
     '._js',
@@ -29,12 +29,13 @@ export default {
     '.xsjs',
     '.xsjslib',
   ],
-  tmScope: 'source.js',
-  aceMode: 'javascript',
+  filenames: ['Jakefile'],
   languageId: 183,
+  tmScope: 'source.js',
   aliases: ['js', 'node'],
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'text/javascript',
+  color: '#f1e05a',
   interpreters: [
     'chakra',
     'd8',
@@ -47,5 +48,4 @@ export default {
     'v8',
     'v8-shell',
   ],
-  filenames: ['Jakefile'],
 }

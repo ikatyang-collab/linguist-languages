@@ -1,7 +1,7 @@
 module.exports = {
   name: 'PLSQL',
   type: 'programming',
-  color: '#dad8d8',
+  aceMode: 'plsql',
   extensions: [
     '.pls',
     '.bdy',
@@ -20,9 +20,9 @@ module.exports = {
     '.trg',
     '.vw',
   ],
-  tmScope: 'none',
-  aceMode: 'plsql',
   languageId: 273,
+  tmScope: 'none',
   codemirrorMode: 'sql',
   codemirrorMimeType: 'text/x-plsql',
+  color: '#dad8d8',
 }

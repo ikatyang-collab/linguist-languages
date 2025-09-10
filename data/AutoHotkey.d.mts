@@ -1,11 +1,11 @@
 declare const _: {
   name: 'AutoHotkey'
   type: 'programming'
-  color: '#6594b9'
-  extensions: ['.ahk', '.ahkl']
-  tmScope: 'source.ahk'
   aceMode: 'autohotkey'
+  extensions: ['.ahk', '.ahkl']
   languageId: 26
+  tmScope: 'source.ahk'
   aliases: ['ahk']
+  color: '#6594b9'
 }
 export default _

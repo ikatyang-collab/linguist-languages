@@ -1,7 +1,7 @@
 declare const _: {
   name: 'Clojure'
   type: 'programming'
-  color: '#db5855'
+  aceMode: 'clojure'
   extensions: [
     '.clj',
     '.bb',
@@ -14,12 +14,12 @@ declare const _: {
     '.cljx',
     '.hic',
   ]
-  tmScope: 'source.clojure'
-  aceMode: 'clojure'
+  filenames: ['riemann.config']
   languageId: 62
+  tmScope: 'source.clojure'
   codemirrorMode: 'clojure'
   codemirrorMimeType: 'text/x-clojure'
+  color: '#db5855'
   interpreters: ['bb']
-  filenames: ['riemann.config']
 }
 export default _

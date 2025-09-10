@@ -1,9 +1,9 @@
 export default {
   name: 'ZIL',
   type: 'programming',
-  color: '#dc75e5',
-  extensions: ['.zil', '.mud'],
-  tmScope: 'source.zil',
   aceMode: 'text',
+  extensions: ['.zil', '.mud'],
   languageId: 973483626,
+  tmScope: 'source.zil',
+  color: '#dc75e5',
 }

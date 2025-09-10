@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Elvish',
   type: 'programming',
-  color: '#55BB55',
-  extensions: ['.elv'],
-  tmScope: 'source.elvish',
   aceMode: 'text',
+  extensions: ['.elv'],
   languageId: 570996448,
+  tmScope: 'source.elvish',
+  color: '#55BB55',
   interpreters: ['elvish'],
 }

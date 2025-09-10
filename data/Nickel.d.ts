@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Nickel'
   type: 'programming'
-  color: '#E0C3FC'
-  extensions: ['.ncl']
-  tmScope: 'source.nickel'
   aceMode: 'text'
+  extensions: ['.ncl']
   languageId: 1067292664
+  tmScope: 'source.nickel'
+  color: '#E0C3FC'
 }
 export = _

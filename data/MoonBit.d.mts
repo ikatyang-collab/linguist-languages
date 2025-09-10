@@ -1,10 +1,10 @@
 declare const _: {
   name: 'MoonBit'
   type: 'programming'
-  color: '#b92381'
-  extensions: ['.mbt']
-  tmScope: 'source.moonbit'
   aceMode: 'text'
+  extensions: ['.mbt']
   languageId: 181453007
+  tmScope: 'source.moonbit'
+  color: '#b92381'
 }
 export default _

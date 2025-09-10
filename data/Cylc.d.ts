@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Cylc'
   type: 'data'
-  color: '#00b3fd'
-  extensions: ['.cylc']
-  tmScope: 'source.cylc'
   aceMode: 'ini'
-  languageId: 476447814
-  group: 'INI'
+  extensions: ['.cylc']
   filenames: ['suite.rc']
+  languageId: 476447814
+  tmScope: 'source.cylc'
+  color: '#00b3fd'
+  group: 'INI'
 }
 export = _

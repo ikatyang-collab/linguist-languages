@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Dafny'
   type: 'programming'
-  color: '#FFEC25'
-  extensions: ['.dfy']
-  tmScope: 'text.dfy.dafny'
   aceMode: 'text'
+  extensions: ['.dfy']
   languageId: 969323346
+  tmScope: 'text.dfy.dafny'
+  color: '#FFEC25'
   interpreters: ['dafny']
 }
 export = _

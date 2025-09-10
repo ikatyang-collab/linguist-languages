@@ -1,7 +1,7 @@
 declare const _: {
   name: 'Xojo'
   type: 'programming'
-  color: '#81bd41'
+  aceMode: 'text'
   extensions: [
     '.xojo_code',
     '.xojo_menu',
@@ -10,8 +10,8 @@ declare const _: {
     '.xojo_toolbar',
     '.xojo_window',
   ]
-  tmScope: 'source.xojo'
-  aceMode: 'text'
   languageId: 405
+  tmScope: 'source.xojo'
+  color: '#81bd41'
 }
 export = _

@@ -1,10 +1,10 @@
 declare const _: {
   name: 'DirectX 3D File'
   type: 'data'
-  color: '#aace60'
-  extensions: ['.x']
-  tmScope: 'none'
   aceMode: 'text'
+  extensions: ['.x']
   languageId: 201049282
+  tmScope: 'none'
+  color: '#aace60'
 }
 export default _

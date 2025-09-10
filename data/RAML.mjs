@@ -1,11 +1,11 @@
 export default {
   name: 'RAML',
   type: 'markup',
-  color: '#77d9fb',
-  extensions: ['.raml'],
-  tmScope: 'source.yaml',
   aceMode: 'yaml',
+  extensions: ['.raml'],
   languageId: 308,
+  tmScope: 'source.yaml',
   codemirrorMode: 'yaml',
   codemirrorMimeType: 'text/x-yaml',
+  color: '#77d9fb',
 }

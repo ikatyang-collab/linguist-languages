@@ -1,10 +1,10 @@
 export default {
   name: 'JFlex',
   type: 'programming',
-  color: '#DBCA00',
-  extensions: ['.flex', '.jflex'],
-  tmScope: 'source.jflex',
   aceMode: 'text',
+  extensions: ['.flex', '.jflex'],
   languageId: 173,
+  tmScope: 'source.jflex',
+  color: '#DBCA00',
   group: 'Lex',
 }

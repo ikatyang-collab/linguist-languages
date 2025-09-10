@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Gerber Image',
   type: 'data',
-  color: '#d20b00',
+  aceMode: 'text',
   extensions: [
     '.gbr',
     '.cmp',
@@ -20,9 +20,9 @@ module.exports = {
     '.ncl',
     '.sol',
   ],
-  tmScope: 'source.gerber',
-  aceMode: 'text',
   languageId: 404627610,
+  tmScope: 'source.gerber',
   aliases: ['rs-274x'],
+  color: '#d20b00',
   interpreters: ['gerbv', 'gerbview'],
 }

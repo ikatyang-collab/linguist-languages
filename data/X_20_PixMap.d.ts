@@ -1,10 +1,10 @@
 declare const _: {
   name: 'X PixMap'
   type: 'data'
-  extensions: ['.xpm', '.pm']
-  tmScope: 'source.c'
   aceMode: 'c_cpp'
+  extensions: ['.xpm', '.pm']
   languageId: 781846279
+  tmScope: 'source.c'
   aliases: ['xpm']
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-csrc'

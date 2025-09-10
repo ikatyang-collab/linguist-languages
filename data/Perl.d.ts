@@ -1,7 +1,7 @@
 declare const _: {
   name: 'Perl'
   type: 'programming'
-  color: '#0298c3'
+  aceMode: 'perl'
   extensions: [
     '.pl',
     '.al',
@@ -14,13 +14,6 @@ declare const _: {
     '.psgi',
     '.t',
   ]
-  tmScope: 'source.perl'
-  aceMode: 'perl'
-  languageId: 282
-  aliases: ['cperl']
-  codemirrorMode: 'perl'
-  codemirrorMimeType: 'text/x-perl'
-  interpreters: ['cperl', 'perl']
   filenames: [
     '.latexmkrc',
     'Makefile.PL',
@@ -29,5 +22,12 @@ declare const _: {
     'cpanfile',
     'latexmkrc',
   ]
+  languageId: 282
+  tmScope: 'source.perl'
+  aliases: ['cperl']
+  codemirrorMode: 'perl'
+  codemirrorMimeType: 'text/x-perl'
+  color: '#0298c3'
+  interpreters: ['cperl', 'perl']
 }
 export = _

@@ -1,9 +1,9 @@
 export default {
   name: 'Web Ontology Language',
   type: 'data',
-  color: '#5b70bd',
-  extensions: ['.owl'],
-  tmScope: 'text.xml',
   aceMode: 'xml',
+  extensions: ['.owl'],
   languageId: 394,
+  tmScope: 'text.xml',
+  color: '#5b70bd',
 }

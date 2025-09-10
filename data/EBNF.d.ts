@@ -1,10 +1,10 @@
 declare const _: {
   name: 'EBNF'
   type: 'data'
-  extensions: ['.ebnf']
-  tmScope: 'source.ebnf'
   aceMode: 'text'
+  extensions: ['.ebnf']
   languageId: 430
+  tmScope: 'source.ebnf'
   codemirrorMode: 'ebnf'
   codemirrorMimeType: 'text/x-ebnf'
 }

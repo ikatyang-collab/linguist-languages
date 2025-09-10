@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Xmake'
   type: 'programming'
-  color: '#22a079'
-  tmScope: 'source.xmake'
   aceMode: 'text'
-  languageId: 225223071
   filenames: ['xmake.lua']
+  languageId: 225223071
+  tmScope: 'source.xmake'
+  color: '#22a079'
 }
 export = _

@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Haxe'
   type: 'programming'
-  color: '#df7900'
-  extensions: ['.hx', '.hxsl']
-  tmScope: 'source.hx'
   aceMode: 'haxe'
+  extensions: ['.hx', '.hxsl']
   languageId: 158
+  tmScope: 'source.hx'
   codemirrorMode: 'haxe'
   codemirrorMimeType: 'text/x-haxe'
+  color: '#df7900'
 }
 export default _

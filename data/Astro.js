@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Astro',
   type: 'markup',
-  color: '#ff5a03',
-  extensions: ['.astro'],
-  tmScope: 'source.astro',
   aceMode: 'astro',
+  extensions: ['.astro'],
   languageId: 578209015,
+  tmScope: 'source.astro',
   codemirrorMode: 'jsx',
   codemirrorMimeType: 'text/jsx',
+  color: '#ff5a03',
 }

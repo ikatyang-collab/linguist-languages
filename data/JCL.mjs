@@ -1,9 +1,9 @@
 export default {
   name: 'JCL',
   type: 'programming',
-  color: '#d90e09',
-  extensions: ['.jcl'],
-  tmScope: 'source.jcl',
   aceMode: 'text',
+  extensions: ['.jcl'],
   languageId: 316620079,
+  tmScope: 'source.jcl',
+  color: '#d90e09',
 }

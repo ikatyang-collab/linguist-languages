@@ -1,13 +1,13 @@
 module.exports = {
   name: 'Groovy',
   type: 'programming',
-  color: '#4298b8',
-  extensions: ['.groovy', '.grt', '.gtpl', '.gvy'],
-  tmScope: 'source.groovy',
   aceMode: 'groovy',
+  extensions: ['.groovy', '.grt', '.gtpl', '.gvy'],
+  filenames: ['Jenkinsfile'],
   languageId: 142,
+  tmScope: 'source.groovy',
   codemirrorMode: 'groovy',
   codemirrorMimeType: 'text/x-groovy',
+  color: '#4298b8',
   interpreters: ['groovy'],
-  filenames: ['Jenkinsfile'],
 }

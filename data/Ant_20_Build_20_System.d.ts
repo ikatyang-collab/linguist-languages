@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Ant Build System'
   type: 'data'
-  color: '#A9157E'
-  tmScope: 'text.xml.ant'
   aceMode: 'xml'
+  filenames: ['ant.xml', 'build.xml']
   languageId: 15
+  tmScope: 'text.xml.ant'
   codemirrorMode: 'xml'
   codemirrorMimeType: 'application/xml'
-  filenames: ['ant.xml', 'build.xml']
+  color: '#A9157E'
 }
 export = _

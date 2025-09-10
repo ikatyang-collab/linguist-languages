@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Classic ASP'
   type: 'programming'
-  color: '#6a40fd'
-  extensions: ['.asp']
-  tmScope: 'text.html.asp'
   aceMode: 'text'
+  extensions: ['.asp']
   languageId: 8
+  tmScope: 'text.html.asp'
   aliases: ['asp']
+  color: '#6a40fd'
 }
 export default _

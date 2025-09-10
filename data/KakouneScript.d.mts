@@ -1,12 +1,12 @@
 declare const _: {
   name: 'KakouneScript'
   type: 'programming'
-  color: '#6f8042'
-  extensions: ['.kak']
-  tmScope: 'source.kakscript'
   aceMode: 'text'
-  languageId: 603336474
-  aliases: ['kak', 'kakscript']
+  extensions: ['.kak']
   filenames: ['kakrc']
+  languageId: 603336474
+  tmScope: 'source.kakscript'
+  aliases: ['kak', 'kakscript']
+  color: '#6f8042'
 }
 export default _

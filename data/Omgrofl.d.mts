@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Omgrofl'
   type: 'programming'
-  color: '#cabbff'
-  extensions: ['.omgrofl']
-  tmScope: 'none'
   aceMode: 'text'
+  extensions: ['.omgrofl']
   languageId: 260
+  tmScope: 'none'
+  color: '#cabbff'
 }
 export default _

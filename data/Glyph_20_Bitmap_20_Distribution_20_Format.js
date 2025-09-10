@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Glyph Bitmap Distribution Format',
   type: 'data',
-  extensions: ['.bdf'],
-  tmScope: 'source.bdf',
   aceMode: 'text',
+  extensions: ['.bdf'],
   languageId: 997665271,
+  tmScope: 'source.bdf',
 }

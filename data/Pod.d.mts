@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Pod'
   type: 'prose'
-  extensions: ['.pod']
-  tmScope: 'none'
   aceMode: 'perl'
+  extensions: ['.pod']
   languageId: 288
+  tmScope: 'none'
   codemirrorMode: 'perl'
   codemirrorMimeType: 'text/x-perl'
   interpreters: ['perl']

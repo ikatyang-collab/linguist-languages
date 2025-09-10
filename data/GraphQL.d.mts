@@ -1,10 +1,10 @@
 declare const _: {
   name: 'GraphQL'
   type: 'data'
-  color: '#e10098'
-  extensions: ['.graphql', '.gql', '.graphqls']
-  tmScope: 'source.graphql'
   aceMode: 'graphqlschema'
+  extensions: ['.graphql', '.gql', '.graphqls']
   languageId: 139
+  tmScope: 'source.graphql'
+  color: '#e10098'
 }
 export default _

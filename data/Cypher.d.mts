@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Cypher'
   type: 'programming'
-  color: '#34c0eb'
-  extensions: ['.cyp', '.cypher']
-  tmScope: 'source.cypher'
   aceMode: 'text'
+  extensions: ['.cyp', '.cypher']
   languageId: 850806976
+  tmScope: 'source.cypher'
   codemirrorMode: 'cypher'
   codemirrorMimeType: 'application/x-cypher-query'
+  color: '#34c0eb'
 }
 export default _

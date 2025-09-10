@@ -1,9 +1,9 @@
 export default {
   name: 'AMPL',
   type: 'programming',
-  color: '#E6EFBB',
-  extensions: ['.ampl', '.mod'],
-  tmScope: 'source.ampl',
   aceMode: 'text',
+  extensions: ['.ampl', '.mod'],
   languageId: 3,
+  tmScope: 'source.ampl',
+  color: '#E6EFBB',
 }

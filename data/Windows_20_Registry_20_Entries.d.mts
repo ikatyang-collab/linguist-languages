@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Windows Registry Entries'
   type: 'data'
-  color: '#52d5ff'
-  extensions: ['.reg']
-  tmScope: 'source.reg'
   aceMode: 'ini'
+  extensions: ['.reg']
   languageId: 969674868
+  tmScope: 'source.reg'
   codemirrorMode: 'properties'
   codemirrorMimeType: 'text/x-properties'
+  color: '#52d5ff'
 }
 export default _

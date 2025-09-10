@@ -1,10 +1,10 @@
 module.exports = {
   name: 'BlitzMax',
   type: 'programming',
-  color: '#cd6400',
-  extensions: ['.bmx'],
-  tmScope: 'source.blitzmax',
   aceMode: 'text',
+  extensions: ['.bmx'],
   languageId: 35,
+  tmScope: 'source.blitzmax',
   aliases: ['bmax'],
+  color: '#cd6400',
 }

@@ -1,9 +1,9 @@
 export default {
   name: 'Browserslist',
   type: 'data',
-  color: '#ffd539',
-  tmScope: 'text.browserslist',
   aceMode: 'text',
-  languageId: 153503348,
   filenames: ['.browserslistrc', 'browserslist'],
+  languageId: 153503348,
+  tmScope: 'text.browserslist',
+  color: '#ffd539',
 }

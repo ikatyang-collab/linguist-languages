@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Opa',
   type: 'programming',
-  extensions: ['.opa'],
-  tmScope: 'source.opa',
   aceMode: 'text',
+  extensions: ['.opa'],
   languageId: 261,
+  tmScope: 'source.opa',
 }

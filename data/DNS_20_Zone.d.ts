@@ -1,9 +1,9 @@
 declare const _: {
   name: 'DNS Zone'
   type: 'data'
-  extensions: ['.zone', '.arpa']
-  tmScope: 'text.zone_file'
   aceMode: 'text'
+  extensions: ['.zone', '.arpa']
   languageId: 84
+  tmScope: 'text.zone_file'
 }
 export = _

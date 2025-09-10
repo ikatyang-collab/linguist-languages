@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Clean',
   type: 'programming',
-  color: '#3F85AF',
-  extensions: ['.icl', '.dcl'],
-  tmScope: 'source.clean',
   aceMode: 'text',
+  extensions: ['.icl', '.dcl'],
   languageId: 60,
+  tmScope: 'source.clean',
+  color: '#3F85AF',
 }

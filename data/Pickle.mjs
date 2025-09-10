@@ -1,8 +1,8 @@
 export default {
   name: 'Pickle',
   type: 'data',
-  extensions: ['.pkl'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.pkl'],
   languageId: 284,
+  tmScope: 'none',
 }

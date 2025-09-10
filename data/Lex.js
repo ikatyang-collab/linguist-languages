@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Lex',
   type: 'programming',
-  color: '#DBCA00',
-  extensions: ['.l', '.lex'],
-  tmScope: 'source.lex',
   aceMode: 'text',
-  languageId: 199,
-  aliases: ['flex'],
+  extensions: ['.l', '.lex'],
   filenames: ['Lexer.x', 'lexer.x'],
+  languageId: 199,
+  tmScope: 'source.lex',
+  aliases: ['flex'],
+  color: '#DBCA00',
 }

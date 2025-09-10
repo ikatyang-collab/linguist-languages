@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Diff',
   type: 'data',
-  extensions: ['.diff', '.patch'],
-  tmScope: 'source.diff',
   aceMode: 'diff',
+  extensions: ['.diff', '.patch'],
   languageId: 88,
+  tmScope: 'source.diff',
   aliases: ['udiff'],
   codemirrorMode: 'diff',
   codemirrorMimeType: 'text/x-diff',

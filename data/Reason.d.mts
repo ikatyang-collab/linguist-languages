@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Reason'
   type: 'programming'
-  color: '#ff5847'
-  extensions: ['.re', '.rei']
-  tmScope: 'source.reason'
   aceMode: 'rust'
+  extensions: ['.re', '.rei']
   languageId: 869538413
+  tmScope: 'source.reason'
   codemirrorMode: 'rust'
   codemirrorMimeType: 'text/x-rustsrc'
+  color: '#ff5847'
 }
 export default _

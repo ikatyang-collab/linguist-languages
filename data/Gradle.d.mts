@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Gradle'
   type: 'data'
-  color: '#02303a'
-  extensions: ['.gradle']
-  tmScope: 'source.groovy.gradle'
   aceMode: 'text'
+  extensions: ['.gradle']
   languageId: 136
+  tmScope: 'source.groovy.gradle'
+  color: '#02303a'
 }
 export default _

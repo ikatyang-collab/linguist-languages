@@ -1,13 +1,13 @@
 declare const _: {
   name: 'VBA'
   type: 'programming'
-  color: '#867db1'
-  extensions: ['.bas', '.cls', '.frm', '.vba']
-  tmScope: 'source.vba'
   aceMode: 'text'
+  extensions: ['.bas', '.cls', '.frm', '.vba']
   languageId: 399230729
+  tmScope: 'source.vba'
   aliases: ['visual basic for applications']
   codemirrorMode: 'vb'
   codemirrorMimeType: 'text/x-vb'
+  color: '#867db1'
 }
 export default _

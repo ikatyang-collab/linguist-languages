@@ -1,10 +1,10 @@
 declare const _: {
   name: 'PowerBuilder'
   type: 'programming'
-  color: '#8f0f8d'
-  extensions: ['.pbt', '.sra', '.sru', '.srw']
-  tmScope: 'source.powerbuilder'
   aceMode: 'text'
+  extensions: ['.pbt', '.sra', '.sru', '.srw']
   languageId: 292
+  tmScope: 'source.powerbuilder'
+  color: '#8f0f8d'
 }
 export = _

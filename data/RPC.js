@@ -1,9 +1,9 @@
 module.exports = {
   name: 'RPC',
   type: 'programming',
-  extensions: ['.x'],
-  tmScope: 'source.c',
   aceMode: 'c_cpp',
+  extensions: ['.x'],
   languageId: 1031374237,
+  tmScope: 'source.c',
   aliases: ['rpcgen', 'oncrpc', 'xdr'],
 }

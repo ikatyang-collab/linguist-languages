@@ -1,10 +1,10 @@
 module.exports = {
   name: 'RouterOS Script',
   type: 'programming',
-  color: '#DE3941',
-  extensions: ['.rsc'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.rsc'],
   languageId: 592853203,
+  tmScope: 'none',
+  color: '#DE3941',
   interpreters: ['RouterOS'],
 }

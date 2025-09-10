@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Cue Sheet',
   type: 'data',
-  extensions: ['.cue'],
-  tmScope: 'source.cuesheet',
   aceMode: 'text',
+  extensions: ['.cue'],
   languageId: 942714150,
+  tmScope: 'source.cuesheet',
 }

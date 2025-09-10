@@ -1,9 +1,9 @@
 export default {
   name: 'Ink',
   type: 'programming',
-  extensions: ['.ink'],
-  tmScope: 'source.ink',
   aceMode: 'text',
+  extensions: ['.ink'],
   languageId: 838252715,
+  tmScope: 'source.ink',
   wrap: true,
 }

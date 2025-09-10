@@ -1,10 +1,10 @@
 export default {
   name: 'Assembly',
   type: 'programming',
-  color: '#6E4C13',
-  extensions: ['.asm', '.a51', '.i', '.inc', '.nas', '.nasm', '.s'],
-  tmScope: 'source.assembly',
   aceMode: 'assembly_x86',
+  extensions: ['.asm', '.a51', '.i', '.inc', '.nas', '.nasm', '.s'],
   languageId: 24,
+  tmScope: 'source.assembly',
   aliases: ['asm', 'nasm'],
+  color: '#6E4C13',
 }

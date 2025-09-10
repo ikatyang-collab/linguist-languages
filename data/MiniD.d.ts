@@ -1,9 +1,9 @@
 declare const _: {
   name: 'MiniD'
   type: 'programming'
-  extensions: ['.minid']
-  tmScope: 'none'
   aceMode: 'text'
+  extensions: ['.minid']
   languageId: 231
+  tmScope: 'none'
 }
 export = _

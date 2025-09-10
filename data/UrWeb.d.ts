@@ -1,11 +1,11 @@
 declare const _: {
   name: 'UrWeb'
   type: 'programming'
-  color: '#ccccee'
-  extensions: ['.ur', '.urs']
-  tmScope: 'source.ur'
   aceMode: 'text'
+  extensions: ['.ur', '.urs']
   languageId: 383
+  tmScope: 'source.ur'
   aliases: ['Ur/Web', 'Ur']
+  color: '#ccccee'
 }
 export = _

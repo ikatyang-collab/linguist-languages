@@ -1,13 +1,13 @@
 declare const _: {
   name: 'XSLT'
   type: 'programming'
-  color: '#EB8CEB'
-  extensions: ['.xslt', '.xsl']
-  tmScope: 'text.xml.xsl'
   aceMode: 'xml'
+  extensions: ['.xslt', '.xsl']
   languageId: 404
+  tmScope: 'text.xml.xsl'
   aliases: ['xsl']
   codemirrorMode: 'xml'
   codemirrorMimeType: 'text/xml'
+  color: '#EB8CEB'
 }
 export = _

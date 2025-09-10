@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Antlers'
   type: 'markup'
-  color: '#ff269e'
-  extensions: ['.antlers.html', '.antlers.php', '.antlers.xml']
-  tmScope: 'text.html.statamic'
   aceMode: 'text'
+  extensions: ['.antlers.html', '.antlers.php', '.antlers.xml']
   languageId: 1067292663
+  tmScope: 'text.html.statamic'
+  color: '#ff269e'
 }
 export = _

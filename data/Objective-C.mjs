@@ -1,12 +1,12 @@
 export default {
   name: 'Objective-C',
   type: 'programming',
-  color: '#438eff',
-  extensions: ['.m', '.h'],
-  tmScope: 'source.objc',
   aceMode: 'objectivec',
+  extensions: ['.m', '.h'],
   languageId: 257,
+  tmScope: 'source.objc',
   aliases: ['obj-c', 'objc', 'objectivec'],
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-objectivec',
+  color: '#438eff',
 }

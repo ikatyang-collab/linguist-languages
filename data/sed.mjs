@@ -1,10 +1,10 @@
 export default {
   name: 'sed',
   type: 'programming',
-  color: '#64b970',
-  extensions: ['.sed'],
-  tmScope: 'source.sed',
   aceMode: 'text',
+  extensions: ['.sed'],
   languageId: 847830017,
+  tmScope: 'source.sed',
+  color: '#64b970',
   interpreters: ['gsed', 'minised', 'sed', 'ssed'],
 }

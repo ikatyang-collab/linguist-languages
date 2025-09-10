@@ -1,11 +1,11 @@
 export default {
   name: 'Macaulay2',
   type: 'programming',
-  color: '#d8ffff',
-  extensions: ['.m2'],
-  tmScope: 'source.m2',
   aceMode: 'text',
+  extensions: ['.m2'],
   languageId: 34167825,
+  tmScope: 'source.m2',
   aliases: ['m2'],
+  color: '#d8ffff',
   interpreters: ['M2'],
 }

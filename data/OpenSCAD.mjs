@@ -1,9 +1,9 @@
 export default {
   name: 'OpenSCAD',
   type: 'programming',
-  color: '#e5cd45',
-  extensions: ['.scad'],
-  tmScope: 'source.scad',
   aceMode: 'scad',
+  extensions: ['.scad'],
   languageId: 266,
+  tmScope: 'source.scad',
+  color: '#e5cd45',
 }

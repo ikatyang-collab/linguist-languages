@@ -1,12 +1,12 @@
 module.exports = {
   name: 'HTML+PHP',
   type: 'markup',
-  color: '#4f5d95',
-  extensions: ['.phtml'],
-  tmScope: 'text.html.php',
   aceMode: 'php',
+  extensions: ['.phtml'],
   languageId: 151,
+  tmScope: 'text.html.php',
   codemirrorMode: 'php',
   codemirrorMimeType: 'application/x-httpd-php',
+  color: '#4f5d95',
   group: 'HTML',
 }

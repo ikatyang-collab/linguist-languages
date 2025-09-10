@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Carbon'
   type: 'programming'
-  color: '#222222'
-  extensions: ['.carbon']
-  tmScope: 'source.v'
   aceMode: 'golang'
+  extensions: ['.carbon']
   languageId: 55627273
+  tmScope: 'source.v'
   codemirrorMode: 'go'
   codemirrorMimeType: 'text/x-go'
+  color: '#222222'
 }
 export default _

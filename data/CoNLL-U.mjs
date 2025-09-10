@@ -1,9 +1,9 @@
 export default {
   name: 'CoNLL-U',
   type: 'data',
-  extensions: ['.conllu', '.conll'],
-  tmScope: 'text.conllu',
   aceMode: 'text',
+  extensions: ['.conllu', '.conll'],
   languageId: 421026389,
+  tmScope: 'text.conllu',
   aliases: ['CoNLL', 'CoNLL-X'],
 }

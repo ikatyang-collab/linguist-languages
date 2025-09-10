@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Zephir'
   type: 'programming'
-  color: '#118f9e'
-  extensions: ['.zep']
-  tmScope: 'source.php.zephir'
   aceMode: 'php'
+  extensions: ['.zep']
   languageId: 410
+  tmScope: 'source.php.zephir'
+  color: '#118f9e'
 }
 export = _

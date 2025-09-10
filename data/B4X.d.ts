@@ -1,13 +1,13 @@
 declare const _: {
   name: 'B4X'
   type: 'programming'
-  color: '#00e4ff'
-  extensions: ['.bas']
-  tmScope: 'source.vba'
   aceMode: 'text'
+  extensions: ['.bas']
   languageId: 96642275
+  tmScope: 'source.vba'
   aliases: ['basic for android']
   codemirrorMode: 'vb'
   codemirrorMimeType: 'text/x-vb'
+  color: '#00e4ff'
 }
 export = _

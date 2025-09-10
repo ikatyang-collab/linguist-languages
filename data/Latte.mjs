@@ -1,11 +1,11 @@
 export default {
   name: 'Latte',
   type: 'markup',
-  color: '#f2a542',
-  extensions: ['.latte'],
-  tmScope: 'text.html.smarty',
   aceMode: 'latte',
+  extensions: ['.latte'],
   languageId: 196,
+  tmScope: 'text.html.smarty',
   codemirrorMode: 'smarty',
   codemirrorMimeType: 'text/x-smarty',
+  color: '#f2a542',
 }

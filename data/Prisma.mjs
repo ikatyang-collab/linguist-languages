@@ -1,9 +1,9 @@
 export default {
   name: 'Prisma',
   type: 'data',
-  color: '#0c344b',
-  extensions: ['.prisma'],
-  tmScope: 'source.prisma',
   aceMode: 'prisma',
+  extensions: ['.prisma'],
   languageId: 499933428,
+  tmScope: 'source.prisma',
+  color: '#0c344b',
 }

@@ -1,10 +1,10 @@
 export default {
   name: 'TSV',
   type: 'data',
-  color: '#237346',
-  extensions: ['.tsv', '.vcf'],
-  tmScope: 'source.generic-db',
   aceMode: 'tsv',
+  extensions: ['.tsv', '.vcf'],
   languageId: 1035892117,
+  tmScope: 'source.generic-db',
   aliases: ['tab-seperated values'],
+  color: '#237346',
 }

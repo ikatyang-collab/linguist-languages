@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Gemfile.lock'
   type: 'data'
-  color: '#701516'
-  tmScope: 'source.gemfile-lock'
   aceMode: 'text'
-  languageId: 907065713
   filenames: ['Gemfile.lock']
+  languageId: 907065713
+  tmScope: 'source.gemfile-lock'
+  color: '#701516'
 }
 export = _

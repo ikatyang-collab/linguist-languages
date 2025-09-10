@@ -1,10 +1,10 @@
 declare const _: {
   name: 'COBOL'
   type: 'programming'
-  extensions: ['.cob', '.cbl', '.ccp', '.cobol', '.cpy']
-  tmScope: 'source.cobol'
   aceMode: 'cobol'
+  extensions: ['.cob', '.cbl', '.ccp', '.cobol', '.cpy']
   languageId: 48
+  tmScope: 'source.cobol'
   codemirrorMode: 'cobol'
   codemirrorMimeType: 'text/x-cobol'
 }

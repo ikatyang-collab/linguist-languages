@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Godot Resource',
   type: 'data',
-  color: '#355570',
-  extensions: ['.gdnlib', '.gdns', '.tres', '.tscn'],
-  tmScope: 'source.gdresource',
   aceMode: 'text',
-  languageId: 738107771,
+  extensions: ['.gdnlib', '.gdns', '.tres', '.tscn'],
   filenames: ['project.godot'],
+  languageId: 738107771,
+  tmScope: 'source.gdresource',
+  color: '#355570',
 }

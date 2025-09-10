@@ -1,9 +1,9 @@
 module.exports = {
   name: 'BitBake',
   type: 'programming',
-  color: '#00bce4',
-  extensions: ['.bb', '.bbappend', '.bbclass', '.inc'],
-  tmScope: 'source.bb',
   aceMode: 'text',
+  extensions: ['.bb', '.bbappend', '.bbclass', '.inc'],
   languageId: 32,
+  tmScope: 'source.bb',
+  color: '#00bce4',
 }

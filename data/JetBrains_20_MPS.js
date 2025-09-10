@@ -1,12 +1,12 @@
 module.exports = {
   name: 'JetBrains MPS',
   type: 'programming',
-  color: '#21D789',
-  extensions: ['.mps', '.mpl', '.msd'],
-  tmScope: 'none',
   aceMode: 'xml',
+  extensions: ['.mps', '.mpl', '.msd'],
   languageId: 465165328,
+  tmScope: 'none',
   aliases: ['mps'],
   codemirrorMode: 'xml',
   codemirrorMimeType: 'text/xml',
+  color: '#21D789',
 }

@@ -1,8 +1,8 @@
 export default {
   name: 'YANG',
   type: 'data',
-  extensions: ['.yang'],
-  tmScope: 'source.yang',
   aceMode: 'text',
+  extensions: ['.yang'],
   languageId: 408,
+  tmScope: 'source.yang',
 }

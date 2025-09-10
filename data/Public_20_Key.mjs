@@ -1,10 +1,10 @@
 export default {
   name: 'Public Key',
   type: 'data',
-  extensions: ['.asc', '.pub'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.asc', '.pub'],
   languageId: 298,
+  tmScope: 'none',
   codemirrorMode: 'asciiarmor',
   codemirrorMimeType: 'application/pgp',
 }

@@ -1,9 +1,9 @@
 declare const _: {
   name: 'GDB'
   type: 'programming'
-  extensions: ['.gdb', '.gdbinit']
-  tmScope: 'source.gdb'
   aceMode: 'text'
+  extensions: ['.gdb', '.gdbinit']
   languageId: 122
+  tmScope: 'source.gdb'
 }
 export default _

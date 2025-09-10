@@ -1,7 +1,7 @@
 export default {
   name: 'Perl',
   type: 'programming',
-  color: '#0298c3',
+  aceMode: 'perl',
   extensions: [
     '.pl',
     '.al',
@@ -14,13 +14,6 @@ export default {
     '.psgi',
     '.t',
   ],
-  tmScope: 'source.perl',
-  aceMode: 'perl',
-  languageId: 282,
-  aliases: ['cperl'],
-  codemirrorMode: 'perl',
-  codemirrorMimeType: 'text/x-perl',
-  interpreters: ['cperl', 'perl'],
   filenames: [
     '.latexmkrc',
     'Makefile.PL',
@@ -29,4 +22,11 @@ export default {
     'cpanfile',
     'latexmkrc',
   ],
+  languageId: 282,
+  tmScope: 'source.perl',
+  aliases: ['cperl'],
+  codemirrorMode: 'perl',
+  codemirrorMimeType: 'text/x-perl',
+  color: '#0298c3',
+  interpreters: ['cperl', 'perl'],
 }

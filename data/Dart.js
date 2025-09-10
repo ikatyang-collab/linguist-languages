@@ -1,12 +1,12 @@
 module.exports = {
   name: 'Dart',
   type: 'programming',
-  color: '#00B4AB',
-  extensions: ['.dart'],
-  tmScope: 'source.dart',
   aceMode: 'dart',
+  extensions: ['.dart'],
   languageId: 87,
+  tmScope: 'source.dart',
   codemirrorMode: 'dart',
   codemirrorMimeType: 'application/dart',
+  color: '#00B4AB',
   interpreters: ['dart'],
 }

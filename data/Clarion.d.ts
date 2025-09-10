@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Clarion'
   type: 'programming'
-  color: '#db901e'
-  extensions: ['.clw']
-  tmScope: 'source.clarion'
   aceMode: 'text'
+  extensions: ['.clw']
   languageId: 59
+  tmScope: 'source.clarion'
+  color: '#db901e'
 }
 export = _

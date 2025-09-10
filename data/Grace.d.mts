@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Grace'
   type: 'programming'
-  color: '#615f8b'
-  extensions: ['.grace']
-  tmScope: 'source.grace'
   aceMode: 'text'
+  extensions: ['.grace']
   languageId: 135
+  tmScope: 'source.grace'
+  color: '#615f8b'
 }
 export default _

@@ -1,6 +1,7 @@
 declare const _: {
   name: 'Cpp-ObjDump'
   type: 'data'
+  aceMode: 'assembly_x86'
   extensions: [
     '.cppobjdump',
     '.c++-objdump',
@@ -8,9 +9,8 @@ declare const _: {
     '.cpp-objdump',
     '.cxx-objdump',
   ]
-  tmScope: 'objdump.x86asm'
-  aceMode: 'assembly_x86'
   languageId: 70
+  tmScope: 'objdump.x86asm'
   aliases: ['c++-objdump']
 }
 export default _

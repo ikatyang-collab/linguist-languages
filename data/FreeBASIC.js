@@ -1,12 +1,12 @@
 module.exports = {
   name: 'FreeBASIC',
   type: 'programming',
-  color: '#141AC9',
-  extensions: ['.bi', '.bas'],
-  tmScope: 'source.vbnet',
   aceMode: 'text',
+  extensions: ['.bi', '.bas'],
   languageId: 472896659,
+  tmScope: 'source.vbnet',
   aliases: ['fb'],
   codemirrorMode: 'vb',
   codemirrorMimeType: 'text/x-vb',
+  color: '#141AC9',
 }

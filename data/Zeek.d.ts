@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Zeek'
   type: 'programming'
-  extensions: ['.zeek', '.bro']
-  tmScope: 'source.zeek'
   aceMode: 'zeek'
+  extensions: ['.zeek', '.bro']
   languageId: 40
+  tmScope: 'source.zeek'
   aliases: ['bro']
 }
 export = _

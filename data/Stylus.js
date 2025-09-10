@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Stylus',
   type: 'markup',
-  color: '#ff6347',
-  extensions: ['.styl'],
-  tmScope: 'source.stylus',
   aceMode: 'stylus',
+  extensions: ['.styl'],
   languageId: 359,
+  tmScope: 'source.stylus',
   codemirrorMode: 'stylus',
   codemirrorMimeType: 'text/x-styl',
+  color: '#ff6347',
 }

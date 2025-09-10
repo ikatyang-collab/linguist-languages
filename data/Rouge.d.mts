@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Rouge'
   type: 'programming'
-  color: '#cc0088'
-  extensions: ['.rg']
-  tmScope: 'source.clojure'
   aceMode: 'clojure'
+  extensions: ['.rg']
   languageId: 325
+  tmScope: 'source.clojure'
   codemirrorMode: 'clojure'
   codemirrorMimeType: 'text/x-clojure'
+  color: '#cc0088'
 }
 export default _

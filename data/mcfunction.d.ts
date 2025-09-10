@@ -1,10 +1,10 @@
 declare const _: {
   name: 'mcfunction'
   type: 'programming'
-  color: '#E22837'
-  extensions: ['.mcfunction']
-  tmScope: 'source.mcfunction'
   aceMode: 'text'
+  extensions: ['.mcfunction']
   languageId: 462488745
+  tmScope: 'source.mcfunction'
+  color: '#E22837'
 }
 export = _

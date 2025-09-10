@@ -1,7 +1,7 @@
 export default {
   name: 'GLSL',
   type: 'programming',
-  color: '#5686a5',
+  aceMode: 'glsl',
   extensions: [
     '.glsl',
     '.fp',
@@ -27,7 +27,7 @@ export default {
     '.vsh',
     '.vshader',
   ],
-  tmScope: 'source.glsl',
-  aceMode: 'glsl',
   languageId: 124,
+  tmScope: 'source.glsl',
+  color: '#5686a5',
 }

@@ -1,11 +1,11 @@
 declare const _: {
   name: 'ATS'
   type: 'programming'
-  color: '#1ac620'
-  extensions: ['.dats', '.hats', '.sats']
-  tmScope: 'source.ats'
   aceMode: 'ocaml'
+  extensions: ['.dats', '.hats', '.sats']
   languageId: 9
+  tmScope: 'source.ats'
   aliases: ['ats2']
+  color: '#1ac620'
 }
 export default _

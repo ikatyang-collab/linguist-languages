@@ -1,9 +1,9 @@
 declare const _: {
   name: 'ObjDump'
   type: 'data'
-  extensions: ['.objdump']
-  tmScope: 'objdump.x86asm'
   aceMode: 'assembly_x86'
+  extensions: ['.objdump']
   languageId: 256
+  tmScope: 'objdump.x86asm'
 }
 export default _

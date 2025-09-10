@@ -5,23 +5,6 @@ import { NAME_FIELD, EXCLUDED_FIELDS } from './constants.mjs'
 import { getType } from './utilities.mjs'
 import parseLanguages from './parse-languages.mjs'
 
-const orders = [
-  'name',
-  'type',
-  'color',
-  'extensions',
-  'tmScope',
-  'aceMode',
-  'languageId',
-  'aliases',
-  'codemirrorMode',
-  'codemirrorMimeType',
-  'interpreters',
-  'group',
-  'filenames',
-  'wrap',
-]
-
 function parseFieldsContent(lines, required) {
   assert(lines.every(line => line.startsWith(' '.repeat(3))))
   lines = lines.map(line => line.slice(3))
@@ -95,14 +78,6 @@ function parseFields(data, languages = parseLanguages(data)) {
       return fields
     }),
   ]
-    .toSorted((fieldA, fieldB) => {
-      const [indexA, indexB] = [fieldA, fieldB].map(field => {
-        const index = orders.indexOf(field.name)
-        return index === -1 ? Number.POSITIVE_INFINITY : index
-      })
-
-      return indexA - indexB
-    })
     .filter(field => !EXCLUDED_FIELDS.has(field.name))
 
   // Some required property is currently missing

@@ -1,12 +1,12 @@
 declare const _: {
   name: 'EmberScript'
   type: 'programming'
-  color: '#FFF4F3'
-  extensions: ['.em', '.emberscript']
-  tmScope: 'source.coffee'
   aceMode: 'coffee'
+  extensions: ['.em', '.emberscript']
   languageId: 103
+  tmScope: 'source.coffee'
   codemirrorMode: 'coffeescript'
   codemirrorMimeType: 'text/x-coffeescript'
+  color: '#FFF4F3'
 }
 export default _

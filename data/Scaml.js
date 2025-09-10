@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Scaml',
   type: 'markup',
-  color: '#bd181a',
-  extensions: ['.scaml'],
-  tmScope: 'source.scaml',
   aceMode: 'text',
+  extensions: ['.scaml'],
   languageId: 342,
+  tmScope: 'source.scaml',
+  color: '#bd181a',
 }

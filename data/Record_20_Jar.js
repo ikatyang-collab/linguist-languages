@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Record Jar',
   type: 'data',
-  color: '#0673ba',
-  tmScope: 'source.record-jar',
   aceMode: 'text',
+  filenames: ['language-subtag-registry.txt'],
   languageId: 865765202,
+  tmScope: 'source.record-jar',
   codemirrorMode: 'properties',
   codemirrorMimeType: 'text/x-properties',
-  filenames: ['language-subtag-registry.txt'],
+  color: '#0673ba',
 }

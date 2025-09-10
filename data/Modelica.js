@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Modelica',
   type: 'programming',
-  color: '#de1d31',
-  extensions: ['.mo'],
-  tmScope: 'source.modelica',
   aceMode: 'text',
+  extensions: ['.mo'],
   languageId: 233,
+  tmScope: 'source.modelica',
   codemirrorMode: 'modelica',
   codemirrorMimeType: 'text/x-modelica',
+  color: '#de1d31',
 }

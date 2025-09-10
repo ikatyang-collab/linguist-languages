@@ -1,8 +1,8 @@
 module.exports = {
   name: 'CODEOWNERS',
   type: 'data',
-  tmScope: 'text.codeowners',
   aceMode: 'gitignore',
-  languageId: 321684729,
   filenames: ['CODEOWNERS'],
+  languageId: 321684729,
+  tmScope: 'text.codeowners',
 }

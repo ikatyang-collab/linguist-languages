@@ -1,10 +1,10 @@
 declare const _: {
   name: 'SubRip Text'
   type: 'data'
-  color: '#9e0101'
-  extensions: ['.srt']
-  tmScope: 'text.srt'
   aceMode: 'text'
+  extensions: ['.srt']
   languageId: 360
+  tmScope: 'text.srt'
+  color: '#9e0101'
 }
 export = _

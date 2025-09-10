@@ -1,9 +1,9 @@
 export default {
   name: 'Yul',
   type: 'programming',
-  color: '#794932',
-  extensions: ['.yul'],
-  tmScope: 'source.yul',
   aceMode: 'text',
+  extensions: ['.yul'],
   languageId: 237469033,
+  tmScope: 'source.yul',
+  color: '#794932',
 }

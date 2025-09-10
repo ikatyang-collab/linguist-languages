@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Tact'
   type: 'programming'
-  color: '#48b5ff'
-  extensions: ['.tact']
-  tmScope: 'source.tact'
   aceMode: 'text'
+  extensions: ['.tact']
   languageId: 606708469
+  tmScope: 'source.tact'
+  color: '#48b5ff'
 }
 export default _

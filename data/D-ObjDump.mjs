@@ -1,8 +1,8 @@
 export default {
   name: 'D-ObjDump',
   type: 'data',
-  extensions: ['.d-objdump'],
-  tmScope: 'objdump.x86asm',
   aceMode: 'assembly_x86',
+  extensions: ['.d-objdump'],
   languageId: 81,
+  tmScope: 'objdump.x86asm',
 }

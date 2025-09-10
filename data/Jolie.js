@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Jolie',
   type: 'programming',
-  color: '#843179',
-  extensions: ['.ol', '.iol'],
-  tmScope: 'source.jolie',
   aceMode: 'text',
+  extensions: ['.ol', '.iol'],
   languageId: 998078858,
+  tmScope: 'source.jolie',
+  color: '#843179',
   interpreters: ['jolie'],
 }

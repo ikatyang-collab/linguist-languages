@@ -1,9 +1,9 @@
 declare const _: {
   name: 'Monkey'
   type: 'programming'
-  extensions: ['.monkey', '.monkey2']
-  tmScope: 'source.monkey'
   aceMode: 'text'
+  extensions: ['.monkey', '.monkey2']
   languageId: 236
+  tmScope: 'source.monkey'
 }
 export default _

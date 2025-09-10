@@ -1,9 +1,9 @@
 export default {
   name: 'TL-Verilog',
   type: 'programming',
-  color: '#C40023',
-  extensions: ['.tlv'],
-  tmScope: 'source.tlverilog',
   aceMode: 'verilog',
+  extensions: ['.tlv'],
   languageId: 118656070,
+  tmScope: 'source.tlverilog',
+  color: '#C40023',
 }

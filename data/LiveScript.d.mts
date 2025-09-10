@@ -1,14 +1,14 @@
 declare const _: {
   name: 'LiveScript'
   type: 'programming'
-  color: '#499886'
-  extensions: ['.ls', '._ls']
-  tmScope: 'source.livescript'
   aceMode: 'livescript'
+  extensions: ['.ls', '._ls']
+  filenames: ['Slakefile']
   languageId: 208
+  tmScope: 'source.livescript'
   aliases: ['live-script', 'ls']
   codemirrorMode: 'livescript'
   codemirrorMimeType: 'text/x-livescript'
-  filenames: ['Slakefile']
+  color: '#499886'
 }
 export default _

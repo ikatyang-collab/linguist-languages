@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Idris',
   type: 'programming',
-  color: '#b30000',
-  extensions: ['.idr', '.lidr'],
-  tmScope: 'source.idris',
   aceMode: 'text',
+  extensions: ['.idr', '.lidr'],
   languageId: 165,
+  tmScope: 'source.idris',
+  color: '#b30000',
 }

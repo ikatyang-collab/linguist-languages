@@ -1,11 +1,11 @@
 declare const _: {
   name: 'ROS Interface'
   type: 'data'
-  color: '#22314e'
-  extensions: ['.msg', '.action', '.srv']
-  tmScope: 'source.rosmsg'
   aceMode: 'text'
+  extensions: ['.msg', '.action', '.srv']
   languageId: 809230569
+  tmScope: 'source.rosmsg'
   aliases: ['rosmsg']
+  color: '#22314e'
 }
 export default _

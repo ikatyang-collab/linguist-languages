@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Mint',
   type: 'programming',
-  color: '#02b046',
-  extensions: ['.mint'],
-  tmScope: 'source.mint',
   aceMode: 'text',
+  extensions: ['.mint'],
   languageId: 968740319,
+  tmScope: 'source.mint',
+  color: '#02b046',
 }

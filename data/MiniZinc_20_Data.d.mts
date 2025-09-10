@@ -1,9 +1,9 @@
 declare const _: {
   name: 'MiniZinc Data'
   type: 'data'
-  extensions: ['.dzn']
-  tmScope: 'source.mzn'
   aceMode: 'text'
+  extensions: ['.dzn']
   languageId: 938193433
+  tmScope: 'source.mzn'
 }
 export default _

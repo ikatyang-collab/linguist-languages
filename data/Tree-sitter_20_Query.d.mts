@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Tree-sitter Query'
   type: 'programming'
-  color: '#8ea64c'
-  extensions: ['.scm']
-  tmScope: 'source.scm'
   aceMode: 'text'
+  extensions: ['.scm']
   languageId: 436081647
+  tmScope: 'source.scm'
   aliases: ['tsq']
+  color: '#8ea64c'
 }
 export default _

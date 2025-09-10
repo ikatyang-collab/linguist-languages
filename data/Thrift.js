@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Thrift',
   type: 'programming',
-  color: '#D12127',
-  extensions: ['.thrift'],
-  tmScope: 'source.thrift',
   aceMode: 'text',
+  extensions: ['.thrift'],
   languageId: 374,
+  tmScope: 'source.thrift',
+  color: '#D12127',
 }

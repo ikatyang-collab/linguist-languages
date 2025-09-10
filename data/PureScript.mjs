@@ -1,11 +1,11 @@
 export default {
   name: 'PureScript',
   type: 'programming',
-  color: '#1D222D',
-  extensions: ['.purs'],
-  tmScope: 'source.purescript',
   aceMode: 'haskell',
+  extensions: ['.purs'],
   languageId: 302,
+  tmScope: 'source.purescript',
   codemirrorMode: 'haskell',
   codemirrorMimeType: 'text/x-haskell',
+  color: '#1D222D',
 }

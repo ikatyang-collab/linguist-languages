@@ -1,10 +1,10 @@
 declare const _: {
   name: 'HiveQL'
   type: 'programming'
-  color: '#dce200'
-  extensions: ['.q', '.hql']
-  tmScope: 'source.hql'
   aceMode: 'sql'
+  extensions: ['.q', '.hql']
   languageId: 931814087
+  tmScope: 'source.hql'
+  color: '#dce200'
 }
 export default _

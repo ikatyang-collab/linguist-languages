@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Ioke',
   type: 'programming',
-  color: '#078193',
-  extensions: ['.ik'],
-  tmScope: 'source.ioke',
   aceMode: 'text',
+  extensions: ['.ik'],
   languageId: 169,
+  tmScope: 'source.ioke',
+  color: '#078193',
   interpreters: ['ioke'],
 }

@@ -1,9 +1,9 @@
 export default {
   name: 'Creole',
   type: 'prose',
-  extensions: ['.creole'],
-  tmScope: 'text.html.creole',
   aceMode: 'text',
+  extensions: ['.creole'],
   languageId: 71,
+  tmScope: 'text.html.creole',
   wrap: true,
 }

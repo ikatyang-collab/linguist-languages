@@ -1,12 +1,12 @@
 module.exports = {
   name: 'Tcsh',
   type: 'programming',
-  extensions: ['.tcsh', '.csh'],
-  tmScope: 'source.shell',
   aceMode: 'sh',
+  extensions: ['.tcsh', '.csh'],
   languageId: 368,
+  tmScope: 'source.shell',
   codemirrorMode: 'shell',
   codemirrorMimeType: 'text/x-sh',
-  interpreters: ['tcsh', 'csh'],
   group: 'Shell',
+  interpreters: ['tcsh', 'csh'],
 }

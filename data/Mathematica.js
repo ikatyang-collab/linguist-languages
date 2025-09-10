@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Mathematica',
   type: 'programming',
-  color: '#dd1100',
+  aceMode: 'text',
   extensions: [
     '.mathematica',
     '.cdf',
@@ -13,10 +13,10 @@ module.exports = {
     '.wl',
     '.wlt',
   ],
-  tmScope: 'source.mathematica',
-  aceMode: 'text',
   languageId: 224,
+  tmScope: 'source.mathematica',
   aliases: ['mma', 'wolfram', 'wolfram language', 'wolfram lang', 'wl'],
   codemirrorMode: 'mathematica',
   codemirrorMimeType: 'text/x-mathematica',
+  color: '#dd1100',
 }

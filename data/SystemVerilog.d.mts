@@ -1,12 +1,12 @@
 declare const _: {
   name: 'SystemVerilog'
   type: 'programming'
-  color: '#DAE1C2'
-  extensions: ['.sv', '.svh', '.vh']
-  tmScope: 'source.systemverilog'
   aceMode: 'verilog'
+  extensions: ['.sv', '.svh', '.vh']
   languageId: 363
+  tmScope: 'source.systemverilog'
   codemirrorMode: 'verilog'
   codemirrorMimeType: 'text/x-systemverilog'
+  color: '#DAE1C2'
 }
 export default _

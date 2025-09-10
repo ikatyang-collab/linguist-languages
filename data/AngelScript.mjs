@@ -1,11 +1,11 @@
 export default {
   name: 'AngelScript',
   type: 'programming',
-  color: '#C7D7DC',
-  extensions: ['.as', '.angelscript'],
-  tmScope: 'source.angelscript',
   aceMode: 'text',
+  extensions: ['.as', '.angelscript'],
   languageId: 389477596,
+  tmScope: 'source.angelscript',
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-c++src',
+  color: '#C7D7DC',
 }

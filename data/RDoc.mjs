@@ -1,10 +1,10 @@
 export default {
   name: 'RDoc',
   type: 'prose',
-  color: '#701516',
-  extensions: ['.rdoc'],
-  tmScope: 'text.rdoc',
   aceMode: 'rdoc',
+  extensions: ['.rdoc'],
   languageId: 309,
+  tmScope: 'text.rdoc',
+  color: '#701516',
   wrap: true,
 }

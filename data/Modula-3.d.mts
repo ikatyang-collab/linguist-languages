@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Modula-3'
   type: 'programming'
-  color: '#223388'
-  extensions: ['.i3', '.ig', '.m3', '.mg']
-  tmScope: 'source.modula-3'
   aceMode: 'text'
+  extensions: ['.i3', '.ig', '.m3', '.mg']
   languageId: 564743864
+  tmScope: 'source.modula-3'
+  color: '#223388'
 }
 export default _

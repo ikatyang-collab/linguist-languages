@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Texinfo'
   type: 'prose'
-  extensions: ['.texinfo', '.texi', '.txi']
-  tmScope: 'text.texinfo'
   aceMode: 'text'
+  extensions: ['.texinfo', '.texi', '.txi']
   languageId: 988020015
+  tmScope: 'text.texinfo'
   interpreters: ['makeinfo']
   wrap: true
 }

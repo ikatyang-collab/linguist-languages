@@ -1,10 +1,10 @@
 module.exports = {
   name: 'ActionScript',
   type: 'programming',
-  color: '#882B0F',
-  extensions: ['.as'],
-  tmScope: 'source.actionscript.3',
   aceMode: 'actionscript',
+  extensions: ['.as'],
   languageId: 10,
+  tmScope: 'source.actionscript.3',
   aliases: ['actionscript 3', 'actionscript3', 'as3'],
+  color: '#882B0F',
 }

@@ -1,13 +1,13 @@
 declare const _: {
   name: 'Factor'
   type: 'programming'
-  color: '#636746'
-  extensions: ['.factor']
-  tmScope: 'source.factor'
   aceMode: 'text'
+  extensions: ['.factor']
+  filenames: ['.factor-boot-rc', '.factor-rc']
   languageId: 108
+  tmScope: 'source.factor'
   codemirrorMode: 'factor'
   codemirrorMimeType: 'text/x-factor'
-  filenames: ['.factor-boot-rc', '.factor-rc']
+  color: '#636746'
 }
 export = _

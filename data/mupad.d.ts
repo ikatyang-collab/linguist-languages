@@ -1,10 +1,10 @@
 declare const _: {
   name: 'mupad'
   type: 'programming'
-  color: '#244963'
-  extensions: ['.mu']
-  tmScope: 'source.mupad'
   aceMode: 'text'
+  extensions: ['.mu']
   languageId: 416
+  tmScope: 'source.mupad'
+  color: '#244963'
 }
 export = _

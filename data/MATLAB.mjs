@@ -1,12 +1,12 @@
 export default {
   name: 'MATLAB',
   type: 'programming',
-  color: '#e16737',
-  extensions: ['.matlab', '.m'],
-  tmScope: 'source.matlab',
   aceMode: 'matlab',
+  extensions: ['.matlab', '.m'],
   languageId: 225,
+  tmScope: 'source.matlab',
   aliases: ['octave'],
   codemirrorMode: 'octave',
   codemirrorMimeType: 'text/x-octave',
+  color: '#e16737',
 }

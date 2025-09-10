@@ -1,9 +1,9 @@
 module.exports = {
   name: 'ZenScript',
   type: 'programming',
-  color: '#00BCD1',
-  extensions: ['.zs'],
-  tmScope: 'source.zenscript',
   aceMode: 'text',
+  extensions: ['.zs'],
   languageId: 494938890,
+  tmScope: 'source.zenscript',
+  color: '#00BCD1',
 }

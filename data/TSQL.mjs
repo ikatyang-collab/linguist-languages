@@ -1,9 +1,9 @@
 export default {
   name: 'TSQL',
   type: 'programming',
-  color: '#e38c00',
-  extensions: ['.sql'],
-  tmScope: 'source.tsql',
   aceMode: 'sql',
+  extensions: ['.sql'],
   languageId: 918334941,
+  tmScope: 'source.tsql',
+  color: '#e38c00',
 }

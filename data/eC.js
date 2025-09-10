@@ -1,9 +1,9 @@
 module.exports = {
   name: 'eC',
   type: 'programming',
-  color: '#913960',
-  extensions: ['.ec', '.eh'],
-  tmScope: 'source.c.ec',
   aceMode: 'text',
+  extensions: ['.ec', '.eh'],
   languageId: 413,
+  tmScope: 'source.c.ec',
+  color: '#913960',
 }

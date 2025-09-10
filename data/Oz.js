@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Oz',
   type: 'programming',
-  color: '#fab738',
-  extensions: ['.oz'],
-  tmScope: 'source.oz',
   aceMode: 'text',
+  extensions: ['.oz'],
   languageId: 270,
+  tmScope: 'source.oz',
   codemirrorMode: 'oz',
   codemirrorMimeType: 'text/x-oz',
+  color: '#fab738',
 }

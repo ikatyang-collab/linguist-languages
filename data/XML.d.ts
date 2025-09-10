@@ -1,7 +1,7 @@
 declare const _: {
   name: 'XML'
   type: 'data'
-  color: '#0060ac'
+  aceMode: 'xml'
   extensions: [
     '.xml',
     '.adml',
@@ -112,12 +112,6 @@ declare const _: {
     '.xul',
     '.zcml',
   ]
-  tmScope: 'text.xml'
-  aceMode: 'xml'
-  languageId: 399
-  aliases: ['rss', 'xsd', 'wsdl']
-  codemirrorMode: 'xml'
-  codemirrorMimeType: 'text/xml'
   filenames: [
     '.classpath',
     '.cproject',
@@ -130,5 +124,11 @@ declare const _: {
     'Web.config',
     'packages.config',
   ]
+  languageId: 399
+  tmScope: 'text.xml'
+  aliases: ['rss', 'xsd', 'wsdl']
+  codemirrorMode: 'xml'
+  codemirrorMimeType: 'text/xml'
+  color: '#0060ac'
 }
 export = _

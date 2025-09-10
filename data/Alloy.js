@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Alloy',
   type: 'programming',
-  color: '#64C800',
-  extensions: ['.als'],
-  tmScope: 'source.alloy',
   aceMode: 'text',
+  extensions: ['.als'],
   languageId: 13,
+  tmScope: 'source.alloy',
+  color: '#64C800',
 }

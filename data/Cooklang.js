@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Cooklang',
   type: 'markup',
-  color: '#E15A29',
-  extensions: ['.cook'],
-  tmScope: 'source.cooklang',
   aceMode: 'text',
+  extensions: ['.cook'],
   languageId: 788037493,
+  tmScope: 'source.cooklang',
+  color: '#E15A29',
   wrap: true,
 }

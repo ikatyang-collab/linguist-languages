@@ -1,11 +1,11 @@
 module.exports = {
   name: 'SQLPL',
   type: 'programming',
-  color: '#e38c00',
-  extensions: ['.sql', '.db2'],
-  tmScope: 'source.sql',
   aceMode: 'sql',
+  extensions: ['.sql', '.db2'],
   languageId: 334,
+  tmScope: 'source.sql',
   codemirrorMode: 'sql',
   codemirrorMimeType: 'text/x-sql',
+  color: '#e38c00',
 }

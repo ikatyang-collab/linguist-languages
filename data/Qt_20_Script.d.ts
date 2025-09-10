@@ -1,13 +1,13 @@
 declare const _: {
   name: 'Qt Script'
   type: 'programming'
-  color: '#00b841'
-  extensions: ['.qs']
-  tmScope: 'source.js'
   aceMode: 'javascript'
+  extensions: ['.qs']
+  filenames: ['installscript.qs', 'toolchain_installscript.qs']
   languageId: 558193693
+  tmScope: 'source.js'
   codemirrorMode: 'javascript'
   codemirrorMimeType: 'text/javascript'
-  filenames: ['installscript.qs', 'toolchain_installscript.qs']
+  color: '#00b841'
 }
 export = _

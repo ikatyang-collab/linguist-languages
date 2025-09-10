@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Roc',
   type: 'programming',
-  color: '#7c38f5',
-  extensions: ['.roc'],
-  tmScope: 'source.roc',
   aceMode: 'text',
+  extensions: ['.roc'],
   languageId: 440182480,
+  tmScope: 'source.roc',
+  color: '#7c38f5',
 }

@@ -1,11 +1,8 @@
 declare const _: {
   name: 'SELinux Policy'
   type: 'data'
-  extensions: ['.te']
-  tmScope: 'source.sepolicy'
   aceMode: 'text'
-  languageId: 880010326
-  aliases: ['SELinux Kernel Policy Language', 'sepolicy']
+  extensions: ['.te']
   filenames: [
     'file_contexts',
     'genfs_contexts',
@@ -13,5 +10,8 @@ declare const _: {
     'port_contexts',
     'security_classes',
   ]
+  languageId: 880010326
+  tmScope: 'source.sepolicy'
+  aliases: ['SELinux Kernel Policy Language', 'sepolicy']
 }
 export = _

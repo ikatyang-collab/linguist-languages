@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Sweave'
   type: 'prose'
-  color: '#198ce7'
-  extensions: ['.rnw']
-  tmScope: 'text.tex.latex.sweave'
   aceMode: 'tex'
+  extensions: ['.rnw']
   languageId: 558779190
+  tmScope: 'text.tex.latex.sweave'
+  color: '#198ce7'
 }
 export default _

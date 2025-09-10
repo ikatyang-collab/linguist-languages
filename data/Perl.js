@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Perl',
   type: 'programming',
-  color: '#0298c3',
+  aceMode: 'perl',
   extensions: [
     '.pl',
     '.al',
@@ -14,13 +14,6 @@ module.exports = {
     '.psgi',
     '.t',
   ],
-  tmScope: 'source.perl',
-  aceMode: 'perl',
-  languageId: 282,
-  aliases: ['cperl'],
-  codemirrorMode: 'perl',
-  codemirrorMimeType: 'text/x-perl',
-  interpreters: ['cperl', 'perl'],
   filenames: [
     '.latexmkrc',
     'Makefile.PL',
@@ -29,4 +22,11 @@ module.exports = {
     'cpanfile',
     'latexmkrc',
   ],
+  languageId: 282,
+  tmScope: 'source.perl',
+  aliases: ['cperl'],
+  codemirrorMode: 'perl',
+  codemirrorMimeType: 'text/x-perl',
+  color: '#0298c3',
+  interpreters: ['cperl', 'perl'],
 }

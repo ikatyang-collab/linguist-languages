@@ -1,9 +1,9 @@
 declare const _: {
   name: 'BibTeX Style'
   type: 'programming'
-  extensions: ['.bst']
-  tmScope: 'source.bst'
   aceMode: 'text'
+  extensions: ['.bst']
   languageId: 909569041
+  tmScope: 'source.bst'
 }
 export = _

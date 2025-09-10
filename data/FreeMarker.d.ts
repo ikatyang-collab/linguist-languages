@@ -1,11 +1,11 @@
 declare const _: {
   name: 'FreeMarker'
   type: 'programming'
-  color: '#0050b2'
-  extensions: ['.ftl', '.ftlh']
-  tmScope: 'text.html.ftl'
   aceMode: 'ftl'
+  extensions: ['.ftl', '.ftlh']
   languageId: 115
+  tmScope: 'text.html.ftl'
   aliases: ['ftl']
+  color: '#0050b2'
 }
 export = _

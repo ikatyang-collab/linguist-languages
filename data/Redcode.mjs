@@ -1,8 +1,8 @@
 export default {
   name: 'Redcode',
   type: 'programming',
-  extensions: ['.cw'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.cw'],
   languageId: 321,
+  tmScope: 'none',
 }

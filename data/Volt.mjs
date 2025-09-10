@@ -1,11 +1,11 @@
 export default {
   name: 'Volt',
   type: 'programming',
-  color: '#1F1F1F',
-  extensions: ['.volt'],
-  tmScope: 'source.d',
   aceMode: 'd',
+  extensions: ['.volt'],
   languageId: 390,
+  tmScope: 'source.d',
   codemirrorMode: 'd',
   codemirrorMimeType: 'text/x-d',
+  color: '#1F1F1F',
 }

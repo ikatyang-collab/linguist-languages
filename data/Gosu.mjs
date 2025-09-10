@@ -1,9 +1,9 @@
 export default {
   name: 'Gosu',
   type: 'programming',
-  color: '#82937f',
-  extensions: ['.gs', '.gst', '.gsx', '.vark'],
-  tmScope: 'source.gosu.2',
   aceMode: 'text',
+  extensions: ['.gs', '.gst', '.gsx', '.vark'],
   languageId: 134,
+  tmScope: 'source.gosu.2',
+  color: '#82937f',
 }

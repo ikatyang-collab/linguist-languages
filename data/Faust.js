@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Faust',
   type: 'programming',
-  color: '#c37240',
-  extensions: ['.dsp'],
-  tmScope: 'source.faust',
   aceMode: 'text',
+  extensions: ['.dsp'],
   languageId: 622529198,
+  tmScope: 'source.faust',
+  color: '#c37240',
 }

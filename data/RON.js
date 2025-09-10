@@ -1,9 +1,9 @@
 module.exports = {
   name: 'RON',
   type: 'data',
-  color: '#a62c00',
-  extensions: ['.ron'],
-  tmScope: 'source.ron',
   aceMode: 'rust',
+  extensions: ['.ron'],
   languageId: 587855233,
+  tmScope: 'source.ron',
+  color: '#a62c00',
 }

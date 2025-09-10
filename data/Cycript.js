@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Cycript',
   type: 'programming',
-  extensions: ['.cy'],
-  tmScope: 'source.js',
   aceMode: 'javascript',
+  extensions: ['.cy'],
   languageId: 78,
+  tmScope: 'source.js',
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'text/javascript',
 }

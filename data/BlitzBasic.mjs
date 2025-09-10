@@ -1,10 +1,10 @@
 export default {
   name: 'BlitzBasic',
   type: 'programming',
-  color: '#00FFAE',
-  extensions: ['.bb', '.decls'],
-  tmScope: 'source.blitzmax',
   aceMode: 'text',
+  extensions: ['.bb', '.decls'],
   languageId: 34,
+  tmScope: 'source.blitzmax',
   aliases: ['b3d', 'blitz3d', 'blitzplus', 'bplus'],
+  color: '#00FFAE',
 }

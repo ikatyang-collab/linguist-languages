@@ -1,10 +1,10 @@
 export default {
   name: 'PostScript',
   type: 'markup',
-  color: '#da291c',
-  extensions: ['.ps', '.eps', '.epsi', '.pfa'],
-  tmScope: 'source.postscript',
   aceMode: 'text',
+  extensions: ['.ps', '.eps', '.epsi', '.pfa'],
   languageId: 291,
+  tmScope: 'source.postscript',
   aliases: ['postscr'],
+  color: '#da291c',
 }

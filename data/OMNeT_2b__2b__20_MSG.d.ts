@@ -1,11 +1,11 @@
 declare const _: {
   name: 'OMNeT++ MSG'
   type: 'programming'
-  color: '#a0e0a0'
-  extensions: ['.msg']
-  tmScope: 'source.msg'
   aceMode: 'text'
+  extensions: ['.msg']
   languageId: 664100008
+  tmScope: 'source.msg'
   aliases: ['omnetpp-msg']
+  color: '#a0e0a0'
 }
 export = _

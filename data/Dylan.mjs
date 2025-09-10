@@ -1,11 +1,11 @@
 export default {
   name: 'Dylan',
   type: 'programming',
-  color: '#6c616e',
-  extensions: ['.dylan', '.dyl', '.intr', '.lid'],
-  tmScope: 'source.dylan',
   aceMode: 'text',
+  extensions: ['.dylan', '.dyl', '.intr', '.lid'],
   languageId: 91,
+  tmScope: 'source.dylan',
   codemirrorMode: 'dylan',
   codemirrorMimeType: 'text/x-dylan',
+  color: '#6c616e',
 }

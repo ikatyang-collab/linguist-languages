@@ -1,12 +1,12 @@
 export default {
   name: 'ReScript',
   type: 'programming',
-  color: '#ed5051',
-  extensions: ['.res', '.resi'],
-  tmScope: 'source.rescript',
   aceMode: 'rust',
+  extensions: ['.res', '.resi'],
   languageId: 501875647,
+  tmScope: 'source.rescript',
   codemirrorMode: 'rust',
   codemirrorMimeType: 'text/x-rustsrc',
+  color: '#ed5051',
   interpreters: ['ocaml'],
 }

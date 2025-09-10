@@ -1,7 +1,7 @@
 export default {
   name: 'Ruby',
   type: 'programming',
-  color: '#701516',
+  aceMode: 'ruby',
   extensions: [
     '.rb',
     '.builder',
@@ -26,13 +26,6 @@ export default {
     '.thor',
     '.watchr',
   ],
-  tmScope: 'source.ruby',
-  aceMode: 'ruby',
-  languageId: 326,
-  aliases: ['jruby', 'macruby', 'rake', 'rb', 'rbx'],
-  codemirrorMode: 'ruby',
-  codemirrorMimeType: 'text/x-ruby',
-  interpreters: ['ruby', 'macruby', 'rake', 'jruby', 'rbx'],
   filenames: [
     '.irbrc',
     '.pryrc',
@@ -58,4 +51,11 @@ export default {
     'Vagrantfile',
     'buildfile',
   ],
+  languageId: 326,
+  tmScope: 'source.ruby',
+  aliases: ['jruby', 'macruby', 'rake', 'rb', 'rbx'],
+  codemirrorMode: 'ruby',
+  codemirrorMimeType: 'text/x-ruby',
+  color: '#701516',
+  interpreters: ['ruby', 'macruby', 'rake', 'jruby', 'rbx'],
 }

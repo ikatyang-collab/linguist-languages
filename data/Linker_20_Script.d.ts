@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Linker Script'
   type: 'programming'
-  extensions: ['.ld', '.lds', '.x']
-  tmScope: 'source.c.linker'
   aceMode: 'text'
-  languageId: 202
+  extensions: ['.ld', '.lds', '.x']
   filenames: ['ld.script']
+  languageId: 202
+  tmScope: 'source.c.linker'
 }
 export = _

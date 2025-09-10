@@ -1,11 +1,8 @@
 export default {
   name: 'Text',
   type: 'prose',
-  extensions: ['.txt', '.fr', '.nb', '.ncl', '.no'],
-  tmScope: 'none',
   aceMode: 'text',
-  languageId: 372,
-  aliases: ['fundamental', 'plain text'],
+  extensions: ['.txt', '.fr', '.nb', '.ncl', '.no'],
   filenames: [
     'CITATION',
     'CITATIONS',
@@ -33,5 +30,8 @@ export default {
     'use.mask',
     'use.stable.mask',
   ],
+  languageId: 372,
+  tmScope: 'none',
+  aliases: ['fundamental', 'plain text'],
   wrap: true,
 }

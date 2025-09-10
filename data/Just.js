@@ -1,12 +1,8 @@
 module.exports = {
   name: 'Just',
   type: 'programming',
-  color: '#384d54',
-  extensions: ['.just'],
-  tmScope: 'source.just',
   aceMode: 'text',
-  languageId: 128447695,
-  aliases: ['Justfile'],
+  extensions: ['.just'],
   filenames: [
     '.JUSTFILE',
     '.Justfile',
@@ -15,4 +11,8 @@ module.exports = {
     'Justfile',
     'justfile',
   ],
+  languageId: 128447695,
+  tmScope: 'source.just',
+  aliases: ['Justfile'],
+  color: '#384d54',
 }

@@ -1,10 +1,10 @@
 export default {
   name: 'Berry',
   type: 'programming',
-  color: '#15A13C',
-  extensions: ['.be'],
-  tmScope: 'source.berry',
   aceMode: 'text',
+  extensions: ['.be'],
   languageId: 121855308,
+  tmScope: 'source.berry',
   aliases: ['be'],
+  color: '#15A13C',
 }

@@ -1,9 +1,9 @@
 module.exports = {
   name: 'NCL',
   type: 'programming',
-  color: '#28431f',
-  extensions: ['.ncl'],
-  tmScope: 'source.ncl',
   aceMode: 'text',
+  extensions: ['.ncl'],
   languageId: 240,
+  tmScope: 'source.ncl',
+  color: '#28431f',
 }

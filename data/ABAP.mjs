@@ -1,9 +1,9 @@
 export default {
   name: 'ABAP',
   type: 'programming',
-  color: '#E8274B',
-  extensions: ['.abap'],
-  tmScope: 'source.abap',
   aceMode: 'abap',
+  extensions: ['.abap'],
   languageId: 1,
+  tmScope: 'source.abap',
+  color: '#E8274B',
 }

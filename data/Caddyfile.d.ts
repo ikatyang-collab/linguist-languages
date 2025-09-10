@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Caddyfile'
   type: 'data'
-  color: '#22b638'
-  extensions: ['.caddyfile']
-  tmScope: 'source.Caddyfile'
   aceMode: 'text'
-  languageId: 615465151
-  aliases: ['Caddy']
+  extensions: ['.caddyfile']
   filenames: ['Caddyfile']
+  languageId: 615465151
+  tmScope: 'source.Caddyfile'
+  aliases: ['Caddy']
+  color: '#22b638'
 }
 export = _

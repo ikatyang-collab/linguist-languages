@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Papyrus'
   type: 'programming'
-  color: '#6600cc'
-  extensions: ['.psc']
-  tmScope: 'source.papyrus.skyrim'
   aceMode: 'text'
+  extensions: ['.psc']
   languageId: 277
+  tmScope: 'source.papyrus.skyrim'
+  color: '#6600cc'
 }
 export default _

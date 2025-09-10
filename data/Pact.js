@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Pact',
   type: 'programming',
-  color: '#F7A8B8',
-  extensions: ['.pact'],
-  tmScope: 'source.pact',
   aceMode: 'text',
+  extensions: ['.pact'],
   languageId: 756774415,
+  tmScope: 'source.pact',
+  color: '#F7A8B8',
 }

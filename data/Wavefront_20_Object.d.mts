@@ -1,9 +1,9 @@
 declare const _: {
   name: 'Wavefront Object'
   type: 'data'
-  extensions: ['.obj']
-  tmScope: 'source.wavefront.obj'
   aceMode: 'text'
+  extensions: ['.obj']
   languageId: 393
+  tmScope: 'source.wavefront.obj'
 }
 export default _

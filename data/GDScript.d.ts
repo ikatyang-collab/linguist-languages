@@ -1,10 +1,10 @@
 declare const _: {
   name: 'GDScript'
   type: 'programming'
-  color: '#355570'
-  extensions: ['.gd']
-  tmScope: 'source.gdscript'
   aceMode: 'text'
+  extensions: ['.gd']
   languageId: 123
+  tmScope: 'source.gdscript'
+  color: '#355570'
 }
 export = _

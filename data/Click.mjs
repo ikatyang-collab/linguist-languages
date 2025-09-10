@@ -1,9 +1,9 @@
 export default {
   name: 'Click',
   type: 'programming',
-  color: '#E4E6F3',
-  extensions: ['.click'],
-  tmScope: 'source.click',
   aceMode: 'text',
+  extensions: ['.click'],
   languageId: 61,
+  tmScope: 'source.click',
+  color: '#E4E6F3',
 }

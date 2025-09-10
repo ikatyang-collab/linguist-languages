@@ -1,12 +1,12 @@
 export default {
   name: 'CMake',
   type: 'programming',
-  color: '#DA3434',
-  extensions: ['.cmake', '.cmake.in'],
-  tmScope: 'source.cmake',
   aceMode: 'text',
+  extensions: ['.cmake', '.cmake.in'],
+  filenames: ['CMakeLists.txt'],
   languageId: 47,
+  tmScope: 'source.cmake',
   codemirrorMode: 'cmake',
   codemirrorMimeType: 'text/x-cmake',
-  filenames: ['CMakeLists.txt'],
+  color: '#DA3434',
 }

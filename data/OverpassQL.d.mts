@@ -1,11 +1,11 @@
 declare const _: {
   name: 'OverpassQL'
   type: 'programming'
-  color: '#cce2aa'
-  extensions: ['.overpassql']
-  tmScope: 'source.overpassql'
   aceMode: 'text'
+  extensions: ['.overpassql']
   languageId: 689079655
+  tmScope: 'source.overpassql'
+  color: '#cce2aa'
   wrap: true
 }
 export default _

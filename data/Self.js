@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Self',
   type: 'programming',
-  color: '#0579aa',
-  extensions: ['.self'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.self'],
   languageId: 345,
+  tmScope: 'none',
+  color: '#0579aa',
 }

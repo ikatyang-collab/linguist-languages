@@ -1,10 +1,10 @@
 export default {
   name: 'Csound Document',
   type: 'programming',
-  color: '#1a1a1a',
-  extensions: ['.csd'],
-  tmScope: 'source.csound-document',
   aceMode: 'csound_document',
+  extensions: ['.csd'],
   languageId: 74,
+  tmScope: 'source.csound-document',
   aliases: ['csound-csd'],
+  color: '#1a1a1a',
 }

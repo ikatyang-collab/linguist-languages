@@ -1,10 +1,10 @@
 export default {
   name: 'J',
   type: 'programming',
-  color: '#9EEDFF',
-  extensions: ['.ijs'],
-  tmScope: 'source.j',
   aceMode: 'text',
+  extensions: ['.ijs'],
   languageId: 172,
+  tmScope: 'source.j',
+  color: '#9EEDFF',
   interpreters: ['jconsole'],
 }

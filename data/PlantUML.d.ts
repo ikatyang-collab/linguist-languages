@@ -1,10 +1,10 @@
 declare const _: {
   name: 'PlantUML'
   type: 'data'
-  color: '#fbbd16'
-  extensions: ['.puml', '.iuml', '.plantuml']
-  tmScope: 'source.wsd'
   aceMode: 'text'
+  extensions: ['.puml', '.iuml', '.plantuml']
   languageId: 833504686
+  tmScope: 'source.wsd'
+  color: '#fbbd16'
 }
 export = _

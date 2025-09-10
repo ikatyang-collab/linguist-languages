@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Koka',
   type: 'programming',
-  color: '#215166',
-  extensions: ['.kk'],
-  tmScope: 'source.koka',
   aceMode: 'text',
+  extensions: ['.kk'],
   languageId: 597930447,
+  tmScope: 'source.koka',
+  color: '#215166',
   interpreters: ['koka'],
 }

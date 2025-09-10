@@ -1,11 +1,11 @@
 export default {
   name: 'PigLatin',
   type: 'programming',
-  color: '#fcd7de',
-  extensions: ['.pig'],
-  tmScope: 'source.pig_latin',
   aceMode: 'pig',
+  extensions: ['.pig'],
   languageId: 286,
+  tmScope: 'source.pig_latin',
   codemirrorMode: 'pig',
   codemirrorMimeType: 'text/x-pig',
+  color: '#fcd7de',
 }

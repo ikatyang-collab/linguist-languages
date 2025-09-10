@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Jison',
   type: 'programming',
-  color: '#56b3cb',
-  extensions: ['.jison'],
-  tmScope: 'source.jison',
   aceMode: 'text',
+  extensions: ['.jison'],
   languageId: 284531423,
+  tmScope: 'source.jison',
+  color: '#56b3cb',
   group: 'Yacc',
 }

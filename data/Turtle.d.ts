@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Turtle'
   type: 'data'
-  extensions: ['.ttl']
-  tmScope: 'source.turtle'
   aceMode: 'turtle'
+  extensions: ['.ttl']
   languageId: 376
+  tmScope: 'source.turtle'
   codemirrorMode: 'turtle'
   codemirrorMimeType: 'text/turtle'
 }

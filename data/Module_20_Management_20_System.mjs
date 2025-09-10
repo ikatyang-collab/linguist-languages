@@ -1,9 +1,9 @@
 export default {
   name: 'Module Management System',
   type: 'programming',
-  extensions: ['.mms', '.mmk'],
-  tmScope: 'none',
   aceMode: 'text',
-  languageId: 235,
+  extensions: ['.mms', '.mmk'],
   filenames: ['descrip.mmk', 'descrip.mms'],
+  languageId: 235,
+  tmScope: 'none',
 }

@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Smarty',
   type: 'programming',
-  color: '#f0c040',
-  extensions: ['.tpl'],
-  tmScope: 'text.html.smarty',
   aceMode: 'smarty',
+  extensions: ['.tpl'],
   languageId: 353,
+  tmScope: 'text.html.smarty',
   codemirrorMode: 'smarty',
   codemirrorMimeType: 'text/x-smarty',
+  color: '#f0c040',
 }

@@ -1,12 +1,12 @@
 export default {
   name: 'Smalltalk',
   type: 'programming',
-  color: '#596706',
-  extensions: ['.st', '.cs'],
-  tmScope: 'source.smalltalk',
   aceMode: 'text',
+  extensions: ['.st', '.cs'],
   languageId: 352,
+  tmScope: 'source.smalltalk',
   aliases: ['squeak'],
   codemirrorMode: 'smalltalk',
   codemirrorMimeType: 'text/x-stsrc',
+  color: '#596706',
 }

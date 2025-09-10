@@ -1,9 +1,9 @@
 export default {
   name: 'Shen',
   type: 'programming',
-  color: '#120F14',
-  extensions: ['.shen'],
-  tmScope: 'source.shen',
   aceMode: 'text',
+  extensions: ['.shen'],
   languageId: 348,
+  tmScope: 'source.shen',
+  color: '#120F14',
 }

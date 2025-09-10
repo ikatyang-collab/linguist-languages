@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Portugol',
   type: 'programming',
-  color: '#f8bd00',
-  extensions: ['.por'],
-  tmScope: 'source.portugol',
   aceMode: 'text',
+  extensions: ['.por'],
   languageId: 832391833,
+  tmScope: 'source.portugol',
+  color: '#f8bd00',
 }

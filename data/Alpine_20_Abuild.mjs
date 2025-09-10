@@ -1,13 +1,13 @@
 export default {
   name: 'Alpine Abuild',
   type: 'programming',
-  color: '#0D597F',
-  tmScope: 'source.shell',
   aceMode: 'sh',
+  filenames: ['APKBUILD'],
   languageId: 14,
+  tmScope: 'source.shell',
   aliases: ['abuild', 'apkbuild'],
   codemirrorMode: 'shell',
   codemirrorMimeType: 'text/x-sh',
+  color: '#0D597F',
   group: 'Shell',
-  filenames: ['APKBUILD'],
 }

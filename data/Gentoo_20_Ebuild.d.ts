@@ -1,13 +1,13 @@
 declare const _: {
   name: 'Gentoo Ebuild'
   type: 'programming'
-  color: '#9400ff'
-  extensions: ['.ebuild']
-  tmScope: 'source.shell'
   aceMode: 'sh'
+  extensions: ['.ebuild']
   languageId: 127
+  tmScope: 'source.shell'
   codemirrorMode: 'shell'
   codemirrorMimeType: 'text/x-sh'
+  color: '#9400ff'
   group: 'Shell'
 }
 export = _

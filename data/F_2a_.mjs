@@ -1,10 +1,10 @@
 export default {
   name: 'F*',
   type: 'programming',
-  color: '#572e30',
-  extensions: ['.fst', '.fsti'],
-  tmScope: 'source.fstar',
   aceMode: 'text',
+  extensions: ['.fst', '.fsti'],
   languageId: 336943375,
+  tmScope: 'source.fstar',
   aliases: ['fstar'],
+  color: '#572e30',
 }

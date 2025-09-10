@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Type Language'
   type: 'data'
-  extensions: ['.tl']
-  tmScope: 'source.tl'
   aceMode: 'text'
+  extensions: ['.tl']
   languageId: 632765617
+  tmScope: 'source.tl'
   aliases: ['tl']
 }
 export default _

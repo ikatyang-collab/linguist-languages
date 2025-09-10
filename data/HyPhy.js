@@ -1,8 +1,8 @@
 module.exports = {
   name: 'HyPhy',
   type: 'programming',
-  extensions: ['.bf'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.bf'],
   languageId: 160,
+  tmScope: 'none',
 }

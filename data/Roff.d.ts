@@ -1,7 +1,7 @@
 declare const _: {
   name: 'Roff'
   type: 'markup'
-  color: '#ecdebe'
+  aceMode: 'text'
   extensions: [
     '.roff',
     '.1',
@@ -32,9 +32,9 @@ declare const _: {
     '.rno',
     '.tmac',
   ]
-  tmScope: 'text.roff'
-  aceMode: 'text'
+  filenames: ['eqnrc', 'mmn', 'mmt', 'troffrc', 'troffrc-end']
   languageId: 141
+  tmScope: 'text.roff'
   aliases: [
     'groff',
     'man',
@@ -47,7 +47,7 @@ declare const _: {
   ]
   codemirrorMode: 'troff'
   codemirrorMimeType: 'text/troff'
-  filenames: ['eqnrc', 'mmn', 'mmt', 'troffrc', 'troffrc-end']
+  color: '#ecdebe'
   wrap: true
 }
 export = _

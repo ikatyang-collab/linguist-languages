@@ -1,9 +1,9 @@
 module.exports = {
   name: 'nesC',
   type: 'programming',
-  color: '#94B0C7',
-  extensions: ['.nc'],
-  tmScope: 'source.nesc',
   aceMode: 'text',
+  extensions: ['.nc'],
   languageId: 417,
+  tmScope: 'source.nesc',
+  color: '#94B0C7',
 }

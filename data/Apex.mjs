@@ -1,11 +1,11 @@
 export default {
   name: 'Apex',
   type: 'programming',
-  color: '#1797c0',
-  extensions: ['.cls', '.apex', '.trigger'],
-  tmScope: 'source.apex',
   aceMode: 'apex',
+  extensions: ['.cls', '.apex', '.trigger'],
   languageId: 17,
+  tmScope: 'source.apex',
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-java',
+  color: '#1797c0',
 }

@@ -1,9 +1,9 @@
 export default {
   name: 'Daslang',
   type: 'programming',
-  color: '#d3d3d3',
-  extensions: ['.das'],
-  tmScope: 'source.daslang',
   aceMode: 'text',
+  extensions: ['.das'],
   languageId: 648759486,
+  tmScope: 'source.daslang',
+  color: '#d3d3d3',
 }

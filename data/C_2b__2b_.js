@@ -1,7 +1,7 @@
 module.exports = {
   name: 'C++',
   type: 'programming',
-  color: '#f34b7d',
+  aceMode: 'c_cpp',
   extensions: [
     '.cpp',
     '.c++',
@@ -24,10 +24,10 @@ module.exports = {
     '.tpp',
     '.txx',
   ],
-  tmScope: 'source.c++',
-  aceMode: 'c_cpp',
   languageId: 43,
+  tmScope: 'source.c++',
   aliases: ['cpp'],
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-c++src',
+  color: '#f34b7d',
 }

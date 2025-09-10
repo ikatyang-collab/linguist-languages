@@ -1,13 +1,13 @@
 declare const _: {
   name: 'Puppet'
   type: 'programming'
-  color: '#302B6D'
-  extensions: ['.pp']
-  tmScope: 'source.puppet'
   aceMode: 'puppet'
+  extensions: ['.pp']
+  filenames: ['Modulefile']
   languageId: 299
+  tmScope: 'source.puppet'
   codemirrorMode: 'puppet'
   codemirrorMimeType: 'text/x-puppet'
-  filenames: ['Modulefile']
+  color: '#302B6D'
 }
 export = _

@@ -1,9 +1,9 @@
 declare const _: {
   name: 'NASL'
   type: 'programming'
-  extensions: ['.nasl', '.inc']
-  tmScope: 'source.nasl'
   aceMode: 'text'
+  extensions: ['.nasl', '.inc']
   languageId: 171666519
+  tmScope: 'source.nasl'
 }
 export default _

@@ -1,9 +1,9 @@
 export default {
   name: 'Brightscript',
   type: 'programming',
-  color: '#662D91',
-  extensions: ['.brs'],
-  tmScope: 'source.brs',
   aceMode: 'text',
+  extensions: ['.brs'],
   languageId: 39,
+  tmScope: 'source.brs',
+  color: '#662D91',
 }

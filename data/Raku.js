@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Raku',
   type: 'programming',
-  color: '#0000fb',
+  aceMode: 'raku',
   extensions: [
     '.6pl',
     '.6pm',
@@ -17,11 +17,11 @@ module.exports = {
     '.rakumod',
     '.t',
   ],
-  tmScope: 'source.raku',
-  aceMode: 'raku',
   languageId: 283,
+  tmScope: 'source.raku',
   aliases: ['perl6', 'perl-6'],
   codemirrorMode: 'perl',
   codemirrorMimeType: 'text/x-perl',
+  color: '#0000fb',
   interpreters: ['perl6', 'raku', 'rakudo'],
 }

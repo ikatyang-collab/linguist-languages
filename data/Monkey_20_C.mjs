@@ -1,11 +1,11 @@
 export default {
   name: 'Monkey C',
   type: 'programming',
-  color: '#8D6747',
-  extensions: ['.mc'],
-  tmScope: 'source.mc',
   aceMode: 'c_cpp',
+  extensions: ['.mc'],
   languageId: 231751931,
+  tmScope: 'source.mc',
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-csrc',
+  color: '#8D6747',
 }

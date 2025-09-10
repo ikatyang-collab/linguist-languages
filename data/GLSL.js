@@ -1,7 +1,7 @@
 module.exports = {
   name: 'GLSL',
   type: 'programming',
-  color: '#5686a5',
+  aceMode: 'glsl',
   extensions: [
     '.glsl',
     '.fp',
@@ -27,7 +27,7 @@ module.exports = {
     '.vsh',
     '.vshader',
   ],
-  tmScope: 'source.glsl',
-  aceMode: 'glsl',
   languageId: 124,
+  tmScope: 'source.glsl',
+  color: '#5686a5',
 }

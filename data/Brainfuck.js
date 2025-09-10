@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Brainfuck',
   type: 'programming',
-  color: '#2F2530',
-  extensions: ['.b', '.bf'],
-  tmScope: 'source.bf',
   aceMode: 'text',
+  extensions: ['.b', '.bf'],
   languageId: 38,
+  tmScope: 'source.bf',
   codemirrorMode: 'brainfuck',
   codemirrorMimeType: 'text/x-brainfuck',
+  color: '#2F2530',
 }

@@ -1,11 +1,11 @@
 export default {
   name: 'ISPC',
   type: 'programming',
-  color: '#2D68B1',
-  extensions: ['.ispc'],
-  tmScope: 'source.ispc',
   aceMode: 'c_cpp',
+  extensions: ['.ispc'],
   languageId: 327071,
+  tmScope: 'source.ispc',
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-csrc',
+  color: '#2D68B1',
 }

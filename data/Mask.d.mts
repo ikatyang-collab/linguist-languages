@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Mask'
   type: 'markup'
-  color: '#f97732'
-  extensions: ['.mask']
-  tmScope: 'source.mask'
   aceMode: 'mask'
+  extensions: ['.mask']
   languageId: 223
+  tmScope: 'source.mask'
+  color: '#f97732'
 }
 export default _

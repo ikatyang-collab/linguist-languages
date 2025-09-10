@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Markdown',
   type: 'prose',
-  color: '#083fa1',
+  aceMode: 'markdown',
   extensions: [
     '.md',
     '.livemd',
@@ -15,12 +15,12 @@ module.exports = {
     '.scd',
     '.workbook',
   ],
-  tmScope: 'text.md',
-  aceMode: 'markdown',
+  filenames: ['contents.lr'],
   languageId: 222,
+  tmScope: 'text.md',
   aliases: ['md', 'pandoc'],
   codemirrorMode: 'gfm',
   codemirrorMimeType: 'text/x-gfm',
-  filenames: ['contents.lr'],
+  color: '#083fa1',
   wrap: true,
 }

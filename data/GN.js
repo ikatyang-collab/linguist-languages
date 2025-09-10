@@ -1,12 +1,12 @@
 module.exports = {
   name: 'GN',
   type: 'data',
-  extensions: ['.gn', '.gni'],
-  tmScope: 'source.gn',
   aceMode: 'python',
+  extensions: ['.gn', '.gni'],
+  filenames: ['.gn'],
   languageId: 302957008,
+  tmScope: 'source.gn',
   codemirrorMode: 'python',
   codemirrorMimeType: 'text/x-python',
   interpreters: ['gn'],
-  filenames: ['.gn'],
 }

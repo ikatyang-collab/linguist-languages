@@ -1,7 +1,7 @@
 declare const _: {
   name: 'GLSL'
   type: 'programming'
-  color: '#5686a5'
+  aceMode: 'glsl'
   extensions: [
     '.glsl',
     '.fp',
@@ -27,8 +27,8 @@ declare const _: {
     '.vsh',
     '.vshader',
   ]
-  tmScope: 'source.glsl'
-  aceMode: 'glsl'
   languageId: 124
+  tmScope: 'source.glsl'
+  color: '#5686a5'
 }
 export default _

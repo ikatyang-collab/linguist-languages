@@ -1,9 +1,9 @@
 export default {
   name: 'Blade',
   type: 'markup',
-  color: '#f7523f',
-  extensions: ['.blade', '.blade.php'],
-  tmScope: 'text.html.php.blade',
   aceMode: 'php_laravel_blade',
+  extensions: ['.blade', '.blade.php'],
   languageId: 33,
+  tmScope: 'text.html.php.blade',
+  color: '#f7523f',
 }

@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Spline Font Database',
   type: 'data',
-  extensions: ['.sfd'],
-  tmScope: 'text.sfd',
   aceMode: 'yaml',
+  extensions: ['.sfd'],
   languageId: 767169629,
+  tmScope: 'text.sfd',
 }

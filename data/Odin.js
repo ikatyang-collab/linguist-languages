@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Odin',
   type: 'programming',
-  color: '#60AFFE',
-  extensions: ['.odin'],
-  tmScope: 'source.odin',
   aceMode: 'odin',
+  extensions: ['.odin'],
   languageId: 889244082,
+  tmScope: 'source.odin',
   aliases: ['odinlang', 'odin-lang'],
+  color: '#60AFFE',
 }

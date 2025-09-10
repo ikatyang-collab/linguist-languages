@@ -1,14 +1,14 @@
 declare const _: {
   name: 'TypeScript'
   type: 'programming'
-  color: '#3178c6'
-  extensions: ['.ts', '.cts', '.mts']
-  tmScope: 'source.ts'
   aceMode: 'typescript'
+  extensions: ['.ts', '.cts', '.mts']
   languageId: 378
+  tmScope: 'source.ts'
   aliases: ['ts']
   codemirrorMode: 'javascript'
   codemirrorMimeType: 'application/typescript'
+  color: '#3178c6'
   interpreters: ['bun', 'deno', 'ts-node', 'tsx']
 }
 export = _

@@ -1,10 +1,10 @@
 declare const _: {
   name: 'QML'
   type: 'programming'
-  color: '#44a51c'
-  extensions: ['.qml', '.qbs']
-  tmScope: 'source.qml'
   aceMode: 'qml'
+  extensions: ['.qml', '.qbs']
   languageId: 305
+  tmScope: 'source.qml'
+  color: '#44a51c'
 }
 export default _

@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Rascal'
   type: 'programming'
-  color: '#fffaa0'
-  extensions: ['.rsc']
-  tmScope: 'source.rascal'
   aceMode: 'text'
+  extensions: ['.rsc']
   languageId: 173616037
+  tmScope: 'source.rascal'
+  color: '#fffaa0'
 }
 export default _

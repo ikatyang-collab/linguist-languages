@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Solidity'
   type: 'programming'
-  color: '#AA6746'
-  extensions: ['.sol']
-  tmScope: 'source.solidity'
   aceMode: 'text'
+  extensions: ['.sol']
   languageId: 237469032
+  tmScope: 'source.solidity'
+  color: '#AA6746'
 }
 export = _

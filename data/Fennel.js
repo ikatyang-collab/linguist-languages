@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Fennel',
   type: 'programming',
-  color: '#fff3d7',
-  extensions: ['.fnl'],
-  tmScope: 'source.fnl',
   aceMode: 'text',
+  extensions: ['.fnl'],
   languageId: 239946126,
+  tmScope: 'source.fnl',
+  color: '#fff3d7',
   interpreters: ['fennel'],
 }

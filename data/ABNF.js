@@ -1,8 +1,8 @@
 module.exports = {
   name: 'ABNF',
   type: 'data',
-  extensions: ['.abnf'],
-  tmScope: 'source.abnf',
   aceMode: 'text',
+  extensions: ['.abnf'],
   languageId: 429,
+  tmScope: 'source.abnf',
 }

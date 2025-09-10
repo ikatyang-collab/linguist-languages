@@ -1,11 +1,7 @@
 export default {
   name: 'SSH Config',
   type: 'data',
-  tmScope: 'source.ssh-config',
   aceMode: 'text',
-  languageId: 554920715,
-  aliases: ['sshconfig', 'sshdconfig', 'ssh_config', 'sshd_config'],
-  group: 'INI',
   filenames: [
     'ssh-config',
     'ssh_config',
@@ -14,4 +10,8 @@ export default {
     'sshd-config',
     'sshd_config',
   ],
+  languageId: 554920715,
+  tmScope: 'source.ssh-config',
+  aliases: ['sshconfig', 'sshdconfig', 'ssh_config', 'sshd_config'],
+  group: 'INI',
 }

@@ -1,10 +1,10 @@
 export default {
   name: 'HAProxy',
   type: 'data',
-  color: '#106da9',
-  extensions: ['.cfg'],
-  tmScope: 'source.haproxy-config',
   aceMode: 'text',
-  languageId: 366607477,
+  extensions: ['.cfg'],
   filenames: ['haproxy.cfg'],
+  languageId: 366607477,
+  tmScope: 'source.haproxy-config',
+  color: '#106da9',
 }

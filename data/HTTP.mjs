@@ -1,11 +1,11 @@
 export default {
   name: 'HTTP',
   type: 'data',
-  color: '#005C9C',
-  extensions: ['.http'],
-  tmScope: 'source.httpspec',
   aceMode: 'text',
+  extensions: ['.http'],
   languageId: 152,
+  tmScope: 'source.httpspec',
   codemirrorMode: 'http',
   codemirrorMimeType: 'message/http',
+  color: '#005C9C',
 }

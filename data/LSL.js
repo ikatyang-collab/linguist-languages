@@ -1,10 +1,10 @@
 module.exports = {
   name: 'LSL',
   type: 'programming',
-  color: '#3d9970',
-  extensions: ['.lsl', '.lslp'],
-  tmScope: 'source.lsl',
   aceMode: 'lsl',
+  extensions: ['.lsl', '.lslp'],
   languageId: 193,
+  tmScope: 'source.lsl',
+  color: '#3d9970',
   interpreters: ['lsl'],
 }

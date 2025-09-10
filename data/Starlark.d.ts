@@ -1,14 +1,8 @@
 declare const _: {
   name: 'Starlark'
   type: 'programming'
-  color: '#76d275'
-  extensions: ['.bzl', '.star']
-  tmScope: 'source.python'
   aceMode: 'python'
-  languageId: 960266174
-  aliases: ['bazel', 'bzl']
-  codemirrorMode: 'python'
-  codemirrorMimeType: 'text/x-python'
+  extensions: ['.bzl', '.star']
   filenames: [
     'BUCK',
     'BUILD',
@@ -19,5 +13,11 @@ declare const _: {
     'WORKSPACE.bazel',
     'WORKSPACE.bzlmod',
   ]
+  languageId: 960266174
+  tmScope: 'source.python'
+  aliases: ['bazel', 'bzl']
+  codemirrorMode: 'python'
+  codemirrorMimeType: 'text/x-python'
+  color: '#76d275'
 }
 export = _

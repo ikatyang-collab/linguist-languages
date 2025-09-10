@@ -1,10 +1,10 @@
 declare const _: {
   name: 'GDShader'
   type: 'programming'
-  color: '#478CBF'
-  extensions: ['.gdshader', '.gdshaderinc']
-  tmScope: 'source.gdshader'
   aceMode: 'glsl'
+  extensions: ['.gdshader', '.gdshaderinc']
   languageId: 694638086
+  tmScope: 'source.gdshader'
+  color: '#478CBF'
 }
 export = _

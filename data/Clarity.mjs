@@ -1,9 +1,9 @@
 export default {
   name: 'Clarity',
   type: 'programming',
-  color: '#5546ff',
-  extensions: ['.clar'],
-  tmScope: 'source.clar',
   aceMode: 'lisp',
+  extensions: ['.clar'],
   languageId: 91493841,
+  tmScope: 'source.clar',
+  color: '#5546ff',
 }

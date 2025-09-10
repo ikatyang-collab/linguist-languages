@@ -1,9 +1,9 @@
 export default {
   name: 'Wollok',
   type: 'programming',
-  color: '#a23738',
-  extensions: ['.wlk'],
-  tmScope: 'source.wollok',
   aceMode: 'wollok',
+  extensions: ['.wlk'],
   languageId: 632745969,
+  tmScope: 'source.wollok',
+  color: '#a23738',
 }

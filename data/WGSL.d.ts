@@ -1,10 +1,10 @@
 declare const _: {
   name: 'WGSL'
   type: 'programming'
-  color: '#1a5e9a'
-  extensions: ['.wgsl']
-  tmScope: 'source.wgsl'
   aceMode: 'text'
+  extensions: ['.wgsl']
   languageId: 836605993
+  tmScope: 'source.wgsl'
+  color: '#1a5e9a'
 }
 export = _

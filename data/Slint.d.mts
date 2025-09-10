@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Slint'
   type: 'markup'
-  color: '#2379F4'
-  extensions: ['.slint']
-  tmScope: 'source.slint'
   aceMode: 'text'
+  extensions: ['.slint']
   languageId: 119900149
+  tmScope: 'source.slint'
+  color: '#2379F4'
 }
 export default _

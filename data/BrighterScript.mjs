@@ -1,9 +1,9 @@
 export default {
   name: 'BrighterScript',
   type: 'programming',
-  color: '#66AABB',
-  extensions: ['.bs'],
-  tmScope: 'source.brs',
   aceMode: 'text',
+  extensions: ['.bs'],
   languageId: 943571030,
+  tmScope: 'source.brs',
+  color: '#66AABB',
 }

@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Agda',
   type: 'programming',
-  color: '#315665',
-  extensions: ['.agda'],
-  tmScope: 'source.agda',
   aceMode: 'text',
+  extensions: ['.agda'],
   languageId: 12,
+  tmScope: 'source.agda',
+  color: '#315665',
 }

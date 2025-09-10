@@ -1,13 +1,13 @@
 declare const _: {
   name: 'Closure Templates'
   type: 'markup'
-  color: '#0d948f'
-  extensions: ['.soy']
-  tmScope: 'text.html.soy'
   aceMode: 'soy_template'
+  extensions: ['.soy']
   languageId: 357046146
+  tmScope: 'text.html.soy'
   aliases: ['soy']
   codemirrorMode: 'soy'
   codemirrorMimeType: 'text/x-soy'
+  color: '#0d948f'
 }
 export default _

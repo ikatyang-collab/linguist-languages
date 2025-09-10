@@ -1,11 +1,11 @@
 export default {
   name: 'EQ',
   type: 'programming',
-  color: '#a78649',
-  extensions: ['.eq'],
-  tmScope: 'source.cs',
   aceMode: 'csharp',
+  extensions: ['.eq'],
   languageId: 96,
+  tmScope: 'source.cs',
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-csharp',
+  color: '#a78649',
 }

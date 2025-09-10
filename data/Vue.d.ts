@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Vue'
   type: 'markup'
-  color: '#41b883'
-  extensions: ['.vue']
-  tmScope: 'source.vue'
   aceMode: 'vue'
+  extensions: ['.vue']
   languageId: 391
+  tmScope: 'source.vue'
   codemirrorMode: 'vue'
   codemirrorMimeType: 'text/x-vue'
+  color: '#41b883'
 }
 export = _

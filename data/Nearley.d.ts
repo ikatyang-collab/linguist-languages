@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Nearley'
   type: 'programming'
-  color: '#990000'
-  extensions: ['.ne', '.nearley']
-  tmScope: 'source.ne'
   aceMode: 'text'
+  extensions: ['.ne', '.nearley']
   languageId: 521429430
+  tmScope: 'source.ne'
+  color: '#990000'
 }
 export = _

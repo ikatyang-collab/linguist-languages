@@ -1,12 +1,12 @@
 declare const _: {
   name: 'COLLADA'
   type: 'data'
-  color: '#F1A42B'
-  extensions: ['.dae']
-  tmScope: 'text.xml'
   aceMode: 'xml'
+  extensions: ['.dae']
   languageId: 49
+  tmScope: 'text.xml'
   codemirrorMode: 'xml'
   codemirrorMimeType: 'text/xml'
+  color: '#F1A42B'
 }
 export = _

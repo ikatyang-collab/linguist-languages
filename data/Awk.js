@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Awk',
   type: 'programming',
-  color: '#c30e9b',
-  extensions: ['.awk', '.auk', '.gawk', '.mawk', '.nawk'],
-  tmScope: 'source.awk',
   aceMode: 'text',
+  extensions: ['.awk', '.auk', '.gawk', '.mawk', '.nawk'],
   languageId: 28,
+  tmScope: 'source.awk',
+  color: '#c30e9b',
   interpreters: ['awk', 'gawk', 'mawk', 'nawk'],
 }

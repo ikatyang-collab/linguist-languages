@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Liquid',
   type: 'markup',
-  color: '#67b8de',
-  extensions: ['.liquid'],
-  tmScope: 'text.html.liquid',
   aceMode: 'liquid',
+  extensions: ['.liquid'],
   languageId: 204,
+  tmScope: 'text.html.liquid',
+  color: '#67b8de',
 }

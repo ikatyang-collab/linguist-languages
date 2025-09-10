@@ -1,7 +1,7 @@
 module.exports = {
   name: 'JSON',
   type: 'data',
-  color: '#292929',
+  aceMode: 'json',
   extensions: [
     '.json',
     '.4DForm',
@@ -25,12 +25,6 @@ module.exports = {
     '.yy',
     '.yyp',
   ],
-  tmScope: 'source.json',
-  aceMode: 'json',
-  languageId: 174,
-  aliases: ['geojson', 'jsonl', 'sarif', 'topojson'],
-  codemirrorMode: 'javascript',
-  codemirrorMimeType: 'application/json',
   filenames: [
     '.all-contributorsrc',
     '.arcconfig',
@@ -51,4 +45,10 @@ module.exports = {
     'flake.lock',
     'mcmod.info',
   ],
+  languageId: 174,
+  tmScope: 'source.json',
+  aliases: ['geojson', 'jsonl', 'sarif', 'topojson'],
+  codemirrorMode: 'javascript',
+  codemirrorMimeType: 'application/json',
+  color: '#292929',
 }

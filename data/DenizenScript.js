@@ -1,11 +1,11 @@
 module.exports = {
   name: 'DenizenScript',
   type: 'programming',
-  color: '#FBEE96',
-  extensions: ['.dsc'],
-  tmScope: 'source.denizenscript',
   aceMode: 'yaml',
+  extensions: ['.dsc'],
   languageId: 435000929,
+  tmScope: 'source.denizenscript',
   codemirrorMode: 'yaml',
   codemirrorMimeType: 'text/x-yaml',
+  color: '#FBEE96',
 }

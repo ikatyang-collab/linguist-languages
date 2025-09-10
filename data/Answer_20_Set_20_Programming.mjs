@@ -1,10 +1,10 @@
 export default {
   name: 'Answer Set Programming',
   type: 'programming',
-  color: '#A9CC29',
-  extensions: ['.lp'],
-  tmScope: 'source.answersetprogramming',
   aceMode: 'prolog',
+  extensions: ['.lp'],
   languageId: 433009171,
+  tmScope: 'source.answersetprogramming',
+  color: '#A9CC29',
   interpreters: ['clingo'],
 }

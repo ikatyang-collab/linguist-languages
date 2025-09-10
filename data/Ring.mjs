@@ -1,9 +1,9 @@
 export default {
   name: 'Ring',
   type: 'programming',
-  color: '#2D54CB',
-  extensions: ['.ring'],
-  tmScope: 'source.ring',
   aceMode: 'text',
+  extensions: ['.ring'],
   languageId: 431,
+  tmScope: 'source.ring',
+  color: '#2D54CB',
 }

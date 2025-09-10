@@ -1,10 +1,10 @@
 declare const _: {
   name: 'PDDL'
   type: 'programming'
-  color: '#0d00ff'
-  extensions: ['.pddl']
-  tmScope: 'source.pddl'
   aceMode: 'text'
+  extensions: ['.pddl']
   languageId: 736235603
+  tmScope: 'source.pddl'
+  color: '#0d00ff'
 }
 export default _

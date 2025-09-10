@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Nim'
   type: 'programming'
-  color: '#ffc200'
-  extensions: ['.nim', '.nim.cfg', '.nimble', '.nimrod', '.nims']
-  tmScope: 'source.nim'
   aceMode: 'nim'
-  languageId: 249
+  extensions: ['.nim', '.nim.cfg', '.nimble', '.nimrod', '.nims']
   filenames: ['nim.cfg']
+  languageId: 249
+  tmScope: 'source.nim'
+  color: '#ffc200'
 }
 export = _

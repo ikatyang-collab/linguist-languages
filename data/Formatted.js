@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Formatted',
   type: 'data',
-  extensions: ['.for', '.eam.fs'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.for', '.eam.fs'],
   languageId: 113,
+  tmScope: 'none',
 }

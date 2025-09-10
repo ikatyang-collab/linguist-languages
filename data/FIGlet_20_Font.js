@@ -1,10 +1,10 @@
 module.exports = {
   name: 'FIGlet Font',
   type: 'data',
-  color: '#FFDDBB',
-  extensions: ['.flf'],
-  tmScope: 'source.figfont',
   aceMode: 'text',
+  extensions: ['.flf'],
   languageId: 686129783,
+  tmScope: 'source.figfont',
   aliases: ['FIGfont'],
+  color: '#FFDDBB',
 }

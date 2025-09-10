@@ -1,8 +1,8 @@
 export default {
   name: 'Kickstart',
   type: 'data',
-  extensions: ['.ks'],
-  tmScope: 'source.kickstart',
   aceMode: 'text',
+  extensions: ['.ks'],
   languageId: 692635484,
+  tmScope: 'source.kickstart',
 }

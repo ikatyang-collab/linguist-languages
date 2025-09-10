@@ -1,10 +1,10 @@
 module.exports = {
   name: 'OpenEdge ABL',
   type: 'programming',
-  color: '#5ce600',
-  extensions: ['.p', '.cls', '.w'],
-  tmScope: 'source.abl',
   aceMode: 'text',
+  extensions: ['.p', '.cls', '.w'],
   languageId: 264,
+  tmScope: 'source.abl',
   aliases: ['progress', 'openedge', 'abl'],
+  color: '#5ce600',
 }

@@ -1,7 +1,7 @@
 declare const _: {
   name: 'Roff Manpage'
   type: 'markup'
-  color: '#ecdebe'
+  aceMode: 'text'
   extensions: [
     '.1',
     '.1in',
@@ -24,11 +24,11 @@ declare const _: {
     '.man',
     '.mdoc',
   ]
-  tmScope: 'text.roff'
-  aceMode: 'text'
   languageId: 612669833
+  tmScope: 'text.roff'
   codemirrorMode: 'troff'
   codemirrorMimeType: 'text/troff'
+  color: '#ecdebe'
   group: 'Roff'
   wrap: true
 }

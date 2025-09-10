@@ -1,10 +1,10 @@
 export default {
   name: 'Pic',
   type: 'markup',
-  extensions: ['.pic', '.chem'],
-  tmScope: 'source.pic',
   aceMode: 'text',
+  extensions: ['.pic', '.chem'],
   languageId: 425,
+  tmScope: 'source.pic',
   aliases: ['pikchr'],
   codemirrorMode: 'troff',
   codemirrorMimeType: 'text/troff',

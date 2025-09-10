@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Sieve'
   type: 'programming'
-  extensions: ['.sieve']
-  tmScope: 'source.sieve'
   aceMode: 'text'
+  extensions: ['.sieve']
   languageId: 208976687
+  tmScope: 'source.sieve'
   codemirrorMode: 'sieve'
   codemirrorMimeType: 'application/sieve'
 }

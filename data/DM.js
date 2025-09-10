@@ -1,10 +1,10 @@
 module.exports = {
   name: 'DM',
   type: 'programming',
-  color: '#447265',
-  extensions: ['.dm'],
-  tmScope: 'source.dm',
   aceMode: 'c_cpp',
+  extensions: ['.dm'],
   languageId: 83,
+  tmScope: 'source.dm',
   aliases: ['byond'],
+  color: '#447265',
 }

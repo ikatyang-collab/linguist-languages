@@ -1,11 +1,11 @@
 declare const _: {
   name: 'AIDL'
   type: 'programming'
-  color: '#34EB6B'
-  extensions: ['.aidl']
-  tmScope: 'source.aidl'
   aceMode: 'text'
+  extensions: ['.aidl']
   languageId: 451700185
+  tmScope: 'source.aidl'
+  color: '#34EB6B'
   interpreters: ['aidl']
 }
 export default _

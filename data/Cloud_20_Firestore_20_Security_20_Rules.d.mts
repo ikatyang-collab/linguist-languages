@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Cloud Firestore Security Rules'
   type: 'data'
-  color: '#FFA000'
-  tmScope: 'source.firestore'
   aceMode: 'less'
+  filenames: ['firestore.rules']
   languageId: 407996372
+  tmScope: 'source.firestore'
   codemirrorMode: 'css'
   codemirrorMimeType: 'text/css'
-  filenames: ['firestore.rules']
+  color: '#FFA000'
 }
 export default _

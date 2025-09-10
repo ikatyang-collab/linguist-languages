@@ -1,9 +1,9 @@
 export default {
   name: 'Raw token data',
   type: 'data',
-  extensions: ['.raw'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.raw'],
   languageId: 318,
+  tmScope: 'none',
   aliases: ['raw'],
 }

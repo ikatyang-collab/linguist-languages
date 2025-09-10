@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Slim',
   type: 'markup',
-  color: '#2b2b2b',
-  extensions: ['.slim'],
-  tmScope: 'text.slim',
   aceMode: 'slim',
+  extensions: ['.slim'],
   languageId: 350,
+  tmScope: 'text.slim',
   codemirrorMode: 'slim',
   codemirrorMimeType: 'text/x-slim',
+  color: '#2b2b2b',
 }

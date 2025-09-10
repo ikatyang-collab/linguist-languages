@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Witcher Script'
   type: 'programming'
-  color: '#ff0000'
-  extensions: ['.ws']
-  tmScope: 'source.witcherscript'
   aceMode: 'text'
+  extensions: ['.ws']
   languageId: 686821385
+  tmScope: 'source.witcherscript'
+  color: '#ff0000'
 }
 export default _

@@ -1,9 +1,9 @@
 export default {
   name: 'AspectJ',
   type: 'programming',
-  color: '#a957b0',
-  extensions: ['.aj'],
-  tmScope: 'source.aspectj',
   aceMode: 'text',
+  extensions: ['.aj'],
   languageId: 23,
+  tmScope: 'source.aspectj',
+  color: '#a957b0',
 }

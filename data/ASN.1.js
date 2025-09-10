@@ -1,10 +1,10 @@
 module.exports = {
   name: 'ASN.1',
   type: 'data',
-  extensions: ['.asn', '.asn1'],
-  tmScope: 'source.asn',
   aceMode: 'text',
+  extensions: ['.asn', '.asn1'],
   languageId: 7,
+  tmScope: 'source.asn',
   codemirrorMode: 'asn.1',
   codemirrorMimeType: 'text/x-ttcn-asn',
 }

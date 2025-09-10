@@ -1,10 +1,10 @@
 declare const _: {
   name: 'NetLinx'
   type: 'programming'
-  color: '#0aa0ff'
-  extensions: ['.axs', '.axi']
-  tmScope: 'source.netlinx'
   aceMode: 'text'
+  extensions: ['.axs', '.axi']
   languageId: 244
+  tmScope: 'source.netlinx'
+  color: '#0aa0ff'
 }
 export default _

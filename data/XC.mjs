@@ -1,11 +1,11 @@
 export default {
   name: 'XC',
   type: 'programming',
-  color: '#99DA07',
-  extensions: ['.xc'],
-  tmScope: 'source.xc',
   aceMode: 'c_cpp',
+  extensions: ['.xc'],
   languageId: 398,
+  tmScope: 'source.xc',
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-csrc',
+  color: '#99DA07',
 }

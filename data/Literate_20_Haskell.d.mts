@@ -1,14 +1,14 @@
 declare const _: {
   name: 'Literate Haskell'
   type: 'programming'
-  color: '#5e5086'
-  extensions: ['.lhs']
-  tmScope: 'text.tex.latex.haskell'
   aceMode: 'text'
+  extensions: ['.lhs']
   languageId: 207
+  tmScope: 'text.tex.latex.haskell'
   aliases: ['lhaskell', 'lhs']
   codemirrorMode: 'haskell-literate'
   codemirrorMimeType: 'text/x-literate-haskell'
+  color: '#5e5086'
   group: 'Haskell'
 }
 export default _

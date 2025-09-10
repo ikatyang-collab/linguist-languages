@@ -1,12 +1,12 @@
 declare const _: {
   name: 'ChucK'
   type: 'programming'
-  color: '#3f8000'
-  extensions: ['.ck']
-  tmScope: 'source.java'
   aceMode: 'java'
+  extensions: ['.ck']
   languageId: 57
+  tmScope: 'source.java'
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-java'
+  color: '#3f8000'
 }
 export default _

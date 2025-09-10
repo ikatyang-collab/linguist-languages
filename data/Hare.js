@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Hare',
   type: 'programming',
-  color: '#9d7424',
-  extensions: ['.ha'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.ha'],
   languageId: 463518941,
+  tmScope: 'none',
+  color: '#9d7424',
 }

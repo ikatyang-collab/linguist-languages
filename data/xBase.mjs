@@ -1,10 +1,10 @@
 export default {
   name: 'xBase',
   type: 'programming',
-  color: '#403a40',
-  extensions: ['.prg', '.ch', '.prw'],
-  tmScope: 'source.harbour',
   aceMode: 'text',
+  extensions: ['.prg', '.ch', '.prw'],
   languageId: 421,
+  tmScope: 'source.harbour',
   aliases: ['advpl', 'clipper', 'foxpro'],
+  color: '#403a40',
 }

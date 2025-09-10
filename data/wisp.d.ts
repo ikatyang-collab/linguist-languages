@@ -1,12 +1,12 @@
 declare const _: {
   name: 'wisp'
   type: 'programming'
-  color: '#7582D1'
-  extensions: ['.wisp']
-  tmScope: 'source.clojure'
   aceMode: 'clojure'
+  extensions: ['.wisp']
   languageId: 420
+  tmScope: 'source.clojure'
   codemirrorMode: 'clojure'
   codemirrorMimeType: 'text/x-clojure'
+  color: '#7582D1'
 }
 export = _

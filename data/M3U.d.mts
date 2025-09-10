@@ -1,11 +1,11 @@
 declare const _: {
   name: 'M3U'
   type: 'data'
-  color: '#179C7D'
-  extensions: ['.m3u', '.m3u8']
-  tmScope: 'source.m3u'
   aceMode: 'text'
+  extensions: ['.m3u', '.m3u8']
   languageId: 89638692
+  tmScope: 'source.m3u'
   aliases: ['hls playlist', 'm3u playlist']
+  color: '#179C7D'
 }
 export default _

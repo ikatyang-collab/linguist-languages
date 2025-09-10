@@ -1,15 +1,15 @@
 export default {
   name: 'Adobe Font Metrics',
   type: 'data',
-  color: '#fa0f00',
-  extensions: ['.afm'],
-  tmScope: 'source.afm',
   aceMode: 'text',
+  extensions: ['.afm'],
   languageId: 147198098,
+  tmScope: 'source.afm',
   aliases: [
     'acfm',
     'adobe composite font metrics',
     'adobe multiple font metrics',
     'amfm',
   ],
+  color: '#fa0f00',
 }

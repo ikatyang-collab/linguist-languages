@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Pony',
   type: 'programming',
-  extensions: ['.pony'],
-  tmScope: 'source.pony',
   aceMode: 'text',
+  extensions: ['.pony'],
   languageId: 290,
+  tmScope: 'source.pony',
 }

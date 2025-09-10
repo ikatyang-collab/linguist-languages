@@ -1,7 +1,7 @@
 export default {
   name: 'Mathematica',
   type: 'programming',
-  color: '#dd1100',
+  aceMode: 'text',
   extensions: [
     '.mathematica',
     '.cdf',
@@ -13,10 +13,10 @@ export default {
     '.wl',
     '.wlt',
   ],
-  tmScope: 'source.mathematica',
-  aceMode: 'text',
   languageId: 224,
+  tmScope: 'source.mathematica',
   aliases: ['mma', 'wolfram', 'wolfram language', 'wolfram lang', 'wl'],
   codemirrorMode: 'mathematica',
   codemirrorMimeType: 'text/x-mathematica',
+  color: '#dd1100',
 }

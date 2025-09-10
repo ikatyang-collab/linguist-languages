@@ -1,10 +1,10 @@
 declare const _: {
   name: 'FIRRTL'
   type: 'programming'
-  color: '#2f632f'
-  extensions: ['.fir']
-  tmScope: 'source.firrtl'
   aceMode: 'text'
+  extensions: ['.fir']
   languageId: 906694254
+  tmScope: 'source.firrtl'
+  color: '#2f632f'
 }
 export default _

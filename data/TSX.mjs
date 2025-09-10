@@ -1,12 +1,12 @@
 export default {
   name: 'TSX',
   type: 'programming',
-  color: '#3178c6',
-  extensions: ['.tsx'],
-  tmScope: 'source.tsx',
   aceMode: 'tsx',
+  extensions: ['.tsx'],
   languageId: 94901924,
+  tmScope: 'source.tsx',
   codemirrorMode: 'jsx',
   codemirrorMimeType: 'text/typescript-jsx',
+  color: '#3178c6',
   group: 'TypeScript',
 }

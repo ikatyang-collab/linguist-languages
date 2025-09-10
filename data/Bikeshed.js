@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Bikeshed',
   type: 'markup',
-  color: '#5562ac',
-  extensions: ['.bs'],
-  tmScope: 'source.csswg',
   aceMode: 'html',
+  extensions: ['.bs'],
   languageId: 1055528081,
+  tmScope: 'source.csswg',
   codemirrorMode: 'htmlmixed',
   codemirrorMimeType: 'text/html',
+  color: '#5562ac',
 }

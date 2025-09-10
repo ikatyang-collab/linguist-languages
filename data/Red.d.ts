@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Red'
   type: 'programming'
-  color: '#f50000'
-  extensions: ['.red', '.reds']
-  tmScope: 'source.red'
   aceMode: 'red'
+  extensions: ['.red', '.reds']
   languageId: 320
+  tmScope: 'source.red'
   aliases: ['red/system']
+  color: '#f50000'
 }
 export = _

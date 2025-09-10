@@ -1,9 +1,9 @@
 module.exports = {
   name: 'VCL',
   type: 'programming',
-  color: '#148AA8',
-  extensions: ['.vcl'],
-  tmScope: 'source.vcl',
   aceMode: 'text',
+  extensions: ['.vcl'],
   languageId: 384,
+  tmScope: 'source.vcl',
+  color: '#148AA8',
 }

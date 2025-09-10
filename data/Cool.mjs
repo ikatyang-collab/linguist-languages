@@ -1,8 +1,8 @@
 export default {
   name: 'Cool',
   type: 'programming',
-  extensions: ['.cl'],
-  tmScope: 'source.cool',
   aceMode: 'text',
+  extensions: ['.cl'],
   languageId: 68,
+  tmScope: 'source.cool',
 }

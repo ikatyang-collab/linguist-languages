@@ -1,12 +1,12 @@
 declare const _: {
   name: 'ECL'
   type: 'programming'
-  color: '#8a1267'
-  extensions: ['.ecl', '.eclxml']
-  tmScope: 'source.ecl'
   aceMode: 'text'
+  extensions: ['.ecl', '.eclxml']
   languageId: 93
+  tmScope: 'source.ecl'
   codemirrorMode: 'ecl'
   codemirrorMimeType: 'text/x-ecl'
+  color: '#8a1267'
 }
 export = _

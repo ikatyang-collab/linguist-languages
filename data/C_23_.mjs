@@ -1,12 +1,12 @@
 export default {
   name: 'C#',
   type: 'programming',
-  color: '#178600',
-  extensions: ['.cs', '.cake', '.cs.pp', '.csx', '.linq'],
-  tmScope: 'source.cs',
   aceMode: 'csharp',
+  extensions: ['.cs', '.cake', '.cs.pp', '.csx', '.linq'],
   languageId: 42,
+  tmScope: 'source.cs',
   aliases: ['csharp', 'cake', 'cakescript'],
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-csharp',
+  color: '#178600',
 }

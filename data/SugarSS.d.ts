@@ -1,10 +1,10 @@
 declare const _: {
   name: 'SugarSS'
   type: 'markup'
-  color: '#2fcc9f'
-  extensions: ['.sss']
-  tmScope: 'source.css.postcss.sugarss'
   aceMode: 'text'
+  extensions: ['.sss']
   languageId: 826404698
+  tmScope: 'source.css.postcss.sugarss'
+  color: '#2fcc9f'
 }
 export = _

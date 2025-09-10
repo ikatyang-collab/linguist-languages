@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Inno Setup',
   type: 'programming',
-  color: '#264b99',
-  extensions: ['.iss', '.isl'],
-  tmScope: 'source.inno',
   aceMode: 'text',
+  extensions: ['.iss', '.isl'],
   languageId: 167,
+  tmScope: 'source.inno',
+  color: '#264b99',
 }

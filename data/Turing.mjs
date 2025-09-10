@@ -1,9 +1,9 @@
 export default {
   name: 'Turing',
   type: 'programming',
-  color: '#cf142b',
-  extensions: ['.t', '.tu'],
-  tmScope: 'source.turing',
   aceMode: 'text',
+  extensions: ['.t', '.tu'],
   languageId: 375,
+  tmScope: 'source.turing',
+  color: '#cf142b',
 }

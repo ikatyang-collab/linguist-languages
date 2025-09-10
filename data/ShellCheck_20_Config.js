@@ -1,12 +1,12 @@
 module.exports = {
   name: 'ShellCheck Config',
   type: 'data',
-  color: '#cecfcb',
-  tmScope: 'source.shellcheckrc',
   aceMode: 'ini',
+  filenames: ['.shellcheckrc'],
   languageId: 687511714,
+  tmScope: 'source.shellcheckrc',
   aliases: ['shellcheckrc'],
   codemirrorMode: 'properties',
   codemirrorMimeType: 'text/x-properties',
-  filenames: ['.shellcheckrc'],
+  color: '#cecfcb',
 }

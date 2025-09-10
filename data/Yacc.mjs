@@ -1,9 +1,9 @@
 export default {
   name: 'Yacc',
   type: 'programming',
-  color: '#4B6C4B',
-  extensions: ['.y', '.yacc', '.yy'],
-  tmScope: 'source.yacc',
   aceMode: 'text',
+  extensions: ['.y', '.yacc', '.yy'],
   languageId: 409,
+  tmScope: 'source.yacc',
+  color: '#4B6C4B',
 }

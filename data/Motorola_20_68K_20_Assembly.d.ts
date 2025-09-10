@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Motorola 68K Assembly'
   type: 'programming'
-  color: '#005daa'
-  extensions: ['.asm', '.i', '.inc', '.s', '.x68']
-  tmScope: 'source.m68k'
   aceMode: 'assembly_x86'
+  extensions: ['.asm', '.i', '.inc', '.s', '.x68']
   languageId: 477582706
+  tmScope: 'source.m68k'
   aliases: ['m68k']
+  color: '#005daa'
   group: 'Assembly'
 }
 export = _

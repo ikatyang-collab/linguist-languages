@@ -1,10 +1,10 @@
 export default {
   name: 'WebVTT',
   type: 'data',
-  extensions: ['.vtt'],
-  tmScope: 'text.vtt',
   aceMode: 'text',
+  extensions: ['.vtt'],
   languageId: 658679714,
+  tmScope: 'text.vtt',
   aliases: ['vtt'],
   wrap: true,
 }

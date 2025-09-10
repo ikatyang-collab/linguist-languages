@@ -1,9 +1,9 @@
 export default {
   name: 'Filterscript',
   type: 'programming',
-  extensions: ['.fs'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.fs'],
   languageId: 112,
+  tmScope: 'none',
   group: 'RenderScript',
 }

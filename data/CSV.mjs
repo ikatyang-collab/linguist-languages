@@ -1,9 +1,9 @@
 export default {
   name: 'CSV',
   type: 'data',
-  color: '#237346',
-  extensions: ['.csv'],
-  tmScope: 'none',
   aceMode: 'csv',
+  extensions: ['.csv'],
   languageId: 51,
+  tmScope: 'none',
+  color: '#237346',
 }

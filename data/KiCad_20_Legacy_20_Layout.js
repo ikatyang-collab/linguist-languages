@@ -1,9 +1,9 @@
 module.exports = {
   name: 'KiCad Legacy Layout',
   type: 'data',
-  color: '#2f4aab',
-  extensions: ['.brd'],
-  tmScope: 'source.pcb.board',
   aceMode: 'text',
+  extensions: ['.brd'],
   languageId: 140848857,
+  tmScope: 'source.pcb.board',
+  color: '#2f4aab',
 }

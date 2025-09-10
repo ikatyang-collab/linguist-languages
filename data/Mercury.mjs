@@ -1,10 +1,10 @@
 export default {
   name: 'Mercury',
   type: 'programming',
-  color: '#ff2b2b',
-  extensions: ['.m', '.moo'],
-  tmScope: 'source.mercury',
   aceMode: 'prolog',
+  extensions: ['.m', '.moo'],
   languageId: 229,
+  tmScope: 'source.mercury',
+  color: '#ff2b2b',
   interpreters: ['mmi'],
 }

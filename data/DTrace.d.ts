@@ -1,10 +1,10 @@
 declare const _: {
   name: 'DTrace'
   type: 'programming'
-  extensions: ['.d']
-  tmScope: 'source.c'
   aceMode: 'c_cpp'
+  extensions: ['.d']
   languageId: 85
+  tmScope: 'source.c'
   aliases: ['dtrace-script']
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-csrc'

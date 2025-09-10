@@ -1,11 +1,11 @@
 module.exports = {
   name: 'SPARQL',
   type: 'data',
-  color: '#0C4597',
-  extensions: ['.sparql', '.rq'],
-  tmScope: 'source.sparql',
   aceMode: 'sparql',
+  extensions: ['.sparql', '.rq'],
   languageId: 331,
+  tmScope: 'source.sparql',
   codemirrorMode: 'sparql',
   codemirrorMimeType: 'application/sparql-query',
+  color: '#0C4597',
 }

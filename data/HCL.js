@@ -1,12 +1,12 @@
 module.exports = {
   name: 'HCL',
   type: 'programming',
-  color: '#844FBA',
-  extensions: ['.hcl', '.nomad', '.tf', '.tfvars', '.workflow'],
-  tmScope: 'source.hcl',
   aceMode: 'terraform',
+  extensions: ['.hcl', '.nomad', '.tf', '.tfvars', '.workflow'],
   languageId: 144,
+  tmScope: 'source.hcl',
   aliases: ['HashiCorp Configuration Language', 'terraform'],
   codemirrorMode: 'ruby',
   codemirrorMimeType: 'text/x-ruby',
+  color: '#844FBA',
 }

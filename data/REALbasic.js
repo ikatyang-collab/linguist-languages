@@ -1,8 +1,8 @@
 module.exports = {
   name: 'REALbasic',
   type: 'programming',
-  extensions: ['.rbbas', '.rbfrm', '.rbmnu', '.rbres', '.rbtbar', '.rbuistate'],
-  tmScope: 'source.vbnet',
   aceMode: 'text',
+  extensions: ['.rbbas', '.rbfrm', '.rbmnu', '.rbres', '.rbtbar', '.rbuistate'],
   languageId: 310,
+  tmScope: 'source.vbnet',
 }

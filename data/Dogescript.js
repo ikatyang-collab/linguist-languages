@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Dogescript',
   type: 'programming',
-  color: '#cca760',
-  extensions: ['.djs'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.djs'],
   languageId: 90,
+  tmScope: 'none',
+  color: '#cca760',
 }

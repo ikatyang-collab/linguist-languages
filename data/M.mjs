@@ -1,10 +1,10 @@
 export default {
   name: 'M',
   type: 'programming',
-  extensions: ['.mumps', '.m'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.mumps', '.m'],
   languageId: 214,
+  tmScope: 'none',
   aliases: ['mumps'],
   codemirrorMode: 'mumps',
   codemirrorMimeType: 'text/x-mumps',

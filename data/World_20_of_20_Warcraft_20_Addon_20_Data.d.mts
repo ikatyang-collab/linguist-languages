@@ -1,10 +1,10 @@
 declare const _: {
   name: 'World of Warcraft Addon Data'
   type: 'data'
-  color: '#f7e43f'
-  extensions: ['.toc']
-  tmScope: 'source.toc'
   aceMode: 'text'
+  extensions: ['.toc']
   languageId: 396
+  tmScope: 'source.toc'
+  color: '#f7e43f'
 }
 export default _

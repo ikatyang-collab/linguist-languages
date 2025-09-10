@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Apollo Guidance Computer'
   type: 'programming'
-  color: '#0B3D91'
-  extensions: ['.agc']
-  tmScope: 'source.agc'
   aceMode: 'assembly_x86'
+  extensions: ['.agc']
   languageId: 18
+  tmScope: 'source.agc'
+  color: '#0B3D91'
   group: 'Assembly'
 }
 export = _

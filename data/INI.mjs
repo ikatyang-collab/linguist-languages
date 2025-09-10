@@ -1,7 +1,7 @@
 export default {
   name: 'INI',
   type: 'data',
-  color: '#d1dbe0',
+  aceMode: 'ini',
   extensions: [
     '.ini',
     '.cfg',
@@ -14,12 +14,6 @@ export default {
     '.properties',
     '.url',
   ],
-  tmScope: 'source.ini',
-  aceMode: 'ini',
-  languageId: 163,
-  aliases: ['dosini'],
-  codemirrorMode: 'properties',
-  codemirrorMimeType: 'text/x-properties',
   filenames: [
     '.buckconfig',
     '.coveragerc',
@@ -31,4 +25,10 @@ export default {
     'pylintrc',
     'vlcrc',
   ],
+  languageId: 163,
+  tmScope: 'source.ini',
+  aliases: ['dosini'],
+  codemirrorMode: 'properties',
+  codemirrorMimeType: 'text/x-properties',
+  color: '#d1dbe0',
 }

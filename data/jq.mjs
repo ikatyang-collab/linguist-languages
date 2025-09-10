@@ -1,10 +1,10 @@
 export default {
   name: 'jq',
   type: 'programming',
-  color: '#c7254e',
-  extensions: ['.jq'],
-  tmScope: 'source.jq',
   aceMode: 'text',
+  extensions: ['.jq'],
   languageId: 905371884,
+  tmScope: 'source.jq',
+  color: '#c7254e',
   interpreters: ['gojq', 'jaq', 'jq', 'jqjq', 'jqq', 'query-json'],
 }

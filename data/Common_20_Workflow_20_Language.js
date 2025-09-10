@@ -1,13 +1,13 @@
 module.exports = {
   name: 'Common Workflow Language',
   type: 'programming',
-  color: '#B5314C',
-  extensions: ['.cwl'],
-  tmScope: 'source.cwl',
   aceMode: 'yaml',
+  extensions: ['.cwl'],
   languageId: 988547172,
+  tmScope: 'source.cwl',
   aliases: ['cwl'],
   codemirrorMode: 'yaml',
   codemirrorMimeType: 'text/x-yaml',
+  color: '#B5314C',
   interpreters: ['cwl-runner'],
 }

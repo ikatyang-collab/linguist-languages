@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Genie'
   type: 'programming'
-  color: '#fb855d'
-  extensions: ['.gs']
-  tmScope: 'none'
   aceMode: 'text'
+  extensions: ['.gs']
   languageId: 792408528
+  tmScope: 'none'
+  color: '#fb855d'
 }
 export = _

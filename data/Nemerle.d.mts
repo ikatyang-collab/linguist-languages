@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Nemerle'
   type: 'programming'
-  color: '#3d3c6e'
-  extensions: ['.n']
-  tmScope: 'source.nemerle'
   aceMode: 'text'
+  extensions: ['.n']
   languageId: 243
+  tmScope: 'source.nemerle'
+  color: '#3d3c6e'
 }
 export default _

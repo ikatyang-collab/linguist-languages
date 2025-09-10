@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Aiken'
   type: 'programming'
-  color: '#640ff8'
-  extensions: ['.ak']
-  tmScope: 'source.aiken'
   aceMode: 'text'
+  extensions: ['.ak']
   languageId: 899409497
+  tmScope: 'source.aiken'
+  color: '#640ff8'
 }
 export = _

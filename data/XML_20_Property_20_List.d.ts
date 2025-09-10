@@ -1,7 +1,7 @@
 declare const _: {
   name: 'XML Property List'
   type: 'data'
-  color: '#0060ac'
+  aceMode: 'xml'
   extensions: [
     '.plist',
     '.stTheme',
@@ -11,11 +11,11 @@ declare const _: {
     '.tmSnippet',
     '.tmTheme',
   ]
-  tmScope: 'text.xml.plist'
-  aceMode: 'xml'
   languageId: 75622871
+  tmScope: 'text.xml.plist'
   codemirrorMode: 'xml'
   codemirrorMimeType: 'text/xml'
+  color: '#0060ac'
   group: 'XML'
 }
 export = _

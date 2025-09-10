@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Parrot Internal Representation',
   type: 'programming',
-  extensions: ['.pir'],
-  tmScope: 'source.parrot.pir',
   aceMode: 'text',
+  extensions: ['.pir'],
   languageId: 280,
+  tmScope: 'source.parrot.pir',
   aliases: ['pir'],
-  interpreters: ['parrot'],
   group: 'Parrot',
+  interpreters: ['parrot'],
 }

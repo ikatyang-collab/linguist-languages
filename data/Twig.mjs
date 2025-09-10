@@ -1,11 +1,11 @@
 export default {
   name: 'Twig',
   type: 'markup',
-  color: '#c1d026',
-  extensions: ['.twig'],
-  tmScope: 'text.html.twig',
   aceMode: 'twig',
+  extensions: ['.twig'],
   languageId: 377,
+  tmScope: 'text.html.twig',
   codemirrorMode: 'twig',
   codemirrorMimeType: 'text/x-twig',
+  color: '#c1d026',
 }

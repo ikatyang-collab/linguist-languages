@@ -1,10 +1,10 @@
 module.exports = {
   name: 'IRC log',
   type: 'data',
-  extensions: ['.irclog', '.weechatlog'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.irclog', '.weechatlog'],
   languageId: 164,
+  tmScope: 'none',
   aliases: ['irc', 'irc logs'],
   codemirrorMode: 'mirc',
   codemirrorMimeType: 'text/mirc',

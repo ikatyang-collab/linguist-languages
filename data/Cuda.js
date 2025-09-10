@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Cuda',
   type: 'programming',
-  color: '#3A4E3A',
-  extensions: ['.cu', '.cuh'],
-  tmScope: 'source.cuda-c++',
   aceMode: 'c_cpp',
+  extensions: ['.cu', '.cuh'],
   languageId: 77,
+  tmScope: 'source.cuda-c++',
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-c++src',
+  color: '#3A4E3A',
 }

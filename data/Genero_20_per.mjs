@@ -1,9 +1,9 @@
 export default {
   name: 'Genero per',
   type: 'markup',
-  color: '#d8df39',
-  extensions: ['.per'],
-  tmScope: 'source.genero-per',
   aceMode: 'text',
+  extensions: ['.per'],
   languageId: 902995658,
+  tmScope: 'source.genero-per',
+  color: '#d8df39',
 }

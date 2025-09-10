@@ -1,9 +1,9 @@
 module.exports = {
   name: 'LLVM',
   type: 'programming',
-  color: '#185619',
-  extensions: ['.ll'],
-  tmScope: 'source.llvm',
   aceMode: 'text',
+  extensions: ['.ll'],
   languageId: 191,
+  tmScope: 'source.llvm',
+  color: '#185619',
 }

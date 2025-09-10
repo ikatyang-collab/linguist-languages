@@ -1,10 +1,10 @@
 export default {
   name: 'SMT',
   type: 'programming',
-  extensions: ['.smt2', '.smt', '.z3'],
-  tmScope: 'source.smt',
   aceMode: 'text',
+  extensions: ['.smt2', '.smt', '.z3'],
   languageId: 330,
+  tmScope: 'source.smt',
   interpreters: [
     'boolector',
     'cvc4',

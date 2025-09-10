@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Opal'
   type: 'programming'
-  color: '#f7ede0'
-  extensions: ['.opal']
-  tmScope: 'source.opal'
   aceMode: 'text'
+  extensions: ['.opal']
   languageId: 262
+  tmScope: 'source.opal'
+  color: '#f7ede0'
 }
 export default _

@@ -1,10 +1,10 @@
 declare const _: {
   name: 'KerboScript'
   type: 'programming'
-  color: '#41adf0'
-  extensions: ['.ks']
-  tmScope: 'source.kerboscript'
   aceMode: 'text'
+  extensions: ['.ks']
   languageId: 59716426
+  tmScope: 'source.kerboscript'
+  color: '#41adf0'
 }
 export = _

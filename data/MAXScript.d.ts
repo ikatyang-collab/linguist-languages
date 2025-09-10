@@ -1,10 +1,10 @@
 declare const _: {
   name: 'MAXScript'
   type: 'programming'
-  color: '#00a6a6'
-  extensions: ['.ms', '.mcr']
-  tmScope: 'source.maxscript'
   aceMode: 'text'
+  extensions: ['.ms', '.mcr']
   languageId: 217
+  tmScope: 'source.maxscript'
+  color: '#00a6a6'
 }
 export = _

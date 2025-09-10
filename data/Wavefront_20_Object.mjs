@@ -1,8 +1,8 @@
 export default {
   name: 'Wavefront Object',
   type: 'data',
-  extensions: ['.obj'],
-  tmScope: 'source.wavefront.obj',
   aceMode: 'text',
+  extensions: ['.obj'],
   languageId: 393,
+  tmScope: 'source.wavefront.obj',
 }

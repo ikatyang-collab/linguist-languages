@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Isabelle ROOT'
   type: 'programming'
-  color: '#FEFE00'
-  tmScope: 'source.isabelle.root'
   aceMode: 'text'
-  languageId: 171
-  group: 'Isabelle'
   filenames: ['ROOT']
+  languageId: 171
+  tmScope: 'source.isabelle.root'
+  color: '#FEFE00'
+  group: 'Isabelle'
 }
 export = _

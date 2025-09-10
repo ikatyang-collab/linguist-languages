@@ -1,11 +1,11 @@
 export default {
   name: 'Squirrel',
   type: 'programming',
-  color: '#800000',
-  extensions: ['.nut'],
-  tmScope: 'source.nut',
   aceMode: 'c_cpp',
+  extensions: ['.nut'],
   languageId: 355,
+  tmScope: 'source.nut',
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-squirrel',
+  color: '#800000',
 }

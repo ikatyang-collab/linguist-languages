@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Debian Package Control File'
   type: 'data'
-  color: '#D70751'
-  extensions: ['.dsc']
-  tmScope: 'source.deb-control'
   aceMode: 'text'
+  extensions: ['.dsc']
   languageId: 527438264
+  tmScope: 'source.deb-control'
+  color: '#D70751'
 }
 export default _

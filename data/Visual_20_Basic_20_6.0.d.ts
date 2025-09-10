@@ -1,11 +1,10 @@
 declare const _: {
   name: 'Visual Basic 6.0'
   type: 'programming'
-  color: '#2c6353'
-  extensions: ['.bas', '.cls', '.ctl', '.Dsr', '.frm']
-  tmScope: 'source.vba'
   aceMode: 'text'
+  extensions: ['.bas', '.cls', '.ctl', '.Dsr', '.frm']
   languageId: 679594952
+  tmScope: 'source.vba'
   aliases: [
     'vb6',
     'vb 6',
@@ -15,5 +14,6 @@ declare const _: {
   ]
   codemirrorMode: 'vb'
   codemirrorMimeType: 'text/x-vb'
+  color: '#2c6353'
 }
 export = _

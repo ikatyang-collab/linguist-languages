@@ -1,9 +1,9 @@
 export default {
   name: 'Arc',
   type: 'programming',
-  color: '#aa2afe',
-  extensions: ['.arc'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.arc'],
   languageId: 20,
+  tmScope: 'none',
+  color: '#aa2afe',
 }

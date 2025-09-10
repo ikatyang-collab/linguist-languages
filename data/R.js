@@ -1,14 +1,14 @@
 module.exports = {
   name: 'R',
   type: 'programming',
-  color: '#198CE7',
-  extensions: ['.r', '.rd', '.rsx'],
-  tmScope: 'source.r',
   aceMode: 'r',
+  extensions: ['.r', '.rd', '.rsx'],
+  filenames: ['.Rprofile', 'expr-dist'],
   languageId: 307,
+  tmScope: 'source.r',
   aliases: ['Rscript', 'splus'],
   codemirrorMode: 'r',
   codemirrorMimeType: 'text/x-rsrc',
+  color: '#198CE7',
   interpreters: ['Rscript'],
-  filenames: ['.Rprofile', 'expr-dist'],
 }

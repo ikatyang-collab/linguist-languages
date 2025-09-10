@@ -1,11 +1,11 @@
 module.exports = {
   name: 'SVG',
   type: 'data',
-  color: '#ff9900',
-  extensions: ['.svg'],
-  tmScope: 'text.xml.svg',
   aceMode: 'svg',
+  extensions: ['.svg'],
   languageId: 337,
+  tmScope: 'text.xml.svg',
   codemirrorMode: 'xml',
   codemirrorMimeType: 'text/xml',
+  color: '#ff9900',
 }

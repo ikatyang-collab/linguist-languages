@@ -1,10 +1,10 @@
 module.exports = {
   name: 'ECLiPSe',
   type: 'programming',
-  color: '#001d9d',
-  extensions: ['.ecl'],
-  tmScope: 'source.prolog.eclipse',
   aceMode: 'prolog',
+  extensions: ['.ecl'],
   languageId: 94,
+  tmScope: 'source.prolog.eclipse',
+  color: '#001d9d',
   group: 'Prolog',
 }

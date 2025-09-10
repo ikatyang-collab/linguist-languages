@@ -1,10 +1,10 @@
 declare const _: {
   name: 'BASIC'
   type: 'programming'
-  color: '#ff0000'
-  extensions: ['.bas']
-  tmScope: 'source.basic'
   aceMode: 'basic'
+  extensions: ['.bas']
   languageId: 28923963
+  tmScope: 'source.basic'
+  color: '#ff0000'
 }
 export = _

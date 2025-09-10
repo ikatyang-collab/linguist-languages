@@ -1,11 +1,11 @@
 declare const _: {
   name: 'TypeSpec'
   type: 'programming'
-  color: '#4A3665'
-  extensions: ['.tsp']
-  tmScope: 'source.tsp'
   aceMode: 'text'
+  extensions: ['.tsp']
   languageId: 952272597
+  tmScope: 'source.tsp'
   aliases: ['tsp']
+  color: '#4A3665'
 }
 export = _

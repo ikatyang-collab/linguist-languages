@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Vim Help File',
   type: 'prose',
-  color: '#199f4b',
-  extensions: ['.txt'],
-  tmScope: 'text.vim-help',
   aceMode: 'text',
+  extensions: ['.txt'],
   languageId: 508563686,
+  tmScope: 'text.vim-help',
   aliases: ['help', 'vimhelp'],
+  color: '#199f4b',
 }

@@ -1,9 +1,9 @@
 export default {
   name: 'Gettext Catalog',
   type: 'prose',
-  extensions: ['.po', '.pot'],
-  tmScope: 'source.po',
   aceMode: 'text',
+  extensions: ['.po', '.pot'],
   languageId: 129,
+  tmScope: 'source.po',
   aliases: ['pot'],
 }

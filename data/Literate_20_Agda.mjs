@@ -1,10 +1,10 @@
 export default {
   name: 'Literate Agda',
   type: 'programming',
-  color: '#315665',
-  extensions: ['.lagda'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.lagda'],
   languageId: 205,
+  tmScope: 'none',
+  color: '#315665',
   group: 'Agda',
 }

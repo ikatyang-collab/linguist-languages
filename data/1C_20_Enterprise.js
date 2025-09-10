@@ -1,9 +1,9 @@
 module.exports = {
   name: '1C Enterprise',
   type: 'programming',
-  color: '#814CCC',
-  extensions: ['.bsl', '.os'],
-  tmScope: 'source.bsl',
   aceMode: 'text',
+  extensions: ['.bsl', '.os'],
   languageId: 0,
+  tmScope: 'source.bsl',
+  color: '#814CCC',
 }

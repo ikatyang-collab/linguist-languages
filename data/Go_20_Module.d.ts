@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Go Module'
   type: 'data'
-  color: '#00ADD8'
-  tmScope: 'go.mod'
   aceMode: 'text'
-  languageId: 947461016
-  aliases: ['go.mod', 'go mod']
   filenames: ['go.mod']
+  languageId: 947461016
+  tmScope: 'go.mod'
+  aliases: ['go.mod', 'go mod']
+  color: '#00ADD8'
 }
 export = _

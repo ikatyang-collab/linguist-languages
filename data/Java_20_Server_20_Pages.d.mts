@@ -1,14 +1,14 @@
 declare const _: {
   name: 'Java Server Pages'
   type: 'programming'
-  color: '#2A6277'
-  extensions: ['.jsp', '.tag']
-  tmScope: 'text.html.jsp'
   aceMode: 'jsp'
+  extensions: ['.jsp', '.tag']
   languageId: 182
+  tmScope: 'text.html.jsp'
   aliases: ['jsp']
   codemirrorMode: 'htmlembedded'
   codemirrorMimeType: 'application/x-jsp'
+  color: '#2A6277'
   group: 'Java'
 }
 export default _

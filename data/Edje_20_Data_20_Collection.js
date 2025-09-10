@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Edje Data Collection',
   type: 'data',
-  extensions: ['.edc'],
-  tmScope: 'source.c++',
   aceMode: 'c_cpp',
+  extensions: ['.edc'],
   languageId: 342840478,
+  tmScope: 'source.c++',
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-c++src',
 }

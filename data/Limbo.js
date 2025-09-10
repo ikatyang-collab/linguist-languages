@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Limbo',
   type: 'programming',
-  extensions: ['.b', '.m'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.b', '.m'],
   languageId: 201,
+  tmScope: 'none',
 }

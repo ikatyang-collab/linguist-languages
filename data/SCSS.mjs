@@ -1,11 +1,11 @@
 export default {
   name: 'SCSS',
   type: 'markup',
-  color: '#c6538c',
-  extensions: ['.scss'],
-  tmScope: 'source.css.scss',
   aceMode: 'scss',
+  extensions: ['.scss'],
   languageId: 329,
+  tmScope: 'source.css.scss',
   codemirrorMode: 'css',
   codemirrorMimeType: 'text/x-scss',
+  color: '#c6538c',
 }

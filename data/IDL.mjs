@@ -1,11 +1,11 @@
 export default {
   name: 'IDL',
   type: 'programming',
-  color: '#a3522f',
-  extensions: ['.pro', '.dlm'],
-  tmScope: 'source.idl',
   aceMode: 'text',
+  extensions: ['.pro', '.dlm'],
   languageId: 161,
+  tmScope: 'source.idl',
   codemirrorMode: 'idl',
   codemirrorMimeType: 'text/x-idl',
+  color: '#a3522f',
 }

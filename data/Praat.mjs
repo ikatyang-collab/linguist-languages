@@ -1,9 +1,9 @@
 export default {
   name: 'Praat',
   type: 'programming',
-  color: '#c8506d',
-  extensions: ['.praat'],
-  tmScope: 'source.praat',
   aceMode: 'praat',
+  extensions: ['.praat'],
   languageId: 106029007,
+  tmScope: 'source.praat',
+  color: '#c8506d',
 }

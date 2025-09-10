@@ -1,10 +1,10 @@
 export default {
   name: 'Csound Score',
   type: 'programming',
-  color: '#1a1a1a',
-  extensions: ['.sco'],
-  tmScope: 'source.csound-score',
   aceMode: 'csound_score',
+  extensions: ['.sco'],
   languageId: 75,
+  tmScope: 'source.csound-score',
   aliases: ['csound-sco'],
+  color: '#1a1a1a',
 }

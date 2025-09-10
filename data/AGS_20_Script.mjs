@@ -1,12 +1,12 @@
 export default {
   name: 'AGS Script',
   type: 'programming',
-  color: '#B9D9FF',
-  extensions: ['.asc', '.ash'],
-  tmScope: 'source.c++',
   aceMode: 'c_cpp',
+  extensions: ['.asc', '.ash'],
   languageId: 2,
+  tmScope: 'source.c++',
   aliases: ['ags'],
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-c++src',
+  color: '#B9D9FF',
 }

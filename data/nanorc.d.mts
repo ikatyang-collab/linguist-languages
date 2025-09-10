@@ -1,12 +1,12 @@
 declare const _: {
   name: 'nanorc'
   type: 'data'
-  color: '#2d004d'
-  extensions: ['.nanorc']
-  tmScope: 'source.nanorc'
   aceMode: 'text'
-  languageId: 775996197
-  group: 'INI'
+  extensions: ['.nanorc']
   filenames: ['.nanorc', 'nanorc']
+  languageId: 775996197
+  tmScope: 'source.nanorc'
+  color: '#2d004d'
+  group: 'INI'
 }
 export default _

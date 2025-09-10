@@ -1,9 +1,9 @@
 module.exports = {
   name: 'Open Policy Agent',
   type: 'programming',
-  color: '#7d9199',
-  extensions: ['.rego'],
-  tmScope: 'source.rego',
   aceMode: 'text',
+  extensions: ['.rego'],
   languageId: 840483232,
+  tmScope: 'source.rego',
+  color: '#7d9199',
 }

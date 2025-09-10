@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Pure Data',
   type: 'data',
-  extensions: ['.pd'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.pd'],
   languageId: 300,
+  tmScope: 'none',
 }

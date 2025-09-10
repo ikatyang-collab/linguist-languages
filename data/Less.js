@@ -1,12 +1,12 @@
 module.exports = {
   name: 'Less',
   type: 'markup',
-  color: '#1d365d',
-  extensions: ['.less'],
-  tmScope: 'source.css.less',
   aceMode: 'less',
+  extensions: ['.less'],
   languageId: 198,
+  tmScope: 'source.css.less',
   aliases: ['less-css'],
   codemirrorMode: 'css',
   codemirrorMimeType: 'text/x-less',
+  color: '#1d365d',
 }

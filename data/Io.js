@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Io',
   type: 'programming',
-  color: '#a9188d',
-  extensions: ['.io'],
-  tmScope: 'source.io',
   aceMode: 'io',
+  extensions: ['.io'],
   languageId: 168,
+  tmScope: 'source.io',
+  color: '#a9188d',
   interpreters: ['io'],
 }

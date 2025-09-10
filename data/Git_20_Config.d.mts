@@ -1,15 +1,15 @@
 declare const _: {
   name: 'Git Config'
   type: 'data'
-  color: '#F44D27'
-  extensions: ['.gitconfig']
-  tmScope: 'source.gitconfig'
   aceMode: 'ini'
+  extensions: ['.gitconfig']
+  filenames: ['.gitconfig', '.gitmodules']
   languageId: 807968997
+  tmScope: 'source.gitconfig'
   aliases: ['gitconfig', 'gitmodules']
   codemirrorMode: 'properties'
   codemirrorMimeType: 'text/x-properties'
+  color: '#F44D27'
   group: 'INI'
-  filenames: ['.gitconfig', '.gitmodules']
 }
 export default _

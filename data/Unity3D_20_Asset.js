@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Unity3D Asset',
   type: 'data',
-  color: '#222c37',
+  aceMode: 'yaml',
   extensions: [
     '.anim',
     '.asset',
@@ -11,9 +11,9 @@ module.exports = {
     '.prefab',
     '.unity',
   ],
-  tmScope: 'source.yaml',
-  aceMode: 'yaml',
   languageId: 380,
+  tmScope: 'source.yaml',
   codemirrorMode: 'yaml',
   codemirrorMimeType: 'text/x-yaml',
+  color: '#222c37',
 }

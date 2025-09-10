@@ -1,10 +1,10 @@
 declare const _: {
   name: 'Nasal'
   type: 'programming'
-  color: '#1d2c4e'
-  extensions: ['.nas']
-  tmScope: 'source.nasal'
   aceMode: 'nasal'
+  extensions: ['.nas']
   languageId: 178322513
+  tmScope: 'source.nasal'
+  color: '#1d2c4e'
 }
 export = _

@@ -1,13 +1,13 @@
 export default {
   name: 'Cabal Config',
   type: 'data',
-  color: '#483465',
-  extensions: ['.cabal'],
-  tmScope: 'source.cabal',
   aceMode: 'haskell_cabal',
+  extensions: ['.cabal'],
+  filenames: ['cabal.config', 'cabal.project'],
   languageId: 677095381,
+  tmScope: 'source.cabal',
   aliases: ['Cabal'],
   codemirrorMode: 'haskell',
   codemirrorMimeType: 'text/x-haskell',
-  filenames: ['cabal.config', 'cabal.project'],
+  color: '#483465',
 }

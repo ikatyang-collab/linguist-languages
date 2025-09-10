@@ -1,10 +1,10 @@
 module.exports = {
   name: 'Ragel',
   type: 'programming',
-  color: '#9d5200',
-  extensions: ['.rl'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.rl'],
   languageId: 317,
+  tmScope: 'none',
   aliases: ['ragel-rb', 'ragel-ruby'],
+  color: '#9d5200',
 }

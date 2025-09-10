@@ -1,11 +1,11 @@
 declare const _: {
   name: 'SourcePawn'
   type: 'programming'
-  color: '#f69e1d'
-  extensions: ['.sp', '.inc']
-  tmScope: 'source.sourcepawn'
   aceMode: 'text'
+  extensions: ['.sp', '.inc']
   languageId: 354
+  tmScope: 'source.sourcepawn'
   aliases: ['sourcemod']
+  color: '#f69e1d'
 }
 export = _

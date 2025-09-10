@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Myghty',
   type: 'programming',
-  extensions: ['.myt'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.myt'],
   languageId: 239,
+  tmScope: 'none',
 }

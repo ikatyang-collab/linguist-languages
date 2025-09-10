@@ -1,10 +1,10 @@
 declare const _: {
   name: 'OpenQASM'
   type: 'programming'
-  color: '#AA70FF'
-  extensions: ['.qasm']
-  tmScope: 'source.qasm'
   aceMode: 'text'
+  extensions: ['.qasm']
   languageId: 153739399
+  tmScope: 'source.qasm'
+  color: '#AA70FF'
 }
 export = _

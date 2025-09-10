@@ -1,11 +1,11 @@
 export default {
   name: 'LFE',
   type: 'programming',
-  color: '#4C3023',
-  extensions: ['.lfe'],
-  tmScope: 'source.lisp',
   aceMode: 'lisp',
+  extensions: ['.lfe'],
   languageId: 190,
+  tmScope: 'source.lisp',
   codemirrorMode: 'commonlisp',
   codemirrorMimeType: 'text/x-common-lisp',
+  color: '#4C3023',
 }

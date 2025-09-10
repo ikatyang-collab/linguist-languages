@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Charity',
   type: 'programming',
-  extensions: ['.ch'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.ch'],
   languageId: 56,
+  tmScope: 'none',
 }

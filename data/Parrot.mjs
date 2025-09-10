@@ -1,9 +1,9 @@
 export default {
   name: 'Parrot',
   type: 'programming',
-  color: '#f3ca0a',
-  extensions: ['.parrot'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.parrot'],
   languageId: 278,
+  tmScope: 'none',
+  color: '#f3ca0a',
 }

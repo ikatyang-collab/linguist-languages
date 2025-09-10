@@ -1,9 +1,9 @@
 export default {
   name: 'Promela',
   type: 'programming',
-  color: '#de0000',
-  extensions: ['.pml'],
-  tmScope: 'source.promela',
   aceMode: 'text',
+  extensions: ['.pml'],
   languageId: 441858312,
+  tmScope: 'source.promela',
+  color: '#de0000',
 }

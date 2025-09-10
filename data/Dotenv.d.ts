@@ -1,11 +1,8 @@
 declare const _: {
   name: 'Dotenv'
   type: 'data'
-  color: '#e5d559'
-  extensions: ['.env']
-  tmScope: 'source.dotenv'
   aceMode: 'text'
-  languageId: 111148035
+  extensions: ['.env']
   filenames: [
     '.env',
     '.env.ci',
@@ -22,5 +19,8 @@ declare const _: {
     '.env.test',
     '.env.testing',
   ]
+  languageId: 111148035
+  tmScope: 'source.dotenv'
+  color: '#e5d559'
 }
 export = _

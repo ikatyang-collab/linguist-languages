@@ -1,11 +1,11 @@
 declare const _: {
   name: 'WDL'
   type: 'programming'
-  color: '#42f1f4'
-  extensions: ['.wdl']
-  tmScope: 'source.wdl'
   aceMode: 'text'
+  extensions: ['.wdl']
   languageId: 374521672
+  tmScope: 'source.wdl'
   aliases: ['Workflow Description Language']
+  color: '#42f1f4'
 }
 export = _

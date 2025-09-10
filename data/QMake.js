@@ -1,9 +1,9 @@
 module.exports = {
   name: 'QMake',
   type: 'programming',
-  extensions: ['.pro', '.pri'],
-  tmScope: 'source.qmake',
   aceMode: 'text',
+  extensions: ['.pro', '.pri'],
   languageId: 306,
+  tmScope: 'source.qmake',
   interpreters: ['qmake'],
 }

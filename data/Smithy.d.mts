@@ -1,12 +1,12 @@
 declare const _: {
   name: 'Smithy'
   type: 'programming'
-  color: '#c44536'
-  extensions: ['.smithy']
-  tmScope: 'source.smithy'
   aceMode: 'smithy'
+  extensions: ['.smithy']
   languageId: 1027892786
+  tmScope: 'source.smithy'
   codemirrorMode: 'clike'
   codemirrorMimeType: 'text/x-csrc'
+  color: '#c44536'
 }
 export default _

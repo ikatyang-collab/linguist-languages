@@ -1,13 +1,13 @@
 declare const _: {
   name: 'Terra'
   type: 'programming'
-  color: '#00004c'
-  extensions: ['.t']
-  tmScope: 'source.terra'
   aceMode: 'lua'
+  extensions: ['.t']
   languageId: 371
+  tmScope: 'source.terra'
   codemirrorMode: 'lua'
   codemirrorMimeType: 'text/x-lua'
+  color: '#00004c'
   interpreters: ['lua']
 }
 export = _

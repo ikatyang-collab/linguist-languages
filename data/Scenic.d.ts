@@ -1,11 +1,11 @@
 declare const _: {
   name: 'Scenic'
   type: 'programming'
-  color: '#fdc700'
-  extensions: ['.scenic']
-  tmScope: 'source.scenic'
   aceMode: 'text'
+  extensions: ['.scenic']
   languageId: 619814037
+  tmScope: 'source.scenic'
+  color: '#fdc700'
   interpreters: ['scenic']
 }
 export = _

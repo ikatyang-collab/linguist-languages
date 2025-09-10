@@ -1,13 +1,13 @@
 declare const _: {
   name: 'Standard ML'
   type: 'programming'
-  color: '#dc566d'
-  extensions: ['.ml', '.fun', '.sig', '.sml']
-  tmScope: 'source.ml'
   aceMode: 'text'
+  extensions: ['.ml', '.fun', '.sig', '.sml']
   languageId: 357
+  tmScope: 'source.ml'
   aliases: ['sml']
   codemirrorMode: 'mllike'
   codemirrorMimeType: 'text/x-sml'
+  color: '#dc566d'
 }
 export = _

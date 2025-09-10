@@ -1,8 +1,8 @@
 export default {
   name: 'Linear Programming',
   type: 'programming',
-  extensions: ['.lp'],
-  tmScope: 'none',
   aceMode: 'text',
+  extensions: ['.lp'],
   languageId: 377204539,
+  tmScope: 'none',
 }

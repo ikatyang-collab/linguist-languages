@@ -1,9 +1,9 @@
 export default {
   name: 'CartoCSS',
   type: 'programming',
-  extensions: ['.mss'],
-  tmScope: 'source.css.mss',
   aceMode: 'text',
+  extensions: ['.mss'],
   languageId: 53,
+  tmScope: 'source.css.mss',
   aliases: ['Carto'],
 }

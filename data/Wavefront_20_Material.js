@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Wavefront Material',
   type: 'data',
-  extensions: ['.mtl'],
-  tmScope: 'source.wavefront.mtl',
   aceMode: 'text',
+  extensions: ['.mtl'],
   languageId: 392,
+  tmScope: 'source.wavefront.mtl',
 }
