@@ -1,4 +1,4 @@
-# Data downloaded at 2025-09-10T00:36:35.102Z from https://gh-proxy.com/raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml
+# Data downloaded at 2025-09-10T02:06:06.858Z
 # Defines all languages known to GitHub.
 #
 # Required fields:
@@ -3594,7 +3594,7 @@ JavaScript:
   - ".jspre"
   - ".jss"
   - ".jsx"
-  - ".js"
+  - ".mjs"
   - ".njs"
   - ".pac"
   - ".sjs"
@@ -7822,7 +7822,7 @@ TypeScript:
   extensions:
   - ".ts"
   - ".cts"
-  - ".ts"
+  - ".mts"
   tm_scope: source.ts
   ace_mode: typescript
   codemirror_mode: javascript

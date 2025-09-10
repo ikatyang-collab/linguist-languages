@@ -2,7 +2,7 @@ export default {
   name: 'TypeScript',
   type: 'programming',
   aceMode: 'typescript',
-  extensions: ['.ts', '.cts', '.ts'],
+  extensions: ['.ts', '.cts', '.mts'],
   languageId: 378,
   tmScope: 'source.ts',
   aliases: ['ts'],

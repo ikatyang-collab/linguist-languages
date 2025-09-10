@@ -7,7 +7,7 @@ async function downloadData() {
     DATA_URLS.map(async url => {
       const text = await fetchText(url)
       return outdent`
-        # Data downloaded at ${new Date().toISOString()} from ${url}
+        # Data downloaded at ${new Date().toISOString()}
         ${text}
       `
     }),
