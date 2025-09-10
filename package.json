@@ -1,7 +1,8 @@
 {
   "name": "linguist-languages",
   "version": "8.2.0",
-  "types": "lib/index.d.mts",
+  "type": "module",
+  "types": "lib/index.d.ts",
   "description": "Linguist languages data",
   "keywords": [
     "data",
@@ -10,8 +11,8 @@
     "linguist"
   ],
   "exports": {
-    ".": "./lib/index.mjs",
-    "./data/*": "./data/*.mjs"
+    ".": "./lib/index.js",
+    "./data/*": "./data/*.js"
   },
   "repository": "https://github.com/ikatyang-collab/linguist-languages",
   "homepage": "https://github.com/ikatyang-collab/linguist-languages#readme",
@@ -27,7 +28,7 @@
     "fix": "prettier --write .",
     "check": "tsc",
     "test": "vitest",
-    "build": "node ./scripts/build.mjs"
+    "build": "node ./scripts/build.js"
   },
   "devDependencies": {
     "@types/node": "24.3.1",
@@ -52,5 +53,6 @@
     "onlyBuiltDependencies": [
       "esbuild"
     ]
-  }
+  },
+  "sideEffects": false
 }

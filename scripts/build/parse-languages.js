@@ -5,7 +5,7 @@ import {
   NAME_FIELD,
   FILE_BASE_NAME_FIELD,
   EXCLUDED_FIELDS,
-} from './constants.mjs'
+} from './constants.js'
 
 function parseLanguages(content) {
   const seenFileBaseNames = new Set()

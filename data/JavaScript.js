@@ -21,7 +21,7 @@ export default {
     '.jspre',
     '.jss',
     '.jsx',
-    '.mjs',
+    '.js',
     '.njs',
     '.pac',
     '.sjs',

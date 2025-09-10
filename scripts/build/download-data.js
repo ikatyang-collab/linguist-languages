@@ -1,6 +1,6 @@
 import { outdent } from 'outdent'
-import { PROJECT_ROOT, DATA_URLS, DATA_FILE } from './constants.mjs'
-import { writeFile, fetchText, readFile } from './utilities.mjs'
+import { PROJECT_ROOT, DATA_URLS, DATA_FILE } from './constants.js'
+import { writeFile, fetchText, readFile } from './utilities.js'
 
 async function downloadData() {
   const data = await Promise.any(

@@ -3,10 +3,10 @@ import fs from 'node:fs/promises'
 import url from 'node:url'
 import * as prettier from 'prettier'
 import { outdent } from 'outdent'
-import { writeFile, fetchText, getType } from './utilities.mjs'
-import parseLanguages from './parse-languages.mjs'
-import parseFields from './parse-fields.mjs'
-import { NAME_FIELD, FILE_BASE_NAME_FIELD } from './constants.mjs'
+import { writeFile, fetchText, getType } from './utilities.js'
+import parseLanguages from './parse-languages.js'
+import parseFields from './parse-fields.js'
+import { NAME_FIELD, FILE_BASE_NAME_FIELD } from './constants.js'
 
 function* generateFiles(data, options) {
   const languages = parseLanguages(data)
@@ -15,7 +15,7 @@ function* generateFiles(data, options) {
   const interfaceIdentifier = 'Language'
 
   yield {
-    file: 'lib/index.mjs',
+    file: 'lib/index.js',
     content: languages
       .map(
         language =>
@@ -23,7 +23,7 @@ function* generateFiles(data, options) {
             export {
               default as ${JSON.stringify(language.name)}
             } from ${JSON.stringify(
-              `../data/${language[FILE_BASE_NAME_FIELD]}.mjs`,
+              `../data/${language[FILE_BASE_NAME_FIELD]}.js`,
             )};
           `,
       )
@@ -52,7 +52,7 @@ function* generateFiles(data, options) {
   `
 
   yield {
-    file: 'lib/index.d.mts',
+    file: 'lib/index.d.ts',
     content: outdent`
       export type ${languageNameIdentifier} = ${languages
         .map(language => `${JSON.stringify(language.name)}`)
@@ -67,7 +67,7 @@ function* generateFiles(data, options) {
               export {
                 default as ${JSON.stringify(language.name)},
               } from ${JSON.stringify(
-                `../data/${language[FILE_BASE_NAME_FIELD]}.mjs`,
+                `../data/${language[FILE_BASE_NAME_FIELD]}.js`,
               )};
             `,
         )
@@ -90,11 +90,11 @@ function* generateFiles(data, options) {
 
     const basename = language[FILE_BASE_NAME_FIELD]
     yield {
-      file: `data/${basename}.mjs`,
+      file: `data/${basename}.js`,
       content: `export default ${dataString}`,
     }
     yield {
-      file: `data/${basename}.d.mts`,
+      file: `data/${basename}.d.ts`,
       content: outdent`
         declare const _: ${dataString}
         export default _
