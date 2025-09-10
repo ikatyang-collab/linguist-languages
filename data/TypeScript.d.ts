@@ -2,7 +2,7 @@ declare const _: {
   name: 'TypeScript'
   type: 'programming'
   aceMode: 'typescript'
-  extensions: ['.ts', '.cts', '.mts']
+  extensions: ['.ts', '.cts', '.ts']
   languageId: 378
   tmScope: 'source.ts'
   aliases: ['ts']

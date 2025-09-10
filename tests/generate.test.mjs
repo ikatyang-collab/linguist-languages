@@ -8,7 +8,7 @@ import {
   parseLanguages,
   DATA_FILE,
   readFile,
-} from '../scripts/build/index.mjs'
+} from '../scripts/build/index.js'
 
 expect.addSnapshotSerializer(serializer)
 

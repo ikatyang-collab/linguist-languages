@@ -11,7 +11,7 @@ import {
   DATA_URLS,
   DATA_FILE,
   downloadData,
-} from './build/index.mjs'
+} from './build/index.js'
 
 const { values: options } = parseArgs({
   options: {

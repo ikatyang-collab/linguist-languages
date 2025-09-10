@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict'
 import { outdent } from 'outdent'
 import camelcase from 'camelcase'
-import { NAME_FIELD, EXCLUDED_FIELDS } from './constants.mjs'
-import { getType } from './utilities.mjs'
-import parseLanguages from './parse-languages.mjs'
+import { NAME_FIELD, EXCLUDED_FIELDS } from './constants.js'
+import { getType } from './utilities.js'
+import parseLanguages from './parse-languages.js'
 
 function parseFieldsContent(lines, required) {
   assert(lines.every(line => line.startsWith(' '.repeat(3))))

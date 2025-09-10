@@ -3594,7 +3594,7 @@ JavaScript:
   - ".jspre"
   - ".jss"
   - ".jsx"
-  - ".mjs"
+  - ".js"
   - ".njs"
   - ".pac"
   - ".sjs"
@@ -7822,7 +7822,7 @@ TypeScript:
   extensions:
   - ".ts"
   - ".cts"
-  - ".mts"
+  - ".ts"
   tm_scope: source.ts
   ace_mode: typescript
   codemirror_mode: javascript

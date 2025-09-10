@@ -30,7 +30,7 @@ Use "none" if there is no TextMate grammar for this language.",
 }
 `;
 
-exports[`generateFiles > data/F_2a_.d.mts 1`] = `
+exports[`generateFiles > data/F_2a_.d.ts 1`] = `
 declare const _: {
   "name": "F*",
   "type": "programming",
@@ -48,7 +48,7 @@ declare const _: {
 export default _
 `;
 
-exports[`generateFiles > data/F_2a_.mjs 1`] = `
+exports[`generateFiles > data/F_2a_.js 1`] = `
 export default {
   "name": "F*",
   "type": "programming",
@@ -65,7 +65,7 @@ export default {
 }
 `;
 
-exports[`generateFiles > data/Test_20_Test_20_2.d.mts 1`] = `
+exports[`generateFiles > data/Test_20_Test_20_2.d.ts 1`] = `
 declare const _: {
   "name": "Test Test 2",
   "type": "programming",
@@ -80,7 +80,7 @@ declare const _: {
 export default _
 `;
 
-exports[`generateFiles > data/Test_20_Test_20_2.mjs 1`] = `
+exports[`generateFiles > data/Test_20_Test_20_2.js 1`] = `
 export default {
   "name": "Test Test 2",
   "type": "programming",
@@ -94,7 +94,7 @@ export default {
 }
 `;
 
-exports[`generateFiles > data/Test1.d.mts 1`] = `
+exports[`generateFiles > data/Test1.d.ts 1`] = `
 declare const _: {
   "name": "Test1",
   "type": "programming",
@@ -113,7 +113,7 @@ declare const _: {
 export default _
 `;
 
-exports[`generateFiles > data/Test1.mjs 1`] = `
+exports[`generateFiles > data/Test1.js 1`] = `
 export default {
   "name": "Test1",
   "type": "programming",
@@ -131,7 +131,7 @@ export default {
 }
 `;
 
-exports[`generateFiles > lib/index.d.mts 1`] = `
+exports[`generateFiles > lib/index.d.ts 1`] = `
 export type LanguageName = "Test1"
 | "Test Test 2"
 | "F*";
@@ -208,23 +208,23 @@ readonly wrap?: boolean;
 
 export {
   default as "Test1",
-} from "../data/Test1.mjs";
+} from "../data/Test1.js";
 export {
   default as "Test Test 2",
-} from "../data/Test_20_Test_20_2.mjs";
+} from "../data/Test_20_Test_20_2.js";
 export {
   default as "F*",
-} from "../data/F_2a_.mjs";
+} from "../data/F_2a_.js";
 `;
 
-exports[`generateFiles > lib/index.mjs 1`] = `
+exports[`generateFiles > lib/index.js 1`] = `
 export {
   default as "Test1"
-} from "../data/Test1.mjs";
+} from "../data/Test1.js";
 export {
   default as "Test Test 2"
-} from "../data/Test_20_Test_20_2.mjs";
+} from "../data/Test_20_Test_20_2.js";
 export {
   default as "F*"
-} from "../data/F_2a_.mjs";
+} from "../data/F_2a_.js";
 `;
