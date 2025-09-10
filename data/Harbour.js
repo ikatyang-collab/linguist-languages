@@ -1,9 +1,0 @@
-module.exports = {
-  name: 'Harbour',
-  type: 'programming',
-  aceMode: 'text',
-  extensions: ['.hb'],
-  languageId: 156,
-  tmScope: 'source.harbour',
-  color: '#0e60e3',
-}
