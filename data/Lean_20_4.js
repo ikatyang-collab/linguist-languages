@@ -5,5 +5,6 @@ export default {
   extensions: ['.lean'],
   languageId: 455147478,
   tmScope: 'source.lean4',
+  aliases: ['lean4'],
   group: 'Lean',
 }

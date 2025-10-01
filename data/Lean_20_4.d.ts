@@ -5,6 +5,7 @@ declare const _: {
   extensions: ['.lean']
   languageId: 455147478
   tmScope: 'source.lean4'
+  aliases: ['lean4']
   group: 'Lean'
 }
 export default _
