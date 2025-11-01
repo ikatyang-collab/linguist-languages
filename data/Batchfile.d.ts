@@ -3,6 +3,7 @@ declare const _: {
   type: 'programming'
   aceMode: 'batchfile'
   extensions: ['.bat', '.cmd']
+  filenames: ['gradlew.bat', 'mvnw.cmd']
   languageId: 29
   tmScope: 'source.batchfile'
   aliases: ['bat', 'batch', 'dosbatch', 'winbatch']
