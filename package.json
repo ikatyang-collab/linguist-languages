@@ -1,6 +1,6 @@
 {
   "name": "linguist-languages",
-  "version": "9.0.0",
+  "version": "9.1.0",
   "type": "module",
   "types": "lib/index.d.ts",
   "description": "Linguist languages data",
