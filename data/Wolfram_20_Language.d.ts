@@ -1,5 +1,5 @@
 declare const _: {
-  name: 'Mathematica'
+  name: 'Wolfram Language'
   type: 'programming'
   aceMode: 'text'
   extensions: [
@@ -11,13 +11,24 @@ declare const _: {
     '.nb',
     '.nbp',
     '.wl',
+    '.wls',
     '.wlt',
   ]
   languageId: 224
   tmScope: 'source.mathematica'
-  aliases: ['mma', 'wolfram', 'wolfram language', 'wolfram lang', 'wl']
+  aliases: ['mathematica', 'mma', 'wolfram', 'wolfram lang', 'wl']
   codemirrorMode: 'mathematica'
   codemirrorMimeType: 'text/x-mathematica'
   color: '#dd1100'
+  interpreters: [
+    'wolfram',
+    'WolframKernel',
+    'wolframscript',
+    'math',
+    'MathKernel',
+    'MathematicaScript',
+    'WolframNB',
+    'Mathematica',
+  ]
 }
 export default _

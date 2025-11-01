@@ -1,5 +1,5 @@
 export default {
-  name: 'KoLMafia ASH',
+  name: 'KoLmafia ASH',
   type: 'programming',
   aceMode: 'text',
   extensions: ['.ash'],
