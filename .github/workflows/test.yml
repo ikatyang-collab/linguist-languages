@@ -1,3 +1,5 @@
+name: Test
+
 on:
   push:
     branches:
@@ -15,18 +17,21 @@ jobs:
       - uses: actions/checkout@v6
       - uses: ./.github/actions/setup
       - run: pnpm run lint
+
   check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: ./.github/actions/setup
       - run: pnpm run check
+
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: ./.github/actions/setup
       - run: pnpm run build
+
   test:
     runs-on: ubuntu-latest
     steps:
