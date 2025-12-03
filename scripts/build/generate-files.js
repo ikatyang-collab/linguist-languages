@@ -15,7 +15,7 @@ function* generateFiles(data, options) {
   const interfaceIdentifier = 'Language'
 
   yield {
-    file: 'lib/index.js',
+    file: 'index.js',
     content: languages
       .map(
         language =>
@@ -23,7 +23,7 @@ function* generateFiles(data, options) {
             export {
               default as ${JSON.stringify(language.name)}
             } from ${JSON.stringify(
-              `../data/${language[FILE_BASE_NAME_FIELD]}.js`,
+              `./data/${language[FILE_BASE_NAME_FIELD]}.js`,
             )};
           `,
       )
@@ -52,7 +52,7 @@ function* generateFiles(data, options) {
   `
 
   yield {
-    file: 'lib/index.d.ts',
+    file: 'index.d.ts',
     content: outdent`
       export type ${languageNameIdentifier} = ${languages
         .map(language => `${JSON.stringify(language.name)}`)
@@ -67,7 +67,7 @@ function* generateFiles(data, options) {
               export {
                 default as ${JSON.stringify(language.name)},
               } from ${JSON.stringify(
-                `../data/${language[FILE_BASE_NAME_FIELD]}.js`,
+                `./data/${language[FILE_BASE_NAME_FIELD]}.js`,
               )};
             `,
         )

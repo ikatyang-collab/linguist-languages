@@ -11,7 +11,7 @@
     "linguist"
   ],
   "exports": {
-    ".": "./lib/index.js",
+    ".": "./index.js",
     "./data/*": "./data/*.js"
   },
   "repository": "https://github.com/ikatyang-collab/linguist-languages",
@@ -44,7 +44,8 @@
     "yaml": "2.8.1"
   },
   "files": [
-    "/lib/**/*",
+    "/index.js",
+    "/index.d.ts",
     "/data/**/*",
     "/ThirdPartyNoticeText.txt"
   ],

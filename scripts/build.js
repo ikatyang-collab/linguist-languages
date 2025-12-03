@@ -24,11 +24,7 @@ let data =
   (options.update ? '' : await readFile(DATA_FILE)) || (await downloadData())
 
 if (!options.dry) {
-  await Promise.all(
-    ['lib/', 'data/'].map(directory =>
-      fs.rm(new URL(directory, PROJECT_ROOT), { recursive: true, force: true }),
-    ),
-  )
+  await fs.rm(new URL('./data/', PROJECT_ROOT), { recursive: true, force: true }),
 }
 
 await Promise.all(

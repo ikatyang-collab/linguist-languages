@@ -131,7 +131,7 @@ export default {
 }
 `;
 
-exports[`generateFiles > lib/index.d.ts 1`] = `
+exports[`generateFiles > index.d.ts 1`] = `
 export type LanguageName = "Test1"
 | "Test Test 2"
 | "F*";
@@ -208,23 +208,23 @@ readonly wrap?: boolean;
 
 export {
   default as "Test1",
-} from "../data/Test1.js";
+} from "./data/Test1.js";
 export {
   default as "Test Test 2",
-} from "../data/Test_20_Test_20_2.js";
+} from "./data/Test_20_Test_20_2.js";
 export {
   default as "F*",
-} from "../data/F_2a_.js";
+} from "./data/F_2a_.js";
 `;
 
-exports[`generateFiles > lib/index.js 1`] = `
+exports[`generateFiles > index.js 1`] = `
 export {
   default as "Test1"
-} from "../data/Test1.js";
+} from "./data/Test1.js";
 export {
   default as "Test Test 2"
-} from "../data/Test_20_Test_20_2.js";
+} from "./data/Test_20_Test_20_2.js";
 export {
   default as "F*"
-} from "../data/F_2a_.js";
+} from "./data/F_2a_.js";
 `;

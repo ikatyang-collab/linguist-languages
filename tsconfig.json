@@ -1,5 +1,5 @@
 {
-  "include": ["lib/**/*", "data/**/*"],
+  "include": ["index.js", "data/**/*"],
   "compilerOptions": {
     "strict": true,
     "module": "Node16",

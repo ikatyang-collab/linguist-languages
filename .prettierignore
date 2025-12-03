@@ -1,4 +1,5 @@
-/lib
+/index.js
+/index.d.ts
 /data
 /pnpm-lock.yaml
 /scripts/data.yml
