@@ -8,5 +8,8 @@ runs:
       with:
         cache: pnpm
         registry-url: 'https://registry.npmjs.org'
+        # Required to update npm
+        # https://github.com/actions/runner-images/issues/9644
+        node-version: 'lts/*'
     - run: pnpm install
       shell: bash
