@@ -14,4 +14,5 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - uses: ./.github/actions/setup
+      - run: npm --version
       - run: npm publish
