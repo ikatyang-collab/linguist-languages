@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - uses: ./.github/actions/setup
-      - run: pnpm publish --no-git-checks --provenance
+      - run: npm publish --provenance
