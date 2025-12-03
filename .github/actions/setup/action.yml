@@ -4,9 +4,12 @@ runs:
   using: composite
   steps:
     - uses: pnpm/action-setup@v4
-    - uses: actions/setup-node@v4
+    - uses: actions/setup-node@v6
       with:
         cache: pnpm
         registry-url: 'https://registry.npmjs.org'
+        # Required to update npm
+        # https://github.com/actions/runner-images/issues/9644
+        node-version: 'lts/*'
     - run: pnpm install
       shell: bash
