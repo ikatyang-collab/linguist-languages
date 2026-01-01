@@ -19,7 +19,6 @@ const { values: options } = parseArgs({
   },
 })
 
-let data
 if (options.update) {
   const text = await downloadText({
     url: 'https://api.github.com/repos/github-linguist/linguist/releases/latest',
@@ -37,9 +36,11 @@ if (options.update) {
   await writeFile(DATA_FILE, `# Version: ${version}\n${data}`, {
     format: false,
   })
-} else {
-  data = await readFile(DATA_FILE)
 }
+
+let data = await readFile(DATA_FILE)
+assert.ok(data.startsWith('# Version:'))
+data = data.split('\n').slice(1).join('\n')
 
 if (!options.dry) {
   await fs.rm(new URL('./data/', PROJECT_ROOT), {
