@@ -18,6 +18,6 @@ declare const _: {
   codemirrorMode: 'lua'
   codemirrorMimeType: 'text/x-lua'
   color: '#000080'
-  interpreters: ['lua']
+  interpreters: ['lua', 'luajit']
 }
 export default _

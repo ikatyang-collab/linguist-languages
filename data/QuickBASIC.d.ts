@@ -2,7 +2,7 @@ declare const _: {
   name: 'QuickBASIC'
   type: 'programming'
   aceMode: 'text'
-  extensions: ['.bas']
+  extensions: ['.bas', '.bi']
   languageId: 593107205
   tmScope: 'source.QB64'
   aliases: ['qb', 'qbasic', 'qb64', 'classic qbasic', 'classic quickbasic']
