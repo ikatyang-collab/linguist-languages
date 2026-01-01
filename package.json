@@ -34,17 +34,17 @@
     "release": "release-it"
   },
   "devDependencies": {
-    "@types/node": "24.10.1",
-    "@vitest/coverage-v8": "4.0.15",
+    "@types/node": "25.0.3",
+    "@vitest/coverage-v8": "4.0.16",
     "camelcase": "9.0.0",
     "jest-snapshot-serializer-raw": "2.0.0",
     "node-style-text": "2.1.2",
     "outdent": "0.8.0",
     "prettier": "3.7.4",
-    "release-it": "^19.0.6",
+    "release-it": "19.2.2",
     "typescript": "5.9.3",
-    "vite": "7.2.6",
-    "vitest": "4.0.15",
+    "vite": "7.3.0",
+    "vitest": "4.0.16",
     "yaml": "2.8.2"
   },
   "files": [
