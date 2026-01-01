@@ -3,6 +3,7 @@ declare const _: {
   type: 'data'
   aceMode: 'text'
   filenames: [
+    'dev-requirements.txt',
     'requirements-dev.txt',
     'requirements.lock.txt',
     'requirements.txt',

@@ -20,6 +20,7 @@ export default {
     '.sublime-workspace',
     '.sublime_metrics',
     '.sublime_session',
+    '.tsconfig.json',
   ],
   filenames: [
     '.babelrc',
@@ -28,6 +29,7 @@ export default {
     '.jscsrc',
     '.jshintrc',
     '.jslintrc',
+    '.oxlintrc.json',
     '.swcrc',
     'api-extractor.json',
     'devcontainer.json',
