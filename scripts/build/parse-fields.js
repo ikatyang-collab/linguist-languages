@@ -37,7 +37,7 @@ function parseFieldsContent(lines, required) {
 }
 
 const stripDownloadInformation = data => {
-  if (data.startsWith('# Data downloaded at')) {
+  if (data.startsWith('# Version: ')) {
     return data.slice(data.indexOf('\n') + 1)
   }
 
