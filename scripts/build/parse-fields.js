@@ -36,8 +36,8 @@ function parseFieldsContent(lines, required) {
   return fields
 }
 
-const stripVersionInformation = data => {
-  if (data.startsWith('# Version: ')) {
+const stripDownloadInformation = data => {
+  if (data.startsWith('# Data downloaded at')) {
     return data.slice(data.indexOf('\n') + 1)
   }
 
@@ -45,7 +45,7 @@ const stripVersionInformation = data => {
 }
 
 function parseFields(data, languages = parseLanguages(data)) {
-  data = stripVersionInformation(data)
+  data = stripDownloadInformation(data)
 
   const expectedHeadText =
     outdent`
