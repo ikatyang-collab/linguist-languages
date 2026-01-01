@@ -36,7 +36,17 @@ function parseFieldsContent(lines, required) {
   return fields
 }
 
+const stripVersionInformation = data => {
+  if (data.startsWith('# Version: ')) {
+    return data.slice(data.indexOf('\n') + 1)
+  }
+
+  return data
+}
+
 function parseFields(data, languages = parseLanguages(data)) {
+  data = stripVersionInformation(data)
+
   const expectedHeadText =
     outdent`
       # Defines all languages known to GitHub.
