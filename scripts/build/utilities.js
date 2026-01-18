@@ -29,8 +29,51 @@ export async function writeFile(file, content, { format = true } = {}) {
 }
 
 export async function fetchText(url) {
-  const response = await fetch(url)
-  const text = await response.text()
+  const urlObject = new URL(url)
+  const urls =
+    urlObject.hostname.endsWith('.github.com') ||
+    urlObject.hostname.endsWith('raw.githubusercontent.com')
+      ? [
+          url,
+          `https://gh-proxy.org/${url}`,
+          `https://hk.gh-proxy.org/${url}`,
+          `https://cdn.gh-proxy.org/${url}`,
+          `https://edgeone.gh-proxy.org/${url}`,
+        ]
+      : [url]
+  const text = await Promise.any(
+    urls.map(async url => {
+      const response = await fetch(url)
+      if (!response.ok) {
+        throw Object.assign(new Error(`Request '${url}' failure.`), {
+          response,
+        })
+      }
+      return response.text()
+    }),
+  )
+  return text
+}
+
+export async function downloadText({ url, cacheFile }) {
+  let stat
+  try {
+    stat = await fs.stat(cacheFile)
+  } catch {}
+
+  if (stat) {
+    if (Date.now() - stat.ctimeMs < /* 10 hours */ 10 * 60 * 60 * 1000) {
+      return fs.readFile(cacheFile, 'utf8')
+    }
+
+    await fs.rm(cacheFile)
+  }
+
+  const text = await fetchText(url)
+
+  await fs.mkdir(new URL('./', cacheFile), { recursive: true })
+  await fs.writeFile(cacheFile, text)
+
   return text
 }
 
