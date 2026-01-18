@@ -32,19 +32,16 @@ Use "none" if there is no TextMate grammar for this language.",
 
 exports[`generateFiles > data/F_2a_.d.ts 1`] = `
 declare const _: {
-  "name": "F*",
-  "type": "programming",
-  "aceMode": "text",
-  "extensions": [
-    ".fst"
-  ],
-  "languageId": 336943375,
-  "tmScope": "source.fstar",
-  "aliases": [
-    "fstar"
-  ],
-  "color": "#572e30"
+  readonly "name": "F*";
+  readonly "type": "programming";
+  readonly "aceMode": "text";
+  readonly "extensions": readonly [".fst"];
+  readonly "languageId": 336943375;
+  readonly "tmScope": "source.fstar";
+  readonly "aliases": readonly ["fstar"];
+  readonly "color": "#572e30";
 }
+
 export default _
 `;
 
@@ -67,16 +64,15 @@ export default {
 
 exports[`generateFiles > data/Test_20_Test_20_2.d.ts 1`] = `
 declare const _: {
-  "name": "Test Test 2",
-  "type": "programming",
-  "aceMode": "abap",
-  "extensions": [
-    ".abap"
-  ],
-  "languageId": 1,
-  "color": "#E8274B",
-  "wrap": true
+  readonly "name": "Test Test 2";
+  readonly "type": "programming";
+  readonly "aceMode": "abap";
+  readonly "extensions": readonly [".abap"];
+  readonly "languageId": 1;
+  readonly "color": "#E8274B";
+  readonly "wrap": true;
 }
+
 export default _
 `;
 
@@ -96,20 +92,16 @@ export default {
 
 exports[`generateFiles > data/Test1.d.ts 1`] = `
 declare const _: {
-  "name": "Test1",
-  "type": "programming",
-  "aceMode": "text",
-  "extensions": [
-    ".bsl",
-    ".os"
-  ],
-  "languageId": 0,
-  "tmScope": "source.bsl",
-  "aliases": [
-    "hello"
-  ],
-  "color": "#814CCC"
+  readonly "name": "Test1";
+  readonly "type": "programming";
+  readonly "aceMode": "text";
+  readonly "extensions": readonly [".bsl",".os"];
+  readonly "languageId": 0;
+  readonly "tmScope": "source.bsl";
+  readonly "aliases": readonly ["hello"];
+  readonly "color": "#814CCC";
 }
+
 export default _
 `;
 
@@ -140,7 +132,7 @@ export interface Language {
   /**
 * Language name.
 */
-readonly name: string;
+readonly name: LanguageName;
 /**
 * Either "data", "programming", "markup" or "prose".
 */

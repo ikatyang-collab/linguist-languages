@@ -102,7 +102,7 @@ function* generateFiles(data, options) {
           .filter(([, value]) => value !== undefined)
           .map(
             ([field, value]) =>
-              `readonly ${JSON.stringify(field)}: ${Array.isArray(value) ? 'readonly ' : ''}${JSON.stringify(value)}`,
+              `  readonly ${JSON.stringify(field)}: ${Array.isArray(value) ? 'readonly ' : ''}${JSON.stringify(value)};`,
           )
           .join('\n')}
         }
