@@ -4,7 +4,7 @@ declare const _: {
   readonly aceMode: 'vue'
   readonly extensions: readonly ['.vue']
   readonly languageId: 391
-  readonly tmScope: 'source.vue'
+  readonly tmScope: 'text.html.vue'
   readonly codemirrorMode: 'vue'
   readonly codemirrorMimeType: 'text/x-vue'
   readonly color: '#41b883'

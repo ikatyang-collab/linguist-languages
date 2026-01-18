@@ -4,7 +4,7 @@ declare const _: {
   readonly aceMode: 'tsv'
   readonly extensions: readonly ['.tsv', '.vcf']
   readonly languageId: 1035892117
-  readonly tmScope: 'source.generic-db'
+  readonly tmScope: 'source.tsv'
   readonly aliases: readonly ['tab-seperated values']
   readonly color: '#237346'
 }

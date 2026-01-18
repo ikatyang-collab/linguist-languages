@@ -5,6 +5,7 @@ export default {
   extensions: ['.gts'],
   languageId: 95110458,
   tmScope: 'source.gts',
+  aliases: ['gts'],
   color: '#3178c6',
   group: 'TypeScript',
 }

@@ -5,6 +5,7 @@ declare const _: {
   readonly extensions: readonly ['.gjs']
   readonly languageId: 5523150
   readonly tmScope: 'source.gjs'
+  readonly aliases: readonly ['gjs']
   readonly color: '#F5835F'
   readonly group: 'JavaScript'
 }

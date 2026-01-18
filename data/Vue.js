@@ -4,7 +4,7 @@ export default {
   aceMode: 'vue',
   extensions: ['.vue'],
   languageId: 391,
-  tmScope: 'source.vue',
+  tmScope: 'text.html.vue',
   codemirrorMode: 'vue',
   codemirrorMimeType: 'text/x-vue',
   color: '#41b883',
