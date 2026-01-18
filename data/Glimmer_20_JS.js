@@ -5,6 +5,7 @@ export default {
   extensions: ['.gjs'],
   languageId: 5523150,
   tmScope: 'source.gjs',
+  aliases: ['gjs'],
   color: '#F5835F',
   group: 'JavaScript',
 }

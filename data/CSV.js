@@ -4,6 +4,6 @@ export default {
   aceMode: 'csv',
   extensions: ['.csv'],
   languageId: 51,
-  tmScope: 'none',
+  tmScope: 'source.csv',
   color: '#237346',
 }

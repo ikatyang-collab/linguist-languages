@@ -4,7 +4,7 @@ export default {
   aceMode: 'tsv',
   extensions: ['.tsv', '.vcf'],
   languageId: 1035892117,
-  tmScope: 'source.generic-db',
+  tmScope: 'source.tsv',
   aliases: ['tab-seperated values'],
   color: '#237346',
 }
