@@ -1,14 +1,15 @@
 declare const _: {
-  name: 'HTML+ECR'
-  type: 'markup'
-  aceMode: 'html_ruby'
-  extensions: ['.ecr']
-  languageId: 148
-  tmScope: 'text.html.ecr'
-  aliases: ['ecr']
-  codemirrorMode: 'htmlmixed'
-  codemirrorMimeType: 'text/html'
-  color: '#2e1052'
-  group: 'HTML'
+  readonly name: 'HTML+ECR'
+  readonly type: 'markup'
+  readonly aceMode: 'html_ruby'
+  readonly extensions: readonly ['.ecr']
+  readonly languageId: 148
+  readonly tmScope: 'text.html.ecr'
+  readonly aliases: readonly ['ecr']
+  readonly codemirrorMode: 'htmlmixed'
+  readonly codemirrorMimeType: 'text/html'
+  readonly color: '#2e1052'
+  readonly group: 'HTML'
 }
+
 export default _

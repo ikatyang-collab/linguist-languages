@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Hosts File'
-  type: 'data'
-  aceMode: 'text'
-  filenames: ['HOSTS', 'hosts', 'hosts.txt']
-  languageId: 231021894
-  tmScope: 'source.hosts'
-  aliases: ['hosts']
-  color: '#308888'
+  readonly name: 'Hosts File'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly filenames: readonly ['HOSTS', 'hosts', 'hosts.txt']
+  readonly languageId: 231021894
+  readonly tmScope: 'source.hosts'
+  readonly aliases: readonly ['hosts']
+  readonly color: '#308888'
 }
+
 export default _

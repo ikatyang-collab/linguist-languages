@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'Shell'
-  type: 'programming'
-  aceMode: 'sh'
-  extensions: [
+  readonly name: 'Shell'
+  readonly type: 'programming'
+  readonly aceMode: 'sh'
+  readonly extensions: readonly [
     '.sh',
     '.bash',
     '.bats',
@@ -17,7 +17,7 @@ declare const _: {
     '.zsh',
     '.zsh-theme',
   ]
-  filenames: [
+  readonly filenames: readonly [
     '.bash_aliases',
     '.bash_functions',
     '.bash_history',
@@ -60,13 +60,13 @@ declare const _: {
     'zshenv',
     'zshrc',
   ]
-  languageId: 346
-  tmScope: 'source.shell'
-  aliases: ['sh', 'shell-script', 'bash', 'zsh', 'envrc']
-  codemirrorMode: 'shell'
-  codemirrorMimeType: 'text/x-sh'
-  color: '#89e051'
-  interpreters: [
+  readonly languageId: 346
+  readonly tmScope: 'source.shell'
+  readonly aliases: readonly ['sh', 'shell-script', 'bash', 'zsh', 'envrc']
+  readonly codemirrorMode: 'shell'
+  readonly codemirrorMimeType: 'text/x-sh'
+  readonly color: '#89e051'
+  readonly interpreters: readonly [
     'ash',
     'bash',
     'dash',
@@ -78,4 +78,5 @@ declare const _: {
     'zsh',
   ]
 }
+
 export default _

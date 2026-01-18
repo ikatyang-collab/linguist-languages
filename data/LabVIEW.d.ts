@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'LabVIEW'
-  type: 'programming'
-  aceMode: 'xml'
-  extensions: ['.lvproj', '.lvclass', '.lvlib']
-  languageId: 194
-  tmScope: 'text.xml'
-  codemirrorMode: 'xml'
-  codemirrorMimeType: 'text/xml'
-  color: '#fede06'
+  readonly name: 'LabVIEW'
+  readonly type: 'programming'
+  readonly aceMode: 'xml'
+  readonly extensions: readonly ['.lvproj', '.lvclass', '.lvlib']
+  readonly languageId: 194
+  readonly tmScope: 'text.xml'
+  readonly codemirrorMode: 'xml'
+  readonly codemirrorMimeType: 'text/xml'
+  readonly color: '#fede06'
 }
+
 export default _

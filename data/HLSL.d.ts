@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'HLSL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.hlsl', '.cginc', '.fx', '.fxh', '.hlsli']
-  languageId: 145
-  tmScope: 'source.hlsl'
-  color: '#aace60'
+  readonly name: 'HLSL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.hlsl', '.cginc', '.fx', '.fxh', '.hlsli']
+  readonly languageId: 145
+  readonly tmScope: 'source.hlsl'
+  readonly color: '#aace60'
 }
+
 export default _

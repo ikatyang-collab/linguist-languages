@@ -1,14 +1,23 @@
 declare const _: {
-  name: 'Pascal'
-  type: 'programming'
-  aceMode: 'pascal'
-  extensions: ['.pas', '.dfm', '.dpr', '.inc', '.lpr', '.pascal', '.pp']
-  languageId: 281
-  tmScope: 'source.pascal'
-  aliases: ['delphi', 'objectpascal']
-  codemirrorMode: 'pascal'
-  codemirrorMimeType: 'text/x-pascal'
-  color: '#E3F171'
-  interpreters: ['instantfpc']
+  readonly name: 'Pascal'
+  readonly type: 'programming'
+  readonly aceMode: 'pascal'
+  readonly extensions: readonly [
+    '.pas',
+    '.dfm',
+    '.dpr',
+    '.inc',
+    '.lpr',
+    '.pascal',
+    '.pp',
+  ]
+  readonly languageId: 281
+  readonly tmScope: 'source.pascal'
+  readonly aliases: readonly ['delphi', 'objectpascal']
+  readonly codemirrorMode: 'pascal'
+  readonly codemirrorMimeType: 'text/x-pascal'
+  readonly color: '#E3F171'
+  readonly interpreters: readonly ['instantfpc']
 }
+
 export default _

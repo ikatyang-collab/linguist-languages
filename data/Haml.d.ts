@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Haml'
-  type: 'markup'
-  aceMode: 'haml'
-  extensions: ['.haml', '.haml.deface']
-  languageId: 154
-  tmScope: 'text.haml'
-  codemirrorMode: 'haml'
-  codemirrorMimeType: 'text/x-haml'
-  color: '#ece2a9'
+  readonly name: 'Haml'
+  readonly type: 'markup'
+  readonly aceMode: 'haml'
+  readonly extensions: readonly ['.haml', '.haml.deface']
+  readonly languageId: 154
+  readonly tmScope: 'text.haml'
+  readonly codemirrorMode: 'haml'
+  readonly codemirrorMimeType: 'text/x-haml'
+  readonly color: '#ece2a9'
 }
+
 export default _

@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'TypeSpec'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.tsp']
-  languageId: 952272597
-  tmScope: 'source.tsp'
-  aliases: ['tsp']
-  color: '#4A3665'
+  readonly name: 'TypeSpec'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.tsp']
+  readonly languageId: 952272597
+  readonly tmScope: 'source.tsp'
+  readonly aliases: readonly ['tsp']
+  readonly color: '#4A3665'
 }
+
 export default _

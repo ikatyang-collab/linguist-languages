@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'CAP CDS'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.cds']
-  languageId: 390788699
-  tmScope: 'source.cds'
-  aliases: ['cds']
-  color: '#0092d1'
+  readonly name: 'CAP CDS'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.cds']
+  readonly languageId: 390788699
+  readonly tmScope: 'source.cds'
+  readonly aliases: readonly ['cds']
+  readonly color: '#0092d1'
 }
+
 export default _

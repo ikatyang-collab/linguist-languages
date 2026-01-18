@@ -1,15 +1,22 @@
 declare const _: {
-  name: 'CoffeeScript'
-  type: 'programming'
-  aceMode: 'coffee'
-  extensions: ['.coffee', '._coffee', '.cake', '.cjsx', '.iced']
-  filenames: ['Cakefile']
-  languageId: 63
-  tmScope: 'source.coffee'
-  aliases: ['coffee', 'coffee-script']
-  codemirrorMode: 'coffeescript'
-  codemirrorMimeType: 'text/x-coffeescript'
-  color: '#244776'
-  interpreters: ['coffee']
+  readonly name: 'CoffeeScript'
+  readonly type: 'programming'
+  readonly aceMode: 'coffee'
+  readonly extensions: readonly [
+    '.coffee',
+    '._coffee',
+    '.cake',
+    '.cjsx',
+    '.iced',
+  ]
+  readonly filenames: readonly ['Cakefile']
+  readonly languageId: 63
+  readonly tmScope: 'source.coffee'
+  readonly aliases: readonly ['coffee', 'coffee-script']
+  readonly codemirrorMode: 'coffeescript'
+  readonly codemirrorMimeType: 'text/x-coffeescript'
+  readonly color: '#244776'
+  readonly interpreters: readonly ['coffee']
 }
+
 export default _

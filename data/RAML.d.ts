@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'RAML'
-  type: 'markup'
-  aceMode: 'yaml'
-  extensions: ['.raml']
-  languageId: 308
-  tmScope: 'source.yaml'
-  codemirrorMode: 'yaml'
-  codemirrorMimeType: 'text/x-yaml'
-  color: '#77d9fb'
+  readonly name: 'RAML'
+  readonly type: 'markup'
+  readonly aceMode: 'yaml'
+  readonly extensions: readonly ['.raml']
+  readonly languageId: 308
+  readonly tmScope: 'source.yaml'
+  readonly codemirrorMode: 'yaml'
+  readonly codemirrorMimeType: 'text/x-yaml'
+  readonly color: '#77d9fb'
 }
+
 export default _

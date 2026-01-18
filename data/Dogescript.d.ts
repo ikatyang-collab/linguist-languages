@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Dogescript'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.djs']
-  languageId: 90
-  tmScope: 'none'
-  color: '#cca760'
+  readonly name: 'Dogescript'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.djs']
+  readonly languageId: 90
+  readonly tmScope: 'none'
+  readonly color: '#cca760'
 }
+
 export default _

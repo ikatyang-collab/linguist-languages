@@ -37,6 +37,8 @@
     "@types/node": "25.0.3",
     "@vitest/coverage-v8": "4.0.16",
     "camelcase": "9.0.0",
+    "eslint": "9.39.2",
+    "eslint-plugin-unicorn": "62.0.0",
     "jest-snapshot-serializer-raw": "2.0.0",
     "node-style-text": "2.1.2",
     "outdent": "0.8.0",

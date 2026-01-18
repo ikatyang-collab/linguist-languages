@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'Ruby'
-  type: 'programming'
-  aceMode: 'ruby'
-  extensions: [
+  readonly name: 'Ruby'
+  readonly type: 'programming'
+  readonly aceMode: 'ruby'
+  readonly extensions: readonly [
     '.rb',
     '.builder',
     '.eye',
@@ -26,7 +26,7 @@ declare const _: {
     '.thor',
     '.watchr',
   ]
-  filenames: [
+  readonly filenames: readonly [
     '.irbrc',
     '.pryrc',
     '.simplecov',
@@ -51,12 +51,13 @@ declare const _: {
     'Vagrantfile',
     'buildfile',
   ]
-  languageId: 326
-  tmScope: 'source.ruby'
-  aliases: ['jruby', 'macruby', 'rake', 'rb', 'rbx']
-  codemirrorMode: 'ruby'
-  codemirrorMimeType: 'text/x-ruby'
-  color: '#701516'
-  interpreters: ['ruby', 'macruby', 'rake', 'jruby', 'rbx']
+  readonly languageId: 326
+  readonly tmScope: 'source.ruby'
+  readonly aliases: readonly ['jruby', 'macruby', 'rake', 'rb', 'rbx']
+  readonly codemirrorMode: 'ruby'
+  readonly codemirrorMimeType: 'text/x-ruby'
+  readonly color: '#701516'
+  readonly interpreters: readonly ['ruby', 'macruby', 'rake', 'jruby', 'rbx']
 }
+
 export default _

@@ -1,13 +1,20 @@
 declare const _: {
-  name: 'HCL'
-  type: 'programming'
-  aceMode: 'terraform'
-  extensions: ['.hcl', '.nomad', '.tf', '.tfvars', '.workflow']
-  languageId: 144
-  tmScope: 'source.hcl'
-  aliases: ['HashiCorp Configuration Language', 'terraform']
-  codemirrorMode: 'ruby'
-  codemirrorMimeType: 'text/x-ruby'
-  color: '#844FBA'
+  readonly name: 'HCL'
+  readonly type: 'programming'
+  readonly aceMode: 'terraform'
+  readonly extensions: readonly [
+    '.hcl',
+    '.nomad',
+    '.tf',
+    '.tfvars',
+    '.workflow',
+  ]
+  readonly languageId: 144
+  readonly tmScope: 'source.hcl'
+  readonly aliases: readonly ['HashiCorp Configuration Language', 'terraform']
+  readonly codemirrorMode: 'ruby'
+  readonly codemirrorMimeType: 'text/x-ruby'
+  readonly color: '#844FBA'
 }
+
 export default _

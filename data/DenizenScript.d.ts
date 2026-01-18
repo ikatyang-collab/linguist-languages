@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'DenizenScript'
-  type: 'programming'
-  aceMode: 'yaml'
-  extensions: ['.dsc']
-  languageId: 435000929
-  tmScope: 'source.denizenscript'
-  codemirrorMode: 'yaml'
-  codemirrorMimeType: 'text/x-yaml'
-  color: '#FBEE96'
+  readonly name: 'DenizenScript'
+  readonly type: 'programming'
+  readonly aceMode: 'yaml'
+  readonly extensions: readonly ['.dsc']
+  readonly languageId: 435000929
+  readonly tmScope: 'source.denizenscript'
+  readonly codemirrorMode: 'yaml'
+  readonly codemirrorMimeType: 'text/x-yaml'
+  readonly color: '#FBEE96'
 }
+
 export default _

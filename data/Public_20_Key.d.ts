@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Public Key'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.asc', '.pub']
-  languageId: 298
-  tmScope: 'none'
-  codemirrorMode: 'asciiarmor'
-  codemirrorMimeType: 'application/pgp'
+  readonly name: 'Public Key'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.asc', '.pub']
+  readonly languageId: 298
+  readonly tmScope: 'none'
+  readonly codemirrorMode: 'asciiarmor'
+  readonly codemirrorMimeType: 'application/pgp'
 }
+
 export default _

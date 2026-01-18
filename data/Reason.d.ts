@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Reason'
-  type: 'programming'
-  aceMode: 'rust'
-  extensions: ['.re', '.rei']
-  languageId: 869538413
-  tmScope: 'source.reason'
-  codemirrorMode: 'rust'
-  codemirrorMimeType: 'text/x-rustsrc'
-  color: '#ff5847'
+  readonly name: 'Reason'
+  readonly type: 'programming'
+  readonly aceMode: 'rust'
+  readonly extensions: readonly ['.re', '.rei']
+  readonly languageId: 869538413
+  readonly tmScope: 'source.reason'
+  readonly codemirrorMode: 'rust'
+  readonly codemirrorMimeType: 'text/x-rustsrc'
+  readonly color: '#ff5847'
 }
+
 export default _

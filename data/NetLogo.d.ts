@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'NetLogo'
-  type: 'programming'
-  aceMode: 'lisp'
-  extensions: ['.nlogo']
-  languageId: 246
-  tmScope: 'source.lisp'
-  codemirrorMode: 'commonlisp'
-  codemirrorMimeType: 'text/x-common-lisp'
-  color: '#ff6375'
+  readonly name: 'NetLogo'
+  readonly type: 'programming'
+  readonly aceMode: 'lisp'
+  readonly extensions: readonly ['.nlogo']
+  readonly languageId: 246
+  readonly tmScope: 'source.lisp'
+  readonly codemirrorMode: 'commonlisp'
+  readonly codemirrorMimeType: 'text/x-common-lisp'
+  readonly color: '#ff6375'
 }
+
 export default _

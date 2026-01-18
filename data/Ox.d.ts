@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Ox'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ox', '.oxh', '.oxo']
-  languageId: 268
-  tmScope: 'source.ox'
+  readonly name: 'Ox'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ox', '.oxh', '.oxo']
+  readonly languageId: 268
+  readonly tmScope: 'source.ox'
 }
+
 export default _

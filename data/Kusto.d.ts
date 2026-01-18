@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Kusto'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.csl', '.kql']
-  languageId: 225697190
-  tmScope: 'source.kusto'
+  readonly name: 'Kusto'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.csl', '.kql']
+  readonly languageId: 225697190
+  readonly tmScope: 'source.kusto'
 }
+
 export default _

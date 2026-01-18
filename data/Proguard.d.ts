@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Proguard'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.pro']
-  languageId: 716513858
-  tmScope: 'none'
+  readonly name: 'Proguard'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.pro']
+  readonly languageId: 716513858
+  readonly tmScope: 'none'
 }
+
 export default _

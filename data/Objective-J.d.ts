@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Objective-J'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.j', '.sj']
-  languageId: 259
-  tmScope: 'source.js.objj'
-  aliases: ['obj-j', 'objectivej', 'objj']
-  color: '#ff0c5a'
+  readonly name: 'Objective-J'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.j', '.sj']
+  readonly languageId: 259
+  readonly tmScope: 'source.js.objj'
+  readonly aliases: readonly ['obj-j', 'objectivej', 'objj']
+  readonly color: '#ff0c5a'
 }
+
 export default _

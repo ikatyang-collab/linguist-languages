@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'MiniD'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.minid']
-  languageId: 231
-  tmScope: 'none'
+  readonly name: 'MiniD'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.minid']
+  readonly languageId: 231
+  readonly tmScope: 'none'
 }
+
 export default _

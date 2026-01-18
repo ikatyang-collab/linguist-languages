@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'CIL'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.cil']
-  languageId: 29176339
-  tmScope: 'source.cil'
+  readonly name: 'CIL'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.cil']
+  readonly languageId: 29176339
+  readonly tmScope: 'source.cil'
 }
+
 export default _

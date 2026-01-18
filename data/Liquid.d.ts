@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Liquid'
-  type: 'markup'
-  aceMode: 'liquid'
-  extensions: ['.liquid']
-  languageId: 204
-  tmScope: 'text.html.liquid'
-  color: '#67b8de'
+  readonly name: 'Liquid'
+  readonly type: 'markup'
+  readonly aceMode: 'liquid'
+  readonly extensions: readonly ['.liquid']
+  readonly languageId: 204
+  readonly tmScope: 'text.html.liquid'
+  readonly color: '#67b8de'
 }
+
 export default _

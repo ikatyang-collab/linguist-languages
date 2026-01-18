@@ -1,9 +1,9 @@
 declare const _: {
-  name: 'Dotenv'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.env']
-  filenames: [
+  readonly name: 'Dotenv'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.env']
+  readonly filenames: readonly [
     '.env',
     '.env.ci',
     '.env.dev',
@@ -19,8 +19,9 @@ declare const _: {
     '.env.test',
     '.env.testing',
   ]
-  languageId: 111148035
-  tmScope: 'source.dotenv'
-  color: '#e5d559'
+  readonly languageId: 111148035
+  readonly tmScope: 'source.dotenv'
+  readonly color: '#e5d559'
 }
+
 export default _

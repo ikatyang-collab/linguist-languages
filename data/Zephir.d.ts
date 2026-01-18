@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Zephir'
-  type: 'programming'
-  aceMode: 'php'
-  extensions: ['.zep']
-  languageId: 410
-  tmScope: 'source.php.zephir'
-  color: '#118f9e'
+  readonly name: 'Zephir'
+  readonly type: 'programming'
+  readonly aceMode: 'php'
+  readonly extensions: readonly ['.zep']
+  readonly languageId: 410
+  readonly tmScope: 'source.php.zephir'
+  readonly color: '#118f9e'
 }
+
 export default _

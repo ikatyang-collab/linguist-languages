@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'MUF'
-  type: 'programming'
-  aceMode: 'forth'
-  extensions: ['.muf', '.m']
-  languageId: 219
-  tmScope: 'none'
-  codemirrorMode: 'forth'
-  codemirrorMimeType: 'text/x-forth'
-  group: 'Forth'
+  readonly name: 'MUF'
+  readonly type: 'programming'
+  readonly aceMode: 'forth'
+  readonly extensions: readonly ['.muf', '.m']
+  readonly languageId: 219
+  readonly tmScope: 'none'
+  readonly codemirrorMode: 'forth'
+  readonly codemirrorMimeType: 'text/x-forth'
+  readonly group: 'Forth'
 }
+
 export default _

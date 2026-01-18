@@ -1,14 +1,15 @@
 declare const _: {
-  name: 'HTML+EEX'
-  type: 'markup'
-  aceMode: 'html_elixir'
-  extensions: ['.html.eex', '.heex', '.leex']
-  languageId: 149
-  tmScope: 'text.html.elixir'
-  aliases: ['eex', 'heex', 'leex']
-  codemirrorMode: 'htmlmixed'
-  codemirrorMimeType: 'text/html'
-  color: '#6e4a7e'
-  group: 'HTML'
+  readonly name: 'HTML+EEX'
+  readonly type: 'markup'
+  readonly aceMode: 'html_elixir'
+  readonly extensions: readonly ['.html.eex', '.heex', '.leex']
+  readonly languageId: 149
+  readonly tmScope: 'text.html.elixir'
+  readonly aliases: readonly ['eex', 'heex', 'leex']
+  readonly codemirrorMode: 'htmlmixed'
+  readonly codemirrorMimeType: 'text/html'
+  readonly color: '#6e4a7e'
+  readonly group: 'HTML'
 }
+
 export default _

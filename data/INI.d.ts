@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'INI'
-  type: 'data'
-  aceMode: 'ini'
-  extensions: [
+  readonly name: 'INI'
+  readonly type: 'data'
+  readonly aceMode: 'ini'
+  readonly extensions: readonly [
     '.ini',
     '.cfg',
     '.cnf',
@@ -14,7 +14,7 @@ declare const _: {
     '.properties',
     '.url',
   ]
-  filenames: [
+  readonly filenames: readonly [
     '.buckconfig',
     '.coveragerc',
     '.flake8',
@@ -25,11 +25,12 @@ declare const _: {
     'pylintrc',
     'vlcrc',
   ]
-  languageId: 163
-  tmScope: 'source.ini'
-  aliases: ['dosini']
-  codemirrorMode: 'properties'
-  codemirrorMimeType: 'text/x-properties'
-  color: '#d1dbe0'
+  readonly languageId: 163
+  readonly tmScope: 'source.ini'
+  readonly aliases: readonly ['dosini']
+  readonly codemirrorMode: 'properties'
+  readonly codemirrorMimeType: 'text/x-properties'
+  readonly color: '#d1dbe0'
 }
+
 export default _

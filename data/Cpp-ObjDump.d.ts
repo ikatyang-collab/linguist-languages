@@ -1,16 +1,17 @@
 declare const _: {
-  name: 'Cpp-ObjDump'
-  type: 'data'
-  aceMode: 'assembly_x86'
-  extensions: [
+  readonly name: 'Cpp-ObjDump'
+  readonly type: 'data'
+  readonly aceMode: 'assembly_x86'
+  readonly extensions: readonly [
     '.cppobjdump',
     '.c++-objdump',
     '.c++objdump',
     '.cpp-objdump',
     '.cxx-objdump',
   ]
-  languageId: 70
-  tmScope: 'objdump.x86asm'
-  aliases: ['c++-objdump']
+  readonly languageId: 70
+  readonly tmScope: 'objdump.x86asm'
+  readonly aliases: readonly ['c++-objdump']
 }
+
 export default _

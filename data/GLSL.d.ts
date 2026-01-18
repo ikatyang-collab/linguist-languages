@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'GLSL'
-  type: 'programming'
-  aceMode: 'glsl'
-  extensions: [
+  readonly name: 'GLSL'
+  readonly type: 'programming'
+  readonly aceMode: 'glsl'
+  readonly extensions: readonly [
     '.glsl',
     '.fp',
     '.frag',
@@ -27,8 +27,9 @@ declare const _: {
     '.vsh',
     '.vshader',
   ]
-  languageId: 124
-  tmScope: 'source.glsl'
-  color: '#5686a5'
+  readonly languageId: 124
+  readonly tmScope: 'source.glsl'
+  readonly color: '#5686a5'
 }
+
 export default _

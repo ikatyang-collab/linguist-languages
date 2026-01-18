@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Pug'
-  type: 'markup'
-  aceMode: 'jade'
-  extensions: ['.jade', '.pug']
-  languageId: 179
-  tmScope: 'text.jade'
-  codemirrorMode: 'pug'
-  codemirrorMimeType: 'text/x-pug'
-  color: '#a86454'
+  readonly name: 'Pug'
+  readonly type: 'markup'
+  readonly aceMode: 'jade'
+  readonly extensions: readonly ['.jade', '.pug']
+  readonly languageId: 179
+  readonly tmScope: 'text.jade'
+  readonly codemirrorMode: 'pug'
+  readonly codemirrorMimeType: 'text/x-pug'
+  readonly color: '#a86454'
 }
+
 export default _

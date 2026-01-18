@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'ArkTS'
-  type: 'programming'
-  aceMode: 'typescript'
-  extensions: ['.ets']
-  languageId: 56341321
-  tmScope: 'source.ets'
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'application/typescript'
-  color: '#0080ff'
+  readonly name: 'ArkTS'
+  readonly type: 'programming'
+  readonly aceMode: 'typescript'
+  readonly extensions: readonly ['.ets']
+  readonly languageId: 56341321
+  readonly tmScope: 'source.ets'
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'application/typescript'
+  readonly color: '#0080ff'
 }
+
 export default _

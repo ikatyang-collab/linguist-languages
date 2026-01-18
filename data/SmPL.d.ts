@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'SmPL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.cocci']
-  languageId: 164123055
-  tmScope: 'source.smpl'
-  aliases: ['coccinelle']
-  color: '#c94949'
+  readonly name: 'SmPL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.cocci']
+  readonly languageId: 164123055
+  readonly tmScope: 'source.smpl'
+  readonly aliases: readonly ['coccinelle']
+  readonly color: '#c94949'
 }
+
 export default _

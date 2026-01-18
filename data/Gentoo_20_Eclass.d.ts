@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Gentoo Eclass'
-  type: 'programming'
-  aceMode: 'sh'
-  extensions: ['.eclass']
-  languageId: 128
-  tmScope: 'source.shell'
-  codemirrorMode: 'shell'
-  codemirrorMimeType: 'text/x-sh'
-  color: '#9400ff'
-  group: 'Shell'
+  readonly name: 'Gentoo Eclass'
+  readonly type: 'programming'
+  readonly aceMode: 'sh'
+  readonly extensions: readonly ['.eclass']
+  readonly languageId: 128
+  readonly tmScope: 'source.shell'
+  readonly codemirrorMode: 'shell'
+  readonly codemirrorMimeType: 'text/x-sh'
+  readonly color: '#9400ff'
+  readonly group: 'Shell'
 }
+
 export default _

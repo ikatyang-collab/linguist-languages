@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Cloud Firestore Security Rules'
-  type: 'data'
-  aceMode: 'less'
-  filenames: ['firestore.rules']
-  languageId: 407996372
-  tmScope: 'source.firestore'
-  codemirrorMode: 'css'
-  codemirrorMimeType: 'text/css'
-  color: '#FFA000'
+  readonly name: 'Cloud Firestore Security Rules'
+  readonly type: 'data'
+  readonly aceMode: 'less'
+  readonly filenames: readonly ['firestore.rules']
+  readonly languageId: 407996372
+  readonly tmScope: 'source.firestore'
+  readonly codemirrorMode: 'css'
+  readonly codemirrorMimeType: 'text/css'
+  readonly color: '#FFA000'
 }
+
 export default _

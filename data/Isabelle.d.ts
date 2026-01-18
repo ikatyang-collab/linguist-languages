@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Isabelle'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.thy']
-  languageId: 170
-  tmScope: 'source.isabelle.theory'
-  color: '#FEFE00'
+  readonly name: 'Isabelle'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.thy']
+  readonly languageId: 170
+  readonly tmScope: 'source.isabelle.theory'
+  readonly color: '#FEFE00'
 }
+
 export default _

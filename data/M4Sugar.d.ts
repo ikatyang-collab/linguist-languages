@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'M4Sugar'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.m4']
-  filenames: ['configure.ac']
-  languageId: 216
-  tmScope: 'source.m4'
-  aliases: ['autoconf']
-  group: 'M4'
+  readonly name: 'M4Sugar'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.m4']
+  readonly filenames: readonly ['configure.ac']
+  readonly languageId: 216
+  readonly tmScope: 'source.m4'
+  readonly aliases: readonly ['autoconf']
+  readonly group: 'M4'
 }
+
 export default _

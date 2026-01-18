@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'IDL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.pro', '.dlm']
-  languageId: 161
-  tmScope: 'source.idl'
-  codemirrorMode: 'idl'
-  codemirrorMimeType: 'text/x-idl'
-  color: '#a3522f'
+  readonly name: 'IDL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.pro', '.dlm']
+  readonly languageId: 161
+  readonly tmScope: 'source.idl'
+  readonly codemirrorMode: 'idl'
+  readonly codemirrorMimeType: 'text/x-idl'
+  readonly color: '#a3522f'
 }
+
 export default _

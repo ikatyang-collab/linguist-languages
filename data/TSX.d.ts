@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'TSX'
-  type: 'programming'
-  aceMode: 'tsx'
-  extensions: ['.tsx']
-  languageId: 94901924
-  tmScope: 'source.tsx'
-  codemirrorMode: 'jsx'
-  codemirrorMimeType: 'text/typescript-jsx'
-  color: '#3178c6'
-  group: 'TypeScript'
+  readonly name: 'TSX'
+  readonly type: 'programming'
+  readonly aceMode: 'tsx'
+  readonly extensions: readonly ['.tsx']
+  readonly languageId: 94901924
+  readonly tmScope: 'source.tsx'
+  readonly codemirrorMode: 'jsx'
+  readonly codemirrorMimeType: 'text/typescript-jsx'
+  readonly color: '#3178c6'
+  readonly group: 'TypeScript'
 }
+
 export default _

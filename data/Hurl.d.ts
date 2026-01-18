@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Hurl'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.hurl']
-  languageId: 959040217
-  tmScope: 'source.hurl'
-  color: '#FF0288'
+  readonly name: 'Hurl'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.hurl']
+  readonly languageId: 959040217
+  readonly tmScope: 'source.hurl'
+  readonly color: '#FF0288'
 }
+
 export default _

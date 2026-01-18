@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Eagle'
-  type: 'data'
-  aceMode: 'xml'
-  extensions: ['.sch', '.brd']
-  languageId: 97
-  tmScope: 'text.xml'
-  codemirrorMode: 'xml'
-  codemirrorMimeType: 'text/xml'
+  readonly name: 'Eagle'
+  readonly type: 'data'
+  readonly aceMode: 'xml'
+  readonly extensions: readonly ['.sch', '.brd']
+  readonly languageId: 97
+  readonly tmScope: 'text.xml'
+  readonly codemirrorMode: 'xml'
+  readonly codemirrorMimeType: 'text/xml'
 }
+
 export default _

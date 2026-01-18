@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'ColdFusion CFC'
-  type: 'programming'
-  aceMode: 'coldfusion'
-  extensions: ['.cfc']
-  languageId: 65
-  tmScope: 'source.cfscript'
-  aliases: ['cfc']
-  color: '#ed2cd6'
-  group: 'ColdFusion'
+  readonly name: 'ColdFusion CFC'
+  readonly type: 'programming'
+  readonly aceMode: 'coldfusion'
+  readonly extensions: readonly ['.cfc']
+  readonly languageId: 65
+  readonly tmScope: 'source.cfscript'
+  readonly aliases: readonly ['cfc']
+  readonly color: '#ed2cd6'
+  readonly group: 'ColdFusion'
 }
+
 export default _

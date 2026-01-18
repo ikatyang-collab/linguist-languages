@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Brightscript'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.brs']
-  languageId: 39
-  tmScope: 'source.brs'
-  color: '#662D91'
+  readonly name: 'Brightscript'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.brs']
+  readonly languageId: 39
+  readonly tmScope: 'source.brs'
+  readonly color: '#662D91'
 }
+
 export default _

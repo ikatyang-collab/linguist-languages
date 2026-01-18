@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Ecere Projects'
-  type: 'data'
-  aceMode: 'json'
-  extensions: ['.epj']
-  languageId: 98
-  tmScope: 'source.json'
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'application/json'
-  color: '#913960'
-  group: 'JavaScript'
+  readonly name: 'Ecere Projects'
+  readonly type: 'data'
+  readonly aceMode: 'json'
+  readonly extensions: readonly ['.epj']
+  readonly languageId: 98
+  readonly tmScope: 'source.json'
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'application/json'
+  readonly color: '#913960'
+  readonly group: 'JavaScript'
 }
+
 export default _

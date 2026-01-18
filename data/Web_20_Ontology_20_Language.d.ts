@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Web Ontology Language'
-  type: 'data'
-  aceMode: 'xml'
-  extensions: ['.owl']
-  languageId: 394
-  tmScope: 'text.xml'
-  color: '#5b70bd'
+  readonly name: 'Web Ontology Language'
+  readonly type: 'data'
+  readonly aceMode: 'xml'
+  readonly extensions: readonly ['.owl']
+  readonly languageId: 394
+  readonly tmScope: 'text.xml'
+  readonly color: '#5b70bd'
 }
+
 export default _

@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'edn'
-  type: 'data'
-  aceMode: 'clojure'
-  extensions: ['.edn']
-  languageId: 414
-  tmScope: 'source.clojure'
-  codemirrorMode: 'clojure'
-  codemirrorMimeType: 'application/edn'
+  readonly name: 'edn'
+  readonly type: 'data'
+  readonly aceMode: 'clojure'
+  readonly extensions: readonly ['.edn']
+  readonly languageId: 414
+  readonly tmScope: 'source.clojure'
+  readonly codemirrorMode: 'clojure'
+  readonly codemirrorMimeType: 'application/edn'
 }
+
 export default _

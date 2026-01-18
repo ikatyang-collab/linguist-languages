@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'AL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.al']
-  languageId: 658971832
-  tmScope: 'source.al'
-  color: '#3AA2B5'
+  readonly name: 'AL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.al']
+  readonly languageId: 658971832
+  readonly tmScope: 'source.al'
+  readonly color: '#3AA2B5'
 }
+
 export default _

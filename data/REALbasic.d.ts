@@ -1,9 +1,17 @@
 declare const _: {
-  name: 'REALbasic'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.rbbas', '.rbfrm', '.rbmnu', '.rbres', '.rbtbar', '.rbuistate']
-  languageId: 310
-  tmScope: 'source.vbnet'
+  readonly name: 'REALbasic'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly [
+    '.rbbas',
+    '.rbfrm',
+    '.rbmnu',
+    '.rbres',
+    '.rbtbar',
+    '.rbuistate',
+  ]
+  readonly languageId: 310
+  readonly tmScope: 'source.vbnet'
 }
+
 export default _

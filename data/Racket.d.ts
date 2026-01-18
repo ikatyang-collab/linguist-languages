@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Racket'
-  type: 'programming'
-  aceMode: 'lisp'
-  extensions: ['.rkt', '.rktd', '.rktl', '.scrbl']
-  languageId: 316
-  tmScope: 'source.racket'
-  color: '#3c5caa'
-  interpreters: ['racket']
+  readonly name: 'Racket'
+  readonly type: 'programming'
+  readonly aceMode: 'lisp'
+  readonly extensions: readonly ['.rkt', '.rktd', '.rktl', '.scrbl']
+  readonly languageId: 316
+  readonly tmScope: 'source.racket'
+  readonly color: '#3c5caa'
+  readonly interpreters: readonly ['racket']
 }
+
 export default _

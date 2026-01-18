@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Jsonnet'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.jsonnet', '.libsonnet']
-  languageId: 664885656
-  tmScope: 'source.jsonnet'
-  color: '#0064bd'
+  readonly name: 'Jsonnet'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.jsonnet', '.libsonnet']
+  readonly languageId: 664885656
+  readonly tmScope: 'source.jsonnet'
+  readonly color: '#0064bd'
 }
+
 export default _

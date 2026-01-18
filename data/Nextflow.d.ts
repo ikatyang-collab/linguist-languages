@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Nextflow'
-  type: 'programming'
-  aceMode: 'groovy'
-  extensions: ['.nf']
-  filenames: ['nextflow.config']
-  languageId: 506780613
-  tmScope: 'source.nextflow'
-  color: '#3ac486'
-  interpreters: ['nextflow']
+  readonly name: 'Nextflow'
+  readonly type: 'programming'
+  readonly aceMode: 'groovy'
+  readonly extensions: readonly ['.nf']
+  readonly filenames: readonly ['nextflow.config']
+  readonly languageId: 506780613
+  readonly tmScope: 'source.nextflow'
+  readonly color: '#3ac486'
+  readonly interpreters: readonly ['nextflow']
 }
+
 export default _

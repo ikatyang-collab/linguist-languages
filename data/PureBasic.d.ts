@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'PureBasic'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.pb', '.pbi']
-  languageId: 301
-  tmScope: 'none'
-  color: '#5a6986'
+  readonly name: 'PureBasic'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.pb', '.pbi']
+  readonly languageId: 301
+  readonly tmScope: 'none'
+  readonly color: '#5a6986'
 }
+
 export default _

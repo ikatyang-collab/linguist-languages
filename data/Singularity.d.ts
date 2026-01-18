@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Singularity'
-  type: 'programming'
-  aceMode: 'text'
-  filenames: ['Singularity']
-  languageId: 987024632
-  tmScope: 'source.singularity'
-  color: '#64E6AD'
+  readonly name: 'Singularity'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly filenames: readonly ['Singularity']
+  readonly languageId: 987024632
+  readonly tmScope: 'source.singularity'
+  readonly color: '#64E6AD'
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Bicep'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.bicep', '.bicepparam']
-  languageId: 321200902
-  tmScope: 'source.bicep'
-  color: '#519aba'
+  readonly name: 'Bicep'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.bicep', '.bicepparam']
+  readonly languageId: 321200902
+  readonly tmScope: 'source.bicep'
+  readonly color: '#519aba'
 }
+
 export default _

@@ -1,13 +1,20 @@
 declare const _: {
-  name: 'Option List'
-  type: 'data'
-  aceMode: 'sh'
-  filenames: ['.ackrc', '.rspec', '.yardopts', 'ackrc', 'mocha.opts']
-  languageId: 723589315
-  tmScope: 'source.opts'
-  aliases: ['opts', 'ackrc']
-  codemirrorMode: 'shell'
-  codemirrorMimeType: 'text/x-sh'
-  color: '#476732'
+  readonly name: 'Option List'
+  readonly type: 'data'
+  readonly aceMode: 'sh'
+  readonly filenames: readonly [
+    '.ackrc',
+    '.rspec',
+    '.yardopts',
+    'ackrc',
+    'mocha.opts',
+  ]
+  readonly languageId: 723589315
+  readonly tmScope: 'source.opts'
+  readonly aliases: readonly ['opts', 'ackrc']
+  readonly codemirrorMode: 'shell'
+  readonly codemirrorMimeType: 'text/x-sh'
+  readonly color: '#476732'
 }
+
 export default _

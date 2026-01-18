@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Microsoft Visual Studio Solution'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.sln']
-  languageId: 849523096
-  tmScope: 'source.solution'
+  readonly name: 'Microsoft Visual Studio Solution'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.sln']
+  readonly languageId: 849523096
+  readonly tmScope: 'source.solution'
 }
+
 export default _

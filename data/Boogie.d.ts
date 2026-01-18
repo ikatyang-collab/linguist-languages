@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Boogie'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.bpl']
-  languageId: 955017407
-  tmScope: 'source.boogie'
-  color: '#c80fa0'
-  interpreters: ['boogie']
+  readonly name: 'Boogie'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.bpl']
+  readonly languageId: 955017407
+  readonly tmScope: 'source.boogie'
+  readonly color: '#c80fa0'
+  readonly interpreters: readonly ['boogie']
 }
+
 export default _

@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Myghty'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.myt']
-  languageId: 239
-  tmScope: 'none'
+  readonly name: 'Myghty'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.myt']
+  readonly languageId: 239
+  readonly tmScope: 'none'
 }
+
 export default _

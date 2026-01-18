@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Cangjie'
-  type: 'programming'
-  aceMode: 'swift'
-  extensions: ['.cj']
-  languageId: 581895317
-  tmScope: 'source.cj'
-  codemirrorMode: 'swift'
-  codemirrorMimeType: 'text/x-swift'
-  color: '#00868B'
+  readonly name: 'Cangjie'
+  readonly type: 'programming'
+  readonly aceMode: 'swift'
+  readonly extensions: readonly ['.cj']
+  readonly languageId: 581895317
+  readonly tmScope: 'source.cj'
+  readonly codemirrorMode: 'swift'
+  readonly codemirrorMimeType: 'text/x-swift'
+  readonly color: '#00868B'
 }
+
 export default _

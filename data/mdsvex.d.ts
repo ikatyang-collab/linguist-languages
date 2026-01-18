@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'mdsvex'
-  type: 'markup'
-  aceMode: 'markdown'
-  extensions: ['.svx']
-  languageId: 566198445
-  tmScope: 'none'
-  codemirrorMode: 'gfm'
-  codemirrorMimeType: 'text/x-gfm'
-  color: '#5f9ea0'
-  wrap: true
+  readonly name: 'mdsvex'
+  readonly type: 'markup'
+  readonly aceMode: 'markdown'
+  readonly extensions: readonly ['.svx']
+  readonly languageId: 566198445
+  readonly tmScope: 'none'
+  readonly codemirrorMode: 'gfm'
+  readonly codemirrorMimeType: 'text/x-gfm'
+  readonly color: '#5f9ea0'
+  readonly wrap: true
 }
+
 export default _

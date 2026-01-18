@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Velocity Template Language'
-  type: 'markup'
-  aceMode: 'velocity'
-  extensions: ['.vtl']
-  languageId: 292377326
-  tmScope: 'source.velocity'
-  aliases: ['vtl', 'velocity']
-  codemirrorMode: 'velocity'
-  codemirrorMimeType: 'text/velocity'
-  color: '#507cff'
+  readonly name: 'Velocity Template Language'
+  readonly type: 'markup'
+  readonly aceMode: 'velocity'
+  readonly extensions: readonly ['.vtl']
+  readonly languageId: 292377326
+  readonly tmScope: 'source.velocity'
+  readonly aliases: readonly ['vtl', 'velocity']
+  readonly codemirrorMode: 'velocity'
+  readonly codemirrorMimeType: 'text/velocity'
+  readonly color: '#507cff'
 }
+
 export default _

@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'D'
-  type: 'programming'
-  aceMode: 'd'
-  extensions: ['.d', '.di']
-  languageId: 80
-  tmScope: 'source.d'
-  aliases: ['Dlang']
-  codemirrorMode: 'd'
-  codemirrorMimeType: 'text/x-d'
-  color: '#ba595e'
+  readonly name: 'D'
+  readonly type: 'programming'
+  readonly aceMode: 'd'
+  readonly extensions: readonly ['.d', '.di']
+  readonly languageId: 80
+  readonly tmScope: 'source.d'
+  readonly aliases: readonly ['Dlang']
+  readonly codemirrorMode: 'd'
+  readonly codemirrorMimeType: 'text/x-d'
+  readonly color: '#ba595e'
 }
+
 export default _

@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'C#'
-  type: 'programming'
-  aceMode: 'csharp'
-  extensions: ['.cs', '.cake', '.cs.pp', '.csx', '.linq']
-  languageId: 42
-  tmScope: 'source.cs'
-  aliases: ['csharp', 'cake', 'cakescript']
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-csharp'
-  color: '#178600'
+  readonly name: 'C#'
+  readonly type: 'programming'
+  readonly aceMode: 'csharp'
+  readonly extensions: readonly ['.cs', '.cake', '.cs.pp', '.csx', '.linq']
+  readonly languageId: 42
+  readonly tmScope: 'source.cs'
+  readonly aliases: readonly ['csharp', 'cake', 'cakescript']
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-csharp'
+  readonly color: '#178600'
 }
+
 export default _

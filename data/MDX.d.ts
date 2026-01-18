@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'MDX'
-  type: 'markup'
-  aceMode: 'markdown'
-  extensions: ['.mdx']
-  languageId: 512838272
-  tmScope: 'source.mdx'
-  codemirrorMode: 'gfm'
-  codemirrorMimeType: 'text/x-gfm'
-  color: '#fcb32c'
-  wrap: true
+  readonly name: 'MDX'
+  readonly type: 'markup'
+  readonly aceMode: 'markdown'
+  readonly extensions: readonly ['.mdx']
+  readonly languageId: 512838272
+  readonly tmScope: 'source.mdx'
+  readonly codemirrorMode: 'gfm'
+  readonly codemirrorMimeType: 'text/x-gfm'
+  readonly color: '#fcb32c'
+  readonly wrap: true
 }
+
 export default _

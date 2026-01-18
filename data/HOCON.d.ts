@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'HOCON'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.hocon']
-  filenames: ['.scalafix.conf', '.scalafmt.conf']
-  languageId: 679725279
-  tmScope: 'source.hocon'
-  color: '#9ff8ee'
+  readonly name: 'HOCON'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.hocon']
+  readonly filenames: readonly ['.scalafix.conf', '.scalafmt.conf']
+  readonly languageId: 679725279
+  readonly tmScope: 'source.hocon'
+  readonly color: '#9ff8ee'
 }
+
 export default _

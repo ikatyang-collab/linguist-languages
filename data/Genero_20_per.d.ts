@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Genero per'
-  type: 'markup'
-  aceMode: 'text'
-  extensions: ['.per']
-  languageId: 902995658
-  tmScope: 'source.genero-per'
-  color: '#d8df39'
+  readonly name: 'Genero per'
+  readonly type: 'markup'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.per']
+  readonly languageId: 902995658
+  readonly tmScope: 'source.genero-per'
+  readonly color: '#d8df39'
 }
+
 export default _

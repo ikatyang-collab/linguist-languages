@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'ReasonLIGO'
-  type: 'programming'
-  aceMode: 'rust'
-  extensions: ['.religo']
-  languageId: 319002153
-  tmScope: 'source.religo'
-  codemirrorMode: 'rust'
-  codemirrorMimeType: 'text/x-rustsrc'
-  color: '#ff5847'
-  group: 'LigoLANG'
+  readonly name: 'ReasonLIGO'
+  readonly type: 'programming'
+  readonly aceMode: 'rust'
+  readonly extensions: readonly ['.religo']
+  readonly languageId: 319002153
+  readonly tmScope: 'source.religo'
+  readonly codemirrorMode: 'rust'
+  readonly codemirrorMimeType: 'text/x-rustsrc'
+  readonly color: '#ff5847'
+  readonly group: 'LigoLANG'
 }
+
 export default _

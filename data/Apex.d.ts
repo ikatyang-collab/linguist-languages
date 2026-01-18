@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Apex'
-  type: 'programming'
-  aceMode: 'apex'
-  extensions: ['.cls', '.apex', '.trigger']
-  languageId: 17
-  tmScope: 'source.apex'
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-java'
-  color: '#1797c0'
+  readonly name: 'Apex'
+  readonly type: 'programming'
+  readonly aceMode: 'apex'
+  readonly extensions: readonly ['.cls', '.apex', '.trigger']
+  readonly languageId: 17
+  readonly tmScope: 'source.apex'
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-java'
+  readonly color: '#1797c0'
 }
+
 export default _

@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Formatted'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.for', '.eam.fs']
-  languageId: 113
-  tmScope: 'none'
+  readonly name: 'Formatted'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.for', '.eam.fs']
+  readonly languageId: 113
+  readonly tmScope: 'none'
 }
+
 export default _

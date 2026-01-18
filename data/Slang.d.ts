@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Slang'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.slang']
-  languageId: 239357863
-  tmScope: 'source.slang'
-  color: '#1fbec9'
+  readonly name: 'Slang'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.slang']
+  readonly languageId: 239357863
+  readonly tmScope: 'source.slang'
+  readonly color: '#1fbec9'
 }
+
 export default _

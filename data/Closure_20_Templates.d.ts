@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Closure Templates'
-  type: 'markup'
-  aceMode: 'soy_template'
-  extensions: ['.soy']
-  languageId: 357046146
-  tmScope: 'text.html.soy'
-  aliases: ['soy']
-  codemirrorMode: 'soy'
-  codemirrorMimeType: 'text/x-soy'
-  color: '#0d948f'
+  readonly name: 'Closure Templates'
+  readonly type: 'markup'
+  readonly aceMode: 'soy_template'
+  readonly extensions: readonly ['.soy']
+  readonly languageId: 357046146
+  readonly tmScope: 'text.html.soy'
+  readonly aliases: readonly ['soy']
+  readonly codemirrorMode: 'soy'
+  readonly codemirrorMimeType: 'text/x-soy'
+  readonly color: '#0d948f'
 }
+
 export default _

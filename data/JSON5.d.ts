@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'JSON5'
-  type: 'data'
-  aceMode: 'json5'
-  extensions: ['.json5']
-  languageId: 175
-  tmScope: 'source.js'
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'application/json'
-  color: '#267CB9'
+  readonly name: 'JSON5'
+  readonly type: 'data'
+  readonly aceMode: 'json5'
+  readonly extensions: readonly ['.json5']
+  readonly languageId: 175
+  readonly tmScope: 'source.js'
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'application/json'
+  readonly color: '#267CB9'
 }
+
 export default _

@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'Roff Manpage'
-  type: 'markup'
-  aceMode: 'text'
-  extensions: [
+  readonly name: 'Roff Manpage'
+  readonly type: 'markup'
+  readonly aceMode: 'text'
+  readonly extensions: readonly [
     '.1',
     '.1in',
     '.1m',
@@ -24,12 +24,13 @@ declare const _: {
     '.man',
     '.mdoc',
   ]
-  languageId: 612669833
-  tmScope: 'text.roff'
-  codemirrorMode: 'troff'
-  codemirrorMimeType: 'text/troff'
-  color: '#ecdebe'
-  group: 'Roff'
-  wrap: true
+  readonly languageId: 612669833
+  readonly tmScope: 'text.roff'
+  readonly codemirrorMode: 'troff'
+  readonly codemirrorMimeType: 'text/troff'
+  readonly color: '#ecdebe'
+  readonly group: 'Roff'
+  readonly wrap: true
 }
+
 export default _

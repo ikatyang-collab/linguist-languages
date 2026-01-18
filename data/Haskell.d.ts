@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Haskell'
-  type: 'programming'
-  aceMode: 'haskell'
-  extensions: ['.hs', '.hs-boot', '.hsc']
-  languageId: 157
-  tmScope: 'source.haskell'
-  codemirrorMode: 'haskell'
-  codemirrorMimeType: 'text/x-haskell'
-  color: '#5e5086'
-  interpreters: ['runghc', 'runhaskell', 'runhugs']
+  readonly name: 'Haskell'
+  readonly type: 'programming'
+  readonly aceMode: 'haskell'
+  readonly extensions: readonly ['.hs', '.hs-boot', '.hsc']
+  readonly languageId: 157
+  readonly tmScope: 'source.haskell'
+  readonly codemirrorMode: 'haskell'
+  readonly codemirrorMimeType: 'text/x-haskell'
+  readonly color: '#5e5086'
+  readonly interpreters: readonly ['runghc', 'runhaskell', 'runhugs']
 }
+
 export default _

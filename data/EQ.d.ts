@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'EQ'
-  type: 'programming'
-  aceMode: 'csharp'
-  extensions: ['.eq']
-  languageId: 96
-  tmScope: 'source.cs'
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-csharp'
-  color: '#a78649'
+  readonly name: 'EQ'
+  readonly type: 'programming'
+  readonly aceMode: 'csharp'
+  readonly extensions: readonly ['.eq']
+  readonly languageId: 96
+  readonly tmScope: 'source.cs'
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-csharp'
+  readonly color: '#a78649'
 }
+
 export default _

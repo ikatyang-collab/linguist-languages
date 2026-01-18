@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'OpenType Feature File'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.fea']
-  languageId: 374317347
-  tmScope: 'source.opentype'
-  aliases: ['AFDKO']
+  readonly name: 'OpenType Feature File'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.fea']
+  readonly languageId: 374317347
+  readonly tmScope: 'source.opentype'
+  readonly aliases: readonly ['AFDKO']
 }
+
 export default _

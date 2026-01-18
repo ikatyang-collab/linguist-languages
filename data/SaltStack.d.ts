@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'SaltStack'
-  type: 'programming'
-  aceMode: 'yaml'
-  extensions: ['.sls']
-  languageId: 339
-  tmScope: 'source.yaml.salt'
-  aliases: ['saltstate', 'salt']
-  codemirrorMode: 'yaml'
-  codemirrorMimeType: 'text/x-yaml'
-  color: '#646464'
+  readonly name: 'SaltStack'
+  readonly type: 'programming'
+  readonly aceMode: 'yaml'
+  readonly extensions: readonly ['.sls']
+  readonly languageId: 339
+  readonly tmScope: 'source.yaml.salt'
+  readonly aliases: readonly ['saltstate', 'salt']
+  readonly codemirrorMode: 'yaml'
+  readonly codemirrorMimeType: 'text/x-yaml'
+  readonly color: '#646464'
 }
+
 export default _

@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'KDL'
-  type: 'data'
-  aceMode: 'tcl'
-  extensions: ['.kdl']
-  languageId: 931123626
-  tmScope: 'source.kdl'
-  codemirrorMode: 'yacas'
-  codemirrorMimeType: 'text/x-yacas'
-  color: '#ffb3b3'
+  readonly name: 'KDL'
+  readonly type: 'data'
+  readonly aceMode: 'tcl'
+  readonly extensions: readonly ['.kdl']
+  readonly languageId: 931123626
+  readonly tmScope: 'source.kdl'
+  readonly codemirrorMode: 'yacas'
+  readonly codemirrorMimeType: 'text/x-yacas'
+  readonly color: '#ffb3b3'
 }
+
 export default _

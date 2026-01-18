@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Csound'
-  type: 'programming'
-  aceMode: 'csound_orchestra'
-  extensions: ['.orc', '.udo']
-  languageId: 73
-  tmScope: 'source.csound'
-  aliases: ['csound-orc']
-  color: '#1a1a1a'
+  readonly name: 'Csound'
+  readonly type: 'programming'
+  readonly aceMode: 'csound_orchestra'
+  readonly extensions: readonly ['.orc', '.udo']
+  readonly languageId: 73
+  readonly tmScope: 'source.csound'
+  readonly aliases: readonly ['csound-orc']
+  readonly color: '#1a1a1a'
 }
+
 export default _

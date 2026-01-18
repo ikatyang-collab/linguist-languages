@@ -1,9 +1,9 @@
 declare const _: {
-  name: 'Ignore List'
-  type: 'data'
-  aceMode: 'gitignore'
-  extensions: ['.gitignore']
-  filenames: [
+  readonly name: 'Ignore List'
+  readonly type: 'data'
+  readonly aceMode: 'gitignore'
+  readonly extensions: readonly ['.gitignore']
+  readonly filenames: readonly [
     '.atomignore',
     '.babelignore',
     '.bzrignore',
@@ -25,11 +25,12 @@ declare const _: {
     'gitignore-global',
     'gitignore_global',
   ]
-  languageId: 74444240
-  tmScope: 'source.gitignore'
-  aliases: ['ignore', 'gitignore', 'git-ignore']
-  codemirrorMode: 'shell'
-  codemirrorMimeType: 'text/x-sh'
-  color: '#000000'
+  readonly languageId: 74444240
+  readonly tmScope: 'source.gitignore'
+  readonly aliases: readonly ['ignore', 'gitignore', 'git-ignore']
+  readonly codemirrorMode: 'shell'
+  readonly codemirrorMimeType: 'text/x-sh'
+  readonly color: '#000000'
 }
+
 export default _

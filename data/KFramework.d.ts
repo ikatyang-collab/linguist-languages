@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'KFramework'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.k']
-  languageId: 9479532
-  tmScope: 'text.k'
-  color: '#4195c5'
+  readonly name: 'KFramework'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.k']
+  readonly languageId: 9479532
+  readonly tmScope: 'text.k'
+  readonly color: '#4195c5'
 }
+
 export default _

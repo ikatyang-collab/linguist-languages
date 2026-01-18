@@ -1,9 +1,9 @@
 declare const _: {
-  name: 'dircolors'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.dircolors']
-  filenames: [
+  readonly name: 'dircolors'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.dircolors']
+  readonly filenames: readonly [
     '.dir_colors',
     '.dircolors',
     'DIR_COLORS',
@@ -11,7 +11,8 @@ declare const _: {
     '_dircolors',
     'dir_colors',
   ]
-  languageId: 691605112
-  tmScope: 'source.dircolors'
+  readonly languageId: 691605112
+  readonly tmScope: 'source.dircolors'
 }
+
 export default _

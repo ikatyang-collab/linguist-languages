@@ -797,7 +797,7 @@ export interface Language {
   /**
    * Language name.
    */
-  readonly name: string
+  readonly name: LanguageName
   /**
    * Either "data", "programming", "markup" or "prose".
    */

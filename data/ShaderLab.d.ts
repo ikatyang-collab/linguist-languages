@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'ShaderLab'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.shader']
-  languageId: 664257356
-  tmScope: 'source.shaderlab'
-  color: '#222c37'
+  readonly name: 'ShaderLab'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.shader']
+  readonly languageId: 664257356
+  readonly tmScope: 'source.shaderlab'
+  readonly color: '#222c37'
 }
+
 export default _

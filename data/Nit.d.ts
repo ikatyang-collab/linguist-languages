@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Nit'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.nit']
-  languageId: 251
-  tmScope: 'source.nit'
-  color: '#009917'
+  readonly name: 'Nit'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.nit']
+  readonly languageId: 251
+  readonly tmScope: 'source.nit'
+  readonly color: '#009917'
 }
+
 export default _

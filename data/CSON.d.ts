@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'CSON'
-  type: 'data'
-  aceMode: 'coffee'
-  extensions: ['.cson']
-  languageId: 424
-  tmScope: 'source.coffee'
-  codemirrorMode: 'coffeescript'
-  codemirrorMimeType: 'text/x-coffeescript'
-  color: '#244776'
+  readonly name: 'CSON'
+  readonly type: 'data'
+  readonly aceMode: 'coffee'
+  readonly extensions: readonly ['.cson']
+  readonly languageId: 424
+  readonly tmScope: 'source.coffee'
+  readonly codemirrorMode: 'coffeescript'
+  readonly codemirrorMimeType: 'text/x-coffeescript'
+  readonly color: '#244776'
 }
+
 export default _

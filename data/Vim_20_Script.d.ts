@@ -1,9 +1,9 @@
 declare const _: {
-  name: 'Vim Script'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.vim', '.vba', '.vimrc', '.vmb']
-  filenames: [
+  readonly name: 'Vim Script'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.vim', '.vba', '.vimrc', '.vmb']
+  readonly filenames: readonly [
     '.exrc',
     '.gvimrc',
     '.nvimrc',
@@ -13,9 +13,10 @@ declare const _: {
     'nvimrc',
     'vimrc',
   ]
-  languageId: 388
-  tmScope: 'source.viml'
-  aliases: ['vim', 'viml', 'nvim', 'vimscript']
-  color: '#199f4b'
+  readonly languageId: 388
+  readonly tmScope: 'source.viml'
+  readonly aliases: readonly ['vim', 'viml', 'nvim', 'vimscript']
+  readonly color: '#199f4b'
 }
+
 export default _

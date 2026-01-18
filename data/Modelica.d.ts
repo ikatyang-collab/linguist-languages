@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Modelica'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.mo']
-  languageId: 233
-  tmScope: 'source.modelica'
-  codemirrorMode: 'modelica'
-  codemirrorMimeType: 'text/x-modelica'
-  color: '#de1d31'
+  readonly name: 'Modelica'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.mo']
+  readonly languageId: 233
+  readonly tmScope: 'source.modelica'
+  readonly codemirrorMode: 'modelica'
+  readonly codemirrorMimeType: 'text/x-modelica'
+  readonly color: '#de1d31'
 }
+
 export default _

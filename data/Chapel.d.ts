@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Chapel'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.chpl']
-  languageId: 55
-  tmScope: 'source.chapel'
-  aliases: ['chpl']
-  color: '#8dc63f'
+  readonly name: 'Chapel'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.chpl']
+  readonly languageId: 55
+  readonly tmScope: 'source.chapel'
+  readonly aliases: readonly ['chpl']
+  readonly color: '#8dc63f'
 }
+
 export default _

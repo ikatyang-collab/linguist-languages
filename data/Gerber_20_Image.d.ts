@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'Gerber Image'
-  type: 'data'
-  aceMode: 'text'
-  extensions: [
+  readonly name: 'Gerber Image'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly [
     '.gbr',
     '.cmp',
     '.gbl',
@@ -20,10 +20,11 @@ declare const _: {
     '.ncl',
     '.sol',
   ]
-  languageId: 404627610
-  tmScope: 'source.gerber'
-  aliases: ['rs-274x']
-  color: '#d20b00'
-  interpreters: ['gerbv', 'gerbview']
+  readonly languageId: 404627610
+  readonly tmScope: 'source.gerber'
+  readonly aliases: readonly ['rs-274x']
+  readonly color: '#d20b00'
+  readonly interpreters: readonly ['gerbv', 'gerbview']
 }
+
 export default _

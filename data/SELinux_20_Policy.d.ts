@@ -1,17 +1,18 @@
 declare const _: {
-  name: 'SELinux Policy'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.te']
-  filenames: [
+  readonly name: 'SELinux Policy'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.te']
+  readonly filenames: readonly [
     'file_contexts',
     'genfs_contexts',
     'initial_sids',
     'port_contexts',
     'security_classes',
   ]
-  languageId: 880010326
-  tmScope: 'source.sepolicy'
-  aliases: ['SELinux Kernel Policy Language', 'sepolicy']
+  readonly languageId: 880010326
+  readonly tmScope: 'source.sepolicy'
+  readonly aliases: readonly ['SELinux Kernel Policy Language', 'sepolicy']
 }
+
 export default _

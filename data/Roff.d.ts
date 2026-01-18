@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'Roff'
-  type: 'markup'
-  aceMode: 'text'
-  extensions: [
+  readonly name: 'Roff'
+  readonly type: 'markup'
+  readonly aceMode: 'text'
+  readonly extensions: readonly [
     '.roff',
     '.1',
     '.1in',
@@ -32,10 +32,10 @@ declare const _: {
     '.rno',
     '.tmac',
   ]
-  filenames: ['eqnrc', 'mmn', 'mmt', 'troffrc', 'troffrc-end']
-  languageId: 141
-  tmScope: 'text.roff'
-  aliases: [
+  readonly filenames: readonly ['eqnrc', 'mmn', 'mmt', 'troffrc', 'troffrc-end']
+  readonly languageId: 141
+  readonly tmScope: 'text.roff'
+  readonly aliases: readonly [
     'groff',
     'man',
     'manpage',
@@ -45,9 +45,10 @@ declare const _: {
     'nroff',
     'troff',
   ]
-  codemirrorMode: 'troff'
-  codemirrorMimeType: 'text/troff'
-  color: '#ecdebe'
-  wrap: true
+  readonly codemirrorMode: 'troff'
+  readonly codemirrorMimeType: 'text/troff'
+  readonly color: '#ecdebe'
+  readonly wrap: true
 }
+
 export default _

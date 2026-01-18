@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Praat'
-  type: 'programming'
-  aceMode: 'praat'
-  extensions: ['.praat']
-  languageId: 106029007
-  tmScope: 'source.praat'
-  color: '#c8506d'
+  readonly name: 'Praat'
+  readonly type: 'programming'
+  readonly aceMode: 'praat'
+  readonly extensions: readonly ['.praat']
+  readonly languageId: 106029007
+  readonly tmScope: 'source.praat'
+  readonly color: '#c8506d'
 }
+
 export default _

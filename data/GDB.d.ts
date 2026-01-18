@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'GDB'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.gdb', '.gdbinit']
-  languageId: 122
-  tmScope: 'source.gdb'
+  readonly name: 'GDB'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.gdb', '.gdbinit']
+  readonly languageId: 122
+  readonly tmScope: 'source.gdb'
 }
+
 export default _

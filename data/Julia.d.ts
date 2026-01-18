@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Julia'
-  type: 'programming'
-  aceMode: 'julia'
-  extensions: ['.jl']
-  languageId: 184
-  tmScope: 'source.julia'
-  codemirrorMode: 'julia'
-  codemirrorMimeType: 'text/x-julia'
-  color: '#a270ba'
-  interpreters: ['julia']
+  readonly name: 'Julia'
+  readonly type: 'programming'
+  readonly aceMode: 'julia'
+  readonly extensions: readonly ['.jl']
+  readonly languageId: 184
+  readonly tmScope: 'source.julia'
+  readonly codemirrorMode: 'julia'
+  readonly codemirrorMimeType: 'text/x-julia'
+  readonly color: '#a270ba'
+  readonly interpreters: readonly ['julia']
 }
+
 export default _

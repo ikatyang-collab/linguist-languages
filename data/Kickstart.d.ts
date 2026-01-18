@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Kickstart'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.ks']
-  languageId: 692635484
-  tmScope: 'source.kickstart'
+  readonly name: 'Kickstart'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ks']
+  readonly languageId: 692635484
+  readonly tmScope: 'source.kickstart'
 }
+
 export default _

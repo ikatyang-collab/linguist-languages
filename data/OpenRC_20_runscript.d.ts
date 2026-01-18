@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'OpenRC runscript'
-  type: 'programming'
-  aceMode: 'sh'
-  languageId: 265
-  tmScope: 'source.shell'
-  aliases: ['openrc']
-  codemirrorMode: 'shell'
-  codemirrorMimeType: 'text/x-sh'
-  group: 'Shell'
-  interpreters: ['openrc-run']
+  readonly name: 'OpenRC runscript'
+  readonly type: 'programming'
+  readonly aceMode: 'sh'
+  readonly languageId: 265
+  readonly tmScope: 'source.shell'
+  readonly aliases: readonly ['openrc']
+  readonly codemirrorMode: 'shell'
+  readonly codemirrorMimeType: 'text/x-sh'
+  readonly group: 'Shell'
+  readonly interpreters: readonly ['openrc-run']
 }
+
 export default _

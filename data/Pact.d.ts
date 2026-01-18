@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Pact'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.pact']
-  languageId: 756774415
-  tmScope: 'source.pact'
-  color: '#F7A8B8'
+  readonly name: 'Pact'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.pact']
+  readonly languageId: 756774415
+  readonly tmScope: 'source.pact'
+  readonly color: '#F7A8B8'
 }
+
 export default _

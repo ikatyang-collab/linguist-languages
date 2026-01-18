@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Scenic'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.scenic']
-  languageId: 619814037
-  tmScope: 'source.scenic'
-  color: '#fdc700'
-  interpreters: ['scenic']
+  readonly name: 'Scenic'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.scenic']
+  readonly languageId: 619814037
+  readonly tmScope: 'source.scenic'
+  readonly color: '#fdc700'
+  readonly interpreters: readonly ['scenic']
 }
+
 export default _

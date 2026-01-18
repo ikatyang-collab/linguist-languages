@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Slash'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.sl']
-  languageId: 349
-  tmScope: 'text.html.slash'
-  color: '#007eff'
+  readonly name: 'Slash'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.sl']
+  readonly languageId: 349
+  readonly tmScope: 'text.html.slash'
+  readonly color: '#007eff'
 }
+
 export default _

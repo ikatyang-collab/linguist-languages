@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Cylc'
-  type: 'data'
-  aceMode: 'ini'
-  extensions: ['.cylc']
-  filenames: ['suite.rc']
-  languageId: 476447814
-  tmScope: 'source.cylc'
-  color: '#00b3fd'
-  group: 'INI'
+  readonly name: 'Cylc'
+  readonly type: 'data'
+  readonly aceMode: 'ini'
+  readonly extensions: readonly ['.cylc']
+  readonly filenames: readonly ['suite.rc']
+  readonly languageId: 476447814
+  readonly tmScope: 'source.cylc'
+  readonly color: '#00b3fd'
+  readonly group: 'INI'
 }
+
 export default _

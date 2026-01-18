@@ -1,15 +1,16 @@
 declare const _: {
-  name: 'Snakemake'
-  type: 'programming'
-  aceMode: 'python'
-  extensions: ['.smk', '.snakefile']
-  filenames: ['Snakefile']
-  languageId: 151241392
-  tmScope: 'source.python'
-  aliases: ['snakefile']
-  codemirrorMode: 'python'
-  codemirrorMimeType: 'text/x-python'
-  color: '#419179'
-  group: 'Python'
+  readonly name: 'Snakemake'
+  readonly type: 'programming'
+  readonly aceMode: 'python'
+  readonly extensions: readonly ['.smk', '.snakefile']
+  readonly filenames: readonly ['Snakefile']
+  readonly languageId: 151241392
+  readonly tmScope: 'source.python'
+  readonly aliases: readonly ['snakefile']
+  readonly codemirrorMode: 'python'
+  readonly codemirrorMimeType: 'text/x-python'
+  readonly color: '#419179'
+  readonly group: 'Python'
 }
+
 export default _

@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'C++'
-  type: 'programming'
-  aceMode: 'c_cpp'
-  extensions: [
+  readonly name: 'C++'
+  readonly type: 'programming'
+  readonly aceMode: 'c_cpp'
+  readonly extensions: readonly [
     '.cpp',
     '.c++',
     '.cc',
@@ -24,11 +24,12 @@ declare const _: {
     '.tpp',
     '.txx',
   ]
-  languageId: 43
-  tmScope: 'source.c++'
-  aliases: ['cpp']
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-c++src'
-  color: '#f34b7d'
+  readonly languageId: 43
+  readonly tmScope: 'source.c++'
+  readonly aliases: readonly ['cpp']
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-c++src'
+  readonly color: '#f34b7d'
 }
+
 export default _

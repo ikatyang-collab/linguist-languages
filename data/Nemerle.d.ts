@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Nemerle'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.n']
-  languageId: 243
-  tmScope: 'source.nemerle'
-  color: '#3d3c6e'
+  readonly name: 'Nemerle'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.n']
+  readonly languageId: 243
+  readonly tmScope: 'source.nemerle'
+  readonly color: '#3d3c6e'
 }
+
 export default _

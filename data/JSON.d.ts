@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'JSON'
-  type: 'data'
-  aceMode: 'json'
-  extensions: [
+  readonly name: 'JSON'
+  readonly type: 'data'
+  readonly aceMode: 'json'
+  readonly extensions: readonly [
     '.json',
     '.4DForm',
     '.4DProject',
@@ -25,7 +25,7 @@ declare const _: {
     '.yy',
     '.yyp',
   ]
-  filenames: [
+  readonly filenames: readonly [
     '.all-contributorsrc',
     '.arcconfig',
     '.auto-changelog',
@@ -45,11 +45,12 @@ declare const _: {
     'flake.lock',
     'mcmod.info',
   ]
-  languageId: 174
-  tmScope: 'source.json'
-  aliases: ['geojson', 'jsonl', 'sarif', 'topojson']
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'application/json'
-  color: '#292929'
+  readonly languageId: 174
+  readonly tmScope: 'source.json'
+  readonly aliases: readonly ['geojson', 'jsonl', 'sarif', 'topojson']
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'application/json'
+  readonly color: '#292929'
 }
+
 export default _

@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Pike'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.pike', '.pmod']
-  languageId: 287
-  tmScope: 'source.pike'
-  color: '#005390'
-  interpreters: ['pike']
+  readonly name: 'Pike'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.pike', '.pmod']
+  readonly languageId: 287
+  readonly tmScope: 'source.pike'
+  readonly color: '#005390'
+  readonly interpreters: readonly ['pike']
 }
+
 export default _

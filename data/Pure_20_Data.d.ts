@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Pure Data'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.pd']
-  languageId: 300
-  tmScope: 'none'
+  readonly name: 'Pure Data'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.pd']
+  readonly languageId: 300
+  readonly tmScope: 'none'
 }
+
 export default _

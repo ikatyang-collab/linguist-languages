@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'RPC'
-  type: 'programming'
-  aceMode: 'c_cpp'
-  extensions: ['.x']
-  languageId: 1031374237
-  tmScope: 'source.c'
-  aliases: ['rpcgen', 'oncrpc', 'xdr']
+  readonly name: 'RPC'
+  readonly type: 'programming'
+  readonly aceMode: 'c_cpp'
+  readonly extensions: readonly ['.x']
+  readonly languageId: 1031374237
+  readonly tmScope: 'source.c'
+  readonly aliases: readonly ['rpcgen', 'oncrpc', 'xdr']
 }
+
 export default _

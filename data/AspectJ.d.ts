@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'AspectJ'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.aj']
-  languageId: 23
-  tmScope: 'source.aspectj'
-  color: '#a957b0'
+  readonly name: 'AspectJ'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.aj']
+  readonly languageId: 23
+  readonly tmScope: 'source.aspectj'
+  readonly color: '#a957b0'
 }
+
 export default _

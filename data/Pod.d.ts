@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Pod'
-  type: 'prose'
-  aceMode: 'perl'
-  extensions: ['.pod']
-  languageId: 288
-  tmScope: 'none'
-  codemirrorMode: 'perl'
-  codemirrorMimeType: 'text/x-perl'
-  interpreters: ['perl']
-  wrap: true
+  readonly name: 'Pod'
+  readonly type: 'prose'
+  readonly aceMode: 'perl'
+  readonly extensions: readonly ['.pod']
+  readonly languageId: 288
+  readonly tmScope: 'none'
+  readonly codemirrorMode: 'perl'
+  readonly codemirrorMimeType: 'text/x-perl'
+  readonly interpreters: readonly ['perl']
+  readonly wrap: true
 }
+
 export default _

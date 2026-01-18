@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'StringTemplate'
-  type: 'markup'
-  aceMode: 'html'
-  extensions: ['.st']
-  languageId: 89855901
-  tmScope: 'source.string-template'
-  codemirrorMode: 'htmlmixed'
-  codemirrorMimeType: 'text/html'
-  color: '#3fb34f'
+  readonly name: 'StringTemplate'
+  readonly type: 'markup'
+  readonly aceMode: 'html'
+  readonly extensions: readonly ['.st']
+  readonly languageId: 89855901
+  readonly tmScope: 'source.string-template'
+  readonly codemirrorMode: 'htmlmixed'
+  readonly codemirrorMimeType: 'text/html'
+  readonly color: '#3fb34f'
 }
+
 export default _

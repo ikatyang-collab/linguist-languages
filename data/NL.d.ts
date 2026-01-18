@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'NL'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.nl']
-  languageId: 241
-  tmScope: 'none'
+  readonly name: 'NL'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.nl']
+  readonly languageId: 241
+  readonly tmScope: 'none'
 }
+
 export default _

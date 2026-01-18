@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'F#'
-  type: 'programming'
-  aceMode: 'fsharp'
-  extensions: ['.fs', '.fsi', '.fsx']
-  languageId: 105
-  tmScope: 'source.fsharp'
-  aliases: ['fsharp']
-  codemirrorMode: 'mllike'
-  codemirrorMimeType: 'text/x-fsharp'
-  color: '#b845fc'
+  readonly name: 'F#'
+  readonly type: 'programming'
+  readonly aceMode: 'fsharp'
+  readonly extensions: readonly ['.fs', '.fsi', '.fsx']
+  readonly languageId: 105
+  readonly tmScope: 'source.fsharp'
+  readonly aliases: readonly ['fsharp']
+  readonly codemirrorMode: 'mllike'
+  readonly codemirrorMimeType: 'text/x-fsharp'
+  readonly color: '#b845fc'
 }
+
 export default _

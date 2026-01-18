@@ -1,14 +1,15 @@
 declare const _: {
-  name: 'Dockerfile'
-  type: 'programming'
-  aceMode: 'dockerfile'
-  extensions: ['.dockerfile', '.containerfile']
-  filenames: ['Containerfile', 'Dockerfile']
-  languageId: 89
-  tmScope: 'source.dockerfile'
-  aliases: ['Containerfile']
-  codemirrorMode: 'dockerfile'
-  codemirrorMimeType: 'text/x-dockerfile'
-  color: '#384d54'
+  readonly name: 'Dockerfile'
+  readonly type: 'programming'
+  readonly aceMode: 'dockerfile'
+  readonly extensions: readonly ['.dockerfile', '.containerfile']
+  readonly filenames: readonly ['Containerfile', 'Dockerfile']
+  readonly languageId: 89
+  readonly tmScope: 'source.dockerfile'
+  readonly aliases: readonly ['Containerfile']
+  readonly codemirrorMode: 'dockerfile'
+  readonly codemirrorMimeType: 'text/x-dockerfile'
+  readonly color: '#384d54'
 }
+
 export default _

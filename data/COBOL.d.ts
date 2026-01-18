@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'COBOL'
-  type: 'programming'
-  aceMode: 'cobol'
-  extensions: ['.cob', '.cbl', '.ccp', '.cobol', '.cpy']
-  languageId: 48
-  tmScope: 'source.cobol'
-  codemirrorMode: 'cobol'
-  codemirrorMimeType: 'text/x-cobol'
+  readonly name: 'COBOL'
+  readonly type: 'programming'
+  readonly aceMode: 'cobol'
+  readonly extensions: readonly ['.cob', '.cbl', '.ccp', '.cobol', '.cpy']
+  readonly languageId: 48
+  readonly tmScope: 'source.cobol'
+  readonly codemirrorMode: 'cobol'
+  readonly codemirrorMimeType: 'text/x-cobol'
 }
+
 export default _

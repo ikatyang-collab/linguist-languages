@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Gentoo Ebuild'
-  type: 'programming'
-  aceMode: 'sh'
-  extensions: ['.ebuild']
-  languageId: 127
-  tmScope: 'source.shell'
-  codemirrorMode: 'shell'
-  codemirrorMimeType: 'text/x-sh'
-  color: '#9400ff'
-  group: 'Shell'
+  readonly name: 'Gentoo Ebuild'
+  readonly type: 'programming'
+  readonly aceMode: 'sh'
+  readonly extensions: readonly ['.ebuild']
+  readonly languageId: 127
+  readonly tmScope: 'source.shell'
+  readonly codemirrorMode: 'shell'
+  readonly codemirrorMimeType: 'text/x-sh'
+  readonly color: '#9400ff'
+  readonly group: 'Shell'
 }
+
 export default _

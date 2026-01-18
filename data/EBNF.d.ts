@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'EBNF'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.ebnf']
-  languageId: 430
-  tmScope: 'source.ebnf'
-  codemirrorMode: 'ebnf'
-  codemirrorMimeType: 'text/x-ebnf'
+  readonly name: 'EBNF'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ebnf']
+  readonly languageId: 430
+  readonly tmScope: 'source.ebnf'
+  readonly codemirrorMode: 'ebnf'
+  readonly codemirrorMimeType: 'text/x-ebnf'
 }
+
 export default _

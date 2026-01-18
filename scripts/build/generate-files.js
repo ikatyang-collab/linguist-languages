@@ -44,7 +44,7 @@ function* generateFiles(data, options) {
                 .map(x => `* ${x}`)
                 .join('\n')}
               */
-              readonly ${name}${required ? '' : '?'}: ${type};
+              readonly ${name}${required ? '' : '?'}: ${name === 'name' ? languageNameIdentifier : type};
             `,
         )
         .join('\n')}
@@ -93,10 +93,20 @@ function* generateFiles(data, options) {
       file: `data/${basename}.js`,
       content: `export default ${dataString}`,
     }
+
     yield {
       file: `data/${basename}.d.ts`,
       content: outdent`
-        declare const _: ${dataString}
+        declare const _: {
+        ${Object.entries(data)
+          .filter(([, value]) => value !== undefined)
+          .map(
+            ([field, value]) =>
+              `  readonly ${JSON.stringify(field)}: ${Array.isArray(value) ? 'readonly ' : ''}${JSON.stringify(value)};`,
+          )
+          .join('\n')}
+        }
+
         export default _
       `,
     }

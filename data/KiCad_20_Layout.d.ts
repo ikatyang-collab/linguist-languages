@@ -1,14 +1,15 @@
 declare const _: {
-  name: 'KiCad Layout'
-  type: 'data'
-  aceMode: 'lisp'
-  extensions: ['.kicad_pcb', '.kicad_mod', '.kicad_wks']
-  filenames: ['fp-lib-table']
-  languageId: 187
-  tmScope: 'source.pcb.sexp'
-  aliases: ['pcbnew']
-  codemirrorMode: 'commonlisp'
-  codemirrorMimeType: 'text/x-common-lisp'
-  color: '#2f4aab'
+  readonly name: 'KiCad Layout'
+  readonly type: 'data'
+  readonly aceMode: 'lisp'
+  readonly extensions: readonly ['.kicad_pcb', '.kicad_mod', '.kicad_wks']
+  readonly filenames: readonly ['fp-lib-table']
+  readonly languageId: 187
+  readonly tmScope: 'source.pcb.sexp'
+  readonly aliases: readonly ['pcbnew']
+  readonly codemirrorMode: 'commonlisp'
+  readonly codemirrorMimeType: 'text/x-common-lisp'
+  readonly color: '#2f4aab'
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Grace'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.grace']
-  languageId: 135
-  tmScope: 'source.grace'
-  color: '#615f8b'
+  readonly name: 'Grace'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.grace']
+  readonly languageId: 135
+  readonly tmScope: 'source.grace'
+  readonly color: '#615f8b'
 }
+
 export default _

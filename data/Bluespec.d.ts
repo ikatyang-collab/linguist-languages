@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Bluespec'
-  type: 'programming'
-  aceMode: 'verilog'
-  extensions: ['.bsv']
-  languageId: 36
-  tmScope: 'source.bsv'
-  aliases: ['bluespec bsv', 'bsv']
-  codemirrorMode: 'verilog'
-  codemirrorMimeType: 'text/x-systemverilog'
-  color: '#12223c'
+  readonly name: 'Bluespec'
+  readonly type: 'programming'
+  readonly aceMode: 'verilog'
+  readonly extensions: readonly ['.bsv']
+  readonly languageId: 36
+  readonly tmScope: 'source.bsv'
+  readonly aliases: readonly ['bluespec bsv', 'bsv']
+  readonly codemirrorMode: 'verilog'
+  readonly codemirrorMimeType: 'text/x-systemverilog'
+  readonly color: '#12223c'
 }
+
 export default _

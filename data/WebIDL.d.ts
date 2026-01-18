@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'WebIDL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.webidl']
-  languageId: 395
-  tmScope: 'source.webidl'
-  codemirrorMode: 'webidl'
-  codemirrorMimeType: 'text/x-webidl'
+  readonly name: 'WebIDL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.webidl']
+  readonly languageId: 395
+  readonly tmScope: 'source.webidl'
+  readonly codemirrorMode: 'webidl'
+  readonly codemirrorMimeType: 'text/x-webidl'
 }
+
 export default _

@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'JSONLD'
-  type: 'data'
-  aceMode: 'javascript'
-  extensions: ['.jsonld']
-  languageId: 176
-  tmScope: 'source.js'
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'application/ld+json'
-  color: '#0c479c'
+  readonly name: 'JSONLD'
+  readonly type: 'data'
+  readonly aceMode: 'javascript'
+  readonly extensions: readonly ['.jsonld']
+  readonly languageId: 176
+  readonly tmScope: 'source.js'
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'application/ld+json'
+  readonly color: '#0c479c'
 }
+
 export default _

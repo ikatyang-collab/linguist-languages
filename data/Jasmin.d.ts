@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Jasmin'
-  type: 'programming'
-  aceMode: 'java'
-  extensions: ['.j']
-  languageId: 180
-  tmScope: 'source.jasmin'
-  color: '#d03600'
+  readonly name: 'Jasmin'
+  readonly type: 'programming'
+  readonly aceMode: 'java'
+  readonly extensions: readonly ['.j']
+  readonly languageId: 180
+  readonly tmScope: 'source.jasmin'
+  readonly color: '#d03600'
 }
+
 export default _

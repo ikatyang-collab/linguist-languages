@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Cadence'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.cdc']
-  languageId: 270184138
-  tmScope: 'source.cadence'
-  color: '#00ef8b'
+  readonly name: 'Cadence'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.cdc']
+  readonly languageId: 270184138
+  readonly tmScope: 'source.cadence'
+  readonly color: '#00ef8b'
 }
+
 export default _

@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Ioke'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ik']
-  languageId: 169
-  tmScope: 'source.ioke'
-  color: '#078193'
-  interpreters: ['ioke']
+  readonly name: 'Ioke'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ik']
+  readonly languageId: 169
+  readonly tmScope: 'source.ioke'
+  readonly color: '#078193'
+  readonly interpreters: readonly ['ioke']
 }
+
 export default _

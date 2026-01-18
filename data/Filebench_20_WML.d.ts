@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Filebench WML'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.f']
-  languageId: 111
-  tmScope: 'none'
-  color: '#F6B900'
+  readonly name: 'Filebench WML'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.f']
+  readonly languageId: 111
+  readonly tmScope: 'none'
+  readonly color: '#F6B900'
 }
+
 export default _

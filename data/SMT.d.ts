@@ -1,11 +1,11 @@
 declare const _: {
-  name: 'SMT'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.smt2', '.smt', '.z3']
-  languageId: 330
-  tmScope: 'source.smt'
-  interpreters: [
+  readonly name: 'SMT'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.smt2', '.smt', '.z3']
+  readonly languageId: 330
+  readonly tmScope: 'source.smt'
+  readonly interpreters: readonly [
     'boolector',
     'cvc4',
     'mathsat5',
@@ -18,4 +18,5 @@ declare const _: {
     'z3',
   ]
 }
+
 export default _

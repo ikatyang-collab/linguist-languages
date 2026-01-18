@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'X10'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.x10']
-  languageId: 397
-  tmScope: 'source.x10'
-  aliases: ['xten']
-  color: '#4B6BEF'
+  readonly name: 'X10'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.x10']
+  readonly languageId: 397
+  readonly tmScope: 'source.x10'
+  readonly aliases: readonly ['xten']
+  readonly color: '#4B6BEF'
 }
+
 export default _

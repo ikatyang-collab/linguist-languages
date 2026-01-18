@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'LTspice Symbol'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.asy']
-  languageId: 1013566805
-  tmScope: 'source.ltspice.symbol'
-  codemirrorMode: 'spreadsheet'
-  codemirrorMimeType: 'text/x-spreadsheet'
+  readonly name: 'LTspice Symbol'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.asy']
+  readonly languageId: 1013566805
+  readonly tmScope: 'source.ltspice.symbol'
+  readonly codemirrorMode: 'spreadsheet'
+  readonly codemirrorMimeType: 'text/x-spreadsheet'
 }
+
 export default _

@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'HyPhy'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.bf']
-  languageId: 160
-  tmScope: 'none'
+  readonly name: 'HyPhy'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.bf']
+  readonly languageId: 160
+  readonly tmScope: 'none'
 }
+
 export default _

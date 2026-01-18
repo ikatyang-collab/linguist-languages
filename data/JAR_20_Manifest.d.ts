@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'JAR Manifest'
-  type: 'data'
-  aceMode: 'text'
-  filenames: ['MANIFEST.MF']
-  languageId: 447261135
-  tmScope: 'source.yaml'
-  color: '#b07219'
+  readonly name: 'JAR Manifest'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly filenames: readonly ['MANIFEST.MF']
+  readonly languageId: 447261135
+  readonly tmScope: 'source.yaml'
+  readonly color: '#b07219'
 }
+
 export default _

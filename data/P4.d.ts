@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'P4'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.p4']
-  languageId: 348895984
-  tmScope: 'source.p4'
-  color: '#7055b5'
+  readonly name: 'P4'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.p4']
+  readonly languageId: 348895984
+  readonly tmScope: 'source.p4'
+  readonly color: '#7055b5'
 }
+
 export default _

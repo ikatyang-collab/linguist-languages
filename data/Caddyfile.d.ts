@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Caddyfile'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.caddyfile']
-  filenames: ['Caddyfile']
-  languageId: 615465151
-  tmScope: 'source.Caddyfile'
-  aliases: ['Caddy']
-  color: '#22b638'
+  readonly name: 'Caddyfile'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.caddyfile']
+  readonly filenames: readonly ['Caddyfile']
+  readonly languageId: 615465151
+  readonly tmScope: 'source.Caddyfile'
+  readonly aliases: readonly ['Caddy']
+  readonly color: '#22b638'
 }
+
 export default _

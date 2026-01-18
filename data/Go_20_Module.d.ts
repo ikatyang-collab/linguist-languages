@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Go Module'
-  type: 'data'
-  aceMode: 'text'
-  filenames: ['go.mod']
-  languageId: 947461016
-  tmScope: 'go.mod'
-  aliases: ['go.mod', 'go mod']
-  color: '#00ADD8'
+  readonly name: 'Go Module'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly filenames: readonly ['go.mod']
+  readonly languageId: 947461016
+  readonly tmScope: 'go.mod'
+  readonly aliases: readonly ['go.mod', 'go mod']
+  readonly color: '#00ADD8'
 }
+
 export default _

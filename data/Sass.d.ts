@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Sass'
-  type: 'markup'
-  aceMode: 'sass'
-  extensions: ['.sass']
-  languageId: 340
-  tmScope: 'source.sass'
-  codemirrorMode: 'sass'
-  codemirrorMimeType: 'text/x-sass'
-  color: '#a53b70'
+  readonly name: 'Sass'
+  readonly type: 'markup'
+  readonly aceMode: 'sass'
+  readonly extensions: readonly ['.sass']
+  readonly languageId: 340
+  readonly tmScope: 'source.sass'
+  readonly codemirrorMode: 'sass'
+  readonly codemirrorMimeType: 'text/x-sass'
+  readonly color: '#a53b70'
 }
+
 export default _

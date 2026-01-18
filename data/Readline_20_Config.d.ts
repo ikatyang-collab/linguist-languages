@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Readline Config'
-  type: 'data'
-  aceMode: 'text'
-  filenames: ['.inputrc', 'inputrc']
-  languageId: 538732839
-  tmScope: 'source.inputrc'
-  aliases: ['inputrc', 'readline']
-  group: 'INI'
+  readonly name: 'Readline Config'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly filenames: readonly ['.inputrc', 'inputrc']
+  readonly languageId: 538732839
+  readonly tmScope: 'source.inputrc'
+  readonly aliases: readonly ['inputrc', 'readline']
+  readonly group: 'INI'
 }
+
 export default _

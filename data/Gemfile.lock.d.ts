@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Gemfile.lock'
-  type: 'data'
-  aceMode: 'text'
-  filenames: ['Gemfile.lock']
-  languageId: 907065713
-  tmScope: 'source.gemfile-lock'
-  color: '#701516'
+  readonly name: 'Gemfile.lock'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly filenames: readonly ['Gemfile.lock']
+  readonly languageId: 907065713
+  readonly tmScope: 'source.gemfile-lock'
+  readonly color: '#701516'
 }
+
 export default _

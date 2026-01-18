@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Module Management System'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.mms', '.mmk']
-  filenames: ['descrip.mmk', 'descrip.mms']
-  languageId: 235
-  tmScope: 'none'
+  readonly name: 'Module Management System'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.mms', '.mmk']
+  readonly filenames: readonly ['descrip.mmk', 'descrip.mms']
+  readonly languageId: 235
+  readonly tmScope: 'none'
 }
+
 export default _

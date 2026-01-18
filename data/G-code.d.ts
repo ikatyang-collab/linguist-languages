@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'G-code'
-  type: 'programming'
-  aceMode: 'gcode'
-  extensions: ['.g', '.cnc', '.gco', '.gcode']
-  languageId: 117
-  tmScope: 'source.gcode'
-  color: '#D08CF2'
+  readonly name: 'G-code'
+  readonly type: 'programming'
+  readonly aceMode: 'gcode'
+  readonly extensions: readonly ['.g', '.cnc', '.gco', '.gcode']
+  readonly languageId: 117
+  readonly tmScope: 'source.gcode'
+  readonly color: '#D08CF2'
 }
+
 export default _

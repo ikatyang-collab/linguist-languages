@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Cirru'
-  type: 'programming'
-  aceMode: 'cirru'
-  extensions: ['.cirru']
-  languageId: 58
-  tmScope: 'source.cirru'
-  color: '#ccccff'
+  readonly name: 'Cirru'
+  readonly type: 'programming'
+  readonly aceMode: 'cirru'
+  readonly extensions: readonly ['.cirru']
+  readonly languageId: 58
+  readonly tmScope: 'source.cirru'
+  readonly color: '#ccccff'
 }
+
 export default _

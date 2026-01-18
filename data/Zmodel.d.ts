@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Zmodel'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.zmodel']
-  languageId: 803760908
-  tmScope: 'source.zmodel'
-  color: '#ff7100'
+  readonly name: 'Zmodel'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.zmodel']
+  readonly languageId: 803760908
+  readonly tmScope: 'source.zmodel'
+  readonly color: '#ff7100'
 }
+
 export default _

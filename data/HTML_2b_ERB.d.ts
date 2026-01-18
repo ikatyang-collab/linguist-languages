@@ -1,14 +1,15 @@
 declare const _: {
-  name: 'HTML+ERB'
-  type: 'markup'
-  aceMode: 'html_ruby'
-  extensions: ['.erb', '.erb.deface', '.rhtml']
-  languageId: 150
-  tmScope: 'text.html.erb'
-  aliases: ['erb', 'rhtml', 'html+ruby']
-  codemirrorMode: 'htmlembedded'
-  codemirrorMimeType: 'application/x-erb'
-  color: '#701516'
-  group: 'HTML'
+  readonly name: 'HTML+ERB'
+  readonly type: 'markup'
+  readonly aceMode: 'html_ruby'
+  readonly extensions: readonly ['.erb', '.erb.deface', '.rhtml']
+  readonly languageId: 150
+  readonly tmScope: 'text.html.erb'
+  readonly aliases: readonly ['erb', 'rhtml', 'html+ruby']
+  readonly codemirrorMode: 'htmlembedded'
+  readonly codemirrorMimeType: 'application/x-erb'
+  readonly color: '#701516'
+  readonly group: 'HTML'
 }
+
 export default _

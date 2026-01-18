@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Batchfile'
-  type: 'programming'
-  aceMode: 'batchfile'
-  extensions: ['.bat', '.cmd']
-  filenames: ['gradlew.bat', 'mvnw.cmd']
-  languageId: 29
-  tmScope: 'source.batchfile'
-  aliases: ['bat', 'batch', 'dosbatch', 'winbatch']
-  color: '#C1F12E'
+  readonly name: 'Batchfile'
+  readonly type: 'programming'
+  readonly aceMode: 'batchfile'
+  readonly extensions: readonly ['.bat', '.cmd']
+  readonly filenames: readonly ['gradlew.bat', 'mvnw.cmd']
+  readonly languageId: 29
+  readonly tmScope: 'source.batchfile'
+  readonly aliases: readonly ['bat', 'batch', 'dosbatch', 'winbatch']
+  readonly color: '#C1F12E'
 }
+
 export default _

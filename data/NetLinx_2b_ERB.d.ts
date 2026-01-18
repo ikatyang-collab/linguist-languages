@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'NetLinx+ERB'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.axs.erb', '.axi.erb']
-  languageId: 245
-  tmScope: 'source.netlinx.erb'
-  color: '#747faa'
+  readonly name: 'NetLinx+ERB'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.axs.erb', '.axi.erb']
+  readonly languageId: 245
+  readonly tmScope: 'source.netlinx.erb'
+  readonly color: '#747faa'
 }
+
 export default _

@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'OpenEdge ABL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.p', '.cls', '.w']
-  languageId: 264
-  tmScope: 'source.abl'
-  aliases: ['progress', 'openedge', 'abl']
-  color: '#5ce600'
+  readonly name: 'OpenEdge ABL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.p', '.cls', '.w']
+  readonly languageId: 264
+  readonly tmScope: 'source.abl'
+  readonly aliases: readonly ['progress', 'openedge', 'abl']
+  readonly color: '#5ce600'
 }
+
 export default _

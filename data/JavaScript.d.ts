@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'JavaScript'
-  type: 'programming'
-  aceMode: 'javascript'
-  extensions: [
+  readonly name: 'JavaScript'
+  readonly type: 'programming'
+  readonly aceMode: 'javascript'
+  readonly extensions: readonly [
     '.js',
     '._js',
     '.bones',
@@ -29,14 +29,14 @@ declare const _: {
     '.xsjs',
     '.xsjslib',
   ]
-  filenames: ['Jakefile']
-  languageId: 183
-  tmScope: 'source.js'
-  aliases: ['js', 'node']
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'text/javascript'
-  color: '#f1e05a'
-  interpreters: [
+  readonly filenames: readonly ['Jakefile']
+  readonly languageId: 183
+  readonly tmScope: 'source.js'
+  readonly aliases: readonly ['js', 'node']
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'text/javascript'
+  readonly color: '#f1e05a'
+  readonly interpreters: readonly [
     'chakra',
     'd8',
     'gjs',
@@ -49,4 +49,5 @@ declare const _: {
     'v8-shell',
   ]
 }
+
 export default _

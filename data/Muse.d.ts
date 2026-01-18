@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Muse'
-  type: 'prose'
-  aceMode: 'text'
-  extensions: ['.muse']
-  languageId: 474864066
-  tmScope: 'text.muse'
-  aliases: ['amusewiki', 'emacs muse']
-  wrap: true
+  readonly name: 'Muse'
+  readonly type: 'prose'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.muse']
+  readonly languageId: 474864066
+  readonly tmScope: 'text.muse'
+  readonly aliases: readonly ['amusewiki', 'emacs muse']
+  readonly wrap: true
 }
+
 export default _

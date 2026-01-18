@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+# https://github.com/github-linguist/linguist/blob/main/docs/overrides.md
+data/**/* linguist-generated

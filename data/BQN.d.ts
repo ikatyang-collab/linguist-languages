@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'BQN'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.bqn']
-  languageId: 330386870
-  tmScope: 'source.bqn'
-  color: '#2b7067'
+  readonly name: 'BQN'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.bqn']
+  readonly languageId: 330386870
+  readonly tmScope: 'source.bqn'
+  readonly color: '#2b7067'
 }
+
 export default _

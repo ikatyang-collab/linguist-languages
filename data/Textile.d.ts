@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Textile'
-  type: 'prose'
-  aceMode: 'textile'
-  extensions: ['.textile']
-  languageId: 373
-  tmScope: 'none'
-  codemirrorMode: 'textile'
-  codemirrorMimeType: 'text/x-textile'
-  color: '#ffe7ac'
-  wrap: true
+  readonly name: 'Textile'
+  readonly type: 'prose'
+  readonly aceMode: 'textile'
+  readonly extensions: readonly ['.textile']
+  readonly languageId: 373
+  readonly tmScope: 'none'
+  readonly codemirrorMode: 'textile'
+  readonly codemirrorMimeType: 'text/x-textile'
+  readonly color: '#ffe7ac'
+  readonly wrap: true
 }
+
 export default _

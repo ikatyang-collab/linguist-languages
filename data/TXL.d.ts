@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'TXL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.txl']
-  languageId: 366
-  tmScope: 'source.txl'
-  color: '#0178b8'
+  readonly name: 'TXL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.txl']
+  readonly languageId: 366
+  readonly tmScope: 'source.txl'
+  readonly color: '#0178b8'
 }
+
 export default _

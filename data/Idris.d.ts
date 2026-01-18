@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Idris'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.idr', '.lidr']
-  languageId: 165
-  tmScope: 'source.idris'
-  color: '#b30000'
+  readonly name: 'Idris'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.idr', '.lidr']
+  readonly languageId: 165
+  readonly tmScope: 'source.idris'
+  readonly color: '#b30000'
 }
+
 export default _

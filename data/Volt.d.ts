@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Volt'
-  type: 'programming'
-  aceMode: 'd'
-  extensions: ['.volt']
-  languageId: 390
-  tmScope: 'source.d'
-  codemirrorMode: 'd'
-  codemirrorMimeType: 'text/x-d'
-  color: '#1F1F1F'
+  readonly name: 'Volt'
+  readonly type: 'programming'
+  readonly aceMode: 'd'
+  readonly extensions: readonly ['.volt']
+  readonly languageId: 390
+  readonly tmScope: 'source.d'
+  readonly codemirrorMode: 'd'
+  readonly codemirrorMimeType: 'text/x-d'
+  readonly color: '#1F1F1F'
 }
+
 export default _

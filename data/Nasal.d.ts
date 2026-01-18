@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Nasal'
-  type: 'programming'
-  aceMode: 'nasal'
-  extensions: ['.nas']
-  languageId: 178322513
-  tmScope: 'source.nasal'
-  color: '#1d2c4e'
+  readonly name: 'Nasal'
+  readonly type: 'programming'
+  readonly aceMode: 'nasal'
+  readonly extensions: readonly ['.nas']
+  readonly languageId: 178322513
+  readonly tmScope: 'source.nasal'
+  readonly color: '#1d2c4e'
 }
+
 export default _

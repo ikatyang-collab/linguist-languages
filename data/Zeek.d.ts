@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Zeek'
-  type: 'programming'
-  aceMode: 'zeek'
-  extensions: ['.zeek', '.bro']
-  languageId: 40
-  tmScope: 'source.zeek'
-  aliases: ['bro']
+  readonly name: 'Zeek'
+  readonly type: 'programming'
+  readonly aceMode: 'zeek'
+  readonly extensions: readonly ['.zeek', '.bro']
+  readonly languageId: 40
+  readonly tmScope: 'source.zeek'
+  readonly aliases: readonly ['bro']
 }
+
 export default _

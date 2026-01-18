@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'MATLAB'
-  type: 'programming'
-  aceMode: 'matlab'
-  extensions: ['.matlab', '.m']
-  languageId: 225
-  tmScope: 'source.matlab'
-  aliases: ['octave']
-  codemirrorMode: 'octave'
-  codemirrorMimeType: 'text/x-octave'
-  color: '#e16737'
+  readonly name: 'MATLAB'
+  readonly type: 'programming'
+  readonly aceMode: 'matlab'
+  readonly extensions: readonly ['.matlab', '.m']
+  readonly languageId: 225
+  readonly tmScope: 'source.matlab'
+  readonly aliases: readonly ['octave']
+  readonly codemirrorMode: 'octave'
+  readonly codemirrorMimeType: 'text/x-octave'
+  readonly color: '#e16737'
 }
+
 export default _

@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'TextMate Properties'
-  type: 'data'
-  aceMode: 'properties'
-  filenames: ['.tm_properties']
-  languageId: 981795023
-  tmScope: 'source.tm-properties'
-  aliases: ['tm-properties']
-  codemirrorMode: 'properties'
-  codemirrorMimeType: 'text/x-properties'
-  color: '#df66e4'
+  readonly name: 'TextMate Properties'
+  readonly type: 'data'
+  readonly aceMode: 'properties'
+  readonly filenames: readonly ['.tm_properties']
+  readonly languageId: 981795023
+  readonly tmScope: 'source.tm-properties'
+  readonly aliases: readonly ['tm-properties']
+  readonly codemirrorMode: 'properties'
+  readonly codemirrorMimeType: 'text/x-properties'
+  readonly color: '#df66e4'
 }
+
 export default _

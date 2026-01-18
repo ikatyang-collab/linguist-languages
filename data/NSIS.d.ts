@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'NSIS'
-  type: 'programming'
-  aceMode: 'nsis'
-  extensions: ['.nsi', '.nsh']
-  languageId: 242
-  tmScope: 'source.nsis'
-  codemirrorMode: 'nsis'
-  codemirrorMimeType: 'text/x-nsis'
+  readonly name: 'NSIS'
+  readonly type: 'programming'
+  readonly aceMode: 'nsis'
+  readonly extensions: readonly ['.nsi', '.nsh']
+  readonly languageId: 242
+  readonly tmScope: 'source.nsis'
+  readonly codemirrorMode: 'nsis'
+  readonly codemirrorMimeType: 'text/x-nsis'
 }
+
 export default _

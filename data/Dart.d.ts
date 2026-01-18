@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Dart'
-  type: 'programming'
-  aceMode: 'dart'
-  extensions: ['.dart']
-  languageId: 87
-  tmScope: 'source.dart'
-  codemirrorMode: 'dart'
-  codemirrorMimeType: 'application/dart'
-  color: '#00B4AB'
-  interpreters: ['dart']
+  readonly name: 'Dart'
+  readonly type: 'programming'
+  readonly aceMode: 'dart'
+  readonly extensions: readonly ['.dart']
+  readonly languageId: 87
+  readonly tmScope: 'source.dart'
+  readonly codemirrorMode: 'dart'
+  readonly codemirrorMimeType: 'application/dart'
+  readonly color: '#00B4AB'
+  readonly interpreters: readonly ['dart']
 }
+
 export default _

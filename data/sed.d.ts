@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'sed'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.sed']
-  languageId: 847830017
-  tmScope: 'source.sed'
-  color: '#64b970'
-  interpreters: ['gsed', 'minised', 'sed', 'ssed']
+  readonly name: 'sed'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.sed']
+  readonly languageId: 847830017
+  readonly tmScope: 'source.sed'
+  readonly color: '#64b970'
+  readonly interpreters: readonly ['gsed', 'minised', 'sed', 'ssed']
 }
+
 export default _

@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Turtle'
-  type: 'data'
-  aceMode: 'turtle'
-  extensions: ['.ttl']
-  languageId: 376
-  tmScope: 'source.turtle'
-  codemirrorMode: 'turtle'
-  codemirrorMimeType: 'text/turtle'
+  readonly name: 'Turtle'
+  readonly type: 'data'
+  readonly aceMode: 'turtle'
+  readonly extensions: readonly ['.ttl']
+  readonly languageId: 376
+  readonly tmScope: 'source.turtle'
+  readonly codemirrorMode: 'turtle'
+  readonly codemirrorMimeType: 'text/turtle'
 }
+
 export default _

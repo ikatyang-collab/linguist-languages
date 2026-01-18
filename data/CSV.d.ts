@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'CSV'
-  type: 'data'
-  aceMode: 'csv'
-  extensions: ['.csv']
-  languageId: 51
-  tmScope: 'none'
-  color: '#237346'
+  readonly name: 'CSV'
+  readonly type: 'data'
+  readonly aceMode: 'csv'
+  readonly extensions: readonly ['.csv']
+  readonly languageId: 51
+  readonly tmScope: 'none'
+  readonly color: '#237346'
 }
+
 export default _

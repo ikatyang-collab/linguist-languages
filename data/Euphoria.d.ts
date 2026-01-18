@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Euphoria'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.e', '.ex']
-  languageId: 880693982
-  tmScope: 'source.euphoria'
-  color: '#FF790B'
-  interpreters: ['eui', 'euiw']
+  readonly name: 'Euphoria'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.e', '.ex']
+  readonly languageId: 880693982
+  readonly tmScope: 'source.euphoria'
+  readonly color: '#FF790B'
+  readonly interpreters: readonly ['eui', 'euiw']
 }
+
 export default _

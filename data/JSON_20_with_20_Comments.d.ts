@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'JSON with Comments'
-  type: 'data'
-  aceMode: 'javascript'
-  extensions: [
+  readonly name: 'JSON with Comments'
+  readonly type: 'data'
+  readonly aceMode: 'javascript'
+  readonly extensions: readonly [
     '.jsonc',
     '.code-snippets',
     '.code-workspace',
@@ -22,7 +22,7 @@ declare const _: {
     '.sublime_session',
     '.tsconfig.json',
   ]
-  filenames: [
+  readonly filenames: readonly [
     '.babelrc',
     '.devcontainer.json',
     '.eslintrc.json',
@@ -38,12 +38,13 @@ declare const _: {
     'tsconfig.json',
     'tslint.json',
   ]
-  languageId: 423
-  tmScope: 'source.json.comments'
-  aliases: ['jsonc']
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'text/javascript'
-  color: '#292929'
-  group: 'JSON'
+  readonly languageId: 423
+  readonly tmScope: 'source.json.comments'
+  readonly aliases: readonly ['jsonc']
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'text/javascript'
+  readonly color: '#292929'
+  readonly group: 'JSON'
 }
+
 export default _

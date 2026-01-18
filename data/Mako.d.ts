@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Mako'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.mako', '.mao']
-  languageId: 221
-  tmScope: 'text.html.mako'
-  color: '#7e858d'
+  readonly name: 'Mako'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.mako', '.mao']
+  readonly languageId: 221
+  readonly tmScope: 'text.html.mako'
+  readonly color: '#7e858d'
 }
+
 export default _

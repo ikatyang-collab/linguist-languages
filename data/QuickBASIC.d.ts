@@ -1,13 +1,20 @@
 declare const _: {
-  name: 'QuickBASIC'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.bas', '.bi']
-  languageId: 593107205
-  tmScope: 'source.QB64'
-  aliases: ['qb', 'qbasic', 'qb64', 'classic qbasic', 'classic quickbasic']
-  codemirrorMode: 'vb'
-  codemirrorMimeType: 'text/x-vb'
-  color: '#008080'
+  readonly name: 'QuickBASIC'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.bas', '.bi']
+  readonly languageId: 593107205
+  readonly tmScope: 'source.QB64'
+  readonly aliases: readonly [
+    'qb',
+    'qbasic',
+    'qb64',
+    'classic qbasic',
+    'classic quickbasic',
+  ]
+  readonly codemirrorMode: 'vb'
+  readonly codemirrorMimeType: 'text/x-vb'
+  readonly color: '#008080'
 }
+
 export default _

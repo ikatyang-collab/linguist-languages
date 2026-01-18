@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Promela'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.pml']
-  languageId: 441858312
-  tmScope: 'source.promela'
-  color: '#de0000'
+  readonly name: 'Promela'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.pml']
+  readonly languageId: 441858312
+  readonly tmScope: 'source.promela'
+  readonly color: '#de0000'
 }
+
 export default _

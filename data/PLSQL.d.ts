@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'PLSQL'
-  type: 'programming'
-  aceMode: 'plsql'
-  extensions: [
+  readonly name: 'PLSQL'
+  readonly type: 'programming'
+  readonly aceMode: 'plsql'
+  readonly extensions: readonly [
     '.pls',
     '.bdy',
     '.ddl',
@@ -20,10 +20,11 @@ declare const _: {
     '.trg',
     '.vw',
   ]
-  languageId: 273
-  tmScope: 'none'
-  codemirrorMode: 'sql'
-  codemirrorMimeType: 'text/x-plsql'
-  color: '#dad8d8'
+  readonly languageId: 273
+  readonly tmScope: 'none'
+  readonly codemirrorMode: 'sql'
+  readonly codemirrorMimeType: 'text/x-plsql'
+  readonly color: '#dad8d8'
 }
+
 export default _

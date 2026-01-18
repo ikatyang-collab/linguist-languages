@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Elm'
-  type: 'programming'
-  aceMode: 'elm'
-  extensions: ['.elm']
-  languageId: 101
-  tmScope: 'source.elm'
-  codemirrorMode: 'elm'
-  codemirrorMimeType: 'text/x-elm'
-  color: '#60B5CC'
+  readonly name: 'Elm'
+  readonly type: 'programming'
+  readonly aceMode: 'elm'
+  readonly extensions: readonly ['.elm']
+  readonly languageId: 101
+  readonly tmScope: 'source.elm'
+  readonly codemirrorMode: 'elm'
+  readonly codemirrorMimeType: 'text/x-elm'
+  readonly color: '#60B5CC'
 }
+
 export default _

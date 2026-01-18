@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Avro IDL'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.avdl']
-  languageId: 785497837
-  tmScope: 'source.avro'
-  color: '#0040FF'
+  readonly name: 'Avro IDL'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.avdl']
+  readonly languageId: 785497837
+  readonly tmScope: 'source.avro'
+  readonly color: '#0040FF'
 }
+
 export default _

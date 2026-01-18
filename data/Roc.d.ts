@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Roc'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.roc']
-  languageId: 440182480
-  tmScope: 'source.roc'
-  color: '#7c38f5'
+  readonly name: 'Roc'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.roc']
+  readonly languageId: 440182480
+  readonly tmScope: 'source.roc'
+  readonly color: '#7c38f5'
 }
+
 export default _

@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'C3'
-  type: 'programming'
-  aceMode: 'c_cpp'
-  extensions: ['.c3']
-  languageId: 769248603
-  tmScope: 'source.c3'
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-csrc'
-  color: '#2563eb'
+  readonly name: 'C3'
+  readonly type: 'programming'
+  readonly aceMode: 'c_cpp'
+  readonly extensions: readonly ['.c3']
+  readonly languageId: 769248603
+  readonly tmScope: 'source.c3'
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-csrc'
+  readonly color: '#2563eb'
 }
+
 export default _

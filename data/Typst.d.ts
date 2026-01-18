@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Typst'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.typ']
-  languageId: 704730682
-  tmScope: 'source.typst'
-  aliases: ['typ']
-  color: '#239dad'
+  readonly name: 'Typst'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.typ']
+  readonly languageId: 704730682
+  readonly tmScope: 'source.typst'
+  readonly aliases: readonly ['typ']
+  readonly color: '#239dad'
 }
+
 export default _

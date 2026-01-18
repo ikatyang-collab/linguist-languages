@@ -1,9 +1,15 @@
 declare const _: {
-  name: 'X Font Directory Index'
-  type: 'data'
-  aceMode: 'text'
-  filenames: ['encodings.dir', 'fonts.alias', 'fonts.dir', 'fonts.scale']
-  languageId: 208700028
-  tmScope: 'source.fontdir'
+  readonly name: 'X Font Directory Index'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly filenames: readonly [
+    'encodings.dir',
+    'fonts.alias',
+    'fonts.dir',
+    'fonts.scale',
+  ]
+  readonly languageId: 208700028
+  readonly tmScope: 'source.fontdir'
 }
+
 export default _

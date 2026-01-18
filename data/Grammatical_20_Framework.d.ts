@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Grammatical Framework'
-  type: 'programming'
-  aceMode: 'haskell'
-  extensions: ['.gf']
-  languageId: 137
-  tmScope: 'source.gf'
-  aliases: ['gf']
-  codemirrorMode: 'haskell'
-  codemirrorMimeType: 'text/x-haskell'
-  color: '#ff0000'
+  readonly name: 'Grammatical Framework'
+  readonly type: 'programming'
+  readonly aceMode: 'haskell'
+  readonly extensions: readonly ['.gf']
+  readonly languageId: 137
+  readonly tmScope: 'source.gf'
+  readonly aliases: readonly ['gf']
+  readonly codemirrorMode: 'haskell'
+  readonly codemirrorMimeType: 'text/x-haskell'
+  readonly color: '#ff0000'
 }
+
 export default _

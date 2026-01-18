@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'YARA'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.yar', '.yara']
-  languageId: 805122868
-  tmScope: 'source.yara'
-  color: '#220000'
+  readonly name: 'YARA'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.yar', '.yara']
+  readonly languageId: 805122868
+  readonly tmScope: 'source.yara'
+  readonly color: '#220000'
 }
+
 export default _

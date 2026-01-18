@@ -1,9 +1,9 @@
 declare const _: {
-  name: 'Emacs Lisp'
-  type: 'programming'
-  aceMode: 'lisp'
-  extensions: ['.el', '.emacs', '.emacs.desktop']
-  filenames: [
+  readonly name: 'Emacs Lisp'
+  readonly type: 'programming'
+  readonly aceMode: 'lisp'
+  readonly extensions: readonly ['.el', '.emacs', '.emacs.desktop']
+  readonly filenames: readonly [
     '.abbrev_defs',
     '.emacs',
     '.emacs.desktop',
@@ -15,11 +15,12 @@ declare const _: {
     '_emacs',
     'abbrev_defs',
   ]
-  languageId: 102
-  tmScope: 'source.emacs.lisp'
-  aliases: ['elisp', 'emacs']
-  codemirrorMode: 'commonlisp'
-  codemirrorMimeType: 'text/x-common-lisp'
-  color: '#c065db'
+  readonly languageId: 102
+  readonly tmScope: 'source.emacs.lisp'
+  readonly aliases: readonly ['elisp', 'emacs']
+  readonly codemirrorMode: 'commonlisp'
+  readonly codemirrorMimeType: 'text/x-common-lisp'
+  readonly color: '#c065db'
 }
+
 export default _

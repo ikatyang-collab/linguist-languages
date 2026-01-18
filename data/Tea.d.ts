@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Tea'
-  type: 'markup'
-  aceMode: 'text'
-  extensions: ['.tea']
-  languageId: 370
-  tmScope: 'source.tea'
+  readonly name: 'Tea'
+  readonly type: 'markup'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.tea']
+  readonly languageId: 370
+  readonly tmScope: 'source.tea'
 }
+
 export default _

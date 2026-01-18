@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'AngelScript'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.as', '.angelscript']
-  languageId: 389477596
-  tmScope: 'source.angelscript'
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-c++src'
-  color: '#C7D7DC'
+  readonly name: 'AngelScript'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.as', '.angelscript']
+  readonly languageId: 389477596
+  readonly tmScope: 'source.angelscript'
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-c++src'
+  readonly color: '#C7D7DC'
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Ballerina'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.bal']
-  languageId: 720859680
-  tmScope: 'source.ballerina'
-  color: '#FF5000'
+  readonly name: 'Ballerina'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.bal']
+  readonly languageId: 720859680
+  readonly tmScope: 'source.ballerina'
+  readonly color: '#FF5000'
 }
+
 export default _

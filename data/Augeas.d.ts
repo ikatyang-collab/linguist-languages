@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Augeas'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.aug']
-  languageId: 25
-  tmScope: 'none'
-  color: '#9CC134'
+  readonly name: 'Augeas'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.aug']
+  readonly languageId: 25
+  readonly tmScope: 'none'
+  readonly color: '#9CC134'
 }
+
 export default _

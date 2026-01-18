@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'Perl'
-  type: 'programming'
-  aceMode: 'perl'
-  extensions: [
+  readonly name: 'Perl'
+  readonly type: 'programming'
+  readonly aceMode: 'perl'
+  readonly extensions: readonly [
     '.pl',
     '.al',
     '.cgi',
@@ -14,7 +14,7 @@ declare const _: {
     '.psgi',
     '.t',
   ]
-  filenames: [
+  readonly filenames: readonly [
     '.latexmkrc',
     'Makefile.PL',
     'Rexfile',
@@ -22,12 +22,13 @@ declare const _: {
     'cpanfile',
     'latexmkrc',
   ]
-  languageId: 282
-  tmScope: 'source.perl'
-  aliases: ['cperl']
-  codemirrorMode: 'perl'
-  codemirrorMimeType: 'text/x-perl'
-  color: '#0298c3'
-  interpreters: ['cperl', 'perl']
+  readonly languageId: 282
+  readonly tmScope: 'source.perl'
+  readonly aliases: readonly ['cperl']
+  readonly codemirrorMode: 'perl'
+  readonly codemirrorMimeType: 'text/x-perl'
+  readonly color: '#0298c3'
+  readonly interpreters: readonly ['cperl', 'perl']
 }
+
 export default _

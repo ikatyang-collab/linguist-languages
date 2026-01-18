@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'PlantUML'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.puml', '.iuml', '.plantuml']
-  languageId: 833504686
-  tmScope: 'source.wsd'
-  color: '#fbbd16'
+  readonly name: 'PlantUML'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.puml', '.iuml', '.plantuml']
+  readonly languageId: 833504686
+  readonly tmScope: 'source.wsd'
+  readonly color: '#fbbd16'
 }
+
 export default _

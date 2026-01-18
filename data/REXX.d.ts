@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'REXX'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.rexx', '.pprx', '.rex']
-  languageId: 311
-  tmScope: 'source.rexx'
-  aliases: ['arexx']
-  color: '#d90e09'
-  interpreters: ['regina', 'rexx']
+  readonly name: 'REXX'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.rexx', '.pprx', '.rex']
+  readonly languageId: 311
+  readonly tmScope: 'source.rexx'
+  readonly aliases: readonly ['arexx']
+  readonly color: '#d90e09'
+  readonly interpreters: readonly ['regina', 'rexx']
 }
+
 export default _

@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Git Revision List'
-  type: 'data'
-  aceMode: 'text'
-  filenames: ['.git-blame-ignore-revs']
-  languageId: 461881235
-  tmScope: 'source.git-revlist'
-  aliases: ['Git Blame Ignore Revs']
-  color: '#F44D27'
+  readonly name: 'Git Revision List'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly filenames: readonly ['.git-blame-ignore-revs']
+  readonly languageId: 461881235
+  readonly tmScope: 'source.git-revlist'
+  readonly aliases: readonly ['Git Blame Ignore Revs']
+  readonly color: '#F44D27'
 }
+
 export default _

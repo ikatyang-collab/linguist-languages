@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'WGSL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.wgsl']
-  languageId: 836605993
-  tmScope: 'source.wgsl'
-  color: '#1a5e9a'
+  readonly name: 'WGSL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.wgsl']
+  readonly languageId: 836605993
+  readonly tmScope: 'source.wgsl'
+  readonly color: '#1a5e9a'
 }
+
 export default _

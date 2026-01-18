@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'OASv3-yaml'
-  type: 'data'
-  aceMode: 'yaml'
-  extensions: ['.yaml', '.yml']
-  languageId: 51239111
-  tmScope: 'source.yaml'
-  codemirrorMode: 'yaml'
-  codemirrorMimeType: 'text/x-yaml'
-  color: '#85ea2d'
-  group: 'OpenAPI Specification v3'
+  readonly name: 'OASv3-yaml'
+  readonly type: 'data'
+  readonly aceMode: 'yaml'
+  readonly extensions: readonly ['.yaml', '.yml']
+  readonly languageId: 51239111
+  readonly tmScope: 'source.yaml'
+  readonly codemirrorMode: 'yaml'
+  readonly codemirrorMimeType: 'text/x-yaml'
+  readonly color: '#85ea2d'
+  readonly group: 'OpenAPI Specification v3'
 }
+
 export default _

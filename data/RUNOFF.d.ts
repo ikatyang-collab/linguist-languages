@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'RUNOFF'
-  type: 'markup'
-  aceMode: 'text'
-  extensions: ['.rnh', '.rno']
-  languageId: 315
-  tmScope: 'text.runoff'
-  color: '#665a4e'
-  wrap: true
+  readonly name: 'RUNOFF'
+  readonly type: 'markup'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.rnh', '.rno']
+  readonly languageId: 315
+  readonly tmScope: 'text.runoff'
+  readonly color: '#665a4e'
+  readonly wrap: true
 }
+
 export default _

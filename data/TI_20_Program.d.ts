@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'TI Program'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.8xp', '.8xp.txt']
-  languageId: 422
-  tmScope: 'source.8xp'
-  color: '#A0AA87'
+  readonly name: 'TI Program'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.8xp', '.8xp.txt']
+  readonly languageId: 422
+  readonly tmScope: 'source.8xp'
+  readonly color: '#A0AA87'
 }
+
 export default _

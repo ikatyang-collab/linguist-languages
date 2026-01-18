@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'Raku'
-  type: 'programming'
-  aceMode: 'raku'
-  extensions: [
+  readonly name: 'Raku'
+  readonly type: 'programming'
+  readonly aceMode: 'raku'
+  readonly extensions: readonly [
     '.6pl',
     '.6pm',
     '.nqp',
@@ -17,12 +17,13 @@ declare const _: {
     '.rakumod',
     '.t',
   ]
-  languageId: 283
-  tmScope: 'source.raku'
-  aliases: ['perl6', 'perl-6']
-  codemirrorMode: 'perl'
-  codemirrorMimeType: 'text/x-perl'
-  color: '#0000fb'
-  interpreters: ['perl6', 'raku', 'rakudo']
+  readonly languageId: 283
+  readonly tmScope: 'source.raku'
+  readonly aliases: readonly ['perl6', 'perl-6']
+  readonly codemirrorMode: 'perl'
+  readonly codemirrorMimeType: 'text/x-perl'
+  readonly color: '#0000fb'
+  readonly interpreters: readonly ['perl6', 'raku', 'rakudo']
 }
+
 export default _

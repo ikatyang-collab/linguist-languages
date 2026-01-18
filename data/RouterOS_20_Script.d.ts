@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'RouterOS Script'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.rsc']
-  languageId: 592853203
-  tmScope: 'none'
-  color: '#DE3941'
-  interpreters: ['RouterOS']
+  readonly name: 'RouterOS Script'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.rsc']
+  readonly languageId: 592853203
+  readonly tmScope: 'none'
+  readonly color: '#DE3941'
+  readonly interpreters: readonly ['RouterOS']
 }
+
 export default _

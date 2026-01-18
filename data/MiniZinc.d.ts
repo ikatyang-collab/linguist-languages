@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'MiniZinc'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.mzn']
-  languageId: 238874535
-  tmScope: 'source.mzn'
-  color: '#06a9e6'
+  readonly name: 'MiniZinc'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.mzn']
+  readonly languageId: 238874535
+  readonly tmScope: 'source.mzn'
+  readonly color: '#06a9e6'
 }
+
 export default _

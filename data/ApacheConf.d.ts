@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'ApacheConf'
-  type: 'data'
-  aceMode: 'apache_conf'
-  extensions: ['.apacheconf', '.vhost']
-  filenames: ['.htaccess', 'apache2.conf', 'httpd.conf']
-  languageId: 16
-  tmScope: 'source.apacheconf'
-  aliases: ['aconf', 'apache']
-  color: '#d12127'
+  readonly name: 'ApacheConf'
+  readonly type: 'data'
+  readonly aceMode: 'apache_conf'
+  readonly extensions: readonly ['.apacheconf', '.vhost']
+  readonly filenames: readonly ['.htaccess', 'apache2.conf', 'httpd.conf']
+  readonly languageId: 16
+  readonly tmScope: 'source.apacheconf'
+  readonly aliases: readonly ['aconf', 'apache']
+  readonly color: '#d12127'
 }
+
 export default _

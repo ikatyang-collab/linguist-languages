@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'BlitzMax'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.bmx']
-  languageId: 35
-  tmScope: 'source.blitzmax'
-  aliases: ['bmax']
-  color: '#cd6400'
+  readonly name: 'BlitzMax'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.bmx']
+  readonly languageId: 35
+  readonly tmScope: 'source.blitzmax'
+  readonly aliases: readonly ['bmax']
+  readonly color: '#cd6400'
 }
+
 export default _

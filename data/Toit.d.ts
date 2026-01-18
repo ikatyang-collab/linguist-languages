@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Toit'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.toit']
-  languageId: 356554395
-  tmScope: 'source.toit'
-  color: '#c2c9fb'
+  readonly name: 'Toit'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.toit']
+  readonly languageId: 356554395
+  readonly tmScope: 'source.toit'
+  readonly color: '#c2c9fb'
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Edge'
-  type: 'markup'
-  aceMode: 'html'
-  extensions: ['.edge']
-  languageId: 460509620
-  tmScope: 'text.html.edge'
-  color: '#0dffe0'
+  readonly name: 'Edge'
+  readonly type: 'markup'
+  readonly aceMode: 'html'
+  readonly extensions: readonly ['.edge']
+  readonly languageId: 460509620
+  readonly tmScope: 'text.html.edge'
+  readonly color: '#0dffe0'
 }
+
 export default _

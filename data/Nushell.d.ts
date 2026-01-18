@@ -1,14 +1,15 @@
 declare const _: {
-  name: 'Nushell'
-  type: 'programming'
-  aceMode: 'sh'
-  extensions: ['.nu']
-  languageId: 446573572
-  tmScope: 'source.nushell'
-  aliases: ['nu-script', 'nushell-script']
-  codemirrorMode: 'shell'
-  codemirrorMimeType: 'text/x-sh'
-  color: '#4E9906'
-  interpreters: ['nu']
+  readonly name: 'Nushell'
+  readonly type: 'programming'
+  readonly aceMode: 'sh'
+  readonly extensions: readonly ['.nu']
+  readonly languageId: 446573572
+  readonly tmScope: 'source.nushell'
+  readonly aliases: readonly ['nu-script', 'nushell-script']
+  readonly codemirrorMode: 'shell'
+  readonly codemirrorMimeType: 'text/x-sh'
+  readonly color: '#4E9906'
+  readonly interpreters: readonly ['nu']
 }
+
 export default _

@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'SuperCollider'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.sc', '.scd']
-  languageId: 361
-  tmScope: 'source.supercollider'
-  color: '#46390b'
-  interpreters: ['sclang', 'scsynth']
+  readonly name: 'SuperCollider'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.sc', '.scd']
+  readonly languageId: 361
+  readonly tmScope: 'source.supercollider'
+  readonly color: '#46390b'
+  readonly interpreters: readonly ['sclang', 'scsynth']
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Pawn'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.pwn', '.inc', '.sma']
-  languageId: 271
-  tmScope: 'source.pawn'
-  color: '#dbb284'
+  readonly name: 'Pawn'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.pwn', '.inc', '.sma']
+  readonly languageId: 271
+  readonly tmScope: 'source.pawn'
+  readonly color: '#dbb284'
 }
+
 export default _

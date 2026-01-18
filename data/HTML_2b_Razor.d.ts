@@ -1,14 +1,15 @@
 declare const _: {
-  name: 'HTML+Razor'
-  type: 'markup'
-  aceMode: 'razor'
-  extensions: ['.cshtml', '.razor']
-  languageId: 479039817
-  tmScope: 'text.html.cshtml'
-  aliases: ['razor']
-  codemirrorMode: 'htmlmixed'
-  codemirrorMimeType: 'text/html'
-  color: '#512be4'
-  group: 'HTML'
+  readonly name: 'HTML+Razor'
+  readonly type: 'markup'
+  readonly aceMode: 'razor'
+  readonly extensions: readonly ['.cshtml', '.razor']
+  readonly languageId: 479039817
+  readonly tmScope: 'text.html.cshtml'
+  readonly aliases: readonly ['razor']
+  readonly codemirrorMode: 'htmlmixed'
+  readonly codemirrorMimeType: 'text/html'
+  readonly color: '#512be4'
+  readonly group: 'HTML'
 }
+
 export default _

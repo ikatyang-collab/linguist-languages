@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'ZIL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.zil', '.mud']
-  languageId: 973483626
-  tmScope: 'source.zil'
-  color: '#dc75e5'
+  readonly name: 'ZIL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.zil', '.mud']
+  readonly languageId: 973483626
+  readonly tmScope: 'source.zil'
+  readonly color: '#dc75e5'
 }
+
 export default _

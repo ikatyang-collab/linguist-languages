@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Motoko'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.mo']
-  languageId: 202937027
-  tmScope: 'source.mo'
-  color: '#fbb03b'
+  readonly name: 'Motoko'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.mo']
+  readonly languageId: 202937027
+  readonly tmScope: 'source.mo'
+  readonly color: '#fbb03b'
 }
+
 export default _

@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'XSLT'
-  type: 'programming'
-  aceMode: 'xml'
-  extensions: ['.xslt', '.xsl']
-  languageId: 404
-  tmScope: 'text.xml.xsl'
-  aliases: ['xsl']
-  codemirrorMode: 'xml'
-  codemirrorMimeType: 'text/xml'
-  color: '#EB8CEB'
+  readonly name: 'XSLT'
+  readonly type: 'programming'
+  readonly aceMode: 'xml'
+  readonly extensions: readonly ['.xslt', '.xsl']
+  readonly languageId: 404
+  readonly tmScope: 'text.xml.xsl'
+  readonly aliases: readonly ['xsl']
+  readonly codemirrorMode: 'xml'
+  readonly codemirrorMimeType: 'text/xml'
+  readonly color: '#EB8CEB'
 }
+
 export default _

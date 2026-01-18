@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'HTTP'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.http']
-  languageId: 152
-  tmScope: 'source.httpspec'
-  codemirrorMode: 'http'
-  codemirrorMimeType: 'message/http'
-  color: '#005C9C'
+  readonly name: 'HTTP'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.http']
+  readonly languageId: 152
+  readonly tmScope: 'source.httpspec'
+  readonly codemirrorMode: 'http'
+  readonly codemirrorMimeType: 'message/http'
+  readonly color: '#005C9C'
 }
+
 export default _
