@@ -32,6 +32,8 @@ jobs:
             Update Linguist to v${{env.LINGUIST_VERSION }}
 
             https://github.com/github-linguist/linguist/releases/tag/v${{env.LINGUIST_VERSION }}
-          title: Update to Linguist ${{env.LINGUIST_VERSION }}
+          title: Update Linguist to v${{env.LINGUIST_VERSION }}
+          body: |
+            Update Linguist to [v${{env.LINGUIST_VERSION }}](https://github.com/github-linguist/linguist/releases/tag/v${{env.LINGUIST_VERSION }})
           branch: automated-update-${{ env.CURRENT_DATE }}
           branch-suffix: timestamp
