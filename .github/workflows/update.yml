@@ -22,6 +22,8 @@ jobs:
       - uses: ./.github/actions/setup
       - run: |
           pnpm update-data --save-version-file
+          cat LINGUIST_VERSION
+      - run: |
           echo "CURRENT_DATE=$(date +'%Y-%m-%d')" >> "$GITHUB_ENV"
           echo "LINGUIST_VERSION=$(cat LINGUIST_VERSION)" >> "$GITHUB_ENV"
       - uses: peter-evans/create-pull-request@v8

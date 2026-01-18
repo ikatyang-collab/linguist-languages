@@ -60,7 +60,7 @@ await Promise.all(
 
 if (options['save-version-file']) {
   // Save version number to `LINGUIST_VERSION` on CI
-  fs.writeFileSync(
+  await fs.writeFile(
     new URL('../LINGUIST_VERSION', import.meta.url),
     data.version,
   )
