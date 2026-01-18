@@ -61,6 +61,7 @@ export default {
     '.ps1xml',
     '.psc1',
     '.pt',
+    '.pubxml',
     '.qhelp',
     '.rdf',
     '.res',
