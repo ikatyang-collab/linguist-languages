@@ -8,13 +8,15 @@ import {
   parseLanguages,
   DATA_FILE,
   readFile,
+  readDataFile,
+  deserializeData,
 } from '../scripts/build/index.js'
 
 expect.addSnapshotSerializer(serializer)
 
 test('field descriptions', async () => {
-  const data = await readFile(DATA_FILE)
-  const fields = parseFields(data)
+  const data = await deserializeData(DATA_FILE)
+  const fields = parseFields(data.text)
 
   expect(
     Object.fromEntries(

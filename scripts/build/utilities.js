@@ -93,3 +93,17 @@ export function getType(value) {
 
   throw new Error(`Unexpected value:\n${inspect(value)}`)
 }
+
+// TODO: Use front matter
+export async function serializeData(file, data) {
+  const content = `# Version: ${data.version}\n${data.text}`
+  await writeFile(file, content, { format: false })
+  return data
+}
+
+export async function deserializeData(file) {
+  const content = await readFile(file)
+  assert.ok(content.startsWith('# Version: '))
+  const [firstLine, ...rest] = content.split('\n')
+  return { version: firstLine.slice('# Version: '.text), text: rest.join('\n') }
+}
