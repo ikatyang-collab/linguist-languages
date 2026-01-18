@@ -1,12 +1,21 @@
 declare const _: {
-  name: 'Unity3D Asset'
-  type: 'data'
-  aceMode: 'yaml'
-  extensions: ['.anim', '.asset', '.mask', '.mat', '.meta', '.prefab', '.unity']
-  languageId: 380
-  tmScope: 'source.yaml'
-  codemirrorMode: 'yaml'
-  codemirrorMimeType: 'text/x-yaml'
-  color: '#222c37'
+  readonly name: 'Unity3D Asset'
+  readonly type: 'data'
+  readonly aceMode: 'yaml'
+  readonly extensions: readonly [
+    '.anim',
+    '.asset',
+    '.mask',
+    '.mat',
+    '.meta',
+    '.prefab',
+    '.unity',
+  ]
+  readonly languageId: 380
+  readonly tmScope: 'source.yaml'
+  readonly codemirrorMode: 'yaml'
+  readonly codemirrorMimeType: 'text/x-yaml'
+  readonly color: '#222c37'
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Graphviz (DOT)'
-  type: 'data'
-  aceMode: 'dot'
-  extensions: ['.dot', '.gv']
-  languageId: 140
-  tmScope: 'source.dot'
-  color: '#2596be'
+  readonly name: 'Graphviz (DOT)'
+  readonly type: 'data'
+  readonly aceMode: 'dot'
+  readonly extensions: readonly ['.dot', '.gv']
+  readonly languageId: 140
+  readonly tmScope: 'source.dot'
+  readonly color: '#2596be'
 }
+
 export default _

@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Terra'
-  type: 'programming'
-  aceMode: 'lua'
-  extensions: ['.t']
-  languageId: 371
-  tmScope: 'source.terra'
-  codemirrorMode: 'lua'
-  codemirrorMimeType: 'text/x-lua'
-  color: '#00004c'
-  interpreters: ['lua']
+  readonly name: 'Terra'
+  readonly type: 'programming'
+  readonly aceMode: 'lua'
+  readonly extensions: readonly ['.t']
+  readonly languageId: 371
+  readonly tmScope: 'source.terra'
+  readonly codemirrorMode: 'lua'
+  readonly codemirrorMimeType: 'text/x-lua'
+  readonly color: '#00004c'
+  readonly interpreters: readonly ['lua']
 }
+
 export default _

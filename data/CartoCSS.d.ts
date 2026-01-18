@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'CartoCSS'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.mss']
-  languageId: 53
-  tmScope: 'source.css.mss'
-  aliases: ['Carto']
+  readonly name: 'CartoCSS'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.mss']
+  readonly languageId: 53
+  readonly tmScope: 'source.css.mss'
+  readonly aliases: readonly ['Carto']
 }
+
 export default _

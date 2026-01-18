@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Wavefront Material'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.mtl']
-  languageId: 392
-  tmScope: 'source.wavefront.mtl'
+  readonly name: 'Wavefront Material'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.mtl']
+  readonly languageId: 392
+  readonly tmScope: 'source.wavefront.mtl'
 }
+
 export default _

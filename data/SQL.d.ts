@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'SQL'
-  type: 'data'
-  aceMode: 'sql'
-  extensions: [
+  readonly name: 'SQL'
+  readonly type: 'data'
+  readonly aceMode: 'sql'
+  readonly extensions: readonly [
     '.sql',
     '.cql',
     '.ddl',
@@ -13,10 +13,11 @@ declare const _: {
     '.udf',
     '.viw',
   ]
-  languageId: 333
-  tmScope: 'source.sql'
-  codemirrorMode: 'sql'
-  codemirrorMimeType: 'text/x-sql'
-  color: '#e38c00'
+  readonly languageId: 333
+  readonly tmScope: 'source.sql'
+  readonly codemirrorMode: 'sql'
+  readonly codemirrorMimeType: 'text/x-sql'
+  readonly color: '#e38c00'
 }
+
 export default _

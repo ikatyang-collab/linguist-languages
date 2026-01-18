@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'PHP'
-  type: 'programming'
-  aceMode: 'php'
-  extensions: [
+  readonly name: 'PHP'
+  readonly type: 'programming'
+  readonly aceMode: 'php'
+  readonly extensions: readonly [
     '.php',
     '.aw',
     '.ctp',
@@ -14,13 +14,14 @@ declare const _: {
     '.phps',
     '.phpt',
   ]
-  filenames: ['.php', '.php_cs', '.php_cs.dist', 'Phakefile']
-  languageId: 272
-  tmScope: 'text.html.php'
-  aliases: ['inc']
-  codemirrorMode: 'php'
-  codemirrorMimeType: 'application/x-httpd-php'
-  color: '#4F5D95'
-  interpreters: ['php']
+  readonly filenames: readonly ['.php', '.php_cs', '.php_cs.dist', 'Phakefile']
+  readonly languageId: 272
+  readonly tmScope: 'text.html.php'
+  readonly aliases: readonly ['inc']
+  readonly codemirrorMode: 'php'
+  readonly codemirrorMimeType: 'application/x-httpd-php'
+  readonly color: '#4F5D95'
+  readonly interpreters: readonly ['php']
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Solidity'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.sol']
-  languageId: 237469032
-  tmScope: 'source.solidity'
-  color: '#AA6746'
+  readonly name: 'Solidity'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.sol']
+  readonly languageId: 237469032
+  readonly tmScope: 'source.solidity'
+  readonly color: '#AA6746'
 }
+
 export default _

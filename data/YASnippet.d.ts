@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'YASnippet'
-  type: 'markup'
-  aceMode: 'text'
-  extensions: ['.yasnippet']
-  languageId: 378760102
-  tmScope: 'source.yasnippet'
-  aliases: ['snippet', 'yas']
-  color: '#32AB90'
+  readonly name: 'YASnippet'
+  readonly type: 'markup'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.yasnippet']
+  readonly languageId: 378760102
+  readonly tmScope: 'source.yasnippet'
+  readonly aliases: readonly ['snippet', 'yas']
+  readonly color: '#32AB90'
 }
+
 export default _

@@ -1,14 +1,15 @@
 declare const _: {
-  name: 'Rust'
-  type: 'programming'
-  aceMode: 'rust'
-  extensions: ['.rs', '.rs.in']
-  languageId: 327
-  tmScope: 'source.rust'
-  aliases: ['rs']
-  codemirrorMode: 'rust'
-  codemirrorMimeType: 'text/x-rustsrc'
-  color: '#dea584'
-  interpreters: ['rust-script']
+  readonly name: 'Rust'
+  readonly type: 'programming'
+  readonly aceMode: 'rust'
+  readonly extensions: readonly ['.rs', '.rs.in']
+  readonly languageId: 327
+  readonly tmScope: 'source.rust'
+  readonly aliases: readonly ['rs']
+  readonly codemirrorMode: 'rust'
+  readonly codemirrorMimeType: 'text/x-rustsrc'
+  readonly color: '#dea584'
+  readonly interpreters: readonly ['rust-script']
 }
+
 export default _

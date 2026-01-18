@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'M3U'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.m3u', '.m3u8']
-  languageId: 89638692
-  tmScope: 'source.m3u'
-  aliases: ['hls playlist', 'm3u playlist']
-  color: '#179C7D'
+  readonly name: 'M3U'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.m3u', '.m3u8']
+  readonly languageId: 89638692
+  readonly tmScope: 'source.m3u'
+  readonly aliases: readonly ['hls playlist', 'm3u playlist']
+  readonly color: '#179C7D'
 }
+
 export default _

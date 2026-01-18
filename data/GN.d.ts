@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'GN'
-  type: 'data'
-  aceMode: 'python'
-  extensions: ['.gn', '.gni']
-  filenames: ['.gn']
-  languageId: 302957008
-  tmScope: 'source.gn'
-  codemirrorMode: 'python'
-  codemirrorMimeType: 'text/x-python'
-  interpreters: ['gn']
+  readonly name: 'GN'
+  readonly type: 'data'
+  readonly aceMode: 'python'
+  readonly extensions: readonly ['.gn', '.gni']
+  readonly filenames: readonly ['.gn']
+  readonly languageId: 302957008
+  readonly tmScope: 'source.gn'
+  readonly codemirrorMode: 'python'
+  readonly codemirrorMimeType: 'text/x-python'
+  readonly interpreters: readonly ['gn']
 }
+
 export default _

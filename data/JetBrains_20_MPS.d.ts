@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'JetBrains MPS'
-  type: 'programming'
-  aceMode: 'xml'
-  extensions: ['.mps', '.mpl', '.msd']
-  languageId: 465165328
-  tmScope: 'none'
-  aliases: ['mps']
-  codemirrorMode: 'xml'
-  codemirrorMimeType: 'text/xml'
-  color: '#21D789'
+  readonly name: 'JetBrains MPS'
+  readonly type: 'programming'
+  readonly aceMode: 'xml'
+  readonly extensions: readonly ['.mps', '.mpl', '.msd']
+  readonly languageId: 465165328
+  readonly tmScope: 'none'
+  readonly aliases: readonly ['mps']
+  readonly codemirrorMode: 'xml'
+  readonly codemirrorMimeType: 'text/xml'
+  readonly color: '#21D789'
 }
+
 export default _

@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'E-mail'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.eml', '.mbox']
-  languageId: 529653389
-  tmScope: 'text.eml.basic'
-  aliases: ['email', 'eml', 'mail', 'mbox']
-  codemirrorMode: 'mbox'
-  codemirrorMimeType: 'application/mbox'
+  readonly name: 'E-mail'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.eml', '.mbox']
+  readonly languageId: 529653389
+  readonly tmScope: 'text.eml.basic'
+  readonly aliases: readonly ['email', 'eml', 'mail', 'mbox']
+  readonly codemirrorMode: 'mbox'
+  readonly codemirrorMimeType: 'application/mbox'
 }
+
 export default _

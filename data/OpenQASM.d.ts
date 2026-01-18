@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'OpenQASM'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.qasm']
-  languageId: 153739399
-  tmScope: 'source.qasm'
-  color: '#AA70FF'
+  readonly name: 'OpenQASM'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.qasm']
+  readonly languageId: 153739399
+  readonly tmScope: 'source.qasm'
+  readonly color: '#AA70FF'
 }
+
 export default _

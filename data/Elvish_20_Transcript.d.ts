@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Elvish Transcript'
-  type: 'programming'
-  aceMode: 'text'
-  languageId: 452025714
-  tmScope: 'source.elvish-transcript'
-  color: '#55BB55'
-  group: 'Elvish'
+  readonly name: 'Elvish Transcript'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly languageId: 452025714
+  readonly tmScope: 'source.elvish-transcript'
+  readonly color: '#55BB55'
+  readonly group: 'Elvish'
 }
+
 export default _

@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'iCalendar'
-  type: 'data'
-  aceMode: 'properties'
-  extensions: ['.ics', '.ical']
-  languageId: 98384424
-  tmScope: 'source.iCalendar'
-  aliases: ['iCal']
-  codemirrorMode: 'properties'
-  codemirrorMimeType: 'text/x-properties'
-  color: '#ec564c'
+  readonly name: 'iCalendar'
+  readonly type: 'data'
+  readonly aceMode: 'properties'
+  readonly extensions: readonly ['.ics', '.ical']
+  readonly languageId: 98384424
+  readonly tmScope: 'source.iCalendar'
+  readonly aliases: readonly ['iCal']
+  readonly codemirrorMode: 'properties'
+  readonly codemirrorMimeType: 'text/x-properties'
+  readonly color: '#ec564c'
 }
+
 export default _

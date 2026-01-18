@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'KoLmafia ASH'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ash']
-  languageId: 852099832
-  tmScope: 'source.ash'
-  color: '#B9D9B9'
+  readonly name: 'KoLmafia ASH'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ash']
+  readonly languageId: 852099832
+  readonly tmScope: 'source.ash'
+  readonly color: '#B9D9B9'
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Logtalk'
-  type: 'programming'
-  aceMode: 'logtalk'
-  extensions: ['.lgt', '.logtalk']
-  languageId: 210
-  tmScope: 'source.logtalk'
-  color: '#295b9a'
+  readonly name: 'Logtalk'
+  readonly type: 'programming'
+  readonly aceMode: 'logtalk'
+  readonly extensions: readonly ['.lgt', '.logtalk']
+  readonly languageId: 210
+  readonly tmScope: 'source.logtalk'
+  readonly color: '#295b9a'
 }
+
 export default _

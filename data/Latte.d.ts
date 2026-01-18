@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Latte'
-  type: 'markup'
-  aceMode: 'latte'
-  extensions: ['.latte']
-  languageId: 196
-  tmScope: 'text.html.smarty'
-  codemirrorMode: 'smarty'
-  codemirrorMimeType: 'text/x-smarty'
-  color: '#f2a542'
+  readonly name: 'Latte'
+  readonly type: 'markup'
+  readonly aceMode: 'latte'
+  readonly extensions: readonly ['.latte']
+  readonly languageId: 196
+  readonly tmScope: 'text.html.smarty'
+  readonly codemirrorMode: 'smarty'
+  readonly codemirrorMimeType: 'text/x-smarty'
+  readonly color: '#f2a542'
 }
+
 export default _

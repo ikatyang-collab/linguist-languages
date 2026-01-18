@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'YANG'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.yang']
-  languageId: 408
-  tmScope: 'source.yang'
+  readonly name: 'YANG'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.yang']
+  readonly languageId: 408
+  readonly tmScope: 'source.yang'
 }
+
 export default _

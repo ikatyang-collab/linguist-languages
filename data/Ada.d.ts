@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Ada'
-  type: 'programming'
-  aceMode: 'ada'
-  extensions: ['.adb', '.ada', '.ads']
-  languageId: 11
-  tmScope: 'source.ada'
-  aliases: ['ada95', 'ada2005']
-  color: '#02f88c'
+  readonly name: 'Ada'
+  readonly type: 'programming'
+  readonly aceMode: 'ada'
+  readonly extensions: readonly ['.adb', '.ada', '.ads']
+  readonly languageId: 11
+  readonly tmScope: 'source.ada'
+  readonly aliases: readonly ['ada95', 'ada2005']
+  readonly color: '#02f88c'
 }
+
 export default _

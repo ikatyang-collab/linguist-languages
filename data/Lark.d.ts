@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Lark'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.lark']
-  languageId: 758480799
-  tmScope: 'source.lark'
-  codemirrorMode: 'ebnf'
-  codemirrorMimeType: 'text/x-ebnf'
-  color: '#2980B9'
+  readonly name: 'Lark'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.lark']
+  readonly languageId: 758480799
+  readonly tmScope: 'source.lark'
+  readonly codemirrorMode: 'ebnf'
+  readonly codemirrorMimeType: 'text/x-ebnf'
+  readonly color: '#2980B9'
 }
+
 export default _

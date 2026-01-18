@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'PigLatin'
-  type: 'programming'
-  aceMode: 'pig'
-  extensions: ['.pig']
-  languageId: 286
-  tmScope: 'source.pig_latin'
-  codemirrorMode: 'pig'
-  codemirrorMimeType: 'text/x-pig'
-  color: '#fcd7de'
+  readonly name: 'PigLatin'
+  readonly type: 'programming'
+  readonly aceMode: 'pig'
+  readonly extensions: readonly ['.pig']
+  readonly languageId: 286
+  readonly tmScope: 'source.pig_latin'
+  readonly codemirrorMode: 'pig'
+  readonly codemirrorMimeType: 'text/x-pig'
+  readonly color: '#fcd7de'
 }
+
 export default _

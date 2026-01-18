@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Metal'
-  type: 'programming'
-  aceMode: 'c_cpp'
-  extensions: ['.metal']
-  languageId: 230
-  tmScope: 'source.c++'
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-c++src'
-  color: '#8f14e9'
+  readonly name: 'Metal'
+  readonly type: 'programming'
+  readonly aceMode: 'c_cpp'
+  readonly extensions: readonly ['.metal']
+  readonly languageId: 230
+  readonly tmScope: 'source.c++'
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-c++src'
+  readonly color: '#8f14e9'
 }
+
 export default _

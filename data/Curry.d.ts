@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Curry'
-  type: 'programming'
-  aceMode: 'haskell'
-  extensions: ['.curry']
-  languageId: 439829048
-  tmScope: 'source.curry'
-  color: '#531242'
+  readonly name: 'Curry'
+  readonly type: 'programming'
+  readonly aceMode: 'haskell'
+  readonly extensions: readonly ['.curry']
+  readonly languageId: 439829048
+  readonly tmScope: 'source.curry'
+  readonly color: '#531242'
 }
+
 export default _

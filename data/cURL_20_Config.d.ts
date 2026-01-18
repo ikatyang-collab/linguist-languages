@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'cURL Config'
-  type: 'data'
-  aceMode: 'text'
-  filenames: ['.curlrc', '_curlrc']
-  languageId: 992375436
-  tmScope: 'source.curlrc'
-  aliases: ['curlrc']
-  group: 'INI'
+  readonly name: 'cURL Config'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly filenames: readonly ['.curlrc', '_curlrc']
+  readonly languageId: 992375436
+  readonly tmScope: 'source.curlrc'
+  readonly aliases: readonly ['curlrc']
+  readonly group: 'INI'
 }
+
 export default _

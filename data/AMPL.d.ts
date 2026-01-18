@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'AMPL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ampl', '.mod']
-  languageId: 3
-  tmScope: 'source.ampl'
-  color: '#E6EFBB'
+  readonly name: 'AMPL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ampl', '.mod']
+  readonly languageId: 3
+  readonly tmScope: 'source.ampl'
+  readonly color: '#E6EFBB'
 }
+
 export default _

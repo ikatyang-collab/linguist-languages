@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Windows Registry Entries'
-  type: 'data'
-  aceMode: 'ini'
-  extensions: ['.reg']
-  languageId: 969674868
-  tmScope: 'source.reg'
-  codemirrorMode: 'properties'
-  codemirrorMimeType: 'text/x-properties'
-  color: '#52d5ff'
+  readonly name: 'Windows Registry Entries'
+  readonly type: 'data'
+  readonly aceMode: 'ini'
+  readonly extensions: readonly ['.reg']
+  readonly languageId: 969674868
+  readonly tmScope: 'source.reg'
+  readonly codemirrorMode: 'properties'
+  readonly codemirrorMimeType: 'text/x-properties'
+  readonly color: '#52d5ff'
 }
+
 export default _

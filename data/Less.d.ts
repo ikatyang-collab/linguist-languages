@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Less'
-  type: 'markup'
-  aceMode: 'less'
-  extensions: ['.less']
-  languageId: 198
-  tmScope: 'source.css.less'
-  aliases: ['less-css']
-  codemirrorMode: 'css'
-  codemirrorMimeType: 'text/x-less'
-  color: '#1d365d'
+  readonly name: 'Less'
+  readonly type: 'markup'
+  readonly aceMode: 'less'
+  readonly extensions: readonly ['.less']
+  readonly languageId: 198
+  readonly tmScope: 'source.css.less'
+  readonly aliases: readonly ['less-css']
+  readonly codemirrorMode: 'css'
+  readonly codemirrorMimeType: 'text/x-less'
+  readonly color: '#1d365d'
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'hoon'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.hoon']
-  languageId: 560883276
-  tmScope: 'source.hoon'
-  color: '#00b171'
+  readonly name: 'hoon'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.hoon']
+  readonly languageId: 560883276
+  readonly tmScope: 'source.hoon'
+  readonly color: '#00b171'
 }
+
 export default _

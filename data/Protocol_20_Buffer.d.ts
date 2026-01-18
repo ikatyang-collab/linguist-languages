@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Protocol Buffer'
-  type: 'data'
-  aceMode: 'protobuf'
-  extensions: ['.proto']
-  languageId: 297
-  tmScope: 'source.proto'
-  aliases: ['proto', 'protobuf', 'Protocol Buffers']
-  codemirrorMode: 'protobuf'
-  codemirrorMimeType: 'text/x-protobuf'
+  readonly name: 'Protocol Buffer'
+  readonly type: 'data'
+  readonly aceMode: 'protobuf'
+  readonly extensions: readonly ['.proto']
+  readonly languageId: 297
+  readonly tmScope: 'source.proto'
+  readonly aliases: readonly ['proto', 'protobuf', 'Protocol Buffers']
+  readonly codemirrorMode: 'protobuf'
+  readonly codemirrorMimeType: 'text/x-protobuf'
 }
+
 export default _

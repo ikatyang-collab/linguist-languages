@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'WebAssembly'
-  type: 'programming'
-  aceMode: 'lisp'
-  extensions: ['.wast', '.wat']
-  languageId: 956556503
-  tmScope: 'source.webassembly'
-  aliases: ['wast', 'wasm']
-  codemirrorMode: 'wast'
-  codemirrorMimeType: 'text/webassembly'
-  color: '#04133b'
+  readonly name: 'WebAssembly'
+  readonly type: 'programming'
+  readonly aceMode: 'lisp'
+  readonly extensions: readonly ['.wast', '.wat']
+  readonly languageId: 956556503
+  readonly tmScope: 'source.webassembly'
+  readonly aliases: readonly ['wast', 'wasm']
+  readonly codemirrorMode: 'wast'
+  readonly codemirrorMimeType: 'text/webassembly'
+  readonly color: '#04133b'
 }
+
 export default _

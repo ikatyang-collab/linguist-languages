@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'GAML'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.gaml']
-  languageId: 290345951
-  tmScope: 'none'
-  color: '#FFC766'
+  readonly name: 'GAML'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.gaml']
+  readonly languageId: 290345951
+  readonly tmScope: 'none'
+  readonly color: '#FFC766'
 }
+
 export default _

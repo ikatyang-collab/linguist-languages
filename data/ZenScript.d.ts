@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'ZenScript'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.zs']
-  languageId: 494938890
-  tmScope: 'source.zenscript'
-  color: '#00BCD1'
+  readonly name: 'ZenScript'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.zs']
+  readonly languageId: 494938890
+  readonly tmScope: 'source.zenscript'
+  readonly color: '#00BCD1'
 }
+
 export default _

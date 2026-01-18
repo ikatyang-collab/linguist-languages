@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'PogoScript'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.pogo']
-  languageId: 289
-  tmScope: 'source.pogoscript'
-  color: '#d80074'
+  readonly name: 'PogoScript'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.pogo']
+  readonly languageId: 289
+  readonly tmScope: 'source.pogoscript'
+  readonly color: '#d80074'
 }
+
 export default _

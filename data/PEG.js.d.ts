@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'PEG.js'
-  type: 'programming'
-  aceMode: 'javascript'
-  extensions: ['.pegjs', '.peggy']
-  languageId: 81442128
-  tmScope: 'source.peggy'
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'text/javascript'
-  color: '#234d6b'
+  readonly name: 'PEG.js'
+  readonly type: 'programming'
+  readonly aceMode: 'javascript'
+  readonly extensions: readonly ['.pegjs', '.peggy']
+  readonly languageId: 81442128
+  readonly tmScope: 'source.peggy'
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'text/javascript'
+  readonly color: '#234d6b'
 }
+
 export default _

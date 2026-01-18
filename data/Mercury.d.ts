@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Mercury'
-  type: 'programming'
-  aceMode: 'prolog'
-  extensions: ['.m', '.moo']
-  languageId: 229
-  tmScope: 'source.mercury'
-  color: '#ff2b2b'
-  interpreters: ['mmi']
+  readonly name: 'Mercury'
+  readonly type: 'programming'
+  readonly aceMode: 'prolog'
+  readonly extensions: readonly ['.m', '.moo']
+  readonly languageId: 229
+  readonly tmScope: 'source.mercury'
+  readonly color: '#ff2b2b'
+  readonly interpreters: readonly ['mmi']
 }
+
 export default _

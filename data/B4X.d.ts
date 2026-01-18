@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'B4X'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.bas']
-  languageId: 96642275
-  tmScope: 'source.vba'
-  aliases: ['basic for android']
-  codemirrorMode: 'vb'
-  codemirrorMimeType: 'text/x-vb'
-  color: '#00e4ff'
+  readonly name: 'B4X'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.bas']
+  readonly languageId: 96642275
+  readonly tmScope: 'source.vba'
+  readonly aliases: readonly ['basic for android']
+  readonly codemirrorMode: 'vb'
+  readonly codemirrorMimeType: 'text/x-vb'
+  readonly color: '#00e4ff'
 }
+
 export default _

@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'Checksums'
-  type: 'data'
-  aceMode: 'text'
-  extensions: [
+  readonly name: 'Checksums'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly [
     '.crc32',
     '.md2',
     '.md4',
@@ -16,7 +16,7 @@ declare const _: {
     '.sha384',
     '.sha512',
   ]
-  filenames: [
+  readonly filenames: readonly [
     'MD5SUMS',
     'SHA1SUMS',
     'SHA256SUMS',
@@ -26,8 +26,9 @@ declare const _: {
     'cksums',
     'md5sum.txt',
   ]
-  languageId: 372063053
-  tmScope: 'text.checksums'
-  aliases: ['checksum', 'hash', 'hashes', 'sum', 'sums']
+  readonly languageId: 372063053
+  readonly tmScope: 'text.checksums'
+  readonly aliases: readonly ['checksum', 'hash', 'hashes', 'sum', 'sums']
 }
+
 export default _

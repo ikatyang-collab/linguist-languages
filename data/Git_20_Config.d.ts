@@ -1,15 +1,16 @@
 declare const _: {
-  name: 'Git Config'
-  type: 'data'
-  aceMode: 'ini'
-  extensions: ['.gitconfig']
-  filenames: ['.gitconfig', '.gitmodules']
-  languageId: 807968997
-  tmScope: 'source.gitconfig'
-  aliases: ['gitconfig', 'gitmodules']
-  codemirrorMode: 'properties'
-  codemirrorMimeType: 'text/x-properties'
-  color: '#F44D27'
-  group: 'INI'
+  readonly name: 'Git Config'
+  readonly type: 'data'
+  readonly aceMode: 'ini'
+  readonly extensions: readonly ['.gitconfig']
+  readonly filenames: readonly ['.gitconfig', '.gitmodules']
+  readonly languageId: 807968997
+  readonly tmScope: 'source.gitconfig'
+  readonly aliases: readonly ['gitconfig', 'gitmodules']
+  readonly codemirrorMode: 'properties'
+  readonly codemirrorMimeType: 'text/x-properties'
+  readonly color: '#F44D27'
+  readonly group: 'INI'
 }
+
 export default _

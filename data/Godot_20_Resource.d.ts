@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Godot Resource'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.gdnlib', '.gdns', '.tres', '.tscn']
-  filenames: ['project.godot']
-  languageId: 738107771
-  tmScope: 'source.gdresource'
-  color: '#355570'
+  readonly name: 'Godot Resource'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.gdnlib', '.gdns', '.tres', '.tscn']
+  readonly filenames: readonly ['project.godot']
+  readonly languageId: 738107771
+  readonly tmScope: 'source.gdresource'
+  readonly color: '#355570'
 }
+
 export default _

@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'OASv3-json'
-  type: 'data'
-  aceMode: 'json'
-  extensions: ['.json']
-  languageId: 980062566
-  tmScope: 'source.json'
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'application/json'
-  color: '#85ea2d'
-  group: 'OpenAPI Specification v3'
+  readonly name: 'OASv3-json'
+  readonly type: 'data'
+  readonly aceMode: 'json'
+  readonly extensions: readonly ['.json']
+  readonly languageId: 980062566
+  readonly tmScope: 'source.json'
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'application/json'
+  readonly color: '#85ea2d'
+  readonly group: 'OpenAPI Specification v3'
 }
+
 export default _

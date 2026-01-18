@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'SAS'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.sas']
-  languageId: 328
-  tmScope: 'source.sas'
-  codemirrorMode: 'sas'
-  codemirrorMimeType: 'text/x-sas'
-  color: '#B34936'
+  readonly name: 'SAS'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.sas']
+  readonly languageId: 328
+  readonly tmScope: 'source.sas'
+  readonly codemirrorMode: 'sas'
+  readonly codemirrorMimeType: 'text/x-sas'
+  readonly color: '#B34936'
 }
+
 export default _

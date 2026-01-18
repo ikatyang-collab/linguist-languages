@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Glyph'
-  type: 'programming'
-  aceMode: 'tcl'
-  extensions: ['.glf']
-  languageId: 130
-  tmScope: 'source.tcl'
-  codemirrorMode: 'tcl'
-  codemirrorMimeType: 'text/x-tcl'
-  color: '#c1ac7f'
+  readonly name: 'Glyph'
+  readonly type: 'programming'
+  readonly aceMode: 'tcl'
+  readonly extensions: readonly ['.glf']
+  readonly languageId: 130
+  readonly tmScope: 'source.tcl'
+  readonly codemirrorMode: 'tcl'
+  readonly codemirrorMimeType: 'text/x-tcl'
+  readonly color: '#c1ac7f'
 }
+
 export default _

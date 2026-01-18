@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'STON'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.ston']
-  languageId: 336
-  tmScope: 'source.smalltalk'
-  group: 'Smalltalk'
+  readonly name: 'STON'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ston']
+  readonly languageId: 336
+  readonly tmScope: 'source.smalltalk'
+  readonly group: 'Smalltalk'
 }
+
 export default _

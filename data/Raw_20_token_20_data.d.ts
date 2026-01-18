@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Raw token data'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.raw']
-  languageId: 318
-  tmScope: 'none'
-  aliases: ['raw']
+  readonly name: 'Raw token data'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.raw']
+  readonly languageId: 318
+  readonly tmScope: 'none'
+  readonly aliases: readonly ['raw']
 }
+
 export default _

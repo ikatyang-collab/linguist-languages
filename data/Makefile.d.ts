@@ -1,9 +1,16 @@
 declare const _: {
-  name: 'Makefile'
-  type: 'programming'
-  aceMode: 'makefile'
-  extensions: ['.mak', '.d', '.make', '.makefile', '.mk', '.mkfile']
-  filenames: [
+  readonly name: 'Makefile'
+  readonly type: 'programming'
+  readonly aceMode: 'makefile'
+  readonly extensions: readonly [
+    '.mak',
+    '.d',
+    '.make',
+    '.makefile',
+    '.mk',
+    '.mkfile',
+  ]
+  readonly filenames: readonly [
     'BSDmakefile',
     'GNUmakefile',
     'Kbuild',
@@ -18,12 +25,13 @@ declare const _: {
     'makefile.sco',
     'mkfile',
   ]
-  languageId: 220
-  tmScope: 'source.makefile'
-  aliases: ['bsdmake', 'make', 'mf']
-  codemirrorMode: 'cmake'
-  codemirrorMimeType: 'text/x-cmake'
-  color: '#427819'
-  interpreters: ['make']
+  readonly languageId: 220
+  readonly tmScope: 'source.makefile'
+  readonly aliases: readonly ['bsdmake', 'make', 'mf']
+  readonly codemirrorMode: 'cmake'
+  readonly codemirrorMimeType: 'text/x-cmake'
+  readonly color: '#427819'
+  readonly interpreters: readonly ['make']
 }
+
 export default _

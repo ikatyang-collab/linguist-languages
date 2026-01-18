@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'XML'
-  type: 'data'
-  aceMode: 'xml'
-  extensions: [
+  readonly name: 'XML'
+  readonly type: 'data'
+  readonly aceMode: 'xml'
+  readonly extensions: readonly [
     '.xml',
     '.adml',
     '.admx',
@@ -112,7 +112,7 @@ declare const _: {
     '.xul',
     '.zcml',
   ]
-  filenames: [
+  readonly filenames: readonly [
     '.classpath',
     '.cproject',
     '.project',
@@ -124,11 +124,12 @@ declare const _: {
     'Web.config',
     'packages.config',
   ]
-  languageId: 399
-  tmScope: 'text.xml'
-  aliases: ['rss', 'xsd', 'wsdl']
-  codemirrorMode: 'xml'
-  codemirrorMimeType: 'text/xml'
-  color: '#0060ac'
+  readonly languageId: 399
+  readonly tmScope: 'text.xml'
+  readonly aliases: readonly ['rss', 'xsd', 'wsdl']
+  readonly codemirrorMode: 'xml'
+  readonly codemirrorMimeType: 'text/xml'
+  readonly color: '#0060ac'
 }
+
 export default _

@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Csound Score'
-  type: 'programming'
-  aceMode: 'csound_score'
-  extensions: ['.sco']
-  languageId: 75
-  tmScope: 'source.csound-score'
-  aliases: ['csound-sco']
-  color: '#1a1a1a'
+  readonly name: 'Csound Score'
+  readonly type: 'programming'
+  readonly aceMode: 'csound_score'
+  readonly extensions: readonly ['.sco']
+  readonly languageId: 75
+  readonly tmScope: 'source.csound-score'
+  readonly aliases: readonly ['csound-sco']
+  readonly color: '#1a1a1a'
 }
+
 export default _

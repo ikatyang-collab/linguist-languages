@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'ECLiPSe'
-  type: 'programming'
-  aceMode: 'prolog'
-  extensions: ['.ecl']
-  languageId: 94
-  tmScope: 'source.prolog.eclipse'
-  color: '#001d9d'
-  group: 'Prolog'
+  readonly name: 'ECLiPSe'
+  readonly type: 'programming'
+  readonly aceMode: 'prolog'
+  readonly extensions: readonly ['.ecl']
+  readonly languageId: 94
+  readonly tmScope: 'source.prolog.eclipse'
+  readonly color: '#001d9d'
+  readonly group: 'Prolog'
 }
+
 export default _

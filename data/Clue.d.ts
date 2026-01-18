@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Clue'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.clue']
-  languageId: 163763508
-  tmScope: 'source.clue'
-  color: '#0009b5'
+  readonly name: 'Clue'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.clue']
+  readonly languageId: 163763508
+  readonly tmScope: 'source.clue'
+  readonly color: '#0009b5'
 }
+
 export default _

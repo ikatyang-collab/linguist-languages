@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'RenderScript'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.rs', '.rsh']
-  languageId: 323
-  tmScope: 'none'
+  readonly name: 'RenderScript'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.rs', '.rsh']
+  readonly languageId: 323
+  readonly tmScope: 'none'
 }
+
 export default _

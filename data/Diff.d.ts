@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Diff'
-  type: 'data'
-  aceMode: 'diff'
-  extensions: ['.diff', '.patch']
-  languageId: 88
-  tmScope: 'source.diff'
-  aliases: ['udiff']
-  codemirrorMode: 'diff'
-  codemirrorMimeType: 'text/x-diff'
+  readonly name: 'Diff'
+  readonly type: 'data'
+  readonly aceMode: 'diff'
+  readonly extensions: readonly ['.diff', '.patch']
+  readonly languageId: 88
+  readonly tmScope: 'source.diff'
+  readonly aliases: readonly ['udiff']
+  readonly codemirrorMode: 'diff'
+  readonly codemirrorMimeType: 'text/x-diff'
 }
+
 export default _

@@ -1,9 +1,9 @@
 declare const _: {
-  name: 'Text'
-  type: 'prose'
-  aceMode: 'text'
-  extensions: ['.txt', '.fr', '.nb', '.ncl', '.no']
-  filenames: [
+  readonly name: 'Text'
+  readonly type: 'prose'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.txt', '.fr', '.nb', '.ncl', '.no']
+  readonly filenames: readonly [
     'CITATION',
     'CITATIONS',
     'COPYING',
@@ -30,9 +30,10 @@ declare const _: {
     'use.mask',
     'use.stable.mask',
   ]
-  languageId: 372
-  tmScope: 'none'
-  aliases: ['fundamental', 'plain text']
-  wrap: true
+  readonly languageId: 372
+  readonly tmScope: 'none'
+  readonly aliases: readonly ['fundamental', 'plain text']
+  readonly wrap: true
 }
+
 export default _

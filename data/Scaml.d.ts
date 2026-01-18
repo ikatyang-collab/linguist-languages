@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Scaml'
-  type: 'markup'
-  aceMode: 'text'
-  extensions: ['.scaml']
-  languageId: 342
-  tmScope: 'source.scaml'
-  color: '#bd181a'
+  readonly name: 'Scaml'
+  readonly type: 'markup'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.scaml']
+  readonly languageId: 342
+  readonly tmScope: 'source.scaml'
+  readonly color: '#bd181a'
 }
+
 export default _

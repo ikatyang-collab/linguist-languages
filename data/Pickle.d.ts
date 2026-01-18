@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Pickle'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.pkl']
-  languageId: 284
-  tmScope: 'none'
+  readonly name: 'Pickle'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.pkl']
+  readonly languageId: 284
+  readonly tmScope: 'none'
 }
+
 export default _

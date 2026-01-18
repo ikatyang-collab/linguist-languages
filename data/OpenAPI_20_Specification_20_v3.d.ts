@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'OpenAPI Specification v3'
-  type: 'data'
-  aceMode: 'text'
-  languageId: 557959099
-  tmScope: 'none'
-  aliases: ['oasv3']
-  color: '#85ea2d'
+  readonly name: 'OpenAPI Specification v3'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly languageId: 557959099
+  readonly tmScope: 'none'
+  readonly aliases: readonly ['oasv3']
+  readonly color: '#85ea2d'
 }
+
 export default _

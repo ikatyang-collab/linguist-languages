@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'NWScript'
-  type: 'programming'
-  aceMode: 'c_cpp'
-  extensions: ['.nss']
-  languageId: 731233819
-  tmScope: 'source.c.nwscript'
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-csrc'
-  color: '#111522'
+  readonly name: 'NWScript'
+  readonly type: 'programming'
+  readonly aceMode: 'c_cpp'
+  readonly extensions: readonly ['.nss']
+  readonly languageId: 731233819
+  readonly tmScope: 'source.c.nwscript'
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-csrc'
+  readonly color: '#111522'
 }
+
 export default _

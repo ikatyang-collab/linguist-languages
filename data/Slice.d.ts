@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Slice'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ice']
-  languageId: 894641667
-  tmScope: 'source.ice'
-  color: '#003fa2'
+  readonly name: 'Slice'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ice']
+  readonly languageId: 894641667
+  readonly tmScope: 'source.ice'
+  readonly color: '#003fa2'
 }
+
 export default _

@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'LookML'
-  type: 'programming'
-  aceMode: 'yaml'
-  extensions: ['.lkml', '.lookml']
-  languageId: 211
-  tmScope: 'source.yaml'
-  codemirrorMode: 'yaml'
-  codemirrorMimeType: 'text/x-yaml'
-  color: '#652B81'
+  readonly name: 'LookML'
+  readonly type: 'programming'
+  readonly aceMode: 'yaml'
+  readonly extensions: readonly ['.lkml', '.lookml']
+  readonly languageId: 211
+  readonly tmScope: 'source.yaml'
+  readonly codemirrorMode: 'yaml'
+  readonly codemirrorMimeType: 'text/x-yaml'
+  readonly color: '#652B81'
 }
+
 export default _

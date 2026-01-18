@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Limbo'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.b', '.m']
-  languageId: 201
-  tmScope: 'none'
+  readonly name: 'Limbo'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.b', '.m']
+  readonly languageId: 201
+  readonly tmScope: 'none'
 }
+
 export default _

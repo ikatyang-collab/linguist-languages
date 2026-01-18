@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Self'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.self']
-  languageId: 345
-  tmScope: 'none'
-  color: '#0579aa'
+  readonly name: 'Self'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.self']
+  readonly languageId: 345
+  readonly tmScope: 'none'
+  readonly color: '#0579aa'
 }
+
 export default _

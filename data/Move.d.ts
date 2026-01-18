@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Move'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.move']
-  languageId: 638334599
-  tmScope: 'source.move'
-  color: '#4a137a'
+  readonly name: 'Move'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.move']
+  readonly languageId: 638334599
+  readonly tmScope: 'source.move'
+  readonly color: '#4a137a'
 }
+
 export default _

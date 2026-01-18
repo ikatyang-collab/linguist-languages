@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Fennel'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.fnl']
-  languageId: 239946126
-  tmScope: 'source.fnl'
-  color: '#fff3d7'
-  interpreters: ['fennel']
+  readonly name: 'Fennel'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.fnl']
+  readonly languageId: 239946126
+  readonly tmScope: 'source.fnl'
+  readonly color: '#fff3d7'
+  readonly interpreters: readonly ['fennel']
 }
+
 export default _

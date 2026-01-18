@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Oz'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.oz']
-  languageId: 270
-  tmScope: 'source.oz'
-  codemirrorMode: 'oz'
-  codemirrorMimeType: 'text/x-oz'
-  color: '#fab738'
+  readonly name: 'Oz'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.oz']
+  readonly languageId: 270
+  readonly tmScope: 'source.oz'
+  readonly codemirrorMode: 'oz'
+  readonly codemirrorMimeType: 'text/x-oz'
+  readonly color: '#fab738'
 }
+
 export default _

@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Luau'
-  type: 'programming'
-  aceMode: 'lua'
-  extensions: ['.luau']
-  languageId: 365050359
-  tmScope: 'source.luau'
-  codemirrorMode: 'lua'
-  codemirrorMimeType: 'text/x-lua'
-  color: '#00A2FF'
-  interpreters: ['luau']
+  readonly name: 'Luau'
+  readonly type: 'programming'
+  readonly aceMode: 'lua'
+  readonly extensions: readonly ['.luau']
+  readonly languageId: 365050359
+  readonly tmScope: 'source.luau'
+  readonly codemirrorMode: 'lua'
+  readonly codemirrorMimeType: 'text/x-lua'
+  readonly color: '#00A2FF'
+  readonly interpreters: readonly ['luau']
 }
+
 export default _

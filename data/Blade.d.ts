@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Blade'
-  type: 'markup'
-  aceMode: 'php_laravel_blade'
-  extensions: ['.blade', '.blade.php']
-  languageId: 33
-  tmScope: 'text.html.php.blade'
-  color: '#f7523f'
+  readonly name: 'Blade'
+  readonly type: 'markup'
+  readonly aceMode: 'php_laravel_blade'
+  readonly extensions: readonly ['.blade', '.blade.php']
+  readonly languageId: 33
+  readonly tmScope: 'text.html.php.blade'
+  readonly color: '#f7523f'
 }
+
 export default _

@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'ReScript'
-  type: 'programming'
-  aceMode: 'rust'
-  extensions: ['.res', '.resi']
-  languageId: 501875647
-  tmScope: 'source.rescript'
-  codemirrorMode: 'rust'
-  codemirrorMimeType: 'text/x-rustsrc'
-  color: '#ed5051'
-  interpreters: ['ocaml']
+  readonly name: 'ReScript'
+  readonly type: 'programming'
+  readonly aceMode: 'rust'
+  readonly extensions: readonly ['.res', '.resi']
+  readonly languageId: 501875647
+  readonly tmScope: 'source.rescript'
+  readonly codemirrorMode: 'rust'
+  readonly codemirrorMimeType: 'text/x-rustsrc'
+  readonly color: '#ed5051'
+  readonly interpreters: readonly ['ocaml']
 }
+
 export default _

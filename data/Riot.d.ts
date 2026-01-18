@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Riot'
-  type: 'markup'
-  aceMode: 'html'
-  extensions: ['.riot']
-  languageId: 878396783
-  tmScope: 'text.html.riot'
-  color: '#A71E49'
+  readonly name: 'Riot'
+  readonly type: 'markup'
+  readonly aceMode: 'html'
+  readonly extensions: readonly ['.riot']
+  readonly languageId: 878396783
+  readonly tmScope: 'text.html.riot'
+  readonly color: '#A71E49'
 }
+
 export default _

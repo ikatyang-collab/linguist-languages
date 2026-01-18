@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Graph Modeling Language'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.gml']
-  languageId: 138
-  tmScope: 'none'
+  readonly name: 'Graph Modeling Language'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.gml']
+  readonly languageId: 138
+  readonly tmScope: 'none'
 }
+
 export default _

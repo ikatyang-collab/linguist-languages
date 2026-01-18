@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Processing'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.pde']
-  languageId: 294
-  tmScope: 'source.processing'
-  color: '#0096D8'
+  readonly name: 'Processing'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.pde']
+  readonly languageId: 294
+  readonly tmScope: 'source.processing'
+  readonly color: '#0096D8'
 }
+
 export default _

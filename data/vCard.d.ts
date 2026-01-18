@@ -1,13 +1,17 @@
 declare const _: {
-  name: 'vCard'
-  type: 'data'
-  aceMode: 'properties'
-  extensions: ['.vcf']
-  languageId: 851476558
-  tmScope: 'source.vcard'
-  aliases: ['virtual contact file', 'electronic business card']
-  codemirrorMode: 'properties'
-  codemirrorMimeType: 'text/x-properties'
-  color: '#ee2647'
+  readonly name: 'vCard'
+  readonly type: 'data'
+  readonly aceMode: 'properties'
+  readonly extensions: readonly ['.vcf']
+  readonly languageId: 851476558
+  readonly tmScope: 'source.vcard'
+  readonly aliases: readonly [
+    'virtual contact file',
+    'electronic business card',
+  ]
+  readonly codemirrorMode: 'properties'
+  readonly codemirrorMimeType: 'text/x-properties'
+  readonly color: '#ee2647'
 }
+
 export default _

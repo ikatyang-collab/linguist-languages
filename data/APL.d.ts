@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'APL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.apl', '.dyalog']
-  languageId: 6
-  tmScope: 'source.apl'
-  codemirrorMode: 'apl'
-  codemirrorMimeType: 'text/apl'
-  color: '#5A8164'
-  interpreters: ['apl', 'aplx', 'dyalog']
+  readonly name: 'APL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.apl', '.dyalog']
+  readonly languageId: 6
+  readonly tmScope: 'source.apl'
+  readonly codemirrorMode: 'apl'
+  readonly codemirrorMimeType: 'text/apl'
+  readonly color: '#5A8164'
+  readonly interpreters: readonly ['apl', 'aplx', 'dyalog']
 }
+
 export default _

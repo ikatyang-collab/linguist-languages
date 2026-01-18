@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'BlitzBasic'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.bb', '.decls']
-  languageId: 34
-  tmScope: 'source.blitzmax'
-  aliases: ['b3d', 'blitz3d', 'blitzplus', 'bplus']
-  color: '#00FFAE'
+  readonly name: 'BlitzBasic'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.bb', '.decls']
+  readonly languageId: 34
+  readonly tmScope: 'source.blitzmax'
+  readonly aliases: readonly ['b3d', 'blitz3d', 'blitzplus', 'bplus']
+  readonly color: '#00FFAE'
 }
+
 export default _

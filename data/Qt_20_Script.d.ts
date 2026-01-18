@@ -1,13 +1,17 @@
 declare const _: {
-  name: 'Qt Script'
-  type: 'programming'
-  aceMode: 'javascript'
-  extensions: ['.qs']
-  filenames: ['installscript.qs', 'toolchain_installscript.qs']
-  languageId: 558193693
-  tmScope: 'source.js'
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'text/javascript'
-  color: '#00b841'
+  readonly name: 'Qt Script'
+  readonly type: 'programming'
+  readonly aceMode: 'javascript'
+  readonly extensions: readonly ['.qs']
+  readonly filenames: readonly [
+    'installscript.qs',
+    'toolchain_installscript.qs',
+  ]
+  readonly languageId: 558193693
+  readonly tmScope: 'source.js'
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'text/javascript'
+  readonly color: '#00b841'
 }
+
 export default _

@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Charity'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ch']
-  languageId: 56
-  tmScope: 'none'
+  readonly name: 'Charity'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ch']
+  readonly languageId: 56
+  readonly tmScope: 'none'
 }
+
 export default _

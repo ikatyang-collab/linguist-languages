@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Q#'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.qs']
-  languageId: 697448245
-  tmScope: 'source.qsharp'
-  aliases: ['qsharp']
-  color: '#fed659'
+  readonly name: 'Q#'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.qs']
+  readonly languageId: 697448245
+  readonly tmScope: 'source.qsharp'
+  readonly aliases: readonly ['qsharp']
+  readonly color: '#fed659'
 }
+
 export default _

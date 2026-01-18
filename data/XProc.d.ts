@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'XProc'
-  type: 'programming'
-  aceMode: 'xml'
-  extensions: ['.xpl', '.xproc']
-  languageId: 401
-  tmScope: 'text.xml'
-  codemirrorMode: 'xml'
-  codemirrorMimeType: 'text/xml'
+  readonly name: 'XProc'
+  readonly type: 'programming'
+  readonly aceMode: 'xml'
+  readonly extensions: readonly ['.xpl', '.xproc']
+  readonly languageId: 401
+  readonly tmScope: 'text.xml'
+  readonly codemirrorMode: 'xml'
+  readonly codemirrorMimeType: 'text/xml'
 }
+
 export default _

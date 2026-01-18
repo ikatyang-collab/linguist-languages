@@ -1,12 +1,22 @@
 declare const _: {
-  name: 'VHDL'
-  type: 'programming'
-  aceMode: 'vhdl'
-  extensions: ['.vhdl', '.vhd', '.vhf', '.vhi', '.vho', '.vhs', '.vht', '.vhw']
-  languageId: 385
-  tmScope: 'source.vhdl'
-  codemirrorMode: 'vhdl'
-  codemirrorMimeType: 'text/x-vhdl'
-  color: '#adb2cb'
+  readonly name: 'VHDL'
+  readonly type: 'programming'
+  readonly aceMode: 'vhdl'
+  readonly extensions: readonly [
+    '.vhdl',
+    '.vhd',
+    '.vhf',
+    '.vhi',
+    '.vho',
+    '.vhs',
+    '.vht',
+    '.vhw',
+  ]
+  readonly languageId: 385
+  readonly tmScope: 'source.vhdl'
+  readonly codemirrorMode: 'vhdl'
+  readonly codemirrorMimeType: 'text/x-vhdl'
+  readonly color: '#adb2cb'
 }
+
 export default _

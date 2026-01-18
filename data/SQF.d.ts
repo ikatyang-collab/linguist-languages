@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'SQF'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.sqf', '.hqf']
-  languageId: 332
-  tmScope: 'source.sqf'
-  color: '#3F3F3F'
+  readonly name: 'SQF'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.sqf', '.hqf']
+  readonly languageId: 332
+  readonly tmScope: 'source.sqf'
+  readonly color: '#3F3F3F'
 }
+
 export default _

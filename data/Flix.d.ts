@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Flix'
-  type: 'programming'
-  aceMode: 'flix'
-  extensions: ['.flix']
-  languageId: 800935960
-  tmScope: 'source.flix'
-  color: '#d44a45'
+  readonly name: 'Flix'
+  readonly type: 'programming'
+  readonly aceMode: 'flix'
+  readonly extensions: readonly ['.flix']
+  readonly languageId: 800935960
+  readonly tmScope: 'source.flix'
+  readonly color: '#d44a45'
 }
+
 export default _

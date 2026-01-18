@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Rich Text Format'
-  type: 'markup'
-  aceMode: 'text'
-  extensions: ['.rtf']
-  languageId: 51601661
-  tmScope: 'text.rtf'
+  readonly name: 'Rich Text Format'
+  readonly type: 'markup'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.rtf']
+  readonly languageId: 51601661
+  readonly tmScope: 'text.rtf'
 }
+
 export default _

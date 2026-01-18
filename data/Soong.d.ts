@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Soong'
-  type: 'data'
-  aceMode: 'text'
-  filenames: ['Android.bp']
-  languageId: 222900098
-  tmScope: 'source.bp'
+  readonly name: 'Soong'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly filenames: readonly ['Android.bp']
+  readonly languageId: 222900098
+  readonly tmScope: 'source.bp'
 }
+
 export default _

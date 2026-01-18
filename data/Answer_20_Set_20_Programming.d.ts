@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Answer Set Programming'
-  type: 'programming'
-  aceMode: 'prolog'
-  extensions: ['.lp']
-  languageId: 433009171
-  tmScope: 'source.answersetprogramming'
-  color: '#A9CC29'
-  interpreters: ['clingo']
+  readonly name: 'Answer Set Programming'
+  readonly type: 'programming'
+  readonly aceMode: 'prolog'
+  readonly extensions: readonly ['.lp']
+  readonly languageId: 433009171
+  readonly tmScope: 'source.answersetprogramming'
+  readonly color: '#A9CC29'
+  readonly interpreters: readonly ['clingo']
 }
+
 export default _

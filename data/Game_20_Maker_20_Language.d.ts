@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Game Maker Language'
-  type: 'programming'
-  aceMode: 'c_cpp'
-  extensions: ['.gml']
-  languageId: 125
-  tmScope: 'source.c++'
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-c++src'
-  color: '#71b417'
+  readonly name: 'Game Maker Language'
+  readonly type: 'programming'
+  readonly aceMode: 'c_cpp'
+  readonly extensions: readonly ['.gml']
+  readonly languageId: 125
+  readonly tmScope: 'source.c++'
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-c++src'
+  readonly color: '#71b417'
 }
+
 export default _

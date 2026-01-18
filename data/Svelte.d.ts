@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Svelte'
-  type: 'markup'
-  aceMode: 'html'
-  extensions: ['.svelte']
-  languageId: 928734530
-  tmScope: 'source.svelte'
-  codemirrorMode: 'htmlmixed'
-  codemirrorMimeType: 'text/html'
-  color: '#ff3e00'
+  readonly name: 'Svelte'
+  readonly type: 'markup'
+  readonly aceMode: 'html'
+  readonly extensions: readonly ['.svelte']
+  readonly languageId: 928734530
+  readonly tmScope: 'source.svelte'
+  readonly codemirrorMode: 'htmlmixed'
+  readonly codemirrorMimeType: 'text/html'
+  readonly color: '#ff3e00'
 }
+
 export default _

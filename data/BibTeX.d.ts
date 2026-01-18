@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'BibTeX'
-  type: 'markup'
-  aceMode: 'bibtex'
-  extensions: ['.bib', '.bibtex']
-  languageId: 982188347
-  tmScope: 'text.bibtex'
-  codemirrorMode: 'stex'
-  codemirrorMimeType: 'text/x-stex'
-  color: '#778899'
-  group: 'TeX'
+  readonly name: 'BibTeX'
+  readonly type: 'markup'
+  readonly aceMode: 'bibtex'
+  readonly extensions: readonly ['.bib', '.bibtex']
+  readonly languageId: 982188347
+  readonly tmScope: 'text.bibtex'
+  readonly codemirrorMode: 'stex'
+  readonly codemirrorMimeType: 'text/x-stex'
+  readonly color: '#778899'
+  readonly group: 'TeX'
 }
+
 export default _

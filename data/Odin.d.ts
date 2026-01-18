@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Odin'
-  type: 'programming'
-  aceMode: 'odin'
-  extensions: ['.odin']
-  languageId: 889244082
-  tmScope: 'source.odin'
-  aliases: ['odinlang', 'odin-lang']
-  color: '#60AFFE'
+  readonly name: 'Odin'
+  readonly type: 'programming'
+  readonly aceMode: 'odin'
+  readonly extensions: readonly ['.odin']
+  readonly languageId: 889244082
+  readonly tmScope: 'source.odin'
+  readonly aliases: readonly ['odinlang', 'odin-lang']
+  readonly color: '#60AFFE'
 }
+
 export default _

@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'CSS'
-  type: 'markup'
-  aceMode: 'css'
-  extensions: ['.css']
-  languageId: 50
-  tmScope: 'source.css'
-  codemirrorMode: 'css'
-  codemirrorMimeType: 'text/css'
-  color: '#663399'
+  readonly name: 'CSS'
+  readonly type: 'markup'
+  readonly aceMode: 'css'
+  readonly extensions: readonly ['.css']
+  readonly languageId: 50
+  readonly tmScope: 'source.css'
+  readonly codemirrorMode: 'css'
+  readonly codemirrorMimeType: 'text/css'
+  readonly color: '#663399'
 }
+
 export default _

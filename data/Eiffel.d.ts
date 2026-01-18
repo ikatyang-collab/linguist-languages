@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Eiffel'
-  type: 'programming'
-  aceMode: 'eiffel'
-  extensions: ['.e']
-  languageId: 99
-  tmScope: 'source.eiffel'
-  codemirrorMode: 'eiffel'
-  codemirrorMimeType: 'text/x-eiffel'
-  color: '#4d6977'
+  readonly name: 'Eiffel'
+  readonly type: 'programming'
+  readonly aceMode: 'eiffel'
+  readonly extensions: readonly ['.e']
+  readonly languageId: 99
+  readonly tmScope: 'source.eiffel'
+  readonly codemirrorMode: 'eiffel'
+  readonly codemirrorMimeType: 'text/x-eiffel'
+  readonly color: '#4d6977'
 }
+
 export default _

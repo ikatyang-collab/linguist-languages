@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Nearley'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ne', '.nearley']
-  languageId: 521429430
-  tmScope: 'source.ne'
-  color: '#990000'
+  readonly name: 'Nearley'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ne', '.nearley']
+  readonly languageId: 521429430
+  readonly tmScope: 'source.ne'
+  readonly color: '#990000'
 }
+
 export default _

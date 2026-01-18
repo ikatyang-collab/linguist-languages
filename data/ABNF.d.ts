@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'ABNF'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.abnf']
-  languageId: 429
-  tmScope: 'source.abnf'
+  readonly name: 'ABNF'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.abnf']
+  readonly languageId: 429
+  readonly tmScope: 'source.abnf'
 }
+
 export default _

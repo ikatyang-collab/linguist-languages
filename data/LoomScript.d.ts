@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'LoomScript'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ls']
-  languageId: 212
-  tmScope: 'source.loomscript'
+  readonly name: 'LoomScript'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ls']
+  readonly languageId: 212
+  readonly tmScope: 'source.loomscript'
 }
+
 export default _

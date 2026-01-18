@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'ZAP'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.zap', '.xzap']
-  languageId: 952972794
-  tmScope: 'source.zap'
-  color: '#0d665e'
+  readonly name: 'ZAP'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.zap', '.xzap']
+  readonly languageId: 952972794
+  readonly tmScope: 'source.zap'
+  readonly color: '#0d665e'
 }
+
 export default _

@@ -1,14 +1,15 @@
 declare const _: {
-  name: 'Java Server Pages'
-  type: 'programming'
-  aceMode: 'jsp'
-  extensions: ['.jsp', '.tag']
-  languageId: 182
-  tmScope: 'text.html.jsp'
-  aliases: ['jsp']
-  codemirrorMode: 'htmlembedded'
-  codemirrorMimeType: 'application/x-jsp'
-  color: '#2A6277'
-  group: 'Java'
+  readonly name: 'Java Server Pages'
+  readonly type: 'programming'
+  readonly aceMode: 'jsp'
+  readonly extensions: readonly ['.jsp', '.tag']
+  readonly languageId: 182
+  readonly tmScope: 'text.html.jsp'
+  readonly aliases: readonly ['jsp']
+  readonly codemirrorMode: 'htmlembedded'
+  readonly codemirrorMimeType: 'application/x-jsp'
+  readonly color: '#2A6277'
+  readonly group: 'Java'
 }
+
 export default _

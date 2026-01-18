@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'TSV'
-  type: 'data'
-  aceMode: 'tsv'
-  extensions: ['.tsv', '.vcf']
-  languageId: 1035892117
-  tmScope: 'source.generic-db'
-  aliases: ['tab-seperated values']
-  color: '#237346'
+  readonly name: 'TSV'
+  readonly type: 'data'
+  readonly aceMode: 'tsv'
+  readonly extensions: readonly ['.tsv', '.vcf']
+  readonly languageId: 1035892117
+  readonly tmScope: 'source.generic-db'
+  readonly aliases: readonly ['tab-seperated values']
+  readonly color: '#237346'
 }
+
 export default _

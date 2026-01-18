@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'NASL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.nasl', '.inc']
-  languageId: 171666519
-  tmScope: 'source.nasl'
+  readonly name: 'NASL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.nasl', '.inc']
+  readonly languageId: 171666519
+  readonly tmScope: 'source.nasl'
 }
+
 export default _

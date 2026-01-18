@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'Python'
-  type: 'programming'
-  aceMode: 'python'
-  extensions: [
+  readonly name: 'Python'
+  readonly type: 'programming'
+  readonly aceMode: 'python'
+  readonly extensions: readonly [
     '.py',
     '.cgi',
     '.fcgi',
@@ -21,13 +21,28 @@ declare const _: {
     '.wsgi',
     '.xpy',
   ]
-  filenames: ['.gclient', 'DEPS', 'SConscript', 'SConstruct', 'wscript']
-  languageId: 303
-  tmScope: 'source.python'
-  aliases: ['python3', 'rusthon']
-  codemirrorMode: 'python'
-  codemirrorMimeType: 'text/x-python'
-  color: '#3572A5'
-  interpreters: ['python', 'python2', 'python3', 'py', 'pypy', 'pypy3', 'uv']
+  readonly filenames: readonly [
+    '.gclient',
+    'DEPS',
+    'SConscript',
+    'SConstruct',
+    'wscript',
+  ]
+  readonly languageId: 303
+  readonly tmScope: 'source.python'
+  readonly aliases: readonly ['python3', 'rusthon']
+  readonly codemirrorMode: 'python'
+  readonly codemirrorMimeType: 'text/x-python'
+  readonly color: '#3572A5'
+  readonly interpreters: readonly [
+    'python',
+    'python2',
+    'python3',
+    'py',
+    'pypy',
+    'pypy3',
+    'uv',
+  ]
 }
+
 export default _

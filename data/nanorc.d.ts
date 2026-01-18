@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'nanorc'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.nanorc']
-  filenames: ['.nanorc', 'nanorc']
-  languageId: 775996197
-  tmScope: 'source.nanorc'
-  color: '#2d004d'
-  group: 'INI'
+  readonly name: 'nanorc'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.nanorc']
+  readonly filenames: readonly ['.nanorc', 'nanorc']
+  readonly languageId: 775996197
+  readonly tmScope: 'source.nanorc'
+  readonly color: '#2d004d'
+  readonly group: 'INI'
 }
+
 export default _

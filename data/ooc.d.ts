@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'ooc'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ooc']
-  languageId: 418
-  tmScope: 'source.ooc'
-  color: '#b0b77e'
+  readonly name: 'ooc'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ooc']
+  readonly languageId: 418
+  readonly tmScope: 'source.ooc'
+  readonly color: '#b0b77e'
 }
+
 export default _

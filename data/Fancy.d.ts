@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Fancy'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.fy', '.fancypack']
-  filenames: ['Fakefile']
-  languageId: 109
-  tmScope: 'source.fancy'
-  color: '#7b9db4'
+  readonly name: 'Fancy'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.fy', '.fancypack']
+  readonly filenames: readonly ['Fakefile']
+  readonly languageId: 109
+  readonly tmScope: 'source.fancy'
+  readonly color: '#7b9db4'
 }
+
 export default _

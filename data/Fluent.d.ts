@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Fluent'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ftl']
-  languageId: 206353404
-  tmScope: 'source.ftl'
-  color: '#ffcc33'
+  readonly name: 'Fluent'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ftl']
+  readonly languageId: 206353404
+  readonly tmScope: 'source.ftl'
+  readonly color: '#ffcc33'
 }
+
 export default _

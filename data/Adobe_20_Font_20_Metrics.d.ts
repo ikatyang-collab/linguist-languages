@@ -1,16 +1,17 @@
 declare const _: {
-  name: 'Adobe Font Metrics'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.afm']
-  languageId: 147198098
-  tmScope: 'source.afm'
-  aliases: [
+  readonly name: 'Adobe Font Metrics'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.afm']
+  readonly languageId: 147198098
+  readonly tmScope: 'source.afm'
+  readonly aliases: readonly [
     'acfm',
     'adobe composite font metrics',
     'adobe multiple font metrics',
     'amfm',
   ]
-  color: '#fa0f00'
+  readonly color: '#fa0f00'
 }
+
 export default _

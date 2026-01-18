@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'mcfunction'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.mcfunction']
-  languageId: 462488745
-  tmScope: 'source.mcfunction'
-  color: '#E22837'
+  readonly name: 'mcfunction'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.mcfunction']
+  readonly languageId: 462488745
+  readonly tmScope: 'source.mcfunction'
+  readonly color: '#E22837'
 }
+
 export default _

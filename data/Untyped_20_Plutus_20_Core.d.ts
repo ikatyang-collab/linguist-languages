@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Untyped Plutus Core'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.uplc']
-  languageId: 1061635506
-  tmScope: 'source.uplc'
-  color: '#36adbd'
+  readonly name: 'Untyped Plutus Core'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.uplc']
+  readonly languageId: 1061635506
+  readonly tmScope: 'source.uplc'
+  readonly color: '#36adbd'
 }
+
 export default _

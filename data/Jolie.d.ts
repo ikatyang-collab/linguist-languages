@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Jolie'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ol', '.iol']
-  languageId: 998078858
-  tmScope: 'source.jolie'
-  color: '#843179'
-  interpreters: ['jolie']
+  readonly name: 'Jolie'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ol', '.iol']
+  readonly languageId: 998078858
+  readonly tmScope: 'source.jolie'
+  readonly color: '#843179'
+  readonly interpreters: readonly ['jolie']
 }
+
 export default _

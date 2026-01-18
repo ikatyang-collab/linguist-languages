@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Mirah'
-  type: 'programming'
-  aceMode: 'ruby'
-  extensions: ['.druby', '.duby', '.mirah']
-  languageId: 232
-  tmScope: 'source.ruby'
-  codemirrorMode: 'ruby'
-  codemirrorMimeType: 'text/x-ruby'
-  color: '#c7a938'
+  readonly name: 'Mirah'
+  readonly type: 'programming'
+  readonly aceMode: 'ruby'
+  readonly extensions: readonly ['.druby', '.duby', '.mirah']
+  readonly languageId: 232
+  readonly tmScope: 'source.ruby'
+  readonly codemirrorMode: 'ruby'
+  readonly codemirrorMimeType: 'text/x-ruby'
+  readonly color: '#c7a938'
 }
+
 export default _

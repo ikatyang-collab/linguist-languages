@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'FLUX'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.fx', '.flux']
-  languageId: 106
-  tmScope: 'none'
-  color: '#88ccff'
+  readonly name: 'FLUX'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.fx', '.flux']
+  readonly languageId: 106
+  readonly tmScope: 'none'
+  readonly color: '#88ccff'
 }
+
 export default _

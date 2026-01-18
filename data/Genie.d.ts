@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Genie'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.gs']
-  languageId: 792408528
-  tmScope: 'none'
-  color: '#fb855d'
+  readonly name: 'Genie'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.gs']
+  readonly languageId: 792408528
+  readonly tmScope: 'none'
+  readonly color: '#fb855d'
 }
+
 export default _

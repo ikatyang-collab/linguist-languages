@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Opal'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.opal']
-  languageId: 262
-  tmScope: 'source.opal'
-  color: '#f7ede0'
+  readonly name: 'Opal'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.opal']
+  readonly languageId: 262
+  readonly tmScope: 'source.opal'
+  readonly color: '#f7ede0'
 }
+
 export default _

@@ -1,13 +1,22 @@
 declare const _: {
-  name: 'Scheme'
-  type: 'programming'
-  aceMode: 'scheme'
-  extensions: ['.scm', '.sch', '.sld', '.sls', '.sps', '.ss']
-  languageId: 343
-  tmScope: 'source.scheme'
-  codemirrorMode: 'scheme'
-  codemirrorMimeType: 'text/x-scheme'
-  color: '#1e4aec'
-  interpreters: ['scheme', 'guile', 'bigloo', 'chicken', 'csi', 'gosh', 'r6rs']
+  readonly name: 'Scheme'
+  readonly type: 'programming'
+  readonly aceMode: 'scheme'
+  readonly extensions: readonly ['.scm', '.sch', '.sld', '.sls', '.sps', '.ss']
+  readonly languageId: 343
+  readonly tmScope: 'source.scheme'
+  readonly codemirrorMode: 'scheme'
+  readonly codemirrorMimeType: 'text/x-scheme'
+  readonly color: '#1e4aec'
+  readonly interpreters: readonly [
+    'scheme',
+    'guile',
+    'bigloo',
+    'chicken',
+    'csi',
+    'gosh',
+    'r6rs',
+  ]
 }
+
 export default _

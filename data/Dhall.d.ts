@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Dhall'
-  type: 'programming'
-  aceMode: 'haskell'
-  extensions: ['.dhall']
-  languageId: 793969321
-  tmScope: 'source.haskell'
-  codemirrorMode: 'haskell'
-  codemirrorMimeType: 'text/x-haskell'
-  color: '#dfafff'
+  readonly name: 'Dhall'
+  readonly type: 'programming'
+  readonly aceMode: 'haskell'
+  readonly extensions: readonly ['.dhall']
+  readonly languageId: 793969321
+  readonly tmScope: 'source.haskell'
+  readonly codemirrorMode: 'haskell'
+  readonly codemirrorMimeType: 'text/x-haskell'
+  readonly color: '#dfafff'
 }
+
 export default _

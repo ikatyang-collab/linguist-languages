@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'RMarkdown'
-  type: 'prose'
-  aceMode: 'markdown'
-  extensions: ['.qmd', '.rmd']
-  languageId: 313
-  tmScope: 'text.md'
-  codemirrorMode: 'gfm'
-  codemirrorMimeType: 'text/x-gfm'
-  color: '#198ce7'
-  wrap: true
+  readonly name: 'RMarkdown'
+  readonly type: 'prose'
+  readonly aceMode: 'markdown'
+  readonly extensions: readonly ['.qmd', '.rmd']
+  readonly languageId: 313
+  readonly tmScope: 'text.md'
+  readonly codemirrorMode: 'gfm'
+  readonly codemirrorMimeType: 'text/x-gfm'
+  readonly color: '#198ce7'
+  readonly wrap: true
 }
+
 export default _

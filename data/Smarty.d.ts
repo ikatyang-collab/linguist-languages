@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Smarty'
-  type: 'programming'
-  aceMode: 'smarty'
-  extensions: ['.tpl']
-  languageId: 353
-  tmScope: 'text.html.smarty'
-  codemirrorMode: 'smarty'
-  codemirrorMimeType: 'text/x-smarty'
-  color: '#f0c040'
+  readonly name: 'Smarty'
+  readonly type: 'programming'
+  readonly aceMode: 'smarty'
+  readonly extensions: readonly ['.tpl']
+  readonly languageId: 353
+  readonly tmScope: 'text.html.smarty'
+  readonly codemirrorMode: 'smarty'
+  readonly codemirrorMimeType: 'text/x-smarty'
+  readonly color: '#f0c040'
 }
+
 export default _

@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'KCL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.k']
-  filenames: ['kcl.mod', 'kcl.mod.lock']
-  languageId: 1052003890
-  tmScope: 'source.kcl'
-  color: '#7ABABF'
+  readonly name: 'KCL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.k']
+  readonly filenames: readonly ['kcl.mod', 'kcl.mod.lock']
+  readonly languageId: 1052003890
+  readonly tmScope: 'source.kcl'
+  readonly color: '#7ABABF'
 }
+
 export default _

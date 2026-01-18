@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Talon'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.talon']
-  languageId: 959889508
-  tmScope: 'source.talon'
-  color: '#333333'
+  readonly name: 'Talon'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.talon']
+  readonly languageId: 959889508
+  readonly tmScope: 'source.talon'
+  readonly color: '#333333'
 }
+
 export default _

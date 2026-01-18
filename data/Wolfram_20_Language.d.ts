@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'Wolfram Language'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: [
+  readonly name: 'Wolfram Language'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly [
     '.mathematica',
     '.cdf',
     '.m',
@@ -14,13 +14,19 @@ declare const _: {
     '.wls',
     '.wlt',
   ]
-  languageId: 224
-  tmScope: 'source.mathematica'
-  aliases: ['mathematica', 'mma', 'wolfram', 'wolfram lang', 'wl']
-  codemirrorMode: 'mathematica'
-  codemirrorMimeType: 'text/x-mathematica'
-  color: '#dd1100'
-  interpreters: [
+  readonly languageId: 224
+  readonly tmScope: 'source.mathematica'
+  readonly aliases: readonly [
+    'mathematica',
+    'mma',
+    'wolfram',
+    'wolfram lang',
+    'wl',
+  ]
+  readonly codemirrorMode: 'mathematica'
+  readonly codemirrorMimeType: 'text/x-mathematica'
+  readonly color: '#dd1100'
+  readonly interpreters: readonly [
     'wolfram',
     'WolframKernel',
     'wolframscript',
@@ -31,4 +37,5 @@ declare const _: {
     'Mathematica',
   ]
 }
+
 export default _

@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'PureScript'
-  type: 'programming'
-  aceMode: 'haskell'
-  extensions: ['.purs']
-  languageId: 302
-  tmScope: 'source.purescript'
-  codemirrorMode: 'haskell'
-  codemirrorMimeType: 'text/x-haskell'
-  color: '#1D222D'
+  readonly name: 'PureScript'
+  readonly type: 'programming'
+  readonly aceMode: 'haskell'
+  readonly extensions: readonly ['.purs']
+  readonly languageId: 302
+  readonly tmScope: 'source.purescript'
+  readonly codemirrorMode: 'haskell'
+  readonly codemirrorMimeType: 'text/x-haskell'
+  readonly color: '#1D222D'
 }
+
 export default _

@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'TeX'
-  type: 'markup'
-  aceMode: 'tex'
-  extensions: [
+  readonly name: 'TeX'
+  readonly type: 'markup'
+  readonly aceMode: 'tex'
+  readonly extensions: readonly [
     '.tex',
     '.aux',
     '.bbx',
@@ -18,12 +18,13 @@ declare const _: {
     '.sty',
     '.toc',
   ]
-  languageId: 369
-  tmScope: 'text.tex.latex'
-  aliases: ['latex']
-  codemirrorMode: 'stex'
-  codemirrorMimeType: 'text/x-stex'
-  color: '#3D6117'
-  wrap: true
+  readonly languageId: 369
+  readonly tmScope: 'text.tex.latex'
+  readonly aliases: readonly ['latex']
+  readonly codemirrorMode: 'stex'
+  readonly codemirrorMimeType: 'text/x-stex'
+  readonly color: '#3D6117'
+  readonly wrap: true
 }
+
 export default _

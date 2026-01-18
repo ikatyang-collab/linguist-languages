@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Regular Expression'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.regexp', '.regex']
-  languageId: 363378884
-  tmScope: 'source.regexp'
-  aliases: ['regexp', 'regex']
-  color: '#009a00'
+  readonly name: 'Regular Expression'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.regexp', '.regex']
+  readonly languageId: 363378884
+  readonly tmScope: 'source.regexp'
+  readonly aliases: readonly ['regexp', 'regex']
+  readonly color: '#009a00'
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Clarity'
-  type: 'programming'
-  aceMode: 'lisp'
-  extensions: ['.clar']
-  languageId: 91493841
-  tmScope: 'source.clar'
-  color: '#5546ff'
+  readonly name: 'Clarity'
+  readonly type: 'programming'
+  readonly aceMode: 'lisp'
+  readonly extensions: readonly ['.clar']
+  readonly languageId: 91493841
+  readonly tmScope: 'source.clar'
+  readonly color: '#5546ff'
 }
+
 export default _

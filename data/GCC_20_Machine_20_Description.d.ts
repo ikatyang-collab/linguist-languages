@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'GCC Machine Description'
-  type: 'programming'
-  aceMode: 'lisp'
-  extensions: ['.md']
-  languageId: 121
-  tmScope: 'source.lisp'
-  codemirrorMode: 'commonlisp'
-  codemirrorMimeType: 'text/x-common-lisp'
-  color: '#FFCFAB'
+  readonly name: 'GCC Machine Description'
+  readonly type: 'programming'
+  readonly aceMode: 'lisp'
+  readonly extensions: readonly ['.md']
+  readonly languageId: 121
+  readonly tmScope: 'source.lisp'
+  readonly codemirrorMode: 'commonlisp'
+  readonly codemirrorMimeType: 'text/x-common-lisp'
+  readonly color: '#FFCFAB'
 }
+
 export default _

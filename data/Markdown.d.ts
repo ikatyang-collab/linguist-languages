@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'Markdown'
-  type: 'prose'
-  aceMode: 'markdown'
-  extensions: [
+  readonly name: 'Markdown'
+  readonly type: 'prose'
+  readonly aceMode: 'markdown'
+  readonly extensions: readonly [
     '.md',
     '.livemd',
     '.markdown',
@@ -15,13 +15,14 @@ declare const _: {
     '.scd',
     '.workbook',
   ]
-  filenames: ['contents.lr']
-  languageId: 222
-  tmScope: 'text.md'
-  aliases: ['md', 'pandoc']
-  codemirrorMode: 'gfm'
-  codemirrorMimeType: 'text/x-gfm'
-  color: '#083fa1'
-  wrap: true
+  readonly filenames: readonly ['contents.lr']
+  readonly languageId: 222
+  readonly tmScope: 'text.md'
+  readonly aliases: readonly ['md', 'pandoc']
+  readonly codemirrorMode: 'gfm'
+  readonly codemirrorMimeType: 'text/x-gfm'
+  readonly color: '#083fa1'
+  readonly wrap: true
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Rebol'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.reb', '.r', '.r2', '.r3', '.rebol']
-  languageId: 319
-  tmScope: 'source.rebol'
-  color: '#358a5b'
+  readonly name: 'Rebol'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.reb', '.r', '.r2', '.r3', '.rebol']
+  readonly languageId: 319
+  readonly tmScope: 'source.rebol'
+  readonly color: '#358a5b'
 }
+
 export default _

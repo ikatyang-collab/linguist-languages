@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Rez'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.r']
-  languageId: 498022874
-  tmScope: 'source.rez'
-  color: '#FFDAB3'
+  readonly name: 'Rez'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.r']
+  readonly languageId: 498022874
+  readonly tmScope: 'source.rez'
+  readonly color: '#FFDAB3'
 }
+
 export default _

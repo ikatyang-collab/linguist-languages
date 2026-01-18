@@ -1,10 +1,11 @@
 declare const _: {
-  name: "Cap'n Proto"
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.capnp']
-  languageId: 52
-  tmScope: 'source.capnp'
-  color: '#c42727'
+  readonly name: "Cap'n Proto"
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.capnp']
+  readonly languageId: 52
+  readonly tmScope: 'source.capnp'
+  readonly color: '#c42727'
 }
+
 export default _

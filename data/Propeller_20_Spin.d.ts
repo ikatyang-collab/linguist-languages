@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Propeller Spin'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.spin']
-  languageId: 296
-  tmScope: 'source.spin'
-  color: '#7fa2a7'
+  readonly name: 'Propeller Spin'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.spin']
+  readonly languageId: 296
+  readonly tmScope: 'source.spin'
+  readonly color: '#7fa2a7'
 }
+
 export default _

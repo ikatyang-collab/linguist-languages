@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'kvlang'
-  type: 'markup'
-  aceMode: 'text'
-  extensions: ['.kv']
-  languageId: 970675279
-  tmScope: 'source.python.kivy'
-  color: '#1da6e0'
+  readonly name: 'kvlang'
+  readonly type: 'markup'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.kv']
+  readonly languageId: 970675279
+  readonly tmScope: 'source.python.kivy'
+  readonly color: '#1da6e0'
 }
+
 export default _

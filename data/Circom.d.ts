@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Circom'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.circom']
-  languageId: 1042332086
-  tmScope: 'source.circom'
-  color: '#707575'
+  readonly name: 'Circom'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.circom']
+  readonly languageId: 1042332086
+  readonly tmScope: 'source.circom'
+  readonly color: '#707575'
 }
+
 export default _

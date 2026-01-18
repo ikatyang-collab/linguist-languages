@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Kit'
-  type: 'markup'
-  aceMode: 'html'
-  extensions: ['.kit']
-  languageId: 188
-  tmScope: 'text.html.basic'
-  codemirrorMode: 'htmlmixed'
-  codemirrorMimeType: 'text/html'
+  readonly name: 'Kit'
+  readonly type: 'markup'
+  readonly aceMode: 'html'
+  readonly extensions: readonly ['.kit']
+  readonly languageId: 188
+  readonly tmScope: 'text.html.basic'
+  readonly codemirrorMode: 'htmlmixed'
+  readonly codemirrorMimeType: 'text/html'
 }
+
 export default _

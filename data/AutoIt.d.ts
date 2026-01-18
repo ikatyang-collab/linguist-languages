@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'AutoIt'
-  type: 'programming'
-  aceMode: 'autohotkey'
-  extensions: ['.au3']
-  languageId: 27
-  tmScope: 'source.autoit'
-  aliases: ['au3', 'AutoIt3', 'AutoItScript']
-  color: '#1C3552'
+  readonly name: 'AutoIt'
+  readonly type: 'programming'
+  readonly aceMode: 'autohotkey'
+  readonly extensions: readonly ['.au3']
+  readonly languageId: 27
+  readonly tmScope: 'source.autoit'
+  readonly aliases: readonly ['au3', 'AutoIt3', 'AutoItScript']
+  readonly color: '#1C3552'
 }
+
 export default _

@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'JSONiq'
-  type: 'programming'
-  aceMode: 'jsoniq'
-  extensions: ['.jq']
-  languageId: 177
-  tmScope: 'source.jsoniq'
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'application/json'
-  color: '#40d47e'
+  readonly name: 'JSONiq'
+  readonly type: 'programming'
+  readonly aceMode: 'jsoniq'
+  readonly extensions: readonly ['.jq']
+  readonly languageId: 177
+  readonly tmScope: 'source.jsoniq'
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'application/json'
+  readonly color: '#40d47e'
 }
+
 export default _

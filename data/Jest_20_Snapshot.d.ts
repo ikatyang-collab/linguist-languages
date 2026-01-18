@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Jest Snapshot'
-  type: 'data'
-  aceMode: 'javascript'
-  extensions: ['.snap']
-  languageId: 774635084
-  tmScope: 'source.jest.snap'
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'application/javascript'
-  color: '#15c213'
+  readonly name: 'Jest Snapshot'
+  readonly type: 'data'
+  readonly aceMode: 'javascript'
+  readonly extensions: readonly ['.snap']
+  readonly languageId: 774635084
+  readonly tmScope: 'source.jest.snap'
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'application/javascript'
+  readonly color: '#15c213'
 }
+
 export default _

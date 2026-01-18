@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'RDoc'
-  type: 'prose'
-  aceMode: 'rdoc'
-  extensions: ['.rdoc']
-  languageId: 309
-  tmScope: 'text.rdoc'
-  color: '#701516'
-  wrap: true
+  readonly name: 'RDoc'
+  readonly type: 'prose'
+  readonly aceMode: 'rdoc'
+  readonly extensions: readonly ['.rdoc']
+  readonly languageId: 309
+  readonly tmScope: 'text.rdoc'
+  readonly color: '#701516'
+  readonly wrap: true
 }
+
 export default _

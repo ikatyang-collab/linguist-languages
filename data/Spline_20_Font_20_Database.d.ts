@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Spline Font Database'
-  type: 'data'
-  aceMode: 'yaml'
-  extensions: ['.sfd']
-  languageId: 767169629
-  tmScope: 'text.sfd'
+  readonly name: 'Spline Font Database'
+  readonly type: 'data'
+  readonly aceMode: 'yaml'
+  readonly extensions: readonly ['.sfd']
+  readonly languageId: 767169629
+  readonly tmScope: 'text.sfd'
 }
+
 export default _

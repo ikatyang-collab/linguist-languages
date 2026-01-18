@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Unix Assembly'
-  type: 'programming'
-  aceMode: 'assembly_x86'
-  extensions: ['.s', '.ms']
-  languageId: 120
-  tmScope: 'source.x86'
-  aliases: ['gas', 'gnu asm', 'unix asm']
-  group: 'Assembly'
+  readonly name: 'Unix Assembly'
+  readonly type: 'programming'
+  readonly aceMode: 'assembly_x86'
+  readonly extensions: readonly ['.s', '.ms']
+  readonly languageId: 120
+  readonly tmScope: 'source.x86'
+  readonly aliases: readonly ['gas', 'gnu asm', 'unix asm']
+  readonly group: 'Assembly'
 }
+
 export default _

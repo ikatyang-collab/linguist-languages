@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'XML Property List'
-  type: 'data'
-  aceMode: 'xml'
-  extensions: [
+  readonly name: 'XML Property List'
+  readonly type: 'data'
+  readonly aceMode: 'xml'
+  readonly extensions: readonly [
     '.plist',
     '.stTheme',
     '.tmCommand',
@@ -11,11 +11,12 @@ declare const _: {
     '.tmSnippet',
     '.tmTheme',
   ]
-  languageId: 75622871
-  tmScope: 'text.xml.plist'
-  codemirrorMode: 'xml'
-  codemirrorMimeType: 'text/xml'
-  color: '#0060ac'
-  group: 'XML'
+  readonly languageId: 75622871
+  readonly tmScope: 'text.xml.plist'
+  readonly codemirrorMode: 'xml'
+  readonly codemirrorMimeType: 'text/xml'
+  readonly color: '#0060ac'
+  readonly group: 'XML'
 }
+
 export default _

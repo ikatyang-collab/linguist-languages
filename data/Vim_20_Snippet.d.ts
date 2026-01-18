@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Vim Snippet'
-  type: 'markup'
-  aceMode: 'text'
-  extensions: ['.snip', '.snippet', '.snippets']
-  languageId: 81265970
-  tmScope: 'source.vim-snippet'
-  aliases: ['SnipMate', 'UltiSnip', 'UltiSnips', 'NeoSnippet']
-  color: '#199f4b'
+  readonly name: 'Vim Snippet'
+  readonly type: 'markup'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.snip', '.snippet', '.snippets']
+  readonly languageId: 81265970
+  readonly tmScope: 'source.vim-snippet'
+  readonly aliases: readonly ['SnipMate', 'UltiSnip', 'UltiSnips', 'NeoSnippet']
+  readonly color: '#199f4b'
 }
+
 export default _

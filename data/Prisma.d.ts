@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Prisma'
-  type: 'data'
-  aceMode: 'prisma'
-  extensions: ['.prisma']
-  languageId: 499933428
-  tmScope: 'source.prisma'
-  color: '#0c344b'
+  readonly name: 'Prisma'
+  readonly type: 'data'
+  readonly aceMode: 'prisma'
+  readonly extensions: readonly ['.prisma']
+  readonly languageId: 499933428
+  readonly tmScope: 'source.prisma'
+  readonly color: '#0c344b'
 }
+
 export default _

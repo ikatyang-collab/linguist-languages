@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'Lua'
-  type: 'programming'
-  aceMode: 'lua'
-  extensions: [
+  readonly name: 'Lua'
+  readonly type: 'programming'
+  readonly aceMode: 'lua'
+  readonly extensions: readonly [
     '.lua',
     '.fcgi',
     '.nse',
@@ -12,12 +12,13 @@ declare const _: {
     '.rockspec',
     '.wlua',
   ]
-  filenames: ['.luacheckrc']
-  languageId: 213
-  tmScope: 'source.lua'
-  codemirrorMode: 'lua'
-  codemirrorMimeType: 'text/x-lua'
-  color: '#000080'
-  interpreters: ['lua', 'luajit']
+  readonly filenames: readonly ['.luacheckrc']
+  readonly languageId: 213
+  readonly tmScope: 'source.lua'
+  readonly codemirrorMode: 'lua'
+  readonly codemirrorMimeType: 'text/x-lua'
+  readonly color: '#000080'
+  readonly interpreters: readonly ['lua', 'luajit']
 }
+
 export default _

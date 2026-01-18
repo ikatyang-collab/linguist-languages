@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'SSH Config'
-  type: 'data'
-  aceMode: 'text'
-  filenames: [
+  readonly name: 'SSH Config'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly filenames: readonly [
     'ssh-config',
     'ssh_config',
     'sshconfig',
@@ -10,9 +10,15 @@ declare const _: {
     'sshd-config',
     'sshd_config',
   ]
-  languageId: 554920715
-  tmScope: 'source.ssh-config'
-  aliases: ['sshconfig', 'sshdconfig', 'ssh_config', 'sshd_config']
-  group: 'INI'
+  readonly languageId: 554920715
+  readonly tmScope: 'source.ssh-config'
+  readonly aliases: readonly [
+    'sshconfig',
+    'sshdconfig',
+    'ssh_config',
+    'sshd_config',
+  ]
+  readonly group: 'INI'
 }
+
 export default _

@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Genshi'
-  type: 'programming'
-  aceMode: 'xml'
-  extensions: ['.kid']
-  languageId: 126
-  tmScope: 'text.xml.genshi'
-  aliases: ['xml+genshi', 'xml+kid']
-  codemirrorMode: 'xml'
-  codemirrorMimeType: 'text/xml'
-  color: '#951531'
+  readonly name: 'Genshi'
+  readonly type: 'programming'
+  readonly aceMode: 'xml'
+  readonly extensions: readonly ['.kid']
+  readonly languageId: 126
+  readonly tmScope: 'text.xml.genshi'
+  readonly aliases: readonly ['xml+genshi', 'xml+kid']
+  readonly codemirrorMode: 'xml'
+  readonly codemirrorMimeType: 'text/xml'
+  readonly color: '#951531'
 }
+
 export default _

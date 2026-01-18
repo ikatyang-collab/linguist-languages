@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Pyret'
-  type: 'programming'
-  aceMode: 'python'
-  extensions: ['.arr']
-  languageId: 252961827
-  tmScope: 'source.arr'
-  color: '#ee1e10'
+  readonly name: 'Pyret'
+  readonly type: 'programming'
+  readonly aceMode: 'python'
+  readonly extensions: readonly ['.arr']
+  readonly languageId: 252961827
+  readonly tmScope: 'source.arr'
+  readonly color: '#ee1e10'
 }
+
 export default _

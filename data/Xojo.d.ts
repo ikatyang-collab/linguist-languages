@@ -1,8 +1,8 @@
 declare const _: {
-  name: 'Xojo'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: [
+  readonly name: 'Xojo'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly [
     '.xojo_code',
     '.xojo_menu',
     '.xojo_report',
@@ -10,8 +10,9 @@ declare const _: {
     '.xojo_toolbar',
     '.xojo_window',
   ]
-  languageId: 405
-  tmScope: 'source.xojo'
-  color: '#81bd41'
+  readonly languageId: 405
+  readonly tmScope: 'source.xojo'
+  readonly color: '#81bd41'
 }
+
 export default _

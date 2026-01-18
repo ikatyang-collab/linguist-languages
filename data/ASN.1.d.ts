@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'ASN.1'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.asn', '.asn1']
-  languageId: 7
-  tmScope: 'source.asn'
-  codemirrorMode: 'asn.1'
-  codemirrorMimeType: 'text/x-ttcn-asn'
+  readonly name: 'ASN.1'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.asn', '.asn1']
+  readonly languageId: 7
+  readonly tmScope: 'source.asn'
+  readonly codemirrorMode: 'asn.1'
+  readonly codemirrorMimeType: 'text/x-ttcn-asn'
 }
+
 export default _

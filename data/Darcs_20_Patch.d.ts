@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Darcs Patch'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.darcspatch', '.dpatch']
-  languageId: 86
-  tmScope: 'none'
-  aliases: ['dpatch']
-  color: '#8eff23'
+  readonly name: 'Darcs Patch'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.darcspatch', '.dpatch']
+  readonly languageId: 86
+  readonly tmScope: 'none'
+  readonly aliases: readonly ['dpatch']
+  readonly color: '#8eff23'
 }
+
 export default _

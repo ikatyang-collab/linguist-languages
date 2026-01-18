@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'NPM Config'
-  type: 'data'
-  aceMode: 'text'
-  filenames: ['.npmrc']
-  languageId: 685022663
-  tmScope: 'source.ini.npmrc'
-  aliases: ['npmrc']
-  color: '#cb3837'
-  group: 'INI'
+  readonly name: 'NPM Config'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly filenames: readonly ['.npmrc']
+  readonly languageId: 685022663
+  readonly tmScope: 'source.ini.npmrc'
+  readonly aliases: readonly ['npmrc']
+  readonly color: '#cb3837'
+  readonly group: 'INI'
 }
+
 export default _

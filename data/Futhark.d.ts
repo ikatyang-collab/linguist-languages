@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Futhark'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.fut']
-  languageId: 97358117
-  tmScope: 'source.futhark'
-  color: '#5f021f'
+  readonly name: 'Futhark'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.fut']
+  readonly languageId: 97358117
+  readonly tmScope: 'source.futhark'
+  readonly color: '#5f021f'
 }
+
 export default _

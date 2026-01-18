@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Macaulay2'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.m2']
-  languageId: 34167825
-  tmScope: 'source.m2'
-  aliases: ['m2']
-  color: '#d8ffff'
-  interpreters: ['M2']
+  readonly name: 'Macaulay2'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.m2']
+  readonly languageId: 34167825
+  readonly tmScope: 'source.m2'
+  readonly aliases: readonly ['m2']
+  readonly color: '#d8ffff'
+  readonly interpreters: readonly ['M2']
 }
+
 export default _

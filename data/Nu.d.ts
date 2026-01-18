@@ -1,15 +1,16 @@
 declare const _: {
-  name: 'Nu'
-  type: 'programming'
-  aceMode: 'scheme'
-  extensions: ['.nu']
-  filenames: ['Nukefile']
-  languageId: 253
-  tmScope: 'source.nu'
-  aliases: ['nush']
-  codemirrorMode: 'scheme'
-  codemirrorMimeType: 'text/x-scheme'
-  color: '#c9df40'
-  interpreters: ['nush']
+  readonly name: 'Nu'
+  readonly type: 'programming'
+  readonly aceMode: 'scheme'
+  readonly extensions: readonly ['.nu']
+  readonly filenames: readonly ['Nukefile']
+  readonly languageId: 253
+  readonly tmScope: 'source.nu'
+  readonly aliases: readonly ['nush']
+  readonly codemirrorMode: 'scheme'
+  readonly codemirrorMimeType: 'text/x-scheme'
+  readonly color: '#c9df40'
+  readonly interpreters: readonly ['nush']
 }
+
 export default _

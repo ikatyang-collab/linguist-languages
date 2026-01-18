@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'ObjectScript'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.cls']
-  languageId: 202735509
-  tmScope: 'source.objectscript'
-  color: '#424893'
+  readonly name: 'ObjectScript'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.cls']
+  readonly languageId: 202735509
+  readonly tmScope: 'source.objectscript'
+  readonly color: '#424893'
 }
+
 export default _

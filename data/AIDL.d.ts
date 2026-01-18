@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'AIDL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.aidl']
-  languageId: 451700185
-  tmScope: 'source.aidl'
-  color: '#34EB6B'
-  interpreters: ['aidl']
+  readonly name: 'AIDL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.aidl']
+  readonly languageId: 451700185
+  readonly tmScope: 'source.aidl'
+  readonly color: '#34EB6B'
+  readonly interpreters: readonly ['aidl']
 }
+
 export default _

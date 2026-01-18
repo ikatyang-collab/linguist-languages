@@ -1,12 +1,22 @@
 declare const _: {
-  name: 'Forth'
-  type: 'programming'
-  aceMode: 'forth'
-  extensions: ['.fth', '.4th', '.f', '.for', '.forth', '.fr', '.frt', '.fs']
-  languageId: 114
-  tmScope: 'source.forth'
-  codemirrorMode: 'forth'
-  codemirrorMimeType: 'text/x-forth'
-  color: '#341708'
+  readonly name: 'Forth'
+  readonly type: 'programming'
+  readonly aceMode: 'forth'
+  readonly extensions: readonly [
+    '.fth',
+    '.4th',
+    '.f',
+    '.for',
+    '.forth',
+    '.fr',
+    '.frt',
+    '.fs',
+  ]
+  readonly languageId: 114
+  readonly tmScope: 'source.forth'
+  readonly codemirrorMode: 'forth'
+  readonly codemirrorMimeType: 'text/x-forth'
+  readonly color: '#341708'
 }
+
 export default _

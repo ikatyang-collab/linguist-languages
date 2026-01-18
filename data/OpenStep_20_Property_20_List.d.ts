@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'OpenStep Property List'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.plist', '.glyphs']
-  languageId: 598917541
-  tmScope: 'source.plist'
+  readonly name: 'OpenStep Property List'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.plist', '.glyphs']
+  readonly languageId: 598917541
+  readonly tmScope: 'source.plist'
 }
+
 export default _

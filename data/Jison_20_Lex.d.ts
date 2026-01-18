@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Jison Lex'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.jisonlex']
-  languageId: 406395330
-  tmScope: 'source.jisonlex'
-  color: '#56b3cb'
-  group: 'Lex'
+  readonly name: 'Jison Lex'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.jisonlex']
+  readonly languageId: 406395330
+  readonly tmScope: 'source.jisonlex'
+  readonly color: '#56b3cb'
+  readonly group: 'Lex'
 }
+
 export default _

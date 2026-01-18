@@ -1,10 +1,11 @@
 declare const _: {
-  name: '1C Enterprise'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.bsl', '.os']
-  languageId: 0
-  tmScope: 'source.bsl'
-  color: '#814CCC'
+  readonly name: '1C Enterprise'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.bsl', '.os']
+  readonly languageId: 0
+  readonly tmScope: 'source.bsl'
+  readonly color: '#814CCC'
 }
+
 export default _

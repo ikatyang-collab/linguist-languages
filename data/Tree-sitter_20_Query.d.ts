@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Tree-sitter Query'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.scm']
-  languageId: 436081647
-  tmScope: 'source.scm'
-  aliases: ['tsq']
-  color: '#8ea64c'
+  readonly name: 'Tree-sitter Query'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.scm']
+  readonly languageId: 436081647
+  readonly tmScope: 'source.scm'
+  readonly aliases: readonly ['tsq']
+  readonly color: '#8ea64c'
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Scilab'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.sci', '.sce', '.tst']
-  languageId: 344
-  tmScope: 'source.scilab'
-  color: '#ca0f21'
+  readonly name: 'Scilab'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.sci', '.sce', '.tst']
+  readonly languageId: 344
+  readonly tmScope: 'source.scilab'
+  readonly color: '#ca0f21'
 }
+
 export default _

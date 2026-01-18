@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'HAProxy'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.cfg']
-  filenames: ['haproxy.cfg']
-  languageId: 366607477
-  tmScope: 'source.haproxy-config'
-  color: '#106da9'
+  readonly name: 'HAProxy'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.cfg']
+  readonly filenames: readonly ['haproxy.cfg']
+  readonly languageId: 366607477
+  readonly tmScope: 'source.haproxy-config'
+  readonly color: '#106da9'
 }
+
 export default _

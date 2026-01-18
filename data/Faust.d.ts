@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Faust'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.dsp']
-  languageId: 622529198
-  tmScope: 'source.faust'
-  color: '#c37240'
+  readonly name: 'Faust'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.dsp']
+  readonly languageId: 622529198
+  readonly tmScope: 'source.faust'
+  readonly color: '#c37240'
 }
+
 export default _

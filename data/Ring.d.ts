@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Ring'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ring']
-  languageId: 431
-  tmScope: 'source.ring'
-  color: '#2D54CB'
+  readonly name: 'Ring'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ring']
+  readonly languageId: 431
+  readonly tmScope: 'source.ring'
+  readonly color: '#2D54CB'
 }
+
 export default _

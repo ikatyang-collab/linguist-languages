@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'DIGITAL Command Language'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.com']
-  languageId: 82
-  tmScope: 'none'
-  aliases: ['dcl']
+  readonly name: 'DIGITAL Command Language'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.com']
+  readonly languageId: 82
+  readonly tmScope: 'none'
+  readonly aliases: readonly ['dcl']
 }
+
 export default _

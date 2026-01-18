@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'J'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ijs']
-  languageId: 172
-  tmScope: 'source.j'
-  color: '#9EEDFF'
-  interpreters: ['jconsole']
+  readonly name: 'J'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ijs']
+  readonly languageId: 172
+  readonly tmScope: 'source.j'
+  readonly color: '#9EEDFF'
+  readonly interpreters: readonly ['jconsole']
 }
+
 export default _

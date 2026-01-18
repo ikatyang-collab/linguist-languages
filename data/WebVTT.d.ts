@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'WebVTT'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.vtt']
-  languageId: 658679714
-  tmScope: 'text.vtt'
-  aliases: ['vtt']
-  wrap: true
+  readonly name: 'WebVTT'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.vtt']
+  readonly languageId: 658679714
+  readonly tmScope: 'text.vtt'
+  readonly aliases: readonly ['vtt']
+  readonly wrap: true
 }
+
 export default _

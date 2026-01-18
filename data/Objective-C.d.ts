@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Objective-C'
-  type: 'programming'
-  aceMode: 'objectivec'
-  extensions: ['.m', '.h']
-  languageId: 257
-  tmScope: 'source.objc'
-  aliases: ['obj-c', 'objc', 'objectivec']
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-objectivec'
-  color: '#438eff'
+  readonly name: 'Objective-C'
+  readonly type: 'programming'
+  readonly aceMode: 'objectivec'
+  readonly extensions: readonly ['.m', '.h']
+  readonly languageId: 257
+  readonly tmScope: 'source.objc'
+  readonly aliases: readonly ['obj-c', 'objc', 'objectivec']
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-objectivec'
+  readonly color: '#438eff'
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Creole'
-  type: 'prose'
-  aceMode: 'text'
-  extensions: ['.creole']
-  languageId: 71
-  tmScope: 'text.html.creole'
-  wrap: true
+  readonly name: 'Creole'
+  readonly type: 'prose'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.creole']
+  readonly languageId: 71
+  readonly tmScope: 'text.html.creole'
+  readonly wrap: true
 }
+
 export default _

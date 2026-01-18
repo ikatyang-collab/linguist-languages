@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'SystemVerilog'
-  type: 'programming'
-  aceMode: 'verilog'
-  extensions: ['.sv', '.svh', '.vh']
-  languageId: 363
-  tmScope: 'source.systemverilog'
-  codemirrorMode: 'verilog'
-  codemirrorMimeType: 'text/x-systemverilog'
-  color: '#DAE1C2'
+  readonly name: 'SystemVerilog'
+  readonly type: 'programming'
+  readonly aceMode: 'verilog'
+  readonly extensions: readonly ['.sv', '.svh', '.vh']
+  readonly languageId: 363
+  readonly tmScope: 'source.systemverilog'
+  readonly codemirrorMode: 'verilog'
+  readonly codemirrorMimeType: 'text/x-systemverilog'
+  readonly color: '#DAE1C2'
 }
+
 export default _

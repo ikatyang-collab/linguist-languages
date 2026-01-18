@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'ObjDump'
-  type: 'data'
-  aceMode: 'assembly_x86'
-  extensions: ['.objdump']
-  languageId: 256
-  tmScope: 'objdump.x86asm'
+  readonly name: 'ObjDump'
+  readonly type: 'data'
+  readonly aceMode: 'assembly_x86'
+  readonly extensions: readonly ['.objdump']
+  readonly languageId: 256
+  readonly tmScope: 'objdump.x86asm'
 }
+
 export default _

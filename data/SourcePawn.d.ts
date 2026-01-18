@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'SourcePawn'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.sp', '.inc']
-  languageId: 354
-  tmScope: 'source.sourcepawn'
-  aliases: ['sourcemod']
-  color: '#f69e1d'
+  readonly name: 'SourcePawn'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.sp', '.inc']
+  readonly languageId: 354
+  readonly tmScope: 'source.sourcepawn'
+  readonly aliases: readonly ['sourcemod']
+  readonly color: '#f69e1d'
 }
+
 export default _

@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'SPARQL'
-  type: 'data'
-  aceMode: 'sparql'
-  extensions: ['.sparql', '.rq']
-  languageId: 331
-  tmScope: 'source.sparql'
-  codemirrorMode: 'sparql'
-  codemirrorMimeType: 'application/sparql-query'
-  color: '#0C4597'
+  readonly name: 'SPARQL'
+  readonly type: 'data'
+  readonly aceMode: 'sparql'
+  readonly extensions: readonly ['.sparql', '.rq']
+  readonly languageId: 331
+  readonly tmScope: 'source.sparql'
+  readonly codemirrorMode: 'sparql'
+  readonly codemirrorMimeType: 'application/sparql-query'
+  readonly color: '#0C4597'
 }
+
 export default _

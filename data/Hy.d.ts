@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Hy'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.hy']
-  languageId: 159
-  tmScope: 'source.hy'
-  aliases: ['hylang']
-  color: '#7790B2'
-  interpreters: ['hy']
+  readonly name: 'Hy'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.hy']
+  readonly languageId: 159
+  readonly tmScope: 'source.hy'
+  readonly aliases: readonly ['hylang']
+  readonly color: '#7790B2'
+  readonly interpreters: readonly ['hy']
 }
+
 export default _

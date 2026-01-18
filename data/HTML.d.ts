@@ -1,13 +1,22 @@
 declare const _: {
-  name: 'HTML'
-  type: 'markup'
-  aceMode: 'html'
-  extensions: ['.html', '.hta', '.htm', '.html.hl', '.inc', '.xht', '.xhtml']
-  languageId: 146
-  tmScope: 'text.html.basic'
-  aliases: ['xhtml']
-  codemirrorMode: 'htmlmixed'
-  codemirrorMimeType: 'text/html'
-  color: '#e34c26'
+  readonly name: 'HTML'
+  readonly type: 'markup'
+  readonly aceMode: 'html'
+  readonly extensions: readonly [
+    '.html',
+    '.hta',
+    '.htm',
+    '.html.hl',
+    '.inc',
+    '.xht',
+    '.xhtml',
+  ]
+  readonly languageId: 146
+  readonly tmScope: 'text.html.basic'
+  readonly aliases: readonly ['xhtml']
+  readonly codemirrorMode: 'htmlmixed'
+  readonly codemirrorMimeType: 'text/html'
+  readonly color: '#e34c26'
 }
+
 export default _

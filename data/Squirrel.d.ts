@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Squirrel'
-  type: 'programming'
-  aceMode: 'c_cpp'
-  extensions: ['.nut']
-  languageId: 355
-  tmScope: 'source.nut'
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-squirrel'
-  color: '#800000'
+  readonly name: 'Squirrel'
+  readonly type: 'programming'
+  readonly aceMode: 'c_cpp'
+  readonly extensions: readonly ['.nut']
+  readonly languageId: 355
+  readonly tmScope: 'source.nut'
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-squirrel'
+  readonly color: '#800000'
 }
+
 export default _

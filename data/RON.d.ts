@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'RON'
-  type: 'data'
-  aceMode: 'rust'
-  extensions: ['.ron']
-  languageId: 587855233
-  tmScope: 'source.ron'
-  color: '#a62c00'
+  readonly name: 'RON'
+  readonly type: 'data'
+  readonly aceMode: 'rust'
+  readonly extensions: readonly ['.ron']
+  readonly languageId: 587855233
+  readonly tmScope: 'source.ron'
+  readonly color: '#a62c00'
 }
+
 export default _

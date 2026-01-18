@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Bison'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.bison']
-  languageId: 31
-  tmScope: 'source.yacc'
-  color: '#6A463F'
-  group: 'Yacc'
+  readonly name: 'Bison'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.bison']
+  readonly languageId: 31
+  readonly tmScope: 'source.yacc'
+  readonly color: '#6A463F'
+  readonly group: 'Yacc'
 }
+
 export default _

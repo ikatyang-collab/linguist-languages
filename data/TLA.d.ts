@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'TLA'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.tla']
-  languageId: 364
-  tmScope: 'source.tla'
-  color: '#4b0079'
+  readonly name: 'TLA'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.tla']
+  readonly languageId: 364
+  readonly tmScope: 'source.tla'
+  readonly color: '#4b0079'
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'ANTLR'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.g4']
-  languageId: 4
-  tmScope: 'source.antlr'
-  color: '#9DC3FF'
+  readonly name: 'ANTLR'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.g4']
+  readonly languageId: 4
+  readonly tmScope: 'source.antlr'
+  readonly color: '#9DC3FF'
 }
+
 export default _

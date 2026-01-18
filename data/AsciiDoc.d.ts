@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'AsciiDoc'
-  type: 'prose'
-  aceMode: 'asciidoc'
-  extensions: ['.asciidoc', '.adoc', '.asc']
-  languageId: 22
-  tmScope: 'text.html.asciidoc'
-  color: '#73a0c5'
-  wrap: true
+  readonly name: 'AsciiDoc'
+  readonly type: 'prose'
+  readonly aceMode: 'asciidoc'
+  readonly extensions: readonly ['.asciidoc', '.adoc', '.asc']
+  readonly languageId: 22
+  readonly tmScope: 'text.html.asciidoc'
+  readonly color: '#73a0c5'
+  readonly wrap: true
 }
+
 export default _

@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'X BitMap'
-  type: 'data'
-  aceMode: 'c_cpp'
-  extensions: ['.xbm']
-  languageId: 782911107
-  tmScope: 'source.c'
-  aliases: ['xbm']
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-csrc'
-  group: 'C'
+  readonly name: 'X BitMap'
+  readonly type: 'data'
+  readonly aceMode: 'c_cpp'
+  readonly extensions: readonly ['.xbm']
+  readonly languageId: 782911107
+  readonly tmScope: 'source.c'
+  readonly aliases: readonly ['xbm']
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-csrc'
+  readonly group: 'C'
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Tact'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.tact']
-  languageId: 606708469
-  tmScope: 'source.tact'
-  color: '#48b5ff'
+  readonly name: 'Tact'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.tact']
+  readonly languageId: 606708469
+  readonly tmScope: 'source.tact'
+  readonly color: '#48b5ff'
 }
+
 export default _

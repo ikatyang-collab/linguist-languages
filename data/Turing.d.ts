@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Turing'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.t', '.tu']
-  languageId: 375
-  tmScope: 'source.turing'
-  color: '#cf142b'
+  readonly name: 'Turing'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.t', '.tu']
+  readonly languageId: 375
+  readonly tmScope: 'source.turing'
+  readonly color: '#cf142b'
 }
+
 export default _

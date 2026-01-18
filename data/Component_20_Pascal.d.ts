@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Component Pascal'
-  type: 'programming'
-  aceMode: 'pascal'
-  extensions: ['.cp', '.cps']
-  languageId: 67
-  tmScope: 'source.pascal'
-  codemirrorMode: 'pascal'
-  codemirrorMimeType: 'text/x-pascal'
-  color: '#B0CE4E'
+  readonly name: 'Component Pascal'
+  readonly type: 'programming'
+  readonly aceMode: 'pascal'
+  readonly extensions: readonly ['.cp', '.cps']
+  readonly languageId: 67
+  readonly tmScope: 'source.pascal'
+  readonly codemirrorMode: 'pascal'
+  readonly codemirrorMimeType: 'text/x-pascal'
+  readonly color: '#B0CE4E'
 }
+
 export default _

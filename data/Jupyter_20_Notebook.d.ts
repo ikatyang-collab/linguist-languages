@@ -1,14 +1,15 @@
 declare const _: {
-  name: 'Jupyter Notebook'
-  type: 'markup'
-  aceMode: 'json'
-  extensions: ['.ipynb']
-  filenames: ['Notebook']
-  languageId: 185
-  tmScope: 'source.json'
-  aliases: ['IPython Notebook']
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'application/json'
-  color: '#DA5B0B'
+  readonly name: 'Jupyter Notebook'
+  readonly type: 'markup'
+  readonly aceMode: 'json'
+  readonly extensions: readonly ['.ipynb']
+  readonly filenames: readonly ['Notebook']
+  readonly languageId: 185
+  readonly tmScope: 'source.json'
+  readonly aliases: readonly ['IPython Notebook']
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'application/json'
+  readonly color: '#DA5B0B'
 }
+
 export default _

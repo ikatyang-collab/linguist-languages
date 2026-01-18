@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'QMake'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.pro', '.pri']
-  languageId: 306
-  tmScope: 'source.qmake'
-  interpreters: ['qmake']
+  readonly name: 'QMake'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.pro', '.pri']
+  readonly languageId: 306
+  readonly tmScope: 'source.qmake'
+  readonly interpreters: readonly ['qmake']
 }
+
 export default _

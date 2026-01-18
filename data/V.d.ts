@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'V'
-  type: 'programming'
-  aceMode: 'golang'
-  extensions: ['.v']
-  languageId: 603371597
-  tmScope: 'source.v'
-  aliases: ['vlang']
-  codemirrorMode: 'go'
-  codemirrorMimeType: 'text/x-go'
-  color: '#4f87c4'
+  readonly name: 'V'
+  readonly type: 'programming'
+  readonly aceMode: 'golang'
+  readonly extensions: readonly ['.v']
+  readonly languageId: 603371597
+  readonly tmScope: 'source.v'
+  readonly aliases: readonly ['vlang']
+  readonly codemirrorMode: 'go'
+  readonly codemirrorMimeType: 'text/x-go'
+  readonly color: '#4f87c4'
 }
+
 export default _

@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'UnrealScript'
-  type: 'programming'
-  aceMode: 'java'
-  extensions: ['.uc']
-  languageId: 382
-  tmScope: 'source.java'
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-java'
-  color: '#a54c4d'
+  readonly name: 'UnrealScript'
+  readonly type: 'programming'
+  readonly aceMode: 'java'
+  readonly extensions: readonly ['.uc']
+  readonly languageId: 382
+  readonly tmScope: 'source.java'
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-java'
+  readonly color: '#a54c4d'
 }
+
 export default _

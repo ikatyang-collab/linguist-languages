@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Literate Agda'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.lagda']
-  languageId: 205
-  tmScope: 'none'
-  color: '#315665'
-  group: 'Agda'
+  readonly name: 'Literate Agda'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.lagda']
+  readonly languageId: 205
+  readonly tmScope: 'none'
+  readonly color: '#315665'
+  readonly group: 'Agda'
 }
+
 export default _

@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Befunge'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.befunge', '.bf']
-  languageId: 30
-  tmScope: 'source.befunge'
+  readonly name: 'Befunge'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.befunge', '.bf']
+  readonly languageId: 30
+  readonly tmScope: 'source.befunge'
 }
+
 export default _

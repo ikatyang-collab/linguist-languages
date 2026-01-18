@@ -1,13 +1,21 @@
 declare const _: {
-  name: 'ASP.NET'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.asax', '.ascx', '.ashx', '.asmx', '.aspx', '.axd']
-  languageId: 564186416
-  tmScope: 'text.html.asp'
-  aliases: ['aspx', 'aspx-vb']
-  codemirrorMode: 'htmlembedded'
-  codemirrorMimeType: 'application/x-aspx'
-  color: '#9400ff'
+  readonly name: 'ASP.NET'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly [
+    '.asax',
+    '.ascx',
+    '.ashx',
+    '.asmx',
+    '.aspx',
+    '.axd',
+  ]
+  readonly languageId: 564186416
+  readonly tmScope: 'text.html.asp'
+  readonly aliases: readonly ['aspx', 'aspx-vb']
+  readonly codemirrorMode: 'htmlembedded'
+  readonly codemirrorMimeType: 'application/x-aspx'
+  readonly color: '#9400ff'
 }
+
 export default _

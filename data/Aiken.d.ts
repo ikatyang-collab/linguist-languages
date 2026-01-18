@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Aiken'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ak']
-  languageId: 899409497
-  tmScope: 'source.aiken'
-  color: '#640ff8'
+  readonly name: 'Aiken'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ak']
+  readonly languageId: 899409497
+  readonly tmScope: 'source.aiken'
+  readonly color: '#640ff8'
 }
+
 export default _

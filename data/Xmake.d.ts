@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Xmake'
-  type: 'programming'
-  aceMode: 'text'
-  filenames: ['xmake.lua']
-  languageId: 225223071
-  tmScope: 'source.xmake'
-  color: '#22a079'
+  readonly name: 'Xmake'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly filenames: readonly ['xmake.lua']
+  readonly languageId: 225223071
+  readonly tmScope: 'source.xmake'
+  readonly color: '#22a079'
 }
+
 export default _

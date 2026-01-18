@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'FreeBASIC'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.bi', '.bas']
-  languageId: 472896659
-  tmScope: 'source.vbnet'
-  aliases: ['fb']
-  codemirrorMode: 'vb'
-  codemirrorMimeType: 'text/x-vb'
-  color: '#141AC9'
+  readonly name: 'FreeBASIC'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.bi', '.bas']
+  readonly languageId: 472896659
+  readonly tmScope: 'source.vbnet'
+  readonly aliases: readonly ['fb']
+  readonly codemirrorMode: 'vb'
+  readonly codemirrorMimeType: 'text/x-vb'
+  readonly color: '#141AC9'
 }
+
 export default _

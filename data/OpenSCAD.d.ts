@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'OpenSCAD'
-  type: 'programming'
-  aceMode: 'scad'
-  extensions: ['.scad']
-  languageId: 266
-  tmScope: 'source.scad'
-  color: '#e5cd45'
+  readonly name: 'OpenSCAD'
+  readonly type: 'programming'
+  readonly aceMode: 'scad'
+  readonly extensions: readonly ['.scad']
+  readonly languageId: 266
+  readonly tmScope: 'source.scad'
+  readonly color: '#e5cd45'
 }
+
 export default _

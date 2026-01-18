@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Rouge'
-  type: 'programming'
-  aceMode: 'clojure'
-  extensions: ['.rg']
-  languageId: 325
-  tmScope: 'source.clojure'
-  codemirrorMode: 'clojure'
-  codemirrorMimeType: 'text/x-clojure'
-  color: '#cc0088'
+  readonly name: 'Rouge'
+  readonly type: 'programming'
+  readonly aceMode: 'clojure'
+  readonly extensions: readonly ['.rg']
+  readonly languageId: 325
+  readonly tmScope: 'source.clojure'
+  readonly codemirrorMode: 'clojure'
+  readonly codemirrorMimeType: 'text/x-clojure'
+  readonly color: '#cc0088'
 }
+
 export default _

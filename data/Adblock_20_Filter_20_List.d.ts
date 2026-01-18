@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Adblock Filter List'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.txt']
-  languageId: 884614762
-  tmScope: 'text.adblock'
-  aliases: ['ad block filters', 'ad block', 'adb', 'adblock']
-  color: '#800000'
+  readonly name: 'Adblock Filter List'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.txt']
+  readonly languageId: 884614762
+  readonly tmScope: 'text.adblock'
+  readonly aliases: readonly ['ad block filters', 'ad block', 'adb', 'adblock']
+  readonly color: '#800000'
 }
+
 export default _

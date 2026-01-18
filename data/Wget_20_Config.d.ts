@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Wget Config'
-  type: 'data'
-  aceMode: 'text'
-  filenames: ['.wgetrc']
-  languageId: 668457123
-  tmScope: 'source.wgetrc'
-  aliases: ['wgetrc']
-  group: 'INI'
+  readonly name: 'Wget Config'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly filenames: readonly ['.wgetrc']
+  readonly languageId: 668457123
+  readonly tmScope: 'source.wgetrc'
+  readonly aliases: readonly ['wgetrc']
+  readonly group: 'INI'
 }
+
 export default _

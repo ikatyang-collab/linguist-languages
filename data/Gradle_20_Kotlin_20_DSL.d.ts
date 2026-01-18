@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Gradle Kotlin DSL'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.gradle.kts']
-  languageId: 432600901
-  tmScope: 'source.kotlin'
-  color: '#02303a'
-  group: 'Gradle'
+  readonly name: 'Gradle Kotlin DSL'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.gradle.kts']
+  readonly languageId: 432600901
+  readonly tmScope: 'source.kotlin'
+  readonly color: '#02303a'
+  readonly group: 'Gradle'
 }
+
 export default _

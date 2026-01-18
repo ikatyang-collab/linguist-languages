@@ -1,13 +1,20 @@
 declare const _: {
-  name: 'Max'
-  type: 'programming'
-  aceMode: 'json'
-  extensions: ['.maxpat', '.maxhelp', '.maxproj', '.mxt', '.pat']
-  languageId: 227
-  tmScope: 'source.json'
-  aliases: ['max/msp', 'maxmsp']
-  codemirrorMode: 'javascript'
-  codemirrorMimeType: 'application/json'
-  color: '#c4a79c'
+  readonly name: 'Max'
+  readonly type: 'programming'
+  readonly aceMode: 'json'
+  readonly extensions: readonly [
+    '.maxpat',
+    '.maxhelp',
+    '.maxproj',
+    '.mxt',
+    '.pat',
+  ]
+  readonly languageId: 227
+  readonly tmScope: 'source.json'
+  readonly aliases: readonly ['max/msp', 'maxmsp']
+  readonly codemirrorMode: 'javascript'
+  readonly codemirrorMimeType: 'application/json'
+  readonly color: '#c4a79c'
 }
+
 export default _

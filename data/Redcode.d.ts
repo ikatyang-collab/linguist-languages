@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Redcode'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.cw']
-  languageId: 321
-  tmScope: 'none'
+  readonly name: 'Redcode'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.cw']
+  readonly languageId: 321
+  readonly tmScope: 'none'
 }
+
 export default _

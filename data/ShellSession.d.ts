@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'ShellSession'
-  type: 'programming'
-  aceMode: 'sh'
-  extensions: ['.sh-session']
-  languageId: 347
-  tmScope: 'text.shell-session'
-  aliases: ['bash session', 'console']
-  codemirrorMode: 'shell'
-  codemirrorMimeType: 'text/x-sh'
+  readonly name: 'ShellSession'
+  readonly type: 'programming'
+  readonly aceMode: 'sh'
+  readonly extensions: readonly ['.sh-session']
+  readonly languageId: 347
+  readonly tmScope: 'text.shell-session'
+  readonly aliases: readonly ['bash session', 'console']
+  readonly codemirrorMode: 'shell'
+  readonly codemirrorMimeType: 'text/x-sh'
 }
+
 export default _

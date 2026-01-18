@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Monkey C'
-  type: 'programming'
-  aceMode: 'c_cpp'
-  extensions: ['.mc']
-  languageId: 231751931
-  tmScope: 'source.mc'
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-csrc'
-  color: '#8D6747'
+  readonly name: 'Monkey C'
+  readonly type: 'programming'
+  readonly aceMode: 'c_cpp'
+  readonly extensions: readonly ['.mc']
+  readonly languageId: 231751931
+  readonly tmScope: 'source.mc'
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-csrc'
+  readonly color: '#8D6747'
 }
+
 export default _

@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Beef'
-  type: 'programming'
-  aceMode: 'csharp'
-  extensions: ['.bf']
-  languageId: 545626333
-  tmScope: 'source.cs'
-  codemirrorMode: 'clike'
-  codemirrorMimeType: 'text/x-csharp'
-  color: '#a52f4e'
+  readonly name: 'Beef'
+  readonly type: 'programming'
+  readonly aceMode: 'csharp'
+  readonly extensions: readonly ['.bf']
+  readonly languageId: 545626333
+  readonly tmScope: 'source.cs'
+  readonly codemirrorMode: 'clike'
+  readonly codemirrorMimeType: 'text/x-csharp'
+  readonly color: '#a52f4e'
 }
+
 export default _

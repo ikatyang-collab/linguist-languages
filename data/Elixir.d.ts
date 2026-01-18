@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Elixir'
-  type: 'programming'
-  aceMode: 'elixir'
-  extensions: ['.ex', '.exs']
-  filenames: ['mix.lock']
-  languageId: 100
-  tmScope: 'source.elixir'
-  color: '#6e4a7e'
-  interpreters: ['elixir']
+  readonly name: 'Elixir'
+  readonly type: 'programming'
+  readonly aceMode: 'elixir'
+  readonly extensions: readonly ['.ex', '.exs']
+  readonly filenames: readonly ['mix.lock']
+  readonly languageId: 100
+  readonly tmScope: 'source.elixir'
+  readonly color: '#6e4a7e'
+  readonly interpreters: readonly ['elixir']
 }
+
 export default _

@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Witcher Script'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.ws']
-  languageId: 686821385
-  tmScope: 'source.witcherscript'
-  color: '#ff0000'
+  readonly name: 'Witcher Script'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.ws']
+  readonly languageId: 686821385
+  readonly tmScope: 'source.witcherscript'
+  readonly color: '#ff0000'
 }
+
 export default _

@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'XCompose'
-  type: 'data'
-  aceMode: 'text'
-  filenames: ['.XCompose', 'XCompose', 'xcompose']
-  languageId: 225167241
-  tmScope: 'config.xcompose'
+  readonly name: 'XCompose'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly filenames: readonly ['.XCompose', 'XCompose', 'xcompose']
+  readonly languageId: 225167241
+  readonly tmScope: 'config.xcompose'
 }
+
 export default _

@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Teal'
-  type: 'programming'
-  aceMode: 'lua'
-  extensions: ['.tl']
-  languageId: 719038619
-  tmScope: 'source.teal'
-  codemirrorMode: 'lua'
-  codemirrorMimeType: 'text/x-lua'
-  color: '#00B1BC'
-  interpreters: ['tl']
+  readonly name: 'Teal'
+  readonly type: 'programming'
+  readonly aceMode: 'lua'
+  readonly extensions: readonly ['.tl']
+  readonly languageId: 719038619
+  readonly tmScope: 'source.teal'
+  readonly codemirrorMode: 'lua'
+  readonly codemirrorMimeType: 'text/x-lua'
+  readonly color: '#00B1BC'
+  readonly interpreters: readonly ['tl']
 }
+
 export default _

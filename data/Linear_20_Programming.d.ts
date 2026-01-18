@@ -1,9 +1,10 @@
 declare const _: {
-  name: 'Linear Programming'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.lp']
-  languageId: 377204539
-  tmScope: 'none'
+  readonly name: 'Linear Programming'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.lp']
+  readonly languageId: 377204539
+  readonly tmScope: 'none'
 }
+
 export default _

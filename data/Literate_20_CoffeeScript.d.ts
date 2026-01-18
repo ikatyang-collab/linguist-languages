@@ -1,13 +1,14 @@
 declare const _: {
-  name: 'Literate CoffeeScript'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.litcoffee', '.coffee.md']
-  languageId: 206
-  tmScope: 'source.litcoffee'
-  aliases: ['litcoffee']
-  color: '#244776'
-  group: 'CoffeeScript'
-  wrap: true
+  readonly name: 'Literate CoffeeScript'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.litcoffee', '.coffee.md']
+  readonly languageId: 206
+  readonly tmScope: 'source.litcoffee'
+  readonly aliases: readonly ['litcoffee']
+  readonly color: '#244776'
+  readonly group: 'CoffeeScript'
+  readonly wrap: true
 }
+
 export default _

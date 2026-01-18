@@ -1,9 +1,9 @@
 declare const _: {
-  name: 'TOML'
-  type: 'data'
-  aceMode: 'toml'
-  extensions: ['.toml', '.toml.example']
-  filenames: [
+  readonly name: 'TOML'
+  readonly type: 'data'
+  readonly aceMode: 'toml'
+  readonly extensions: readonly ['.toml', '.toml.example']
+  readonly filenames: readonly [
     'Cargo.lock',
     'Cargo.toml.orig',
     'Gopkg.lock',
@@ -12,10 +12,11 @@ declare const _: {
     'poetry.lock',
     'uv.lock',
   ]
-  languageId: 365
-  tmScope: 'source.toml'
-  codemirrorMode: 'toml'
-  codemirrorMimeType: 'text/x-toml'
-  color: '#9c4221'
+  readonly languageId: 365
+  readonly tmScope: 'source.toml'
+  readonly codemirrorMode: 'toml'
+  readonly codemirrorMimeType: 'text/x-toml'
+  readonly color: '#9c4221'
 }
+
 export default _

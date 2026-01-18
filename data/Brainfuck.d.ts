@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Brainfuck'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.b', '.bf']
-  languageId: 38
-  tmScope: 'source.bf'
-  codemirrorMode: 'brainfuck'
-  codemirrorMimeType: 'text/x-brainfuck'
-  color: '#2F2530'
+  readonly name: 'Brainfuck'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.b', '.bf']
+  readonly languageId: 38
+  readonly tmScope: 'source.bf'
+  readonly codemirrorMode: 'brainfuck'
+  readonly codemirrorMimeType: 'text/x-brainfuck'
+  readonly color: '#2F2530'
 }
+
 export default _

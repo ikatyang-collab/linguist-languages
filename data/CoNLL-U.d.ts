@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'CoNLL-U'
-  type: 'data'
-  aceMode: 'text'
-  extensions: ['.conllu', '.conll']
-  languageId: 421026389
-  tmScope: 'text.conllu'
-  aliases: ['CoNLL', 'CoNLL-X']
+  readonly name: 'CoNLL-U'
+  readonly type: 'data'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.conllu', '.conll']
+  readonly languageId: 421026389
+  readonly tmScope: 'text.conllu'
+  readonly aliases: readonly ['CoNLL', 'CoNLL-X']
 }
+
 export default _

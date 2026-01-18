@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'EdgeQL'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.edgeql', '.esdl']
-  languageId: 925235833
-  tmScope: 'source.edgeql'
-  aliases: ['esdl']
-  color: '#31A7FF'
+  readonly name: 'EdgeQL'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.edgeql', '.esdl']
+  readonly languageId: 925235833
+  readonly tmScope: 'source.edgeql'
+  readonly aliases: readonly ['esdl']
+  readonly color: '#31A7FF'
 }
+
 export default _

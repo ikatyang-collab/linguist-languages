@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'mupad'
-  type: 'programming'
-  aceMode: 'text'
-  extensions: ['.mu']
-  languageId: 416
-  tmScope: 'source.mupad'
-  color: '#244963'
+  readonly name: 'mupad'
+  readonly type: 'programming'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.mu']
+  readonly languageId: 416
+  readonly tmScope: 'source.mupad'
+  readonly color: '#244963'
 }
+
 export default _

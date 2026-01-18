@@ -1,12 +1,13 @@
 declare const _: {
-  name: 'Astro'
-  type: 'markup'
-  aceMode: 'astro'
-  extensions: ['.astro']
-  languageId: 578209015
-  tmScope: 'source.astro'
-  codemirrorMode: 'jsx'
-  codemirrorMimeType: 'text/jsx'
-  color: '#ff5a03'
+  readonly name: 'Astro'
+  readonly type: 'markup'
+  readonly aceMode: 'astro'
+  readonly extensions: readonly ['.astro']
+  readonly languageId: 578209015
+  readonly tmScope: 'source.astro'
+  readonly codemirrorMode: 'jsx'
+  readonly codemirrorMimeType: 'text/jsx'
+  readonly color: '#ff5a03'
 }
+
 export default _

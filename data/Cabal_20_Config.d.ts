@@ -1,14 +1,15 @@
 declare const _: {
-  name: 'Cabal Config'
-  type: 'data'
-  aceMode: 'haskell_cabal'
-  extensions: ['.cabal']
-  filenames: ['cabal.config', 'cabal.project']
-  languageId: 677095381
-  tmScope: 'source.cabal'
-  aliases: ['Cabal']
-  codemirrorMode: 'haskell'
-  codemirrorMimeType: 'text/x-haskell'
-  color: '#483465'
+  readonly name: 'Cabal Config'
+  readonly type: 'data'
+  readonly aceMode: 'haskell_cabal'
+  readonly extensions: readonly ['.cabal']
+  readonly filenames: readonly ['cabal.config', 'cabal.project']
+  readonly languageId: 677095381
+  readonly tmScope: 'source.cabal'
+  readonly aliases: readonly ['Cabal']
+  readonly codemirrorMode: 'haskell'
+  readonly codemirrorMimeType: 'text/x-haskell'
+  readonly color: '#483465'
 }
+
 export default _

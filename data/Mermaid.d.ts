@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'Mermaid'
-  type: 'markup'
-  aceMode: 'text'
-  extensions: ['.mmd', '.mermaid']
-  languageId: 385992043
-  tmScope: 'source.mermaid'
-  aliases: ['mermaid example']
-  color: '#ff3670'
+  readonly name: 'Mermaid'
+  readonly type: 'markup'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.mmd', '.mermaid']
+  readonly languageId: 385992043
+  readonly tmScope: 'source.mermaid'
+  readonly aliases: readonly ['mermaid example']
+  readonly color: '#ff3670'
 }
+
 export default _

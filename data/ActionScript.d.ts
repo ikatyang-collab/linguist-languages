@@ -1,11 +1,12 @@
 declare const _: {
-  name: 'ActionScript'
-  type: 'programming'
-  aceMode: 'actionscript'
-  extensions: ['.as']
-  languageId: 10
-  tmScope: 'source.actionscript.3'
-  aliases: ['actionscript 3', 'actionscript3', 'as3']
-  color: '#882B0F'
+  readonly name: 'ActionScript'
+  readonly type: 'programming'
+  readonly aceMode: 'actionscript'
+  readonly extensions: readonly ['.as']
+  readonly languageId: 10
+  readonly tmScope: 'source.actionscript.3'
+  readonly aliases: readonly ['actionscript 3', 'actionscript3', 'as3']
+  readonly color: '#882B0F'
 }
+
 export default _

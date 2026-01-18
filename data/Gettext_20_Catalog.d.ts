@@ -1,10 +1,11 @@
 declare const _: {
-  name: 'Gettext Catalog'
-  type: 'prose'
-  aceMode: 'text'
-  extensions: ['.po', '.pot']
-  languageId: 129
-  tmScope: 'source.po'
-  aliases: ['pot']
+  readonly name: 'Gettext Catalog'
+  readonly type: 'prose'
+  readonly aceMode: 'text'
+  readonly extensions: readonly ['.po', '.pot']
+  readonly languageId: 129
+  readonly tmScope: 'source.po'
+  readonly aliases: readonly ['pot']
 }
+
 export default _
