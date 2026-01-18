@@ -4,7 +4,6 @@ export default {
   aceMode: 'sql',
   extensions: [
     '.sql',
-    '.cql',
     '.ddl',
     '.inc',
     '.mysql',

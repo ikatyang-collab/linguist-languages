@@ -4,7 +4,6 @@ declare const _: {
   readonly aceMode: 'sql'
   readonly extensions: readonly [
     '.sql',
-    '.cql',
     '.ddl',
     '.inc',
     '.mysql',
