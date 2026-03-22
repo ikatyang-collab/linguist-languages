@@ -35,6 +35,7 @@ export default {
     '.grxml',
     '.gst',
     '.hzp',
+    '.icls',
     '.iml',
     '.ivy',
     '.jelly',

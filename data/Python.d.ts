@@ -30,7 +30,7 @@ declare const _: {
   ]
   readonly languageId: 303
   readonly tmScope: 'source.python'
-  readonly aliases: readonly ['python3', 'rusthon']
+  readonly aliases: readonly ['py', 'py3', 'python3', 'rusthon']
   readonly codemirrorMode: 'python'
   readonly codemirrorMimeType: 'text/x-python'
   readonly color: '#3572A5'

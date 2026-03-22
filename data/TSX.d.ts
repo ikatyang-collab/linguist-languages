@@ -5,6 +5,7 @@ declare const _: {
   readonly extensions: readonly ['.tsx']
   readonly languageId: 94901924
   readonly tmScope: 'source.tsx'
+  readonly aliases: readonly ['typescriptreact']
   readonly codemirrorMode: 'jsx'
   readonly codemirrorMimeType: 'text/typescript-jsx'
   readonly color: '#3178c6'

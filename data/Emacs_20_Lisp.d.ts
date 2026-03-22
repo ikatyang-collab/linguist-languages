@@ -11,13 +11,14 @@ declare const _: {
     '.spacemacs',
     '.viper',
     'Cask',
+    'Eask',
     'Project.ede',
     '_emacs',
     'abbrev_defs',
   ]
   readonly languageId: 102
   readonly tmScope: 'source.emacs.lisp'
-  readonly aliases: readonly ['elisp', 'emacs']
+  readonly aliases: readonly ['cask', 'eask', 'elisp', 'emacs']
   readonly codemirrorMode: 'commonlisp'
   readonly codemirrorMimeType: 'text/x-common-lisp'
   readonly color: '#c065db'
