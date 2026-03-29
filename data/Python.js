@@ -24,7 +24,7 @@ export default {
   filenames: ['.gclient', 'DEPS', 'SConscript', 'SConstruct', 'wscript'],
   languageId: 303,
   tmScope: 'source.python',
-  aliases: ['python3', 'rusthon'],
+  aliases: ['py', 'py3', 'python3', 'rusthon'],
   codemirrorMode: 'python',
   codemirrorMimeType: 'text/x-python',
   color: '#3572A5',

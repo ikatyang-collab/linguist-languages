@@ -5,7 +5,7 @@ export default {
   extensions: ['.applescript', '.scpt'],
   languageId: 19,
   tmScope: 'source.applescript',
-  aliases: ['osascript'],
+  aliases: ['apples', 'osascript'],
   color: '#101F1F',
   interpreters: ['osascript'],
 }
