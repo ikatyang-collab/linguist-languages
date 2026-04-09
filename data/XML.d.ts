@@ -35,6 +35,7 @@ declare const _: {
     '.grxml',
     '.gst',
     '.hzp',
+    '.icls',
     '.iml',
     '.ivy',
     '.jelly',

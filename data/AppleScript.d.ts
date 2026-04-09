@@ -5,7 +5,7 @@ declare const _: {
   readonly extensions: readonly ['.applescript', '.scpt']
   readonly languageId: 19
   readonly tmScope: 'source.applescript'
-  readonly aliases: readonly ['osascript']
+  readonly aliases: readonly ['apples', 'osascript']
   readonly color: '#101F1F'
   readonly interpreters: readonly ['osascript']
 }
