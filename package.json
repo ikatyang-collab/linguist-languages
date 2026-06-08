@@ -57,11 +57,6 @@
     "/ThirdPartyNoticeText.txt"
   ],
   "packageManager": "pnpm@11.5.2",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild"
-    ]
-  },
   "sideEffects": false,
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
