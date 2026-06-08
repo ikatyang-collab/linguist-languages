@@ -37,8 +37,10 @@ declare const _: {
   readonly codemirrorMimeType: 'text/javascript'
   readonly color: '#f1e05a'
   readonly interpreters: readonly [
+    'bun',
     'chakra',
     'd8',
+    'deno',
     'gjs',
     'js',
     'node',

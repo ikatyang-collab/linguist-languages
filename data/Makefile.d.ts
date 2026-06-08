@@ -20,6 +20,7 @@ declare const _: {
     'Makefile.frag',
     'Makefile.in',
     'Makefile.inc',
+    'Makefile.pc',
     'Makefile.wat',
     'makefile',
     'makefile.sco',

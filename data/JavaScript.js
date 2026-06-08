@@ -37,8 +37,10 @@ export default {
   codemirrorMimeType: 'text/javascript',
   color: '#f1e05a',
   interpreters: [
+    'bun',
     'chakra',
     'd8',
+    'deno',
     'gjs',
     'js',
     'node',

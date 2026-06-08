@@ -18,6 +18,7 @@ declare const _: {
     'README.me',
     'README.mysql',
     'README.nss',
+    'README.pc',
     'click.me',
     'delete.me',
     'keep.me',
