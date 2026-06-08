@@ -13,6 +13,7 @@ export default {
     'Makefile.frag',
     'Makefile.in',
     'Makefile.inc',
+    'Makefile.pc',
     'Makefile.wat',
     'makefile',
     'makefile.sco',

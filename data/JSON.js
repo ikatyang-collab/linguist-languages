@@ -16,6 +16,7 @@ export default {
     '.jsonl',
     '.mcmeta',
     '.sarif',
+    '.slnlaunch',
     '.tact',
     '.tfstate',
     '.tfstate.backup',

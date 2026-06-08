@@ -12,6 +12,7 @@ declare const _: {
     '.dockerignore',
     '.easignore',
     '.eleventyignore',
+    '.eslint-ignore',
     '.eslintignore',
     '.gitignore',
     '.ignore',

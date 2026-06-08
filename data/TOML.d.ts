@@ -8,6 +8,8 @@ declare const _: {
     'Cargo.toml.orig',
     'Gopkg.lock',
     'Pipfile',
+    'mise.local.lock',
+    'mise.lock',
     'pdm.lock',
     'poetry.lock',
     'uv.lock',

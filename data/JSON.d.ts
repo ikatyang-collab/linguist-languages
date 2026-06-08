@@ -16,6 +16,7 @@ declare const _: {
     '.jsonl',
     '.mcmeta',
     '.sarif',
+    '.slnlaunch',
     '.tact',
     '.tfstate',
     '.tfstate.backup',

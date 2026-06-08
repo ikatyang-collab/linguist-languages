@@ -6,12 +6,19 @@ declare const _: {
     '.ini',
     '.cfg',
     '.cnf',
+    '.container',
     '.dof',
     '.frm',
     '.lektorproject',
+    '.mount',
+    '.network',
     '.prefs',
     '.pro',
     '.properties',
+    '.service',
+    '.socket',
+    '.target',
+    '.timer',
     '.url',
   ]
   readonly filenames: readonly [
@@ -27,7 +34,7 @@ declare const _: {
   ]
   readonly languageId: 163
   readonly tmScope: 'source.ini'
-  readonly aliases: readonly ['dosini']
+  readonly aliases: readonly ['conf', 'dosini']
   readonly codemirrorMode: 'properties'
   readonly codemirrorMimeType: 'text/x-properties'
   readonly color: '#d1dbe0'
