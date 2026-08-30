@@ -1,5 +1,5 @@
 export default {
-  name: 'Vim Script',
+  name: 'Vim script',
   type: 'programming',
   aceMode: 'text',
   extensions: ['.vim', '.vba', '.vimrc', '.vmb'],

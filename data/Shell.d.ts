@@ -10,6 +10,7 @@ declare const _: {
     '.command',
     '.fcgi',
     '.ksh',
+    '.pacscript',
     '.sbatch',
     '.sh.in',
     '.slurm',

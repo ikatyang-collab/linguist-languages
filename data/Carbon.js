@@ -1,11 +1,9 @@
 export default {
   name: 'Carbon',
   type: 'programming',
-  aceMode: 'golang',
+  aceMode: 'text',
   extensions: ['.carbon'],
   languageId: 55627273,
-  tmScope: 'source.v',
-  codemirrorMode: 'go',
-  codemirrorMimeType: 'text/x-go',
+  tmScope: 'source.carbon',
   color: '#222222',
 }

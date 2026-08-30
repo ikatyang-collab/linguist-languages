@@ -2,7 +2,7 @@ export default {
   name: 'AutoHotkey',
   type: 'programming',
   aceMode: 'autohotkey',
-  extensions: ['.ahk', '.ahkl'],
+  extensions: ['.ahk', '.ah1', '.ah2', '.ahkl'],
   languageId: 26,
   tmScope: 'source.ahk',
   aliases: ['ahk'],

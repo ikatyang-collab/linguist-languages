@@ -2,8 +2,13 @@ declare const _: {
   readonly name: 'R'
   readonly type: 'programming'
   readonly aceMode: 'r'
-  readonly extensions: readonly ['.r', '.rd', '.rsx']
-  readonly filenames: readonly ['.Rprofile', 'expr-dist']
+  readonly extensions: readonly ['.r', '.rd', '.rhistory', '.rsx']
+  readonly filenames: readonly [
+    '.Rapp.history',
+    '.Rhistory',
+    '.Rprofile',
+    'expr-dist',
+  ]
   readonly languageId: 307
   readonly tmScope: 'source.r'
   readonly aliases: readonly ['Rscript', 'splus']

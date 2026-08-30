@@ -8,7 +8,7 @@ declare const _: {
   readonly aliases: readonly ['csharp', 'cake', 'cakescript']
   readonly codemirrorMode: 'clike'
   readonly codemirrorMimeType: 'text/x-csharp'
-  readonly color: '#178600'
+  readonly color: '#7355dd'
 }
 
 export default _

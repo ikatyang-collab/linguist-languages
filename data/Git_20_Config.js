@@ -3,7 +3,7 @@ export default {
   type: 'data',
   aceMode: 'ini',
   extensions: ['.gitconfig'],
-  filenames: ['.gitconfig', '.gitmodules'],
+  filenames: ['.gitconfig', '.gitmodules', '.tgitconfig', 'config.worktree'],
   languageId: 807968997,
   tmScope: 'source.gitconfig',
   aliases: ['gitconfig', 'gitmodules'],

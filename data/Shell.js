@@ -10,6 +10,7 @@ export default {
     '.command',
     '.fcgi',
     '.ksh',
+    '.pacscript',
     '.sbatch',
     '.sh.in',
     '.slurm',

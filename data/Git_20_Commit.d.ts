@@ -2,7 +2,7 @@ declare const _: {
   readonly name: 'Git Commit'
   readonly type: 'data'
   readonly aceMode: 'text'
-  readonly filenames: readonly ['COMMIT_EDITMSG']
+  readonly filenames: readonly ['.gitmessage', 'COMMIT_EDITMSG']
   readonly languageId: 131750475
   readonly tmScope: 'text.git-commit'
   readonly aliases: readonly ['commit']
