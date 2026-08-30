@@ -8,5 +8,5 @@ export default {
   aliases: ['csharp', 'cake', 'cakescript'],
   codemirrorMode: 'clike',
   codemirrorMimeType: 'text/x-csharp',
-  color: '#178600',
+  color: '#7355dd',
 }

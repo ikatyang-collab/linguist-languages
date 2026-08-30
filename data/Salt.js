@@ -1,12 +1,12 @@
 export default {
-  name: 'SaltStack',
+  name: 'Salt',
   type: 'programming',
   aceMode: 'yaml',
   extensions: ['.sls'],
   languageId: 339,
   tmScope: 'source.yaml.salt',
-  aliases: ['saltstate', 'salt'],
+  aliases: ['saltstack', 'saltstate'],
   codemirrorMode: 'yaml',
   codemirrorMimeType: 'text/x-yaml',
-  color: '#646464',
+  color: '#57bcad',
 }

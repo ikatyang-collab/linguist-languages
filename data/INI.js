@@ -25,6 +25,7 @@ export default {
     '.buckconfig',
     '.coveragerc',
     '.flake8',
+    '.gitreview',
     '.pylintrc',
     'HOSTS',
     'buildozer.spec',

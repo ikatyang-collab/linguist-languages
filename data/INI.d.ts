@@ -25,6 +25,7 @@ declare const _: {
     '.buckconfig',
     '.coveragerc',
     '.flake8',
+    '.gitreview',
     '.pylintrc',
     'HOSTS',
     'buildozer.spec',

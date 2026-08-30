@@ -6,6 +6,7 @@ declare const _: {
     '.jsonc',
     '.code-snippets',
     '.code-workspace',
+    '.hujson',
     '.sublime-build',
     '.sublime-color-scheme',
     '.sublime-commands',
@@ -25,6 +26,7 @@ declare const _: {
   readonly filenames: readonly [
     '.babelrc',
     '.devcontainer.json',
+    '.eslintrc',
     '.eslintrc.json',
     '.jscsrc',
     '.jshintrc',

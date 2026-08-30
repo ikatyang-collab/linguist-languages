@@ -4,9 +4,11 @@ declare const _: {
   readonly aceMode: 'gitignore'
   readonly extensions: readonly ['.gitignore']
   readonly filenames: readonly [
+    '.agignore',
     '.atomignore',
     '.babelignore',
     '.bzrignore',
+    '.ckignore',
     '.coffeelintignore',
     '.cvsignore',
     '.dockerignore',
@@ -20,6 +22,7 @@ declare const _: {
     '.nodemonignore',
     '.npmignore',
     '.prettierignore',
+    '.rgignore',
     '.stylelintignore',
     '.vercelignore',
     '.vscodeignore',

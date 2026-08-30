@@ -9,7 +9,7 @@ declare const _: {
   readonly codemirrorMode: 'javascript'
   readonly codemirrorMimeType: 'application/typescript'
   readonly color: '#3178c6'
-  readonly interpreters: readonly ['bun', 'deno', 'ts-node', 'tsx']
+  readonly interpreters: readonly ['bun', 'deno', 'ts-node', 'tsx', 'node']
 }
 
 export default _

@@ -3,7 +3,7 @@ export default {
   type: 'programming',
   aceMode: 'text',
   extensions: ['.mch'],
-  languageId: 700792152,
+  languageId: 993355937,
   tmScope: 'source.b',
   color: '#8aa8c5',
 }

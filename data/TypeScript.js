@@ -9,5 +9,5 @@ export default {
   codemirrorMode: 'javascript',
   codemirrorMimeType: 'application/typescript',
   color: '#3178c6',
-  interpreters: ['bun', 'deno', 'ts-node', 'tsx'],
+  interpreters: ['bun', 'deno', 'ts-node', 'tsx', 'node'],
 }

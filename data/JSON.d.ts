@@ -34,6 +34,8 @@ declare const _: {
     '.htmlhintrc',
     '.imgbotconfig',
     '.nycrc',
+    '.releaserc',
+    '.secrets.baseline',
     '.tern-config',
     '.tern-project',
     '.watchmanconfig',
