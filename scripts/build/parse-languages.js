@@ -11,31 +11,35 @@ function parseLanguages(content) {
   const seenFileBaseNames = new Set()
   const data = parseYaml(content)
 
-  return Object.entries(data).map(([name, language]) => {
-    assert(
-      !Object.hasOwn(language, NAME_FIELD),
-      `Conflict field '${NAME_FIELD}' in '${name}' language.`,
+  return Object.entries(data)
+    .map(([name, language]) => {
+      assert(
+        !Object.hasOwn(language, NAME_FIELD),
+        `Conflict field '${NAME_FIELD}' in '${name}' language.`,
+      )
+
+      const fileBaseName = getFileName(name)
+      const lowercasedFileBaseName = fileBaseName.toLocaleLowerCase()
+
+      assert(
+        !seenFileBaseNames.has(lowercasedFileBaseName),
+        `File base name already exists '${fileBaseName}'.`,
+      )
+      seenFileBaseNames.add(lowercasedFileBaseName)
+
+      return {
+        [NAME_FIELD]: name,
+        [FILE_BASE_NAME_FIELD]: fileBaseName,
+        ...Object.fromEntries(
+          Object.entries(language)
+            .map(([key, value]) => [camelcase(key), value])
+            .filter(([key]) => !EXCLUDED_FIELDS.has(key)),
+        ),
+      }
+    })
+    .toSorted(({ [NAME_FIELD]: nameA }, { [NAME_FIELD]: nameB }) =>
+      nameA.toLocaleLowerCase().localeCompare(nameB.toLocaleLowerCase()),
     )
-
-    const fileBaseName = getFileName(name)
-    const lowercasedFileBaseName = fileBaseName.toLocaleLowerCase()
-
-    assert(
-      !seenFileBaseNames.has(lowercasedFileBaseName),
-      `File base name already exists '${fileBaseName}'.`,
-    )
-    seenFileBaseNames.add(lowercasedFileBaseName)
-
-    return {
-      [NAME_FIELD]: name,
-      [FILE_BASE_NAME_FIELD]: fileBaseName,
-      ...Object.fromEntries(
-        Object.entries(language)
-          .map(([key, value]) => [camelcase(key), value])
-          .filter(([key]) => !EXCLUDED_FIELDS.has(key)),
-      ),
-    }
-  })
 }
 
 function getFileName(name) {
