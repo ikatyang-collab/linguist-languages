@@ -2,7 +2,7 @@ export default {
   name: 'CoffeeScript',
   type: 'programming',
   aceMode: 'coffee',
-  extensions: ['.coffee', '._coffee', '.cake', '.cjsx', '.iced'],
+  extensions: ['.coffee', '._coffee', '.cake', '.cjsx', '.coffee.erb', '.iced'],
   filenames: ['Cakefile'],
   languageId: 63,
   tmScope: 'source.coffee',

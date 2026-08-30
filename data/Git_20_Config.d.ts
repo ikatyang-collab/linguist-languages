@@ -3,7 +3,12 @@ declare const _: {
   readonly type: 'data'
   readonly aceMode: 'ini'
   readonly extensions: readonly ['.gitconfig']
-  readonly filenames: readonly ['.gitconfig', '.gitmodules']
+  readonly filenames: readonly [
+    '.gitconfig',
+    '.gitmodules',
+    '.tgitconfig',
+    'config.worktree',
+  ]
   readonly languageId: 807968997
   readonly tmScope: 'source.gitconfig'
   readonly aliases: readonly ['gitconfig', 'gitmodules']

@@ -1,5 +1,5 @@
 declare const _: {
-  readonly name: 'Vim Script'
+  readonly name: 'Vim script'
   readonly type: 'programming'
   readonly aceMode: 'text'
   readonly extensions: readonly ['.vim', '.vba', '.vimrc', '.vmb']

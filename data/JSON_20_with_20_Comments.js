@@ -6,6 +6,7 @@ export default {
     '.jsonc',
     '.code-snippets',
     '.code-workspace',
+    '.hujson',
     '.sublime-build',
     '.sublime-color-scheme',
     '.sublime-commands',
@@ -25,6 +26,7 @@ export default {
   filenames: [
     '.babelrc',
     '.devcontainer.json',
+    '.eslintrc',
     '.eslintrc.json',
     '.jscsrc',
     '.jshintrc',

@@ -3,7 +3,7 @@ declare const _: {
   readonly type: 'programming'
   readonly aceMode: 'text'
   readonly extensions: readonly ['.mch']
-  readonly languageId: 700792152
+  readonly languageId: 993355937
   readonly tmScope: 'source.b'
   readonly color: '#8aa8c5'
 }

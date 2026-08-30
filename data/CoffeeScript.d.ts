@@ -7,6 +7,7 @@ declare const _: {
     '._coffee',
     '.cake',
     '.cjsx',
+    '.coffee.erb',
     '.iced',
   ]
   readonly filenames: readonly ['Cakefile']
