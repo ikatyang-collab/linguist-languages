@@ -56,7 +56,7 @@
     "/data/**/*",
     "/ThirdPartyNoticeText.txt"
   ],
-  "packageManager": "pnpm@11.7.0",
+  "packageManager": "pnpm@11.24.0",
   "sideEffects": false,
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
