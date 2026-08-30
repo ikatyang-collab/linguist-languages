@@ -124,9 +124,9 @@ export default {
 `;
 
 exports[`generateFiles > index.d.ts 1`] = `
-export type LanguageName = "Test1"
+export type LanguageName = "F*"
 | "Test Test 2"
-| "F*";
+| "Test1";
 
 export interface Language {
   /**
@@ -199,24 +199,24 @@ readonly wrap?: boolean;
 };
 
 export {
-  default as "Test1",
-} from "./data/Test1.js";
+  default as "F*",
+} from "./data/F_2a_.js";
 export {
   default as "Test Test 2",
 } from "./data/Test_20_Test_20_2.js";
 export {
-  default as "F*",
-} from "./data/F_2a_.js";
+  default as "Test1",
+} from "./data/Test1.js";
 `;
 
 exports[`generateFiles > index.js 1`] = `
 export {
-  default as "Test1"
-} from "./data/Test1.js";
+  default as "F*"
+} from "./data/F_2a_.js";
 export {
   default as "Test Test 2"
 } from "./data/Test_20_Test_20_2.js";
 export {
-  default as "F*"
-} from "./data/F_2a_.js";
+  default as "Test1"
+} from "./data/Test1.js";
 `;
