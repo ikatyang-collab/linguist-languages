@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@types/node": "26.6.5",
-    "@vitest/coverage-v8": "4.1.11",
+    "@vitest/coverage-v8": "5.0.5",
     "camelcase": "9.0.0",
     "eslint": "10.13.0",
     "eslint-plugin-unicorn": "74.0.0",
@@ -46,7 +46,7 @@
     "release-it": "21.1.1",
     "typescript": "7.0.2",
     "vite": "8.2.2",
-    "vitest": "4.1.11",
+    "vitest": "5.0.5",
     "yaml": "2.9.1"
   },
   "files": [
