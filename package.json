@@ -36,7 +36,7 @@
   "devDependencies": {
     "@types/node": "26.6.5",
     "@vitest/coverage-v8": "5.0.5",
-    "camelcase": "9.0.0",
+    "camelcase": "10.0.0",
     "eslint": "10.13.0",
     "eslint-plugin-unicorn": "74.0.0",
     "jest-snapshot-serializer-raw": "2.0.0",
