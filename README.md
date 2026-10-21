@@ -45,13 +45,13 @@ const javascript = languages.JavaScript
 
 ```sh
 # lint
-pnpm run lint
+yarn lint
 
 # build
-pnpm run build
+yarn build
 
 # test
-pnpm run test
+yarn test
 ```
 
 ## License
