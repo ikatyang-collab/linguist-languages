@@ -16,21 +16,21 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: ./.github/actions/setup
-      - run: pnpm run lint
+      - run: yarn lint
 
   check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - uses: ./.github/actions/setup
-      - run: pnpm run check
+      - run: yarn check
 
-  build:
+  preview:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - uses: ./.github/actions/setup
-      - run: pnpm run build
+      - run: yarn build
       - if: github.repository == 'ikatyang-collab/linguist-languages'
         run: npx pkg-pr-new publish --compact
 
@@ -39,4 +39,4 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: ./.github/actions/setup
-      - run: pnpm run test
+      - run: yarn test

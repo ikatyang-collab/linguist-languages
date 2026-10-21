@@ -4,3 +4,4 @@
 /pnpm-lock.yaml
 /scripts/data.yml
 /tests/data-for-test.yml
+.yarn

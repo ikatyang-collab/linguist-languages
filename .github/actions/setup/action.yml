@@ -3,13 +3,12 @@ description: setup
 runs:
   using: composite
   steps:
-    - uses: pnpm/action-setup@v6
     - uses: actions/setup-node@v7
       with:
-        cache: pnpm
+        cache: yarn
         registry-url: 'https://registry.npmjs.org'
         # Required to update npm
         # https://github.com/actions/runner-images/issues/9644
         node-version: 'lts/*'
-    - run: pnpm install
+    - run: yarn
       shell: bash

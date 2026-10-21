@@ -1,6 +1,8 @@
 {
   $schema: 'https://docs.renovatebot.com/renovate-schema.json',
   dependencyDashboardApproval: true,
+  rangeStrategy: 'bump',
+  postUpdateOptions: ['yarnDedupeHighest'],
   extends: [':pinDependencies', ':pinDevDependencies'],
   lockFileMaintenance: { enabled: true },
   packageRules: [
@@ -13,5 +15,10 @@
       groupName: 'GitHub Actions',
       matchManagers: ['github-actions'],
     },
+    {
+      groupName: 'Vitest',
+      matchPackageNames: ['vitest', '@vitest/*', 'vite'],
+    },
   ],
+  ignoreDeps: ['node'],
 }
