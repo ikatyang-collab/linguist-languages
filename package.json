@@ -25,7 +25,6 @@
   },
   "license": "MIT",
   "scripts": {
-    "prepack": "pnpm run build",
     "lint": "prettier --check .",
     "fix": "prettier --write .",
     "check": "tsc",
